@@ -1,11 +1,19 @@
-interface ButtonProps {
+import Link from "next/link";
+
+interface PanelProps {
   title: string;
   isNew?: boolean;
+  route?: string;
   coming_soon?: boolean;
 }
 
-export default function Button({ title, isNew, coming_soon }: ButtonProps) {
-  return (
+export default function Panel({
+  title,
+  route,
+  isNew,
+  coming_soon,
+}: PanelProps) {
+  const panelButton = (
     <button
       className={`relative w-40 bg-gradient-to-b from-custom-3 to-custom-3 p-2 font-bold flex flex-col gap-2 rounded-md transition ${
         coming_soon
@@ -32,5 +40,11 @@ export default function Button({ title, isNew, coming_soon }: ButtonProps) {
       <p className="text-xl">{coming_soon ? "Coming Soon" : "PLAY"}</p>
       <p>{title}</p>
     </button>
+  );
+
+  return !coming_soon && route ? (
+    <Link href={route}>{panelButton}</Link>
+  ) : (
+    panelButton
   );
 }

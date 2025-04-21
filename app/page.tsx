@@ -1,4 +1,4 @@
-import Button from "./components/Button";
+import Panel from "./components/Panel";
 
 export default function Home() {
   return (
@@ -7,12 +7,12 @@ export default function Home() {
         Select the bio-game you want to play:
       </h2>
       <div className="grid grid-cols-3 gap-8 p-5 mx-auto w-fit">
-        <Button title="Taxo-Bingo" isNew />
-        <Button title="Bio Wordle" coming_soon />
-        <Button title="Symptoms Link" coming_soon />
-        <Button title="Animal Tic-Tac-Toe" coming_soon />
-        <Button title="Bio Top 8" coming_soon />
-        <Button title="Bio-Linxicon" coming_soon />
+        <Panel title="Taxo-Bingo" isNew route="/taxo-bingo" />
+        <Panel title="Bio Wordle" coming_soon />
+        <Panel title="Symptoms Link" coming_soon />
+        <Panel title="Animal Tic-Tac-Toe" coming_soon />
+        <Panel title="Bio Top 8" coming_soon />
+        <Panel title="Bio-Linxicon" coming_soon />
       </div>
     </main>
   );
