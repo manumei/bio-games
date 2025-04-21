@@ -11,6 +11,10 @@
   --font-sans: var(--font-figtree-sans);
   --color-primary: #228101;
   --color-secondary: #b1ff06;
+  --color-custom-1: #081c3a;
+  --color-custom-2: #08162b;
+  --color-custom-3: #1d2a3d;
+  --color-custom-4: #f7cf4f;
 }
 
 @media (prefers-color-scheme: dark) {
