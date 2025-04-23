@@ -1,0 +1,54 @@
+_Game Description I'm giving you to help me implement:_
+We are going to implement a new game called "Animal TicTacToe". The game consists of a 3x3 Grid with rows and columns having animal traits (for example "lays eggs", "warm blooded", "lives in tundra", "mammal", "insect", "apex predator", etc.).
+
+The player has to fill the cells with animals that match both its (i, j) row and column trait. For example, if i=2 is "lives in ocean" and j=1 is "carnivorous", some correct answers to put in the cell at the 2x1 position would be "great white shark", "orca", etc.
+
+
+_Game Description the user sees before playing:_
+Enter Animals that match both the row and column trait combinations. Fill the 3x3 Grid with the appropriate animal names, Write the animal name and press Enter to input it as an answer.
+If one fits multiple cells, choose cell by clicking on it. Fill the whole grid to win!
+
+
+We will implement this step by step, the following steps are the ones to design in our HTML, CSS and JavaScript Set Ups. These are the first 6 steps, for the Basic Game Function Set-Up
+
+**Step 1 | Database**
+Set up a database of animal traits, listing alongside each of them, every animal that has them. 
+
+
+**Step 2 | Grid Base**
+Set up a 4x4 Grid, such that the First Column and the First Row have random non-repeated traits fetched from the Database. And the bottom right 3x3 is left empty
+
+
+**Step 3 | Inputs (has sub-steps 3A and 3B)**
+
+3A)
+Add an input bar below the grid where the user can write animal names and submit them. Input Bar has a "Submit" button to the right. Writing a name in the bar and pressing "Enter" key, or clicking the "submit" button will submit the written name. 
+
+To test this, we will add a temporary message that shows below the input bar after every submission, saying "you have submitted {animal_name}, nice testing!" (this message will be replaced by game logic in the next step).
+
+3B)
+And work on the Positive (a) and Negative (b) cases for the input handling:
+First, all cells are by default not disabled
+
+a) If the animal matches a single specific combo of row-column trait, fill the cell with the animal name in the matching cell and below the input bar write "{animal_name} has been added!". This cell is now disabled.
+
+b) If the animal does not match any of the not-disabled cells and their row-column traits, do nothing to the grid and the cell, and write below the input bar "{animal_name} does not fit the grid". Of course, this also applies for animals that matched cell/s which have already been filled and thus disabled.
+
+Clarification: Repeating is allowed (for now), so if an animal fits multiple cells, it is added to the first one from the cells list, and inputting it against just adds it again to the other cell/s where it can fit, as long as they are not-disabled of course.
+
+
+**Step 4 | Fill with Images instead of Animal Names**
+I have a database at root_dir/assets/webp/tictac/ of hundreds of animal images in webp format. The images are saved with the file name animal_name.webp in lowercase where if the animal name has several words, underscore separates them (eg: Red Panda -> red_panda.webp).
+
+Instead of filling all the cells with the animal names, first when filling I want to try and fetch the animal's webp image by checking for animal_name.webp with the lowercase + possible underscore format in root_dir/assets/webp/tictac/. If the file exists, fill the cell with the image, if the file does not exist (which is possible, I only have a few hundred images), then just fill with the written name text as we had been doing.
+
+
+**Step 5 | Name Predictions**
+Since we keep a database of all the animal names but they are not scientific names, we want to avoid people calling them different things. So to make sure that this is avoided in most cases, I want an autocomplete after writing 3+ letters, where the the input bar suggests a list of all the animals where those 3+ letters are in the start of name parts.
+
+I'll clarify, for example, after writing "pan" in the input bar, user will start seeing a list with options: Red Panda, Giant Panda, Panther, Panaque, etc. 
+With name parts I mean like, in "Red Panda" the name parts are "Red" and "Panda" (separated by space), so "Red Panda" will pop up as an option both if user writes "red" or if they write "pan" (or "pand", "panda")
+
+
+**Step 6 | Filling Grid wins the game**
+If all cells are filled, then the game is won, and pops up a "You Won!" panel on the screen for the user.

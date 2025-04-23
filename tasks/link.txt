@@ -1,0 +1,37 @@
+_Game Description I'm giving you to help me implement_
+We are going to implement a new game called "Symptoms Link". The game consists of guessing which disease matches all the symptoms being shown.
+
+The game has 5 panels where the symptoms will appear. At the start, only one symptom will be shown, and the user has to either guess a disease or press the "skip" button, if he guesses correctly, he wins! If he doesn't guess correctly, it does the same as the skip button, which is showing a second symptom
+
+The symptoms will keep appearing while guesses are incorrect or skip is pressed, until all 5 symptoms are shown. When the 5 symptoms are all revealed, then the "skip" button turns into a "give up" button. Either a final guess is made, or the player gives up, if the guess is incorrect, the game is lost. 
+
+
+_Game Description the user sees before playing:_
+In Symptom Link, you must prove your diagnosing skills, as you'll have to guess the Disease that connects all the given symptoms.
+
+The game will start showing one symptom, and you can guess diseases or skip to see more. Once all five symptoms are revealed, you have one final guess to make. 
+
+
+We will implement this step by step, the following steps are the ones to design in our HTML, CSS and JavaScript Set Ups. These are the first 5 Steps for Basic Game Function Set-Up.
+
+**Step 1 | Basic Layout**
+- empty cells, mistery disease
+- starting symptom shows
+
+
+**Step 2 | Guessing shows new symptom**
+- explica the title says, yk
+- mensaje de "incorrect", por ahora para todas
+
+
+**Step 3 | Skip Button for symptoms**
+- skip shows new symptom
+- skip turns to "give up" after all are shown
+
+
+**Step 4 | Guessing correctly wins**
+- takes to the "You Won" panel
+
+
+**Step 5 | Losing the game**
+- when all symptoms revealed, guessing wrongly or clicking on "give up" take you to the "You Lost" screen

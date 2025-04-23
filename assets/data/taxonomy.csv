@@ -1,0 +1,547 @@
+Organism Name,Taxonomic Categories,Image Path
+Bacillus Anthracis,bacteria,assets/webp/taxo/bacteria/bacillus_anthracis.webp
+Bacillus Subtilis,bacteria,assets/webp/taxo/bacteria/bacillus_subtilis.webp
+Borrelia Burgdorferi,bacteria,assets/webp/taxo/bacteria/borrelia_burgdorferi.webp
+Campylobacter Jejuni,bacteria,assets/webp/taxo/bacteria/campylobacter_jejuni.webp
+Clostridium Botulinum,bacteria,assets/webp/taxo/bacteria/clostridium_botulinum.webp
+Clostridium Difficile,bacteria,assets/webp/taxo/bacteria/clostridium_difficile.webp
+Clostridium Tetani,bacteria,assets/webp/taxo/bacteria/clostridium_tetani.webp
+Enterococcus Faecalis,bacteria,assets/webp/taxo/bacteria/enterococcus_faecalis.webp
+Escherichia Coli,bacteria,assets/webp/taxo/bacteria/escherichia_coli.webp
+Haemophilus Influenzae,bacteria,assets/webp/taxo/bacteria/haemophilus_influenzae.webp
+Legionella Pneumophila,bacteria,assets/webp/taxo/bacteria/legionella_pneumophila.webp
+Listeria Monocytogenes,bacteria,assets/webp/taxo/bacteria/listeria_monocytogenes.webp
+Mycobacterium Leprae,bacteria,assets/webp/taxo/bacteria/mycobacterium_leprae.webp
+Mycobacterium Tuberculosis,bacteria,assets/webp/taxo/bacteria/mycobacterium_tuberculosis.webp
+Neisseria Gonorrhea,bacteria,assets/webp/taxo/bacteria/neisseria_gonorrhea.webp
+Nitrosomonas Europaea,bacteria,assets/webp/taxo/bacteria/nitrosomonas_europaea.webp
+Rickettsia Rickettsii,bacteria,assets/webp/taxo/bacteria/rickettsia_rickettsii.webp
+Salmonella Enterica,bacteria,assets/webp/taxo/bacteria/salmonella_enterica.webp
+Shigella Dysenteriae,bacteria,assets/webp/taxo/bacteria/shigella_dysenteriae.webp
+Staphylococcus Aureus,bacteria,assets/webp/taxo/bacteria/staphylococcus_aureus.webp
+Streptococcus Pneumonae,bacteria,assets/webp/taxo/bacteria/streptococcus_pneumonae.webp
+Streptococcus Pyogenes,bacteria,assets/webp/taxo/bacteria/streptococcus_pyogenes.webp
+Treponema Palidium,bacteria,assets/webp/taxo/bacteria/treponema_palidium.webp
+Vibrio Cholerae,bacteria,assets/webp/taxo/bacteria/vibrio_cholerae.webp
+Yersinia Pestis,bacteria,assets/webp/taxo/bacteria/yersinia_pestis.webp
+Allolobophora Chlorotica,eukaryota; animalia; annelida,assets/webp/taxo/eukaryota/animalia/annelida/allolobophora_chlorotica.webp
+Aphrodia Aculeata,eukaryota; animalia; annelida,assets/webp/taxo/eukaryota/animalia/annelida/aphrodia_aculeata.webp
+Eisenia Fetida,eukaryota; animalia; annelida,assets/webp/taxo/eukaryota/animalia/annelida/eisenia_fetida.webp
+Haemopis Sanguisuga,eukaryota; animalia; annelida,assets/webp/taxo/eukaryota/animalia/annelida/haemopis_sanguisuga.webp
+Hirudo Medicinalis,eukaryota; animalia; annelida,assets/webp/taxo/eukaryota/animalia/annelida/hirudo_medicinalis.webp
+Lumbricus Terrestris,eukaryota; animalia; annelida,assets/webp/taxo/eukaryota/animalia/annelida/lumbricus_terrestris.webp
+Macrobdella Decora,eukaryota; animalia; annelida,assets/webp/taxo/eukaryota/animalia/annelida/macrobdella_decora.webp
+Nereis Virens,eukaryota; animalia; annelida,assets/webp/taxo/eukaryota/animalia/annelida/nereis_virens.webp
+Octolasion Cyaneum,eukaryota; animalia; annelida,assets/webp/taxo/eukaryota/animalia/annelida/octolasion_cyaneum.webp
+Amblyomma Americanum,eukaryota; animalia; arthropoda; arachnida; acari,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/acari/amblyomma_americanum.webp
+Demodex Folliculorum,eukaryota; animalia; arthropoda; arachnida; acari,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/acari/demodex_folliculorum.webp
+Dermacentor Variabilis,eukaryota; animalia; arthropoda; arachnida; acari,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/acari/dermacentor_variabilis.webp
+Ixodes Holocyclus,eukaryota; animalia; arthropoda; arachnida; acari,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/acari/ixodes_holocyclus.webp
+Ixodes Scapularis,eukaryota; animalia; arthropoda; arachnida; acari,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/acari/ixodes_scapularis.webp
+Rhipicephalus Sanguineus,eukaryota; animalia; arthropoda; arachnida; acari,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/acari/rhipicephalus_sanguineus.webp
+Sarcoptes Scabiei,eukaryota; animalia; arthropoda; arachnida; acari,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/acari/sarcoptes_scabiei.webp
+Tetranychus Urticae,eukaryota; animalia; arthropoda; arachnida; acari,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/acari/tetranychus_urticae.webp
+Araneus Diadematus,eukaryota; animalia; arthropoda; arachnida; araneae,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/araneus_diadematus.webp
+Heteropoda Maxima,eukaryota; animalia; arthropoda; arachnida; araneae,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/heteropoda_maxima.webp
+Hogna Carolinensis,eukaryota; animalia; arthropoda; arachnida; araneae,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/hogna_carolinensis.webp
+Latrodectus Mactans,eukaryota; animalia; arthropoda; arachnida; araneae,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/latrodectus_mactans.webp
+Loxosceles Reclusa,eukaryota; animalia; arthropoda; arachnida; araneae,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/loxosceles_reclusa.webp
+Maratus Volans,eukaryota; animalia; arthropoda; arachnida; araneae,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/maratus_volans.webp
+Nephila Clavipes,eukaryota; animalia; arthropoda; arachnida; araneae,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/nephila_clavipes.webp
+Phidippus Audax,eukaryota; animalia; arthropoda; arachnida; araneae,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/phidippus_audax.webp
+Phoneutria Nigriventer,eukaryota; animalia; arthropoda; arachnida; araneae,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/phoneutria_nigriventer.webp
+Theraphosa Blondi,eukaryota; animalia; arthropoda; arachnida; araneae,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/theraphosa_blondi.webp
+Andtroctonus Australis,eukaryota; animalia; arthropoda; arachnida; scorpiones,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/andtroctonus_australis.webp
+Centruroides Sculpturatus,eukaryota; animalia; arthropoda; arachnida; scorpiones,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/centruroides_sculpturatus.webp
+Euscorpius Italicus,eukaryota; animalia; arthropoda; arachnida; scorpiones,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/euscorpius_italicus.webp
+Hadrurus Arizonensis,eukaryota; animalia; arthropoda; arachnida; scorpiones,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/hadrurus_arizonensis.webp
+Leiurus Quinquestriatus,eukaryota; animalia; arthropoda; arachnida; scorpiones,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/leiurus_quinquestriatus.webp
+Opisthacanthus Asper,eukaryota; animalia; arthropoda; arachnida; scorpiones,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/opisthacanthus_asper.webp
+Pandinus Imperator,eukaryota; animalia; arthropoda; arachnida; scorpiones,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/pandinus_imperator.webp
+Parabuthus Transvaalicus,eukaryota; animalia; arthropoda; arachnida; scorpiones,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/parabuthus_transvaalicus.webp
+Scropio Maurus,eukaryota; animalia; arthropoda; arachnida; scorpiones,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/scropio_maurus.webp
+Tituys Serrulatus,eukaryota; animalia; arthropoda; arachnida; scorpiones,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/tituys_serrulatus.webp
+Uroplectes Lineatus,eukaryota; animalia; arthropoda; arachnida; scorpiones,assets/webp/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/uroplectes_lineatus.webp
+Artemia Salina,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/artemia_salina.webp
+Balanus Glandula,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/balanus_glandula.webp
+Callinectes Sapidus,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/callinectes_sapidus.webp
+Carcinus Maenas,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/carcinus_maenas.webp
+Daphnia Pulex,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/daphnia_pulex.webp
+Euphausia Superba,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/euphausia_superba.webp
+Gammarus Pulex,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/gammarus_pulex.webp
+Homarus Americanus,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/homarus_americanus.webp
+Macrocheira Kaempferi,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/macrocheira_kaempferi.webp
+Nephrops Norvegicus,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/nephrops_norvegicus.webp
+Pagurus Bernhardus,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/pagurus_bernhardus.webp
+Penaeus Monodon,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/penaeus_monodon.webp
+Procambarus Clarkii,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/procambarus_clarkii.webp
+Triops Longicaudatus,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/triops_longicaudatus.webp
+Uca Pugilator,eukaryota; animalia; arthropoda; crustacea,assets/webp/taxo/eukaryota/animalia/arthropoda/crustacea/uca_pugilator.webp
+Calosoma Sycophanta,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/calosoma_sycophanta.webp
+Chrysina Gloriosa,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/chrysina_gloriosa.webp
+Coccinela Septempunctata,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/coccinela_septempunctata.webp
+Cyphochilus Insulanus,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/cyphochilus_insulanus.webp
+Dynastes Hercules,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/dynastes_hercules.webp
+Goliathus Goliatus,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/goliathus_goliatus.webp
+Lamprima Aurata,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/lamprima_aurata.webp
+Leptinotarsa Decemlineata,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/leptinotarsa_decemlineata.webp
+Meloe Proscarabeus,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/meloe_proscarabeus.webp
+Photinus Pyralis,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/photinus_pyralis.webp
+Pyrophorus Noctilucus,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/pyrophorus_noctilucus.webp
+Scarabeus Sacer,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/scarabeus_sacer.webp
+Stenocara Gracilipes,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/stenocara_gracilipes.webp
+Tenebrio Molitor,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/tenebrio_molitor.webp
+Trypoxylus Dichotomus,eukaryota; animalia; arthropoda; insecta; coleoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/trypoxylus_dichotomus.webp
+Blatella Germanica,eukaryota; animalia; arthropoda; insecta; dictyoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/blatella_germanica.webp
+Blatta Orientalis,eukaryota; animalia; arthropoda; insecta; dictyoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/blatta_orientalis.webp
+Gromphadorhina Portentosa,eukaryota; animalia; arthropoda; insecta; dictyoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/gromphadorhina_portentosa.webp
+Idolomantis Diabolica,eukaryota; animalia; arthropoda; insecta; dictyoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/idolomantis_diabolica.webp
+Macrotermes Bellicosus,eukaryota; animalia; arthropoda; insecta; dictyoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/macrotermes_bellicosus.webp
+Mantis Religiosa,eukaryota; animalia; arthropoda; insecta; dictyoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/mantis_religiosa.webp
+Nasutitermes Corniger,eukaryota; animalia; arthropoda; insecta; dictyoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/nasutitermes_corniger.webp
+Periplaneta Americana,eukaryota; animalia; arthropoda; insecta; dictyoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/periplaneta_americana.webp
+Phyllocrania Paradoxa,eukaryota; animalia; arthropoda; insecta; dictyoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/phyllocrania_paradoxa.webp
+Reticulitermes Flavipes,eukaryota; animalia; arthropoda; insecta; dictyoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/reticulitermes_flavipes.webp
+Tenodera Sinensis,eukaryota; animalia; arthropoda; insecta; dictyoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/tenodera_sinensis.webp
+Aedes Aegypti,eukaryota; animalia; arthropoda; insecta; diptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/diptera/aedes_aegypti.webp
+Anopheles Gambiae,eukaryota; animalia; arthropoda; insecta; diptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/diptera/anopheles_gambiae.webp
+Chrysomya Megacephala,eukaryota; animalia; arthropoda; insecta; diptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/diptera/chrysomya_megacephala.webp
+Culex Pipiens,eukaryota; animalia; arthropoda; insecta; diptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/diptera/culex_pipiens.webp
+Drosophila Melanogaster,eukaryota; animalia; arthropoda; insecta; diptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/diptera/drosophila_melanogaster.webp
+Glossin Morsitans,eukaryota; animalia; arthropoda; insecta; diptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/diptera/glossin_morsitans.webp
+Lucilia Sericata,eukaryota; animalia; arthropoda; insecta; diptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/diptera/lucilia_sericata.webp
+Musca Domestica,eukaryota; animalia; arthropoda; insecta; diptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/diptera/musca_domestica.webp
+Simulium Damnosum,eukaryota; animalia; arthropoda; insecta; diptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/diptera/simulium_damnosum.webp
+Tabanus Bovinus,eukaryota; animalia; arthropoda; insecta; diptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/diptera/tabanus_bovinus.webp
+Aphis Gossypii,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/aphis_gossypii.webp
+Bemisia Tabaci,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/bemisia_tabaci.webp
+Cimex Lectularius,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/cimex_lectularius.webp
+Gerris Lacustris,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/gerris_lacustris.webp
+Leptoglossus Occidentalis,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/leptoglossus_occidentalis.webp
+Lygus Lineolaris,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/lygus_lineolaris.webp
+Myzus Persicae,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/myzus_persicae.webp
+Nezara Viridula,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/nezara_viridula.webp
+Oncopeltus Fasciatus,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/oncopeltus_fasciatus.webp
+Psylla Pyricola,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/psylla_pyricola.webp
+Rhodnius Prolixus,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/rhodnius_prolixus.webp
+Triatoma Infestans,eukaryota; animalia; arthropoda; insecta; hemiptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/triatoma_infestans.webp
+Apis Mellifera,eukaryota; animalia; arthropoda; insecta; hymenoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/apis_mellifera.webp
+Atta Cephalotes,eukaryota; animalia; arthropoda; insecta; hymenoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/atta_cephalotes.webp
+Bombus Terrestris,eukaryota; animalia; arthropoda; insecta; hymenoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/bombus_terrestris.webp
+Camponotus Pennsylvanicus,eukaryota; animalia; arthropoda; insecta; hymenoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/camponotus_pennsylvanicus.webp
+Ichneumon Eumerus,eukaryota; animalia; arthropoda; insecta; hymenoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/ichneumon_eumerus.webp
+Megachile Rotundata,eukaryota; animalia; arthropoda; insecta; hymenoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/megachile_rotundata.webp
+Paraponera Clavata,eukaryota; animalia; arthropoda; insecta; hymenoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/paraponera_clavata.webp
+Pepsis Grossa,eukaryota; animalia; arthropoda; insecta; hymenoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/pepsis_grossa.webp
+Polistes Dominula,eukaryota; animalia; arthropoda; insecta; hymenoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/polistes_dominula.webp
+Solenopsis Invicta,eukaryota; animalia; arthropoda; insecta; hymenoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/solenopsis_invicta.webp
+Xylocopa Virginica,eukaryota; animalia; arthropoda; insecta; hymenoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/xylocopa_virginica.webp
+Aglais Io,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/aglais_io.webp
+Automeris Io,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/automeris_io.webp
+Bombyx Mori,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/bombyx_mori.webp
+Danaus Plexippus,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/danaus_plexippus.webp
+Helicoverpa Zea,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/helicoverpa_zea.webp
+Manduca Sexta,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/manduca_sexta.webp
+Morpho Menelaus,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/morpho_menelaus.webp
+Papilio Machaon,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/papilio_machaon.webp
+Pieris Rapae,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/pieris_rapae.webp
+Saturnia Pyri,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/saturnia_pyri.webp
+Utetheisa Ornatrix,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/utetheisa_ornatrix.webp
+Vanessa Cardui,eukaryota; animalia; arthropoda; insecta; lepidoptera,assets/webp/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/vanessa_cardui.webp
+Archispirostreptus Gigas,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/archispirostreptus_gigas.webp
+Eosentomon Transitorium,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/eosentomon_transitorium.webp
+Ethmostigmus Rubripes,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/ethmostigmus_rubripes.webp
+Glomeris Marginata,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/glomeris_marginata.webp
+Julus Terrestris,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/julus_terrestris.webp
+Lithobius Forficatus,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/lithobius_forficatus.webp
+Narceus Americanus,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/narceus_americanus.webp
+Pauropus Huxleyi,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/pauropus_huxleyi.webp
+Scolopendra Gigantea,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/scolopendra_gigantea.webp
+Scolopendra Subspinipes,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/scolopendra_subspinipes.webp
+Scutigera Coleoptrata,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/scutigera_coleoptrata.webp
+Trigoniulus Corallinus,eukaryota; animalia; arthropoda; myriapoda,assets/webp/taxo/eukaryota/animalia/arthropoda/myriapoda/trigoniulus_corallinus.webp
+Agalychnis Callidryas,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/agalychnis_callidryas.webp
+Ambystoma Mexicanum,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/ambystoma_mexicanum.webp
+Ambystoma Tigrinum,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/ambystoma_tigrinum.webp
+Andrias Japonicus,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/andrias_japonicus.webp
+Bufo Bufo,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/bufo_bufo.webp
+Cryptobranchus Alleganiensis,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/cryptobranchus_alleganiensis.webp
+Dendrobates Tinctorius,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/dendrobates_tinctorius.webp
+Hyla Cinerea,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/hyla_cinerea.webp
+Notophthalmus Viridescens,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/notophthalmus_viridescens.webp
+Nymphargus Ocellatus,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/nymphargus_ocellatus.webp
+Pipa Pipa,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/pipa_pipa.webp
+Pyxicephalus Adspersus,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/pyxicephalus_adspersus.webp
+Rana Temporaria,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/rana_temporaria.webp
+Rhinella Marina,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/rhinella_marina.webp
+Salamandra Salamandra,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/salamandra_salamandra.webp
+Scaphiopus Holbrookii,eukaryota; animalia; chordata; amphibia,assets/webp/taxo/eukaryota/animalia/chordata/amphibia/scaphiopus_holbrookii.webp
+Anas Platyrhynchos,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/anas_platyrhynchos.webp
+Aptenodytes Forsteri,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/aptenodytes_forsteri.webp
+Ara Macao,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/ara_macao.webp
+Bubo Bubo,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/bubo_bubo.webp
+Columba Livia,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/columba_livia.webp
+Corvus Corax,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/corvus_corax.webp
+Cygnus Olor,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/cygnus_olor.webp
+Dromaius Novaehollandiae,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/dromaius_novaehollandiae.webp
+Dryocopus Pileatus,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/dryocopus_pileatus.webp
+Falco Peregrinus,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/falco_peregrinus.webp
+Gallus Gallus,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/gallus_gallus.webp
+Haliaeetus Leucocephalus,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/haliaeetus_leucocephalus.webp
+Pavo Cristatus,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/pavo_cristatus.webp
+Phoenicopterus Roseus,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/phoenicopterus_roseus.webp
+Psittacus Erithacus,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/psittacus_erithacus.webp
+Struthio Camelus,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/struthio_camelus.webp
+Taeniopygia Guttata,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/taeniopygia_guttata.webp
+Turdus Migratorious,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/turdus_migratorious.webp
+Zenaida Macroura,eukaryota; animalia; chordata; aves,assets/webp/taxo/eukaryota/animalia/chordata/aves/zenaida_macroura.webp
+Aetobatus Narinari,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/aetobatus_narinari.webp
+Carcharinus Leucas,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/carcharinus_leucas.webp
+Carcharodon Carcharias,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/carcharodon_carcharias.webp
+Chimaera Monstrosa,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/chimaera_monstrosa.webp
+Galeocerdo Cuvier,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/galeocerdo_cuvier.webp
+Isurus Oxyrinchus,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/isurus_oxyrinchus.webp
+Mobula Birostris,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/mobula_birostris.webp
+Pristis Pectinata,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/pristis_pectinata.webp
+Rhincodon Typus,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/rhincodon_typus.webp
+Rionace Glauca,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/rionace_glauca.webp
+Sphyrna Lewini,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/sphyrna_lewini.webp
+Torpedo Marmorata,eukaryota; animalia; chordata; chondrichthyes,assets/webp/taxo/eukaryota/animalia/chordata/chondrichthyes/torpedo_marmorata.webp
+Alces Alces,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/alces_alces.webp
+Bos Taurus,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/bos_taurus.webp
+Camelus Bactrianus,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/camelus_bactrianus.webp
+Camelus Dromedarius,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/camelus_dromedarius.webp
+Capra Hircus,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/capra_hircus.webp
+Cervus Elaphus,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/cervus_elaphus.webp
+Giraffa Camelopardalis,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/giraffa_camelopardalis.webp
+Hippopotamus Amphibius,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/hippopotamus_amphibius.webp
+Odocoileus Virginianus,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/odocoileus_virginianus.webp
+Ovis Aries,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/ovis_aries.webp
+Ovis Canadensis,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/ovis_canadensis.webp
+Phaocochoerus Africanus,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/phaocochoerus_africanus.webp
+Rangifer Tarandus,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/rangifer_tarandus.webp
+Sus Scrofa-Domesticus,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/sus_scrofa-domesticus.webp
+Sus Scrofa,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/sus_scrofa.webp
+Vicugna Pacos,eukaryota; animalia; chordata; mammalia; artiodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/vicugna_pacos.webp
+Ailuropoda Melanoleuca,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/ailuropoda_melanoleuca.webp
+Ailurus Fulgens,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/ailurus_fulgens.webp
+Crocuta Crocuta,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/crocuta_crocuta.webp
+Enhydra Lutris,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/enhydra_lutris.webp
+Felis Catus,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/felis_catus.webp
+Lynx Lynx,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/lynx_lynx.webp
+Meles Meles,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/meles_meles.webp
+Mustela Furo,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/mustela_furo.webp
+Panthera Leo,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/panthera_leo.webp
+Panthera Onca,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/panthera_onca.webp
+Panthera Pardus,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/panthera_pardus.webp
+Panthera Tigris,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/panthera_tigris.webp
+Panthera Uncia,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/panthera_uncia.webp
+Procyon Lotor,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/procyon_lotor.webp
+Ursus Arctos,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/ursus_arctos.webp
+Ursus Maritimus,eukaryota; animalia; chordata; mammalia; carnivora,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/carnivora/ursus_maritimus.webp
+Balaenoptera Acutorostrata,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/balaenoptera_acutorostrata.webp
+Balaenoptera Musculus,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/balaenoptera_musculus.webp
+Balaneoptera Physalus,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/balaneoptera_physalus.webp
+Delphinapterus Leucas,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/delphinapterus_leucas.webp
+Lagenorhynchus Obscurus,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/lagenorhynchus_obscurus.webp
+Megaptera Novaeangliae,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/megaptera_novaeangliae.webp
+Monodon Monceros,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/monodon_monceros.webp
+Orcinus Orca,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/orcinus_orca.webp
+Phocoena Phocoena,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/phocoena_phocoena.webp
+Phocoena Sinus,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/phocoena_sinus.webp
+Physeter Macrocephalus,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/physeter_macrocephalus.webp
+Tursiops Truncatus,eukaryota; animalia; chordata; mammalia; cetacea,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/cetacea/tursiops_truncatus.webp
+Artibeus Jamaicensis,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/artibeus_jamaicensis.webp
+Carollia Perspicillata,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/carollia_perspicillata.webp
+Desmodus Rotundus,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/desmodus_rotundus.webp
+Eidolon Helvum,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/eidolon_helvum.webp
+Eonycteris Spelaea,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/eonycteris_spelaea.webp
+Hipposideros Armiger,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/hipposideros_armiger.webp
+Miniopterus Schreibersii,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/miniopterus_schreibersii.webp
+Myotis Lucifugus,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/myotis_lucifugus.webp
+Nyctalus Noctula,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/nyctalus_noctula.webp
+Pteropus Vampyrus,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/pteropus_vampyrus.webp
+Rousettus Aegyptiacus,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/rousettus_aegyptiacus.webp
+Tadarida Brasiliensis,eukaryota; animalia; chordata; mammalia; chiroptera,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/tadarida_brasiliensis.webp
+Bettongia Penicillata,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/bettongia_penicillata.webp
+Dendrolagus Goodfellow,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/dendrolagus_goodfellow.webp
+Didelphis Albiventris,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/didelphis_albiventris.webp
+Lasiorhinus Latifrons,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/lasiorhinus_latifrons.webp
+Macropus Fuliginosus,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/macropus_fuliginosus.webp
+Macropus Giganteus,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/macropus_giganteus.webp
+Macropus Rufus,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/macropus_rufus.webp
+Petaurus Breviceps,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/petaurus_breviceps.webp
+Petrogale Xanthopus,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/petrogale_xanthopus.webp
+Phascolarctos Cinereus,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/phascolarctos_cinereus.webp
+Sarcophilus Harrisii,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/sarcophilus_harrisii.webp
+Tarsipes Rostratus,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/tarsipes_rostratus.webp
+Thylogale Thets,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/thylogale_thets.webp
+Vombatus Ursinus,eukaryota; animalia; chordata; mammalia; marsupialia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/vombatus_ursinus.webp
+Ceratotherium Simum,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/ceratotherium_simum.webp
+Dicerorhinus Sumatrensis,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/dicerorhinus_sumatrensis.webp
+Diceros Bicornis,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/diceros_bicornis.webp
+Equus Asinus,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_asinus.webp
+Equus Caballus,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_caballus.webp
+Equus Hemionus,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_hemionus.webp
+Equus Kiang,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_kiang.webp
+Equus Quagga,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_quagga.webp
+Equus Zebra,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_zebra.webp
+Rhinoceros Unicornis,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/rhinoceros_unicornis.webp
+Tapirus Bairdii,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/tapirus_bairdii.webp
+Tapirus Pinchaque,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/tapirus_pinchaque.webp
+Tapirus Terrestris,eukaryota; animalia; chordata; mammalia; perissodactyla,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/tapirus_terrestris.webp
+Bradypus Crinitus,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/bradypus_crinitus.webp
+Bradypus Pygmaeus,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/bradypus_pygmaeus.webp
+Bradypus Torquatus,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/bradypus_torquatus.webp
+Bradypus Tridactylus,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/bradypus_tridactylus.webp
+Bradypus Variegatus,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/bradypus_variegatus.webp
+Choloepus Didactylus,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/choloepus_didactylus.webp
+Choloepus Hoffmanni,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/choloepus_hoffmanni.webp
+Cyclopes Didactylus,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/cyclopes_didactylus.webp
+Cyclopes Dorsalis,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/cyclopes_dorsalis.webp
+Myrmecophaga Tridactyla,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/myrmecophaga_tridactyla.webp
+Tamandua Tetradactyla,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/tamandua_tetradactyla.webp
+Tamanua Mexicana,eukaryota; animalia; chordata; mammalia; pilosa,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/pilosa/tamanua_mexicana.webp
+Alouatta Caraya,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/alouatta_caraya.webp
+Ateles Geoffroyi,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/ateles_geoffroyi.webp
+Cebus Capucinus,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/cebus_capucinus.webp
+Chlorocebus Pygerythrus,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/chlorocebus_pygerythrus.webp
+Colobus Guereza,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/colobus_guereza.webp
+Gorilla Gorilla,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/gorilla gorilla.webp
+Homo Sapiens,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/homo_sapiens.webp
+Lemur Catta,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/lemur_catta.webp
+Macaca Mulatta,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/macaca_mulatta.webp
+Mandrillus Sphinx,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/mandrillus_sphinx.webp
+Pan Paniscus,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/pan_paniscus.webp
+Pan Troglodytes,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/pan_troglodytes.webp
+Papio Anubis,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/papio_anubis.webp
+Papio Hamadryas,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/papio_hamadryas.webp
+Pongo Abelii,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/pongo_abelii.webp
+Pongo Pygmaeus,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/pongo_pygmaeus.webp
+Saimiri Sciureus,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/saimiri_sciureus.webp
+Tarsius Tarsier,eukaryota; animalia; chordata; mammalia; primates,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/primates/tarsius_tarsier.webp
+Acomys Cahirinus,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/acomys_cahirinus.webp
+Castor Canadensis,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/castor_canadensis.webp
+Cavia Porcellus,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/cavia_porcellus.webp
+Chinchilla Lanigera,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/chinchilla_lanigera.webp
+Dipodomys Deserti,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/dipodomys_deserti.webp
+Erethizon Dorsatum,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/erethizon_dorsatum.webp
+Glis Glis,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/glis_glis.webp
+Hydrochoerus Hydrocaeris,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/hydrochoerus_hydrocaeris.webp
+Mus Musculus,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/mus_musculus.webp
+Myocastor Coypus,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/myocastor_coypus.webp
+Peromyscus Maniculatus,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/peromyscus_maniculatus.webp
+Rattus Norvegicus,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/rattus_norvegicus.webp
+Scirius Carolinensis,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/scirius_carolinensis.webp
+Tamias Striatus,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/tamias_striatus.webp
+Thomomys Bottae,eukaryota; animalia; chordata; mammalia; rodentia,assets/webp/taxo/eukaryota/animalia/chordata/mammalia/rodentia/thomomys_bottae.webp
+Amphiprion Ocellaris,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/amphiprion_ocellaris.webp
+Anguilla Anguilla,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/anguilla_anguilla.webp
+Arothron Meleagris,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/arothron_meleagris.webp
+Carassius Auratus,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/carassius_auratus.webp
+Electrophorus Electricus,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/electrophorus_electricus.webp
+Gadus Morhua,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/gadus_morhua.webp
+Hippocampus Erectus,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/hippocampus_erectus.webp
+Ictalurus Punctatus,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/ictalurus_punctatus.webp
+Lepisosteus Osseus,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/lepisosteus_osseus.webp
+Micropterus Salmoides,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/micropterus_salmoides.webp
+Oncorhynchus Mykiss,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/oncorhynchus_mykiss.webp
+Oreochromis Niloticus,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/oreochromis_niloticus.webp
+Perca Fluviatilis,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/perca_fluviatilis.webp
+Pterois Volitans,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/pterois_volitans.webp
+Salmo Salar,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/salmo_salar.webp
+Scomber Scombrus,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/scomber_scombrus.webp
+Sphyraena Barracuda,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/sphyraena_barracuda.webp
+Synanceia Verrucosa,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/synanceia_verrucosa.webp
+Thunnus Albacares,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/thunnus_albacares.webp
+Xiphias Gladius,eukaryota; animalia; chordata; osteichthyes,assets/webp/taxo/eukaryota/animalia/chordata/osteichthyes/xiphias_gladius.webp
+Alligator Mississippiensis,eukaryota; animalia; chordata; reptilia; crocodilia,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/alligator_mississippiensis.webp
+Alligator Sinensis,eukaryota; animalia; chordata; reptilia; crocodilia,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/alligator_sinensis.webp
+Caiman Crocodilus,eukaryota; animalia; chordata; reptilia; crocodilia,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/caiman_crocodilus.webp
+Crocodylus Acutus,eukaryota; animalia; chordata; reptilia; crocodilia,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/crocodylus_acutus.webp
+Crocodylus Mindorensis,eukaryota; animalia; chordata; reptilia; crocodilia,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/crocodylus_mindorensis.webp
+Crocodylus Moreletii,eukaryota; animalia; chordata; reptilia; crocodilia,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/crocodylus_moreletii.webp
+Crocodylus Niloticus,eukaryota; animalia; chordata; reptilia; crocodilia,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/crocodylus_niloticus.webp
+Crocodylus Porosus,eukaryota; animalia; chordata; reptilia; crocodilia,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/crocodylus_porosus.webp
+Gavialis Gangeticus,eukaryota; animalia; chordata; reptilia; crocodilia,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/gavialis_gangeticus.webp
+Melanosuchus Niger,eukaryota; animalia; chordata; reptilia; crocodilia,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/melanosuchus_niger.webp
+Agkistrodon Piscivorus,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/agkistrodon_piscivorus.webp
+Amphisbaena Alba,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/amphisbaena_alba.webp
+Anolis Carolinensis,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/anolis_carolinensis.webp
+Bothrops Asper,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/bothrops_asper.webp
+Chamaeleo Calyptratus,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/chamaeleo_calyptratus.webp
+Crotalus Atrox,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/crotalus_atrox.webp
+Dendroaspis Polyepis,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/dendroaspis_polyepis.webp
+Eunectes Murinus,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/eunectes_murinus.webp
+Heloderma Suspectum,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/heloderma_suspectum.webp
+Iguana Iguana,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/iguana_iguana.webp
+Lacerta Agilis,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/lacerta_agilis.webp
+Laticauda Colubrina,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/laticauda_colubrina.webp
+Naja Naja,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/naja_naja.webp
+Ophiophagus Hannah,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/ophiophagus_hannah.webp
+Oxyuranus Microlepidotus,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/oxyuranus_microlepidotus.webp
+Phrynosoma Cornutum,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/phrynosoma_cornutum.webp
+Python Regius,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/python_regius.webp
+Thamnophis Sirtalis,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/thamnophis_sirtalis.webp
+Varanus Komodoensis,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/varanus_komodoensis.webp
+Zonosaurus Madagascariensis,eukaryota; animalia; chordata; reptilia; squamata,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/squamata/zonosaurus_madagascariensis.webp
+Aldabrachelys Gigantea,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/aldabrachelys_gigantea.webp
+Apalone Spinifera,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/apalone_spinifera.webp
+Chelonia Mydas,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/chelonia_mydas.webp
+Chelonoidis Nigra,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/chelonoidis_nigra.webp
+Chrysemys Picta,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/chrysemys_picta.webp
+Dermochelys Coriacea,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/dermochelys_coriacea.webp
+Emys Orbicularis,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/emys_orbicularis.webp
+Geochelone Sulcata,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/geochelone_sulcata.webp
+Gopherus Agassizii,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/gopherus_agassizii.webp
+Malaclemys Terrapin,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/malaclemys_terrapin.webp
+Terrapene Carolina,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/terrapene_carolina.webp
+Testudo Graeca,eukaryota; animalia; chordata; reptilia; testudines,assets/webp/taxo/eukaryota/animalia/chordata/reptilia/testudines/testudo_graeca.webp
+Acropora Spp,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/acropora_spp.webp
+Aurelia Aurita,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/aurelia_aurita.webp
+Carukia Barnesi,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/carukia_barnesi.webp
+Chironex Fleckeri,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/chironex_fleckeri.webp
+Chrysaora Quinquecirrha,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/chrysaora_quinquecirrha.webp
+Diploria Labyrinthiformis,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/diploria_labyrinthiformis.webp
+Pelagia Noctiluca,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/pelagia_noctiluca.webp
+Physalia Physalis,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/physalia_physalis.webp
+Praya Dubia,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/praya_dubia.webp
+Rhizostoma Pulmo,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/rhizostoma_pulmo.webp
+Stichodactyla Gigantea,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/stichodactyla_gigantea.webp
+Tubastraea Spp,eukaryota; animalia; cnidaria,assets/webp/taxo/eukaryota/animalia/cnidaria/tubastraea_spp.webp
+Antedon Mediterranea,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/antedon_mediterranea.webp
+Asterias Rubens,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/asterias_rubens.webp
+Dendraster Excentricus,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/dendraster_excentricus.webp
+Diadema Setosum,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/diadema_setosum.webp
+Florometra Serratissima,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/florometra_serratissima.webp
+Holothuria Edulis,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/holothuria_edulis.webp
+Linckia Laevigata,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/linckia_laevigata.webp
+Oreaster Reticulatus,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/oreaster_reticulatus.webp
+Parastichopus Californicus,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/parastichopus_californicus.webp
+Pisaster Ochraceus,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/pisaster_ochraceus.webp
+Protoreaster Nodosus,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/protoreaster_nodosus.webp
+Strongylocentrotus Purpuratus,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/strongylocentrotus_purpuratus.webp
+Thelenota Ananas,eukaryota; animalia; echinodermata,assets/webp/taxo/eukaryota/animalia/echinodermata/thelenota_ananas.webp
+Achatina Fulica,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/achatina_fulica.webp
+Architeuthis Dux,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/architeuthis_dux.webp
+Conus Magnus,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/conus_magnus.webp
+Enteroctopus Dofleini,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/enteroctopus_dofleini.webp
+Glaucus Atlanticus,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/glaucus_atlanticus.webp
+Hapalochlaena Spp,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/hapalochlaena_spp.webp
+Helix Pomatia,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/helix_pomatia.webp
+Magnapinna Pacifica,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/magnapinna_pacifica.webp
+Mytilus Edulis,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/mytilus_edulis.webp
+Nautilus Prompilius,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/nautilus_prompilius.webp
+Octopus Vulgaris,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/octopus_vulgaris.webp
+Sepia Officinalis,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/sepia_officinalis.webp
+Tridacna Gigas,eukaryota; animalia; mollusca,assets/webp/taxo/eukaryota/animalia/mollusca/tridacna_gigas.webp
+Ancylostoma Duodenale,eukaryota; animalia; nematoda,assets/webp/taxo/eukaryota/animalia/nematoda/ancylostoma_duodenale.webp
+Ascaris Lumbricoides,eukaryota; animalia; nematoda,assets/webp/taxo/eukaryota/animalia/nematoda/ascaris_lumbricoides.webp
+Caenorhabditis Elegans,eukaryota; animalia; nematoda,assets/webp/taxo/eukaryota/animalia/nematoda/caenorhabditis_elegans.webp
+Enterobius Vermicularis,eukaryota; animalia; nematoda,assets/webp/taxo/eukaryota/animalia/nematoda/enterobius_vermicularis.webp
+Meloidgyne Spp,eukaryota; animalia; nematoda,assets/webp/taxo/eukaryota/animalia/nematoda/meloidgyne_spp.webp
+Toxocara Canis,eukaryota; animalia; nematoda,assets/webp/taxo/eukaryota/animalia/nematoda/toxocara_canis.webp
+Trichinella Spiralis,eukaryota; animalia; nematoda,assets/webp/taxo/eukaryota/animalia/nematoda/trichinella_spiralis.webp
+Clonorchis Sinensis,eukaryota; animalia; platyhelminthes,assets/webp/taxo/eukaryota/animalia/platyhelminthes/clonorchis_sinensis.webp
+Diphyllobothrium Latum,eukaryota; animalia; platyhelminthes,assets/webp/taxo/eukaryota/animalia/platyhelminthes/diphyllobothrium_latum.webp
+Dugesia Tigrina,eukaryota; animalia; platyhelminthes,assets/webp/taxo/eukaryota/animalia/platyhelminthes/dugesia_tigrina.webp
+Echinococcus Granulosus,eukaryota; animalia; platyhelminthes,assets/webp/taxo/eukaryota/animalia/platyhelminthes/echinococcus_granulosus.webp
+Fasciola Hepatica,eukaryota; animalia; platyhelminthes,assets/webp/taxo/eukaryota/animalia/platyhelminthes/fasciola_hepatica.webp
+Schistosoma Mansoni,eukaryota; animalia; platyhelminthes,assets/webp/taxo/eukaryota/animalia/platyhelminthes/schistosoma_mansoni.webp
+Taenia Saginata,eukaryota; animalia; platyhelminthes,assets/webp/taxo/eukaryota/animalia/platyhelminthes/taenia_saginata.webp
+Taenia Solium,eukaryota; animalia; platyhelminthes,assets/webp/taxo/eukaryota/animalia/platyhelminthes/taenia_solium.webp
+Cilona Celata,eukaryota; animalia; porifera,assets/webp/taxo/eukaryota/animalia/porifera/cilona_celata.webp
+Clathrina Clathrus,eukaryota; animalia; porifera,assets/webp/taxo/eukaryota/animalia/porifera/clathrina_clathrus.webp
+Euplectella Aspergillum,eukaryota; animalia; porifera,assets/webp/taxo/eukaryota/animalia/porifera/euplectella_aspergillum.webp
+Euspongia Officinalis,eukaryota; animalia; porifera,assets/webp/taxo/eukaryota/animalia/porifera/euspongia_officinalis.webp
+Haliclona Spp,eukaryota; animalia; porifera,assets/webp/taxo/eukaryota/animalia/porifera/haliclona_spp.webp
+Hippospongia Communis,eukaryota; animalia; porifera,assets/webp/taxo/eukaryota/animalia/porifera/hippospongia_communis.webp
+Leucosolenia Botryoides,eukaryota; animalia; porifera,assets/webp/taxo/eukaryota/animalia/porifera/leucosolenia_botryoides.webp
+Spongilla Lacustris,eukaryota; animalia; porifera,assets/webp/taxo/eukaryota/animalia/porifera/spongilla_lacustris.webp
+Sycon Ciliatum,eukaryota; animalia; porifera,assets/webp/taxo/eukaryota/animalia/porifera/sycon_ciliatum.webp
+Agaricus Bisporus,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/agaricus_bisporus.webp
+Amanita Muscaria,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/amanita_muscaria.webp
+Amanita Phalloides,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/amanita_phalloides.webp
+Armillaria Mellea,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/armillaria_mellea.webp
+Aspergillus Niger,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/aspergillus_niger.webp
+Calvatia Gigantea,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/calvatia_gigantea.webp
+Cladonia Rangiferina,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/cladonia_rangiferina.webp
+Cordyceps Militaris,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/cordyceps_militaris.webp
+Geastrum Spp,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/geastrum_spp.webp
+Lycoperdon Perlatum,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/lycoperdon_perlatum.webp
+Penicillium Chrysogenum,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/penicillium_chrysogenum.webp
+Rhizopus Stolonifer,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/rhizopus_stolonifer.webp
+Tuber Melanosporum,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/tuber_melanosporum.webp
+Xanthoria Polycarpa,eukaryota; fungi,assets/webp/taxo/eukaryota/fungi/xanthoria_polycarpa.webp
+Acer Rubrum,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/acer_rubrum.webp
+Adansonia Spp,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/adansonia_spp.webp
+Allium Cepa,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/allium_cepa.webp
+Bambusa Spp,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/bambusa_spp.webp
+Cargegiea Gigantea,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/cargegiea_gigantea.webp
+Cattleya Spp,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/cattleya_spp.webp
+Citrus Sinensis,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/citrus_sinensis.webp
+Cynodon Dactilon,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/cynodon_dactilon.webp
+Daucus Carota,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/daucus_carota.webp
+Echnocactus Grusonii,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/echnocactus_grusonii.webp
+Eucalyptus Regnan,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/eucalyptus_regnan.webp
+Jacaranda Mimosifolia,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/jacaranda_mimosifolia.webp
+Magnolia Grandiflora,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/magnolia_grandiflora.webp
+Opuntia Ficus-Indica,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/opuntia_ficus-Indica.webp
+Prunus Serrulata,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/prunus_serrulata.webp
+Quercus Robur,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/quercus_robur.webp
+Rafflesia Arnoldii,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/rafflesia_arnoldii.webp
+Rosa Chinensis,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/rosa_chinensis.webp
+Salix Babylonica,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/salix_babylonica.webp
+Taraxacum Officinale,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/taraxacum_officinale.webp
+Triticum Aestivum,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/triticum_aestivum.webp
+Zea Mays,eukaryota; plantae; angiospermae,assets/webp/taxo/eukaryota/plantae/angiospermae/zea_mays.webp
+Anthoceros Agrestis,eukaryota; plantae; bryophyta,assets/webp/taxo/eukaryota/plantae/bryophyta/anthoceros_agrestis.webp
+Dicranium Scoparium,eukaryota; plantae; bryophyta,assets/webp/taxo/eukaryota/plantae/bryophyta/dicranium_scoparium.webp
+Grimmia Pulvinata,eukaryota; plantae; bryophyta,assets/webp/taxo/eukaryota/plantae/bryophyta/grimmia_pulvinata.webp
+Leucobryum Glaucum,eukaryota; plantae; bryophyta,assets/webp/taxo/eukaryota/plantae/bryophyta/leucobryum_glaucum.webp
+Marchantia Polymorpha,eukaryota; plantae; bryophyta,assets/webp/taxo/eukaryota/plantae/bryophyta/marchantia_polymorpha.webp
+Pellia Epiphylla,eukaryota; plantae; bryophyta,assets/webp/taxo/eukaryota/plantae/bryophyta/pellia_epiphylla.webp
+Phaeoceros Laevis,eukaryota; plantae; bryophyta,assets/webp/taxo/eukaryota/plantae/bryophyta/phaeoceros_laevis.webp
+Racomitrium Lanuginosum,eukaryota; plantae; bryophyta,assets/webp/taxo/eukaryota/plantae/bryophyta/racomitrium_lanuginosum.webp
+Riccia Fluitans,eukaryota; plantae; bryophyta,assets/webp/taxo/eukaryota/plantae/bryophyta/riccia_fluitans.webp
+Sphagnum Spp,eukaryota; plantae; bryophyta,assets/webp/taxo/eukaryota/plantae/bryophyta/sphagnum_spp.webp
+Abies Alba,eukaryota; plantae; gymnospermae,assets/webp/taxo/eukaryota/plantae/gymnospermae/abies_alba.webp
+Cedrus Atlantica,eukaryota; plantae; gymnospermae,assets/webp/taxo/eukaryota/plantae/gymnospermae/cedrus_atlantica.webp
+Cycas Revoluta,eukaryota; plantae; gymnospermae,assets/webp/taxo/eukaryota/plantae/gymnospermae/cycas_revoluta.webp
+Ginkgo Biloba,eukaryota; plantae; gymnospermae,assets/webp/taxo/eukaryota/plantae/gymnospermae/ginkgo_biloba.webp
+Picea Abies,eukaryota; plantae; gymnospermae,assets/webp/taxo/eukaryota/plantae/gymnospermae/picea_abies.webp
+Pinus Ponderosa,eukaryota; plantae; gymnospermae,assets/webp/taxo/eukaryota/plantae/gymnospermae/pinus_ponderosa.webp
+Sequoia Sempervirens,eukaryota; plantae; gymnospermae,assets/webp/taxo/eukaryota/plantae/gymnospermae/sequoia sempervirens.webp
+Sequoiadendrom Giganteum,eukaryota; plantae; gymnospermae,assets/webp/taxo/eukaryota/plantae/gymnospermae/sequoiadendrom_giganteum.webp
+Taxus Baccata,eukaryota; plantae; gymnospermae,assets/webp/taxo/eukaryota/plantae/gymnospermae/taxus_baccata.webp
+Tuja Occidentalis,eukaryota; plantae; gymnospermae,assets/webp/taxo/eukaryota/plantae/gymnospermae/tuja_occidentalis.webp
+Adiantum Capillus Veneris,eukaryota; plantae; pteridophyta,assets/webp/taxo/eukaryota/plantae/pteridophyta/adiantum_capillus_veneris.webp
+Asplenium Nidus,eukaryota; plantae; pteridophyta,assets/webp/taxo/eukaryota/plantae/pteridophyta/asplenium_nidus.webp
+Athyrium Filix-Femina,eukaryota; plantae; pteridophyta,assets/webp/taxo/eukaryota/plantae/pteridophyta/athyrium_filix-femina.webp
+Cyrtomium Falcatum,eukaryota; plantae; pteridophyta,assets/webp/taxo/eukaryota/plantae/pteridophyta/cyrtomium_falcatum.webp
+Diphasiastrum Complanatum,eukaryota; plantae; pteridophyta,assets/webp/taxo/eukaryota/plantae/pteridophyta/diphasiastrum_complanatum.webp
+Equisetum Arvense,eukaryota; plantae; pteridophyta,assets/webp/taxo/eukaryota/plantae/pteridophyta/equisetum_arvense.webp
+Lycopodium Clavatum,eukaryota; plantae; pteridophyta,assets/webp/taxo/eukaryota/plantae/pteridophyta/lycopodium_clavatum.webp
+Nephrolepis Exaltata,eukaryota; plantae; pteridophyta,assets/webp/taxo/eukaryota/plantae/pteridophyta/nephrolepis_exaltata.webp
+Pteridium Aquilinum,eukaryota; plantae; pteridophyta,assets/webp/taxo/eukaryota/plantae/pteridophyta/pteridium_aquilinum.webp
+Selaginella Uncinata,eukaryota; plantae; pteridophyta,assets/webp/taxo/eukaryota/plantae/pteridophyta/selaginella_uncinata.webp
+Amoeba Proteus,eukaryota; protista,assets/webp/taxo/eukaryota/protista/amoeba_proteus.webp
+Caulerpa Taxifolia,eukaryota; protista,assets/webp/taxo/eukaryota/protista/caulerpa_taxifolia.webp
+Chaos Carolinense,eukaryota; protista,assets/webp/taxo/eukaryota/protista/chaos_carolinense.webp
+Coidum Fragile,eukaryota; protista,assets/webp/taxo/eukaryota/protista/coidum_fragile.webp
+Entamoeba Moshkovskii,eukaryota; protista,assets/webp/taxo/eukaryota/protista/entamoeba_moshkovskii.webp
+Gelidium Spp,eukaryota; protista,assets/webp/taxo/eukaryota/protista/gelidium_spp.webp
+Halimeda Spp,eukaryota; protista,assets/webp/taxo/eukaryota/protista/halimeda_spp.webp
+Laminaria Digitata,eukaryota; protista,assets/webp/taxo/eukaryota/protista/laminaria_digitata.webp
+Macrocystis Pyrifera,eukaryota; protista,assets/webp/taxo/eukaryota/protista/macrocystis_pyrifera.webp
+Naegleria Fowleri,eukaryota; protista,assets/webp/taxo/eukaryota/protista/naegleria_fowleri.webp
+Nereocystis Luetkeana,eukaryota; protista,assets/webp/taxo/eukaryota/protista/nereocystis_luetkeana.webp
+Noctiluca Scintillans,eukaryota; protista,assets/webp/taxo/eukaryota/protista/noctiluca_scintillans.webp
+Paramecium Caudatum,eukaryota; protista,assets/webp/taxo/eukaryota/protista/paramecium_caudatum.webp
+Plasmodium Falciparum,eukaryota; protista,assets/webp/taxo/eukaryota/protista/plasmodium_falciparum.webp
+Porphyra Spp,eukaryota; protista,assets/webp/taxo/eukaryota/protista/porphyra_spp.webp
+Spirogyra Spp,eukaryota; protista,assets/webp/taxo/eukaryota/protista/spirogyra_spp.webp
+Toxoplasma Gondii,eukaryota; protista,assets/webp/taxo/eukaryota/protista/toxoplasma_gondii.webp
+Trypanosoma Brucei,eukaryota; protista,assets/webp/taxo/eukaryota/protista/trypanosoma_brucei.webp
+Ulva Lactuca,eukaryota; protista,assets/webp/taxo/eukaryota/protista/ulva_lactuca.webp
+Volvox Aureus,eukaryota; protista,assets/webp/taxo/eukaryota/protista/volvox_aureus.webp

@@ -1,0 +1,57 @@
+We will be implementing a new game, called Bio-Wordle
+It will work like the New York Times popuar "Wordle", except with a few differences:
+- Words wont always be 5-letters long, each game will have a fixed amount of letters in the answer, but this amount might be 4-7 randomly per game
+- Answer will always be a biology-related word taken from our dataset
+
+To implement this, we will go step by step as follows:
+
+**Step 1 | Dataset** 
+ALREADY DONE!! I have set up my dataset of words in a .txt file at root/assets/data/biowords.txt
+Each line is a word, to be easily called via JavaScript as we start implementing game logic in the next step
+
+
+**Step 2 | Game UI Base**
+Let's implement a UI similar to the one in the attached image, which is a screenshot of NYT's Wordle. With the 6 guessing rows, and the keyboard. 
+
+Clicking on each key types it in the guess bar like in Wordle, as well as of course, typing them directly with the keyboard. Backspace key deletes letters, and Enter key inputs the guess.
+
+No special color effects until next step, for now. 
+__What to add in this Step:__
+- 6 guess bars of a fixed N length, random number between 4 and 7 picked at the start of the game
+- If the inputted guess does not fill the entire character length of the bar, shakes as wrong saying "Not enough letters"
+- If the inputted guess is of the appropriate length, then it checks if the answer is correct.
+- If the answer was correct, disable game and (for now, temporary) pop up an alert("you won")
+- If the answer is not correct, then moves on to the next guess bar
+- If a wrong guess is made on the last guess bar, pop up an alert ("you lost")
+
+
+**Step 3 | Only Valid Words!**
+We will not be limiting the word inputs to bio-only because our dataset isn't big enough, and the game would be too hard.
+However, we will limit it to only valid english words (length 4-7). Shall we use a library for this? 
+What library does Wordle use? We need all valid English words of the appropriate character length to count as inputs.
+So that players can't just input anything like "AAAAA" or "AEIOU" and get away with it, some thinking needs to be done.
+
+
+**Step 4 | Hint Colors**
+We get now to the essence of wordle! 
+When a guess is made, we will color the inputted letters appropriately to give the user clues. 
+
+Go letter by letter and compare to the secret answer. If the letter matches the placement, color it green. If the letter is in the word, but in the wrong place, color it yellow. If the letter is not in the word, color it dark grey. 
+
+And color them accordingly in the keyboard below too, so the user knows easily which letters they've used, and out of those, which ones fit and which ones dont too. 
+
+
+*Step 4 "trickier" corollary | Letter Repetitions:*
+
+If a letter appears multiple times in the word, evaluate them as different entities. For example let's look at the word "Allele".
+
+Guessing "XEEXXX" will give yellow on both Es, guessing "EEEXXX" will give only two yellow Es (since there are 2 Es, not three). So paint the first two Es as yellow, and the third one as gray, so the user knows the word only has 2 Es.
+
+Guessing "XLXLXL" will paint the first L green of course, and the other 2 as yellow cause there's 2 more. Guessing "EEXEXX" will paint the last E (char4) as green of course, and then one E as yellow & one as gray, to again signal the user that the secret word has only 2 Es, and he already guessed the position of one of them (char4). 
+
+Let's implement the logic from this, and if more bugs and specific troubling scenarios arise from my testing, I will let you know
+
+
+**Step 5 | Win-Lose Pop-Ups**
+I have already implemented this for another of my bio-related games.
+So when the time for this step comes, we will work together on reusing the code logic for the pop up screens.

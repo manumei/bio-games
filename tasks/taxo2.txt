@@ -1,0 +1,67 @@
+**Step 6 | Game Timer** 
+_Context:_ The initial panel has 3 options for timers (No Timer, 90 seconds, 120 seconds). A timer must be selected (120 is chosen by default), this is what the HTML looks like for the timer buttons of the panel:
+
+                    <div class="timer-buttons">
+                        <button class="timer-btn" timer="None">No Timer</button>
+                        <button class="timer-btn" timer="90s">90s</button>
+                        <button class="timer-btn selected" timer="120s">120s</button>
+                    </div>
+
+_What to add:_ Add a game timer that starts when you click "Play" and the bingo grid starts to show, you win if you complete the game before the timer runs out. When the timer runs out, game is disabled and a "You Lost" screen (similar to the "You Won" screen) is shown.
+
+
+**Step 7 | "Hard Mode" Button**
+_Context:_ Game currently shows organism image and name for each organism by default. However, I want to add a mode which makes it a bit harder.
+
+_What to add:_ Panel will offer an optional "Hard Mode" button, that if selected, will make the game not show the organism names, only displaying the images for the user to play the bingo.
+
+
+**Step 8 | 'Give Up' option**
+_Context:_ There is currently no elegant way to end the game g. Just closing it and forgetting about it which is fine, but could be made nicer with a specific "resign" option. 
+
+_What to add:_ Below the grid, a resign button that when clicked, leads directly to the "You Lost" screen, nothing else, very simple.
+
+
+**Step 9 | Game Over Stats**
+_Context:_ Right now when you lose, you just get a brief motivational message, I want to make it a bit more fun and user-interactive.
+This is how my HMTL for the "you lost" screens currenty looks:
+
+_What to add:_ I want to add conditional messages for the You Lost as such:
+if they filled 11 cells: "AAA ikr, that one {name_of_the_unfilled_cell_category} you probably skimmed through or just didn't wanna show up"
+if they filled 9-10 cells: "You came quite close, even I couldn't do all 12 cells at first, and I literally made this game by hand"
+if they filled 6-8 cells: "{amount_of_cells_filled} Roentgen, not great, not terrible"
+if they filled 3-5 cells: "Warm Up game fr, I'm sure you'll do better next time"
+if they filled 1-2 cells: "vayan a estudiar"
+if they filled 0 cells: "dont even blame the RNG, just put the fries in the bag lil bro"
+
+
+**Step 10 | Game Progress & Refresh**
+_Context:_ Currenly, you switch organisms and fill cells as you go, but when you re-enter the website, you just play again and start a whole new game, while the final purpose of this game is to become a daily challenge.
+
+_What to add:_ Progress is saved (until daily reset), entering on the same day doesnt lead to the panel menu, it leads directly to the already-started game to continue filling the cells (if the timer hasn't already ran out).
+
+With the same grid cells staying the same for the entire day of course, as well as the chosen difficulty (default or hard), and the timer does not reset, otherwise that would be cheating by just closing and reopening the game.
+
+If the current-day game has already been won, leads directly to the "you won" screen, and same if it has already been lost for the "you lost" screen. At 00:00, the game resets and you can play a new game. 
+
+So basically, this would turn it into a sort of "Daily Challenge", where each day you get a new shuffle of 12 taxonomic categories as bingo cells, and progress is saved during the day
+
+_Question before implementing:_ How should we save the progress without having game accounts? Should we save it to the IP? To the current google profile? To the device itself? What is the easiest and most simple way? I know of similar games that don't have accounts, but they are able to store this data when you open the game on the same google profile (yes, it can be bypassed by using incognito mode, but it's the best they can do).
+
+
+**Step 11 | User Win-Lost Database**
+_Context:_ Game doesn't record anything about wins or losses, there are no stats for you to see how much you have won and such.
+
+_What to add:_ I want to record, in the same scale that we record game progress in Step 10 (be it local profile, device, etc.) the statistics of each player. 
+How many times they have gotten N amount of cells, as we recorded for step 9. Of course, getting 12 cells means every time they won, and anything below 12 meant that they didnt win, and either ran out of time or resigned before getting all.
+And show in the game over popup, a graph of these results. Making it a bar graph from 0 <= x:int <= 12 with Y axis (int) being the amount of times (0, +inf) they have reached each of the amounts of cells
+
+
+**Step 12 | Winning Streaks**
+_Context:_ Finally, as the last part of this daily-challenge with user win database, I want to add some fun incentive to keep winning and show off
+
+_What to add:_ We register user wins (by user, I mean the same way we registered data before, by Google Profile on device or whatever way we deemed more convenient), and we keep track of their winning streaks. 
+
+Not playing does nothing to the streak, winning a game increases it by 1, losing a game breaks the streak and resets to 0. When the streak is equal or higher than 3, it starts showing visibly on the index menu. 
+
+A small fire symbol with the streak number inside shows up at the top corner of game panel in index.html, again, only while the streak is 3 or higher.
