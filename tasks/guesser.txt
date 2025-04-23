@@ -1,0 +1,28 @@
+I want to implement a new game for my website, "Bio Guesser"
+
+_Game Description I'm giving you to help me implement_
+The game is like an Akinator, but for living organisms. Instead of secretely picking a celebrity for the akinator to guess, user will secretely pick an organism and will answer to yes/no questions the guesser will make, until it is certain enough of an answer and makes his guess.\
+Once the final guess is made, the user will click on whether the Guesser won or not. This is obvously not a competitive game, just a fun side game to try out.
+Note that I am only asking you for help on the game logic for front end implementation and the React backend, since I will be making the Python Backend for the Guessing Engine myself at another time.
+Just know that the React sends 
+
+_Game Description the user sees before playing:_
+
+
+We will implement this step by step, on React + Node.js, I have already created my bio-guesser folder in root/app/, where other game folders lie, each with their own components inside
+We shall work through the following steps:
+
+**Step 1 | **
+- 
+
+
+**Step 2 | **
+- 
+
+
+**Step 3 | **
+- 
+
+
+**Step 4 | Final Guess**
+- 
