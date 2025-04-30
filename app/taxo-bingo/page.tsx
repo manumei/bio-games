@@ -12,7 +12,10 @@ export default function TaxoBingoPage() {
       <MenuScreen
         title={
           <>
-            <span className="text-green-400">TAXO</span> BINGO
+            <span className="text-transparent bg-gradient-to-b from-secondary to-primary bg-clip-text">
+              TAXO
+            </span>{" "}
+            BINGO
           </>
         }
         imageSrc="/assets/img/taxo-cover.png"

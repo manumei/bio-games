@@ -20,12 +20,12 @@ export default function MenuScreen({
   const [hardMode, setHardMode] = useState(false);
 
   return (
-    <div className="menu-container p-6 rounded-xl border-2 border-green-600 max-w-5xl mx-auto mt-10 text-white bg-custom-3">
+    <div className="menu-container p-6 rounded-xl border-2 border-green-600 max-w-2xl mx-auto mt-10 text-white bg-custom-3">
       <h2 className="text-3xl font-bold text-center mb-6">{title}</h2>
 
       <div className="flex flex-col md:flex-row gap-6 items-center justify-center">
         <img
-          src={}
+          src="/assets/img/taxo-cover.png"
           alt="Game Cover"
           className="w-72 h-auto rounded-md shadow-lg"
         />
@@ -43,7 +43,7 @@ export default function MenuScreen({
                   onClick={() => setSelectedTimer(timer as TimerOption)}
                   className={`px-4 py-1 rounded ${
                     selectedTimer === timer
-                      ? "bg-blue-400 text-black font-bold"
+                      ? "bg-blue-400 text-black font-bold transition-opacity hover:opacity-80"
                       : "bg-gray-700 hover:bg-gray-600"
                   }`}
                 >
@@ -63,9 +63,9 @@ export default function MenuScreen({
             </button>
             <button
               onClick={() => setHardMode(!hardMode)}
-              className={`py-2 px-4 rounded font-bold ${
+              className={`py-2 px-4 rounded font-bold transition-opacity ${
                 hardMode ? "bg-red-500 text-white" : "bg-red-200 text-black"
-              }`}
+              } hover:opacity-80`}
             >
               Hard Mode {hardMode ? "✔" : "✖"}
             </button>
