@@ -21,9 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${FigtreeSans.variable} antialiased`}>
+      <body
+        className={`${FigtreeSans.variable} antialiased bg-custom-2 text-white`}
+      >
         <Header />
-        {children}
+        <div className="bg-custom-2">{children}</div>
         <Footer />
       </body>
     </html>
