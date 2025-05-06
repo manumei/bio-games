@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 interface Organism {
   name: string;
   imagePath: string;
@@ -16,18 +18,32 @@ export default function OrganismCard({
   onSkip,
   timeLeft = null,
 }: Props) {
+  const [zoomed, setZoomed] = useState(false);
   if (!organism) return null;
 
   return (
     <div className="grid grid-cols-[1fr_auto_1fr] items-center justify-items-center">
       {/* Image + Name */}
-      <div className="flex flex-col items-center text-center col-start-2 w-64">
-        <div className="relative w-48 h-48">
+      <div className="flex flex-col items-center text-center col-start-2 w-64 relative">
+        <div
+          className="relative w-48 h-48 cursor-zoom-in"
+          onClick={() => setZoomed(true)}
+        >
           <img
             src={organism.imagePath}
             alt={organism.name}
             className="object-cover rounded w-full h-full"
           />
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              setZoomed(true);
+            }}
+            className="w-7.5 h-7.5 absolute -top-3 -right-2.5 bg-[rgba(255,255,255,0.8)] text-black rounded-full z-1 flex items-center justify-center hover:bg-[rgba(255,255,255,0.6)] transition duration-300 cursor-pointer"
+            title="Zoom Image"
+          >
+            ⛶
+          </button>
         </div>
         <p className="mt-1 font-bold text-[1.1rem] truncate max-w-full">
           {hardMode ? <em>❓❓❓</em> : organism.name}
