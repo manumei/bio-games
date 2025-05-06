@@ -11,11 +11,11 @@ interface Props {
 
 export default function BingoGrid({ organism, onUseOrganism }: Props) {
   return (
-    <div className="grid grid-cols-4 gap-4 mt-8">
+    <div className="grid grid-cols-4 gap-4">
       {[...Array(12)].map((_, i) => (
         <div
           key={i}
-          className="w-40 h-28 bg-gray-700 text-white rounded flex items-center justify-center text-center font-bold p-2 cursor-pointer hover:bg-green-600"
+          className="border-2 border-solid border-[rgb(47,37,81)] w-40 h-28 bg-custom-3 text-white rounded flex items-center justify-center text-center font-bold p-2 cursor-pointer transition duration-300 hover:opacity-80"
           onClick={() => {
             if (organism) {
               onUseOrganism(organism);

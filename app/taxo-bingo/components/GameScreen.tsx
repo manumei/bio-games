@@ -53,11 +53,12 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   };
 
   return (
-    <div className="text-white flex flex-col items-center gap-8 mt-10">
+    <div className="text-white flex flex-col items-center gap-8 mt-5">
       <OrganismCard
         organism={current}
         hardMode={hardMode}
         onSkip={skipOrganism}
+        timeLeft={timer}
       />
       <BingoGrid
         organism={current}

@@ -48,8 +48,8 @@ export default function TaxoBingoPage() {
   }
 
   return (
-    <main className="min-h-[80vh] bg-custom-2">
-      <GameScreen timer={timer} hardMode={hardMode} />;
+    <main className="min-h-[90vh] bg-custom-2 py-2">
+      <GameScreen timer={timer} hardMode={hardMode} />
     </main>
   );
 }
