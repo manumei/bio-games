@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import MenuScreen, { TimerOption } from "@/app/components/MenuScreen";
+import GameScreen from "./components/GameScreen";
 
 export default function TaxoBingoPage() {
   const [gameStarted, setGameStarted] = useState(false);
@@ -48,7 +49,7 @@ export default function TaxoBingoPage() {
 
   return (
     <main className="min-h-[80vh] bg-custom-2">
-      <div className="text-center">GameScreen will go here...</div>
+      <GameScreen timer={timer} hardMode={hardMode} />;
     </main>
   );
 }
