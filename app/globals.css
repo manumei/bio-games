@@ -30,3 +30,18 @@ body {
   color: var(--foreground);
   font-family: var(--font-figtree-sans);
 }
+
+@keyframes zoomFade {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-zoomFade {
+  animation: zoomFade 0.25s ease-out;
+}
