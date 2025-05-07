@@ -19,6 +19,8 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [organisms, setOrganisms] = useState<Organism[]>([]);
   const [available, setAvailable] = useState<Organism[]>([]);
   const [current, setCurrent] = useState<Organism | null>(null);
+  const [timeLeft, setTimeLeft] = useState<number | null>(null);
+  const [gameOver, setGameOver] = useState(false);
 
   useEffect(() => {
     fetch("/assets/data/taxonomy.csv")
@@ -45,6 +47,26 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
     }
   }, [available]);
 
+  useEffect(() => {
+    if (timer !== null) {
+      setTimeLeft(timer);
+
+      const interval = setInterval(() => {
+        setTimeLeft((prev) => {
+          if (prev === null) return null;
+          if (prev <= 1) {
+            clearInterval(interval);
+            setGameOver(true);
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+
+      return () => clearInterval(interval);
+    }
+  }, [timer]);
+
   const skipOrganism = () => {
     if (available.length > 1 && current) {
       const filtered = available.filter((o) => o !== current);
@@ -53,20 +75,28 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   };
 
   return (
-    <div className="text-white flex flex-col items-center gap-8 mt-5">
-      <OrganismCard
-        organism={current}
-        hardMode={hardMode}
-        onSkip={skipOrganism}
-        timeLeft={timer}
-      />
-      <BingoGrid
-        organism={current}
-        onUseOrganism={(org) => {
-          setAvailable((prev) => prev.filter((o) => o !== org));
-          setCurrent(null); // will be reset on available update
-        }}
-      />
-    </div>
+    <>
+      <div className="text-white flex flex-col items-center gap-8 mt-5">
+        <OrganismCard
+          organism={current}
+          hardMode={hardMode}
+          onSkip={skipOrganism}
+          timeLeft={timeLeft}
+        />
+        <BingoGrid
+          organism={current}
+          onUseOrganism={(org) => {
+            setAvailable((prev) => prev.filter((o) => o !== org));
+            setCurrent(null); // will be reset on available update
+          }}
+        />
+      </div>
+
+      {gameOver && (
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[rgb(241,234,234,0.85)] text-black p-4 px-8 rounded-lg shadow-lg z-[1000] text-center">
+          Game Over
+        </div>
+      )}
+    </>
   );
 }

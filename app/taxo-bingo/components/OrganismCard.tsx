@@ -60,7 +60,7 @@ export default function OrganismCard({
             Skip
           </button>
           {timeLeft !== null && (
-            <div className="text-yellow-300 font-bold text-lg">
+            <div className="text-yellow-300 font-bold text-lg min-w-[11ch] text-center">
               Time Left: <span>{timeLeft}s</span>
             </div>
           )}
