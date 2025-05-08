@@ -44,6 +44,7 @@ export default function GameOver({ won, message, onClose }: GameOverProps) {
 
         {/* Message */}
         <p className="text-lg font-medium">{message}</p>
+        <p className="text-lg font-medium">Remember, failure is the starting point for learning</p>
 
         {/* Go Back */}
         <button

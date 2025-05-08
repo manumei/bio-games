@@ -16,7 +16,7 @@ export default function BingoGrid({
   onUseOrganism,
 }: Props) {
   return (
-    <div className="grid grid-cols-4 gap-4">
+    <div className={`grid grid-cols-4 gap-4 ${disabled ? 'opacity-50 pointer-events-none' : ''}`}>
       {[...Array(12)].map((_, i) => (
         <div
           key={i}

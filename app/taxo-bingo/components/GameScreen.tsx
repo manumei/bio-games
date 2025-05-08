@@ -25,6 +25,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
   const [showGiveUp, setShowGiveUp] = useState(false);
   const [gameOver, setGameOver] = useState(false);
+  const [showGameOverPopup, setShowGameOverPopup] = useState(false); 
 
   useEffect(() => {
     fetch("/assets/data/taxonomy.csv")
@@ -52,7 +53,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   }, [available]);
 
   useEffect(() => {
-    if (timer !== null) {
+    if (timer !== null && !gameOver) {
       setTimeLeft(timer);
 
       const interval = setInterval(() => {
@@ -61,6 +62,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           if (prev <= 1) {
             clearInterval(interval);
             setGameOver(true);
+            setShowGameOverPopup(true);
             return 0;
           }
           return prev - 1;
@@ -118,7 +120,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
         <GameOver
           won={false}
           message="You tried your best! Remember, failure is just the first step toward greatness."
-          onClose={() => setGameOver(false)}
+          onClose={() => setShowGameOverPopup(false)} // ✅ closes popup only, game stays over
         />
       )}
     </>
