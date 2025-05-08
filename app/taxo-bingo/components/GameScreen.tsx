@@ -76,7 +76,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
 
   return (
     <>
-      <div className="text-white flex flex-col items-center gap-8 mt-5">
+      <div className="text-white flex flex-col items-center gap-8 mt-5 mb-5">
         <OrganismCard
           organism={current}
           hardMode={hardMode}
