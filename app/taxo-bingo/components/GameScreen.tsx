@@ -93,7 +93,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
       </div>
 
       {gameOver && (
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[rgb(241,234,234,0.85)] text-black p-4 px-8 rounded-lg shadow-lg z-[1000] text-center">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[rgb(207,200,200,0.85)] text-black p-8 rounded-lg shadow-lg z-[1000] text-center">
           Game Over
         </div>
       )}
