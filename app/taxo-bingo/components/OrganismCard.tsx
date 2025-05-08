@@ -10,6 +10,7 @@ interface Props {
   hardMode: boolean;
   onSkip: () => void;
   timeLeft?: number | null;
+  disabled?: boolean;
 }
 
 export default function OrganismCard({
@@ -17,18 +18,19 @@ export default function OrganismCard({
   hardMode,
   onSkip,
   timeLeft = null,
+  disabled = false,
 }: Props) {
   const [zoomed, setZoomed] = useState(false);
   if (!organism) return null;
 
   return (
     <>
-      <div className="grid grid-cols-[1fr_auto_1fr] items-center justify-items-center">
+      <div className={`grid grid-cols-[1fr_auto_1fr] items-center justify-items-center ${disabled ? 'opacity-50 pointer-events-none' : ''}`}>
         {/* Image + Name */}
         <div className="flex flex-col items-center text-center col-start-2 w-64 relative">
           <div
             className="relative w-48 h-48 cursor-zoom-in"
-            onClick={() => setZoomed(true)}
+            onClick={() => !disabled && setZoomed(true)}
           >
             <img
               src={organism.imagePath}
@@ -38,7 +40,7 @@ export default function OrganismCard({
             <button
               onClick={(e) => {
                 e.stopPropagation();
-                setZoomed(true);
+                if (!disabled) setZoomed(true);
               }}
               className="w-7.5 h-7.5 absolute -top-3 -right-2.5 bg-[rgba(255,255,255,0.8)] text-black rounded-full z-1 shadow-md flex items-center justify-center hover:bg-[rgba(255,255,255,0.6)] transition duration-300 cursor-pointer"
               title="Zoom Image"
@@ -50,12 +52,13 @@ export default function OrganismCard({
             {hardMode ? <em>❓❓❓</em> : organism.name}
           </p>
         </div>
-
+  
         {/* Controls (Skip + Timer) */}
         <div className="flex flex-col items-center gap-2 col-start-3">
           <button
             onClick={onSkip}
-            className="bg-orange-400 text-black font-bold py-2 px-4 rounded transition duration-300 transform cursor-pointer hover:bg-orange-500"
+            disabled={disabled}
+            className={`bg-orange-400 text-black font-bold py-2 px-4 rounded transition duration-300 transform cursor-pointer hover:bg-orange-500 ${disabled ? 'opacity-50 pointer-events-none' : ''}`}
           >
             Skip
           </button>
@@ -66,9 +69,9 @@ export default function OrganismCard({
           )}
         </div>
       </div>
-
+  
       {/* Zoom Overlay */}
-      {zoomed && (
+      {zoomed && !disabled && (
         <div
           id="zoom-overlay"
           className="fixed inset-0 bg-black bg-opacity-65 flex justify-center items-center z-[999]"
@@ -82,5 +85,5 @@ export default function OrganismCard({
         </div>
       )}
     </>
-  );
+  );  
 }

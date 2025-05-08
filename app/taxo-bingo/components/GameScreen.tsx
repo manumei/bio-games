@@ -3,6 +3,9 @@ import { useEffect, useState } from "react";
 import BingoGrid from "./BingoGrid";
 import OrganismCard from "./OrganismCard";
 import { TimerOption } from "@/app/components/MenuScreen";
+import GiveUpButton from '@/app/components/GiveUpButton';
+import GiveUpPopup from '@/app/components/GiveUpPopup';
+import GameOver from '@/app/components/GameOver';
 
 interface Organism {
   name: string;
@@ -20,6 +23,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [available, setAvailable] = useState<Organism[]>([]);
   const [current, setCurrent] = useState<Organism | null>(null);
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
+  const [showGiveUp, setShowGiveUp] = useState(false);
   const [gameOver, setGameOver] = useState(false);
 
   useEffect(() => {
@@ -76,26 +80,46 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
 
   return (
     <>
-      <div className="text-white flex flex-col items-center gap-8 mt-5 mb-5">
+      <div className="text-white flex flex-col items-center gap-8 mt-5 mb-5 relative">
         <OrganismCard
           organism={current}
           hardMode={hardMode}
           onSkip={skipOrganism}
           timeLeft={timeLeft}
+          disabled={gameOver}
         />
+  
         <BingoGrid
           organism={current}
+          disabled={gameOver}
           onUseOrganism={(org) => {
             setAvailable((prev) => prev.filter((o) => o !== org));
-            setCurrent(null); // will be reset on available update
+            setCurrent(null);
           }}
         />
-      </div>
 
+        {/* Give Up Button */}
+        <GiveUpButton onClick={() => setShowGiveUp(true)} disabled={gameOver} />
+  
+        {/* Give Up Popup */}
+        {showGiveUp && (
+          <GiveUpPopup
+            onConfirm={() => {
+              setShowGiveUp(false);
+              setGameOver(true);
+            }}
+            onCancel={() => setShowGiveUp(false)}
+          />
+        )}
+      </div>
+  
+      {/* Game Over Popup */}
       {gameOver && (
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[rgb(207,200,200,0.85)] text-black p-8 rounded-lg shadow-lg z-[1000] text-center">
-          Game Over
-        </div>
+        <GameOver
+          won={false}
+          message="You tried your best! Remember, failure is just the first step toward greatness."
+          onClose={() => setGameOver(false)}
+        />
       )}
     </>
   );

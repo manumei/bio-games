@@ -6,10 +6,15 @@ interface Organism {
 
 interface Props {
   organism: Organism | null;
+  disabled?: boolean;
   onUseOrganism: (org: Organism) => void;
 }
 
-export default function BingoGrid({ organism, onUseOrganism }: Props) {
+export default function BingoGrid({ 
+  organism,
+  disabled = false,
+  onUseOrganism,
+}: Props) {
   return (
     <div className="grid grid-cols-4 gap-4">
       {[...Array(12)].map((_, i) => (
