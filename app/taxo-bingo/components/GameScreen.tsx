@@ -26,6 +26,8 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [showGiveUp, setShowGiveUp] = useState(false);
   const [gameOver, setGameOver] = useState(false);
   const [showGameOverPopup, setShowGameOverPopup] = useState(false); 
+  const [queue, setQueue] = useState<Organism[]>([]);
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   useEffect(() => {
     fetch("/assets/data/taxonomy.csv")
@@ -48,7 +50,10 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
 
   useEffect(() => {
     if (available.length > 0) {
-      setCurrent(available[Math.floor(Math.random() * available.length)]);
+      const initialQueue = Array.from({ length: 5 }, preloadOrganism).filter(Boolean) as Organism[];
+      setQueue(initialQueue);
+      setCurrent(initialQueue[0]);
+      setIsImageLoaded(false);
     }
   }, [available]);
 
@@ -71,13 +76,29 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
 
       return () => clearInterval(interval);
     }
-  }, [timer]);
+  }, [timer, gameOver]);
 
   const skipOrganism = () => {
-    if (available.length > 1 && current) {
-      const filtered = available.filter((o) => o !== current);
-      setAvailable(filtered);
-    }
+    if (!isImageLoaded) return; // prevent skipping before image is loaded
+
+    const filtered = available.filter((o) => o !== current);
+    setAvailable(filtered);
+    showNextOrganism();
+  };
+
+  const preloadOrganism = (): Organism | null => {
+    if (available.length === 0) return null;
+    const org = available[Math.floor(Math.random() * available.length)];
+    const img = new Image();
+    img.src = org.imagePath;
+    return org;
+  };
+
+  const showNextOrganism = () => {
+  const next = queue[0];
+  setQueue((prev) => [...prev.slice(1), preloadOrganism()].filter(Boolean) as Organism[]);
+  setCurrent(next);
+  setIsImageLoaded(false);
   };
 
   return (
@@ -89,6 +110,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           onSkip={skipOrganism}
           timeLeft={timeLeft}
           disabled={gameOver}
+          setIsImageLoaded={setIsImageLoaded}
         />
   
         <BingoGrid
@@ -96,7 +118,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           disabled={gameOver}
           onUseOrganism={(org) => {
             setAvailable((prev) => prev.filter((o) => o !== org));
-            setCurrent(null);
+            showNextOrganism();
           }}
         />
 

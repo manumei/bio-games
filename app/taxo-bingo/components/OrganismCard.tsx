@@ -11,6 +11,7 @@ interface Props {
   onSkip: () => void;
   timeLeft?: number | null;
   disabled?: boolean;
+  setIsImageLoaded: (loaded: boolean) => void;
 }
 
 export default function OrganismCard({
@@ -19,6 +20,7 @@ export default function OrganismCard({
   onSkip,
   timeLeft = null,
   disabled = false,
+  setIsImageLoaded,
 }: Props) {
   const [zoomed, setZoomed] = useState(false);
   if (!organism) return null;
@@ -36,6 +38,7 @@ export default function OrganismCard({
               src={organism.imagePath}
               alt={organism.name}
               className="object-cover rounded w-full h-full"
+              onLoad={() => setIsImageLoaded(true)}
             />
             <button
               onClick={(e) => {
