@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import BingoGrid from "./BingoGrid";
 import OrganismCard from "./OrganismCard";
 import { TimerOption } from "@/app/components/MenuScreen";
@@ -18,6 +18,34 @@ interface GameScreenProps {
   hardMode: boolean;
 }
 
+const tx_Domains = ["Bacteria", "Eukaryota"];
+const tx_Kingdoms = ["Animalia", "Plantae", "Fungi", "Protista"];
+const tx_PhylaAnimalia = ["Porifera", "Cnidaria", "Platyhelminthes", "Nematoda", 
+                        "Annelida", "Chordata", "Arthropoda", "Echinodermata", "Mollusca"];
+const tx_PhylaPlantae = ["Bryophyta", "Pteridophyta", "Gymnospermae"]; // anGOATspermae ya esta puesta sola
+const tx_ClassesChordata = ["Mammalia", "Aves", "Reptilia", "Amphibia", "Chondrichthyes", "Osteichthyes"];
+const tx_ClassesArthropoda = ["Arachnida", "Insecta", "Crustacea", "Myriapoda"];
+// const tx_ClassesMollusca = ["Gastropoda", "Bivalvia", "Cephalopoda"];
+const tx_OrdersArachnida = ["Araneae", "Scorpiones", "Acari"];
+const tx_OrdersInsecta = ["Coleoptera", "Lepidoptera", "Diptera", "Hymenoptera", "Hemiptera", "Dictyoptera"];
+const tx_OrdersReptilia = ["Squamata", "Testudines", "Crocodilia"];
+const tx_OrdersMammalia = ["Primates", "Carnivora", "Rodentia", "Artiodactyla", "Perissodactyla", "Chiroptera", "Cetacea", "Marsupialia", "Pilosa"]; // eulipotyphla, la de rabbits, etc.
+const angiosperma = "Angiospermae";
+
+const domainCategory = tx_Domains[Math.floor(Math.random() * tx_Domains.length)];
+const kingdomCategory = tx_Kingdoms[Math.floor(Math.random() * tx_Kingdoms.length)];
+
+const remainingCategories = [
+  ...tx_PhylaAnimalia,
+  ...tx_PhylaPlantae,
+  ...tx_ClassesChordata,
+  ...tx_ClassesArthropoda,
+  ...tx_OrdersArachnida,
+  ...tx_OrdersInsecta,
+  ...tx_OrdersReptilia,
+  ...tx_OrdersMammalia,
+];
+
 export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [organisms, setOrganisms] = useState<Organism[]>([]);
   const [available, setAvailable] = useState<Organism[]>([]);
@@ -28,6 +56,15 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [showGameOverPopup, setShowGameOverPopup] = useState(false); 
   const [queue, setQueue] = useState<Organism[]>([]);
   const [isImageLoaded, setIsImageLoaded] = useState(false);
+  const [gridCategories, setGridCategories] = useState<string[]>([]);
+  const categoriesInitialized = useRef(false);
+
+  const generateBingoGridCategories = (): string[] => {
+    const shuffled = remainingCategories.sort(() => 0.5 - Math.random());
+    const selectedCategories = shuffled.slice(0, 9);
+    const finalCategories = [domainCategory, kingdomCategory, angiosperma, ...selectedCategories];
+    return finalCategories.sort(() => 0.5 - Math.random());
+  };
 
   useEffect(() => {
     fetch("/assets/data/taxonomy.csv")
@@ -49,6 +86,11 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   }, []);
 
   useEffect(() => {
+    if (available.length > 0 && !categoriesInitialized.current) {
+      setGridCategories(generateBingoGridCategories());
+      categoriesInitialized.current = true;
+    }
+
     if (available.length > 0) {
       const initialQueue = Array.from({ length: 5 }, preloadOrganism).filter(Boolean) as Organism[];
       setQueue(initialQueue);
@@ -114,11 +156,13 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
         />
   
         <BingoGrid
-          organism={current}
+          categories={gridCategories}
           disabled={gameOver}
-          onUseOrganism={(org) => {
-            setAvailable((prev) => prev.filter((o) => o !== org));
-            showNextOrganism();
+          onCellClick={(category) => {
+            // TODO: Check if current organism fits the clicked category
+            console.log(`Clicked category: ${category}`);
+            // If correct → mark filled
+            // If incorrect → shake
           }}
         />
 
