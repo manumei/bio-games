@@ -59,6 +59,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [gridCategories, setGridCategories] = useState<string[]>([]);
   const [filledCells, setFilledCells] = useState<{ [category: string]: Organism }>({});
   const categoriesInitialized = useRef(false);
+  const [shakingCell, setShakingCell] = useState<string | null>(null);
 
   const generateBingoGridCategories = (): string[] => {
     const shuffled = remainingCategories.sort(() => 0.5 - Math.random());
@@ -171,6 +172,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           categories={gridCategories}
           disabled={gameOver}
           filledCells={filledCells}
+          shakingCell={shakingCell}
           onCellClick={(category) => {
             if (!current || !isImageLoaded) return;
             if (filledCells[category]) return; // already filled
@@ -185,7 +187,8 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
               showNextOrganism();
               // Optional: Check win condition here
             } else {
-              // TODO: Trigger shake effect on the cell (handled in BingoGrid)
+                setShakingCell(category);
+                setTimeout(() => setShakingCell(null), 700); // Clear shake after 0.7s
             }
           }}
         />

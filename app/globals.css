@@ -45,3 +45,16 @@ body {
 .animate-zoomFade {
   animation: zoomFade 0.25s ease-out;
 }
+
+@keyframes shakeRed {
+  0% { transform: translateX(0); background-color: #ff2525; }
+  20% { transform: translateX(-0.375rem); }
+  40% { transform: translateX(0.375rem); }
+  60% { transform: translateX(-0.25rem); }
+  80% { transform: translateX(0.25rem); }
+  100% { transform: translateX(0); background-color: transparent; }
+}
+
+.shake-wrong {
+  animation: shakeRed 0.5s ease;
+}
