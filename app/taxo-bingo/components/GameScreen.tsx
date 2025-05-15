@@ -57,6 +57,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [queue, setQueue] = useState<Organism[]>([]);
   const [isImageLoaded, setIsImageLoaded] = useState(false);
   const [gridCategories, setGridCategories] = useState<string[]>([]);
+  const [filledCells, setFilledCells] = useState<{ [category: string]: Organism }>({});
   const categoriesInitialized = useRef(false);
 
   const generateBingoGridCategories = (): string[] => {
@@ -64,6 +65,29 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
     const selectedCategories = shuffled.slice(0, 9);
     const finalCategories = [domainCategory, kingdomCategory, angiosperma, ...selectedCategories];
     return finalCategories.sort(() => 0.5 - Math.random());
+  };
+
+  const skipOrganism = () => {
+    if (!isImageLoaded) return; // prevent skipping before image is loaded
+
+    const filtered = available.filter((o) => o !== current);
+    setAvailable(filtered);
+    showNextOrganism();
+  };
+
+  const preloadOrganism = (): Organism | null => {
+    if (available.length === 0) return null;
+    const org = available[Math.floor(Math.random() * available.length)];
+    const img = new Image();
+    img.src = org.imagePath;
+    return org;
+  };
+
+  const showNextOrganism = () => {
+  const next = queue[0];
+  setQueue((prev) => [...prev.slice(1), preloadOrganism()].filter(Boolean) as Organism[]);
+  setCurrent(next);
+  setIsImageLoaded(false);
   };
 
   useEffect(() => {
@@ -101,47 +125,35 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
 
   useEffect(() => {
     if (timer !== null && !gameOver) {
-      setTimeLeft(timer);
+      const targetTime = Date.now() + timer * 1000;
 
       const interval = setInterval(() => {
-        setTimeLeft((prev) => {
-          if (prev === null) return null;
-          if (prev <= 1) {
-            clearInterval(interval);
-            setGameOver(true);
-            setShowGameOverPopup(true);
-            return 0;
-          }
-          return prev - 1;
-        });
-      }, 1000);
+        const diff = Math.round((targetTime - Date.now()) / 1000);
+        if (diff <= 0) {
+          clearInterval(interval);
+          setTimeLeft(0);
+          setGameOver(true);
+          setShowGameOverPopup(true);
+        } else {
+          setTimeLeft(diff);
+        }
+      }, 500);
 
       return () => clearInterval(interval);
     }
   }, [timer, gameOver]);
 
-  const skipOrganism = () => {
-    if (!isImageLoaded) return; // prevent skipping before image is loaded
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.code === 'Space' && !gameOver && isImageLoaded) {
+        e.preventDefault(); // prevent page scroll
+        skipOrganism();
+      }
+    };
 
-    const filtered = available.filter((o) => o !== current);
-    setAvailable(filtered);
-    showNextOrganism();
-  };
-
-  const preloadOrganism = (): Organism | null => {
-    if (available.length === 0) return null;
-    const org = available[Math.floor(Math.random() * available.length)];
-    const img = new Image();
-    img.src = org.imagePath;
-    return org;
-  };
-
-  const showNextOrganism = () => {
-  const next = queue[0];
-  setQueue((prev) => [...prev.slice(1), preloadOrganism()].filter(Boolean) as Organism[]);
-  setCurrent(next);
-  setIsImageLoaded(false);
-  };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [gameOver, isImageLoaded, skipOrganism]);
 
   return (
     <>
@@ -158,11 +170,23 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
         <BingoGrid
           categories={gridCategories}
           disabled={gameOver}
+          filledCells={filledCells}
           onCellClick={(category) => {
-            // TODO: Check if current organism fits the clicked category
-            console.log(`Clicked category: ${category}`);
-            // If correct → mark filled
-            // If incorrect → shake
+            if (!current || !isImageLoaded) return;
+            if (filledCells[category]) return; // already filled
+
+            const categoryNormalized = category.toLowerCase();
+            if (current.categories.includes(categoryNormalized)) {
+              setFilledCells((prev) => ({
+                ...prev,
+                [category]: current,
+              }));
+              setAvailable((prev) => prev.filter((o) => o !== current));
+              showNextOrganism();
+              // Optional: Check win condition here
+            } else {
+              // TODO: Trigger shake effect on the cell (handled in BingoGrid)
+            }
           }}
         />
 

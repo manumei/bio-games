@@ -2,7 +2,7 @@
 import { useState, ReactNode } from "react";
 import Image from "next/image";
 
-export type TimerOption = null | 90 | 150;
+export type TimerOption = null | 120 | 180;
 
 interface MenuScreenProps {
   title: ReactNode;
@@ -17,7 +17,7 @@ export default function MenuScreen({
   description,
   onStart,
 }: MenuScreenProps) {
-  const [selectedTimer, setSelectedTimer] = useState<TimerOption>(150);
+  const [selectedTimer, setSelectedTimer] = useState<TimerOption>(180);
   const [hardMode, setHardMode] = useState(false);
 
   return (
@@ -39,7 +39,7 @@ export default function MenuScreen({
           <div className="space-y-1">
             <p>Select your timer below:</p>
             <div className="flex gap-2">
-              {[null, 90, 150].map((timer) => (
+              {[null, 120, 180].map((timer) => (
                 <button
                   key={timer}
                   onClick={() => setSelectedTimer(timer as TimerOption)}
@@ -49,7 +49,7 @@ export default function MenuScreen({
                       : "bg-gray-700 hover:bg-gray-600 cursor-pointer"
                   }`}
                 >
-                  {timer === null ? "No Timer" : timer === 90 ? "90s" : "150s"}
+                  {timer === null ? "No Timer" : timer === 120 ? "120s" : "180s"}
                 </button>
               ))}
             </div>

@@ -5,7 +5,7 @@ import GameScreen from "./components/GameScreen";
 
 export default function TaxoBingoPage() {
   const [gameStarted, setGameStarted] = useState(false);
-  const [timer, setTimer] = useState<TimerOption>(150);
+  const [timer, setTimer] = useState<TimerOption>(180);
   const [hardMode, setHardMode] = useState(false);
 
   if (!gameStarted) {
