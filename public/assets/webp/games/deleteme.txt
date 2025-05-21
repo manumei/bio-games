@@ -1,0 +1,1 @@
+aca va la carpeta para cada juego. regenera taxo/ para que vaya aca dentro

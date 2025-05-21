@@ -86,16 +86,16 @@ def clear_webps(webp_root):
 root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # === Paths Taxo ===
-img_root_taxo = os.path.join(root_dir, "assets", "img", "taxo")
-webp_root_taxo = os.path.join(root_dir, "assets", "webp", "taxo")
+img_root_taxo = os.path.join(root_dir, "assets", "img", "games", "taxo")
+webp_root_taxo = os.path.join(root_dir, "assets", "webp", "games", "taxo")
 
 # === Paths Symptoms Link ===
-img_root_symptoms_link = os.path.join(root_dir, "assets", "img", "symptoms_link")
-webp_root_symptoms_link = os.path.join(root_dir, "assets", "webp", "symptoms_link")
+img_root_symptoms_link = os.path.join(root_dir, "assets", "img", "games", "symptoms_link")
+webp_root_symptoms_link = os.path.join(root_dir, "assets", "webp", "games", "symptoms_link")
 
 # === Paths Top8 ===
-img_root_top8 = os.path.join(root_dir, "assets", "img", "top8")
-webp_root_top8 = os.path.join(root_dir, "assets", "webp", "top8")
+img_root_top8 = os.path.join(root_dir, "assets", "img", "games", "top8")
+webp_root_top8 = os.path.join(root_dir, "assets", "webp", "games", "top8")
 
 # Call Functions
 

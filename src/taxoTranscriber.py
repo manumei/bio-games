@@ -5,7 +5,7 @@ import csv
 root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # === Paths Taxo ===
-webp_root_taxo = os.path.join(root_dir, "assets", "webp", "taxo")
+webp_root_taxo = os.path.join(root_dir, "assets", "webp", "games", "taxo")
 data_path = os.path.join(root_dir, "assets", "data")
 
 def taxonomicTranscriberCSV(root_dir, data_path, webp_root_path):
