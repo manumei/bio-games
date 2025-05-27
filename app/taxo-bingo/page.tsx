@@ -20,7 +20,7 @@ export default function TaxoBingoPage() {
               BINGO
             </>
           }
-          imageSrc="/assets/img/taxo-cover.png"
+          imgSource="/assets/img/covers/menu/taxo-cover.png"
           description={
             <>
               <p>

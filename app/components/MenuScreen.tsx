@@ -6,14 +6,14 @@ export type TimerOption = null | 120 | 180;
 
 interface MenuScreenProps {
   title: ReactNode;
-  imageSrc: string;
+  imgSource: string;
   description: ReactNode;
   onStart: (timer: TimerOption, hardMode: boolean) => void;
 }
 
 export default function MenuScreen({
   title,
-  imageSrc,
+  imgSource,
   description,
   onStart,
 }: MenuScreenProps) {
@@ -27,7 +27,7 @@ export default function MenuScreen({
         <Image
           width={300}
           height={300}
-          src="/assets/img/taxo-cover.png"
+          src={imgSource}
           alt="Game Cover"
           className="w-full h-auto rounded-md shadow-lg"
         />
