@@ -178,6 +178,8 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
     return "dont even blame the RNG, just put the fries in the bag lil bro";
   })();
 
+  const gameWon = Object.keys(filledCells).length === 12;
+
   return (
     <>
       <div className="text-white flex flex-col items-center gap-8 mt-5 mb-5 relative">
