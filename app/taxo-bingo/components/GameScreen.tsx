@@ -156,6 +156,28 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [gameOver, isImageLoaded, skipOrganism]);
 
+  const filledCount = Object.keys(filledCells).length;
+  const unfilledCategory = gridCategories.find(cat => !filledCells[cat]);
+
+  const lossMessage = (() => {
+    if (filledCount === 11 && unfilledCategory) {
+      return `AAA ikr, that one "${unfilledCategory}" you probably skimmed through or just didn't wanna show up`;
+    }
+    if (filledCount >= 9) {
+      return "You came quite close, even I couldn't do all 12 cells at first, and I literally made this game by hand";
+    }
+    if (filledCount >= 6) {
+      return `${filledCount} Roentgen, not great, not terrible`;
+    }
+    if (filledCount >= 3) {
+      return "Warm Up game fr, I'm sure you'll do better next time";
+    }
+    if (filledCount >= 1) {
+      return "vayan a estudiar";
+    }
+    return "dont even blame the RNG, just put the fries in the bag lil bro";
+  })();
+
   return (
     <>
       <div className="text-white flex flex-col items-center gap-8 mt-5 mb-5 relative">
@@ -178,14 +200,19 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
             if (filledCells[category]) return; // already filled
 
             const categoryNormalized = category.toLowerCase();
+
             if (current.categories.includes(categoryNormalized)) {
-              setFilledCells((prev) => ({
-                ...prev,
-                [category]: current,
-              }));
+              const newFilled = { ...filledCells, [category]: current };
+              setFilledCells(newFilled);
               setAvailable((prev) => prev.filter((o) => o !== current));
-              showNextOrganism();
-              // Optional: Check win condition here
+
+              if (Object.keys(newFilled).length === 12) {
+                setGameOver(true);
+                setShowGameOverPopup(true);
+              } else {
+                showNextOrganism();
+              }
+
             } else {
                 setShakingCell(category);
                 setTimeout(() => setShakingCell(null), 700); // Clear shake after 0.7s
@@ -212,7 +239,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
       {gameOver && (
         <GameOver
           won={false}
-          message="You tried your best! Remember, failure is just the first step toward greatness."
+          message="{lossMessage}"
           onClose={() => setShowGameOverPopup(false)} // ✅ closes popup only, game stays over
         />
       )}
