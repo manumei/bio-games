@@ -90,8 +90,8 @@ img_root_taxo = os.path.join(root_dir, "public", "assets", "img", "games", "taxo
 webp_root_taxo = os.path.join(root_dir, "public", "assets", "webp", "games", "taxo")
 
 # === Paths Symptoms Link ===
-img_root_symptoms_link = os.path.join(root_dir, "public", "assets", "img", "games", "symptoms_link")
-webp_root_symptoms_link = os.path.join(root_dir, "public", "assets", "webp", "games", "symptoms_link")
+img_root_symptoms_link = os.path.join(root_dir, "public", "assets", "img", "games", "symptoms")
+webp_root_symptoms_link = os.path.join(root_dir, "public", "assets", "webp", "games", "symptoms")
 
 # === Paths Top8 ===
 img_root_top8 = os.path.join(root_dir, "public", "assets", "img", "games", "top8")
