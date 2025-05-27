@@ -238,11 +238,15 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
       </div>
   
       {/* Game Over Popup */}
-      {gameOver && (
+      {gameOver && showGameOverPopup && (
         <GameOver
-          won={false}
-          message="{lossMessage}"
-          onClose={() => setShowGameOverPopup(false)} // ✅ closes popup only, game stays over
+          won={gameWon}
+          message={
+            gameWon
+              ? "Congratulations on beating Taxo Bingo. You, are the greatest biological mind I've ever met."
+              : lossMessage
+          }
+          onClose={() => setShowGameOverPopup(false)}
         />
       )}
     </>
