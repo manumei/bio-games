@@ -80,7 +80,7 @@ def clear_webps(webp_root):
                 except Exception as e:
                     print(f"❌ Failed to delete {file_path}: {e}")
 
-    print(f"🗑️  Deleted {deleted_files} file(s) from webp/taxo leaf folders!")
+    print(f"🗑️  Deleted {deleted_files} file(s) from webp/games/taxo leaf folders!")
 
 # === Root Directory ===
 root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

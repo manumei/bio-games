@@ -4,11 +4,12 @@ import { useRouter } from 'next/navigation';
 
 interface GameOverProps {
   won: boolean;
+  hard: boolean;
   message: string;
   onClose: () => void;
 }
 
-export default function GameOver({ won, message, onClose }: GameOverProps) {
+export default function GameOver({ won, hard, message, onClose }: GameOverProps) {
   const router = useRouter();
 
   // Optional: disable keyboard/game input
@@ -31,8 +32,8 @@ export default function GameOver({ won, message, onClose }: GameOverProps) {
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-2 right-4 text-red-600 text-2xl hover:text-red-800 transition"
-          title="Close"
+          className="absolute top-2 right-4 text-red-600 text-3xl hover:text-red-800 transition cursor-pointer"
+          title="Close to see your game"
         >
           ✖
         </button>
@@ -44,12 +45,27 @@ export default function GameOver({ won, message, onClose }: GameOverProps) {
 
         {/* Message */}
         <p className="text-lg font-medium">{message}</p>
-        <p className="text-lg font-medium">Remember, failure is the starting point for learning</p>
+        <br />
+        {won ? (
+          hard ? ( 
+            <p className="text-lg font-medium">
+              And you even beat it on Hard Mode, <a href="https://iamawesome.com" target="_blank" rel="noopener noreferrer" className="underline text-blue-700 hover:text-blue-900">you're awesome</a>
+            </p>
+          ) : (
+            <p className="text-lg font-medium">Try Hard Mode if you're up for a bigger challenge</p>
+          )
+        ) : (
+          hard ? (
+            <p className="text-lg font-medium">Don't give up! Hard mode is tough, but you can do it!</p>
+          ) : (
+            <p className="text-lg font-medium">Remember, failure is the starting point for learning.</p>
+          )
+        )}
 
         {/* Go Back */}
         <button
           onClick={() => router.push('/')}
-          className="inline-block mt-6 px-6 py-2 bg-[#6574fd] hover:bg-[#4755d4] text-white font-bold rounded"
+          className="inline-block mt-6 px-6 py-2 bg-[#6574fd] hover:bg-[#4755d4] text-white font-bold rounded cursor-pointer transition-colors duration-300"
         >
           Go back to home
         </button>

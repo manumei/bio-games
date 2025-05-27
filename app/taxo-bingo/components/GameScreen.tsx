@@ -64,7 +64,8 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const generateBingoGridCategories = (): string[] => {
     const shuffled = remainingCategories.sort(() => 0.5 - Math.random());
     const selectedCategories = shuffled.slice(0, 9);
-    const finalCategories = [domainCategory, kingdomCategory, angiosperma, ...selectedCategories];
+    // const finalCategories = [domainCategory, kingdomCategory, angiosperma, ...selectedCategories];
+    const finalCategories = ["Eukaryota", "Animalia", "Plantae", "Chordata", "Arthropoda", "Mammalia", "Insecta", "Reptilia", "Arachnida", "Aves", "Angiospermae", "Fungi"];
     return finalCategories.sort(() => 0.5 - Math.random());
   };
 
@@ -241,6 +242,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
       {gameOver && showGameOverPopup && (
         <GameOver
           won={gameWon}
+          hard={hardMode}
           message={
             gameWon
               ? "Congratulations on beating Taxo Bingo. You, are the greatest biological mind I've ever met."
