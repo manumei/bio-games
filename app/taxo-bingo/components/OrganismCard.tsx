@@ -32,7 +32,7 @@ export default function OrganismCard({
         <div className="flex flex-col items-center text-center col-start-2 w-64 relative">
           <div
             className="relative w-48 h-48 cursor-zoom-in"
-            onClick={() => !disabled && setZoomed(true)}
+            onClick={() => setZoomed(true)}
           >
             <img
               src={organism.imagePath}
@@ -43,7 +43,7 @@ export default function OrganismCard({
             <button
               onClick={(e) => {
                 e.stopPropagation();
-                if (!disabled) setZoomed(true);
+                setZoomed(true);
               }}
               className="w-7.5 h-7.5 absolute -top-3 -right-2.5 bg-[rgba(255,255,255,0.8)] text-black rounded-full z-1 shadow-md flex items-center justify-center hover:bg-[rgba(255,255,255,0.6)] transition duration-300 cursor-pointer"
               title="Zoom Image"
@@ -74,7 +74,7 @@ export default function OrganismCard({
       </div>
   
       {/* Zoom Overlay */}
-      {zoomed && !disabled && (
+      {zoomed && (
         <div
           id="zoom-overlay"
           className="fixed inset-0 bg-black bg-opacity-65 flex justify-center items-center z-[999]"
