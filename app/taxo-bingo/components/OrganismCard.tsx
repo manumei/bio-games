@@ -67,6 +67,7 @@ export default function OrganismCard({
               alt={organism.name}
               className="object-cover rounded w-full h-full"
               onLoad={() => setIsImageLoaded(true)}
+              title="Click to zoom"
             />
             <button
               onClick={(e) => {

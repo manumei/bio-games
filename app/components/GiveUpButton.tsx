@@ -10,7 +10,7 @@ export default function GiveUpButton({ onClick, disabled = false }: GiveUpButton
     <button
       onClick={onClick}
       disabled={disabled}
-      title="Give up?"
+      title="Give up"
       className={`mb-4 px-3 py-1.5 border-2 border-green-800 
         rounded-md font-bold bg-transparent hover:bg-[#335833a6] 
         transition duration-300 text-white cursor-pointer

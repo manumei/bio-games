@@ -32,13 +32,13 @@ export default function GiveUpPopup({ onConfirm, onCancel }: GiveUpPopupProps) {
         <p className="mb-2 font-semibold text-lg">Are you sure you want to give up?</p>
         <div className="flex justify-center gap-6 mt-4">
           <button
-            className="giveup-opt-btn bg-[#73f5ce] hover:bg-[#4ec7a0] text-black font-bold px-4 py-2 rounded"
+            className="giveup-opt-btn bg-[#73f5ce] hover:bg-[#4ec7a0] text-black font-bold px-4 py-2 rounded cursor-pointer"
             onClick={onConfirm}
           >
             Yes
           </button>
           <button
-            className="giveup-opt-btn bg-[#73f5ce] hover:bg-[#4ec7a0] text-black font-bold px-4 py-2 rounded"
+            className="giveup-opt-btn bg-[#73f5ce] hover:bg-[#4ec7a0] text-black font-bold px-4 py-2 rounded cursor-pointer"
             onClick={onCancel}
           >
             No

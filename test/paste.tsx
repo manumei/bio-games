@@ -1,9 +1,3 @@
-"use client";
-
-interface Props {
-  onClose: () => void;
-}
-
 const categoriesDict: { [key: string]: string } = {
   "Bacteria 🦠": "Single-celled prokaryotes without a nucleus",
   "Eukaryota 🔬": "Organisms with complex cells containing a nucleus",
@@ -56,39 +50,3 @@ const categoriesDict: { [key: string]: string } = {
   "Marsupialia 🦘": "Mammals with pouches like kangaroos and koalas",
   "Pilosa 🦥": "Sloths and anteaters, mammals with slow movement and long tongues"
 };
-
-export default function CheatSheet({ onClose }: Props) {
-  return (
-    <>
-      {/* Overlay to block background interactions */}
-      <div
-        onClick={onClose}
-        className="fixed inset-0 bg-[#0000004f] z-[999]"
-      />
-
-      {/* Cheat Sheet Panel */}
-      <div
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1000] 
-        mx-auto max-w-[45rem] w-full max-h-[70vh]
-        bg-[rgb(241,234,234)] text-black p-6 rounded-lg shadow-lg overflow-y-auto"
-        onClick={(e) => e.stopPropagation()}
-      >
-        <button
-          onClick={onClose}
-          className="absolute top-2 right-4 text-red-600 text-3xl hover:text-red-800 transition cursor-pointer"
-          title="Close"
-        >
-          ✖
-        </button>
-        <h2 className="text-2xl font-bold mb-4">Taxo Cheat Sheet</h2>
-        <ul className="text-base leading-relaxed space-y-2">
-          {Object.entries(categoriesDict).map(([category, desc]) => (
-            <li key={category}>
-              <strong>{category}</strong>: {desc}
-            </li>
-          ))}
-        </ul>
-      </div>
-    </>
-  );
-}
