@@ -10,7 +10,7 @@ export default function Header() {
           </span>
           GAMES
         </p>
-        <Image width={40} height={40} src="/icon.png" alt="BioGames" />
+        <Image width={40} height={40} src="/assets/img/icons/biogames.png" alt="BioGames" />
       </a>
     </header>
   );
