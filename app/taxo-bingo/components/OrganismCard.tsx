@@ -12,6 +12,8 @@ interface Props {
   timeLeft?: number | null;
   disabled?: boolean;
   setIsImageLoaded: (loaded: boolean) => void;
+  showCheatSheetButton?: boolean;
+  onCheatSheetClick?: () => void;
 }
 
 export default function OrganismCard({
@@ -21,6 +23,8 @@ export default function OrganismCard({
   timeLeft = null,
   disabled = false,
   setIsImageLoaded,
+  showCheatSheetButton,
+  onCheatSheetClick,
 }: Props) {
   const [zoomed, setZoomed] = useState(false);
   if (!organism) return null;
@@ -28,6 +32,30 @@ export default function OrganismCard({
   return (
     <>
       <div className={`grid grid-cols-[1fr_auto_1fr] items-center justify-items-center ${disabled ? 'opacity-50 pointer-events-none' : ''}`}>
+
+        {/* Cheat Sheet Button */}
+        {showCheatSheetButton && (
+          <div className="col-start-1">
+            <button
+              onClick={() => {
+                if (!hardMode && onCheatSheetClick) onCheatSheetClick();
+              }}
+              title={
+                hardMode
+                  ? "Wouldn't be 'Hard Mode' if you could see the Cheat Sheet..."
+                  : "View helpful category descriptions"
+              }
+              className={`font-bold py-2 px-3 rounded transition 
+                ${hardMode
+                  ? "bg-green-200 text-black opacity-50 cursor-not-allowed"
+                  : "bg-green-300 text-black hover:bg-green-400 cursor-pointer"
+                }`}
+            >
+              Cheat Sheet
+            </button>
+          </div>
+        )}
+        
         {/* Image + Name */}
         <div className="flex flex-col items-center text-center col-start-2 w-64 relative">
           <div

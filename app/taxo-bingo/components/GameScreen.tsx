@@ -1,11 +1,16 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
-import BingoGrid from "./BingoGrid";
-import OrganismCard from "./OrganismCard";
+
+// Global Game Imports
 import { TimerOption } from "@/app/components/MenuScreen";
 import GiveUpButton from '@/app/components/GiveUpButton';
 import GiveUpPopup from '@/app/components/GiveUpPopup';
 import GameOver from '@/app/components/GameOver';
+
+// Taxo Imports
+import BingoGrid from "./BingoGrid";
+import OrganismCard from "./OrganismCard";
+import CheatSheet from "./CheatSheet";
 
 interface Organism {
   name: string;
@@ -60,6 +65,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [filledCells, setFilledCells] = useState<{ [category: string]: Organism }>({});
   const categoriesInitialized = useRef(false);
   const [shakingCell, setShakingCell] = useState<string | null>(null);
+  const [showCheatSheet, setShowCheatSheet] = useState(false);
 
   const generateBingoGridCategories = (): string[] => {
     const shuffled = remainingCategories.sort(() => 0.5 - Math.random());
@@ -191,6 +197,8 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           timeLeft={timeLeft}
           disabled={gameOver}
           setIsImageLoaded={setIsImageLoaded}
+          showCheatSheetButton={true}
+          onCheatSheetClick={() => setShowCheatSheet(true)}
         />
   
         <BingoGrid
@@ -250,6 +258,11 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           }
           onClose={() => setShowGameOverPopup(false)}
         />
+      )}
+
+      {/* Cheat Sheet Show */}
+      {showCheatSheet && (
+        <CheatSheet onClose={() => setShowCheatSheet(false)} />
       )}
     </>
   );
