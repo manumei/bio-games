@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="min-h-[80vh] bg-custom-2 flex flex-col">
       <h2 className="mt-8 text-xl font-thin text-center">
-        Select the bio-game you want to play:
+        Select the biology game you want to play:
       </h2>
       <div className="grid grid-cols-3 gap-8 p-5 mx-auto w-fit">
         <Panel title="Taxo-Bingo" isNew route="/taxo-bingo" />
