@@ -7,7 +7,7 @@ export default function Home() {
         Select the biology game you want to play:
       </h2>
       <div className="grid grid-cols-3 gap-8 p-5 mx-auto w-fit">
-        <Panel title="Taxo-Bingo" isNew route="/taxo-bingo" />
+        <Panel title="Taxo-Bingo" isNew route="/taxo-bingo" imgSrc="/assets/img/covers/home/taxobingo.png" />
         <Panel title="Bio Wordle" coming_soon />
         <Panel title="Symptoms Link" coming_soon />
         <Panel title="Animal Tic-Tac-Toe" coming_soon />
