@@ -3,9 +3,9 @@ import { useEffect, useState, useRef } from "react";
 
 // Global Game Imports
 import { TimerOption } from "@/app/components/MenuScreen";
-import GiveUpButton from '@/app/components/GiveUpButton';
-import GiveUpPopup from '@/app/components/GiveUpPopup';
-import GameOver from '@/app/components/GameOver';
+import GiveUpButton from "@/app/components/GiveUpButton";
+import GiveUpPopup from "@/app/components/GiveUpPopup";
+import GameOver from "@/app/components/GameOver";
 
 // Taxo Imports
 import BingoGrid from "./BingoGrid";
@@ -25,20 +25,55 @@ interface GameScreenProps {
 
 const tx_Domains = ["Bacteria", "Eukaryota"];
 const tx_Kingdoms = ["Animalia", "Plantae", "Fungi", "Protista"];
-const tx_PhylaAnimalia = ["Porifera", "Cnidaria", "Platyhelminthes", "Nematoda", 
-                        "Annelida", "Chordata", "Arthropoda", "Echinodermata", "Mollusca"];
+const tx_PhylaAnimalia = [
+  "Porifera",
+  "Cnidaria",
+  "Platyhelminthes",
+  "Nematoda",
+  "Annelida",
+  "Chordata",
+  "Arthropoda",
+  "Echinodermata",
+  "Mollusca",
+];
 const tx_PhylaPlantae = ["Bryophyta", "Pteridophyta", "Gymnospermae"]; // anGOATspermae ya esta puesta sola
-const tx_ClassesChordata = ["Mammalia", "Aves", "Reptilia", "Amphibia", "Chondrichthyes", "Osteichthyes"];
+const tx_ClassesChordata = [
+  "Mammalia",
+  "Aves",
+  "Reptilia",
+  "Amphibia",
+  "Chondrichthyes",
+  "Osteichthyes",
+];
 const tx_ClassesArthropoda = ["Arachnida", "Insecta", "Crustacea", "Myriapoda"];
 // const tx_ClassesMollusca = ["Gastropoda", "Bivalvia", "Cephalopoda"];
 const tx_OrdersArachnida = ["Araneae", "Scorpiones", "Acari"];
-const tx_OrdersInsecta = ["Coleoptera", "Lepidoptera", "Diptera", "Hymenoptera", "Hemiptera", "Dictyoptera"];
+const tx_OrdersInsecta = [
+  "Coleoptera",
+  "Lepidoptera",
+  "Diptera",
+  "Hymenoptera",
+  "Hemiptera",
+  "Dictyoptera",
+];
 const tx_OrdersReptilia = ["Squamata", "Testudines", "Crocodilia"];
-const tx_OrdersMammalia = ["Primates", "Carnivora", "Rodentia", "Artiodactyla", "Perissodactyla", "Chiroptera", "Cetacea", "Marsupialia", "Pilosa"]; // eulipotyphla, la de rabbits, etc.
+const tx_OrdersMammalia = [
+  "Primates",
+  "Carnivora",
+  "Rodentia",
+  "Artiodactyla",
+  "Perissodactyla",
+  "Chiroptera",
+  "Cetacea",
+  "Marsupialia",
+  "Pilosa",
+]; // eulipotyphla, la de rabbits, etc.
 const angiosperma = "Angiospermae";
 
-const domainCategory = tx_Domains[Math.floor(Math.random() * tx_Domains.length)];
-const kingdomCategory = tx_Kingdoms[Math.floor(Math.random() * tx_Kingdoms.length)];
+const domainCategory =
+  tx_Domains[Math.floor(Math.random() * tx_Domains.length)];
+const kingdomCategory =
+  tx_Kingdoms[Math.floor(Math.random() * tx_Kingdoms.length)];
 
 const remainingCategories = [
   ...tx_PhylaAnimalia,
@@ -58,11 +93,13 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
   const [showGiveUp, setShowGiveUp] = useState(false);
   const [gameOver, setGameOver] = useState(false);
-  const [showGameOverPopup, setShowGameOverPopup] = useState(false); 
+  const [showGameOverPopup, setShowGameOverPopup] = useState(false);
   const [queue, setQueue] = useState<Organism[]>([]);
   const [isImageLoaded, setIsImageLoaded] = useState(false);
   const [gridCategories, setGridCategories] = useState<string[]>([]);
-  const [filledCells, setFilledCells] = useState<{ [category: string]: Organism }>({});
+  const [filledCells, setFilledCells] = useState<{
+    [category: string]: Organism;
+  }>({});
   const categoriesInitialized = useRef(false);
   const [shakingCell, setShakingCell] = useState<string | null>(null);
   const [showCheatSheet, setShowCheatSheet] = useState(false);
@@ -70,8 +107,13 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const generateBingoGridCategories = (): string[] => {
     const shuffled = remainingCategories.sort(() => 0.5 - Math.random());
     const selectedCategories = shuffled.slice(0, 9);
-    // const finalCategories = [domainCategory, kingdomCategory, angiosperma, ...selectedCategories];
-    const finalCategories = ["Eukaryota", "Animalia", "Plantae", "Chordata", "Arthropoda", "Mammalia", "Insecta", "Reptilia", "Arachnida", "Aves", "Angiospermae", "Fungi"];
+    const finalCategories = [
+      domainCategory,
+      kingdomCategory,
+      angiosperma,
+      ...selectedCategories,
+    ];
+    // const finalCategories = ["Eukaryota", "Animalia", "Plantae", "Chordata", "Arthropoda", "Mammalia", "Insecta", "Reptilia", "Arachnida", "Aves", "Angiospermae", "Fungi"];
     return finalCategories.sort(() => 0.5 - Math.random());
   };
 
@@ -92,10 +134,13 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   };
 
   const showNextOrganism = () => {
-  const next = queue[0];
-  setQueue((prev) => [...prev.slice(1), preloadOrganism()].filter(Boolean) as Organism[]);
-  setCurrent(next);
-  setIsImageLoaded(false);
+    const next = queue[0];
+    setQueue(
+      (prev) =>
+        [...prev.slice(1), preloadOrganism()].filter(Boolean) as Organism[]
+    );
+    setCurrent(next);
+    setIsImageLoaded(false);
   };
 
   useEffect(() => {
@@ -124,7 +169,9 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
     }
 
     if (available.length > 0) {
-      const initialQueue = Array.from({ length: 5 }, preloadOrganism).filter(Boolean) as Organism[];
+      const initialQueue = Array.from({ length: 5 }, preloadOrganism).filter(
+        Boolean
+      ) as Organism[];
       setQueue(initialQueue);
       setCurrent(initialQueue[0]);
       setIsImageLoaded(false);
@@ -153,18 +200,18 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.code === 'Space' && !gameOver && isImageLoaded) {
+      if (e.code === "Space" && !gameOver && isImageLoaded) {
         e.preventDefault(); // prevent page scroll
         skipOrganism();
       }
     };
 
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
   }, [gameOver, isImageLoaded, skipOrganism]);
 
   const filledCount = Object.keys(filledCells).length;
-  const unfilledCategory = gridCategories.find(cat => !filledCells[cat]);
+  const unfilledCategory = gridCategories.find((cat) => !filledCells[cat]);
 
   const lossMessage = (() => {
     if (filledCount === 11 && unfilledCategory) {
@@ -200,7 +247,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           showCheatSheetButton={true}
           onCheatSheetClick={() => setShowCheatSheet(true)}
         />
-  
+
         <BingoGrid
           categories={gridCategories}
           disabled={gameOver}
@@ -223,17 +270,16 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
               } else {
                 showNextOrganism();
               }
-
             } else {
-                setShakingCell(category);
-                setTimeout(() => setShakingCell(null), 700); // Clear shake after 0.7s
+              setShakingCell(category);
+              setTimeout(() => setShakingCell(null), 700); // Clear shake after 0.7s
             }
           }}
         />
 
         {/* Give Up Button */}
         <GiveUpButton onClick={() => setShowGiveUp(true)} disabled={gameOver} />
-  
+
         {/* Give Up Popup */}
         {showGiveUp && (
           <GiveUpPopup
@@ -245,7 +291,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           />
         )}
       </div>
-  
+
       {/* Game Over Popup */}
       {gameOver && showGameOverPopup && (
         <GameOver
