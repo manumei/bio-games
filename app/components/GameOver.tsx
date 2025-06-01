@@ -33,7 +33,7 @@ export default function GameOver({
 
       {/* Popup panel */}
       <div
-        className="absolute top-1/2 left-1/2 w-[30rem] -translate-x-1/2 -translate-y-1/2 
+        className="absolute top-1/2 left-1/2 w-[80vw] sm:w-[30rem] -translate-x-1/2 -translate-y-1/2 
       bg-[rgb(207,200,200)] text-black p-8 rounded-xl shadow-lg z-[1000] text-center"
       >
         {/* Close Button */}
