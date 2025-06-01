@@ -69,7 +69,7 @@ export default function OrganismCard({
             <img
               src={organism.imagePath}
               alt={organism.name}
-              className="object-cover rounded w-full h-full"
+              className="object-cover rounded w-32 h-32 sm:w-full sm:h-full"
               onLoad={() => setIsImageLoaded(true)}
               title="Click to zoom"
             />
@@ -78,7 +78,8 @@ export default function OrganismCard({
                 e.stopPropagation();
                 setZoomed(true);
               }}
-              className="w-7.5 h-7.5 absolute -top-3 -right-2.5 bg-[rgba(255,255,255,0.8)] text-black rounded-full z-1 shadow-md flex items-center justify-center hover:bg-[rgba(255,255,255,0.6)] transition duration-300 cursor-pointer"
+              className="w-7.5 h-7.5 absolute -top-3 -right-2.5 bg-[rgba(255,255,255,0.8)] text-black rounded-full 
+              z-1 shadow-md flex items-center justify-center hover:bg-[rgba(255,255,255,0.6)] transition duration-300 cursor-pointer"
               title="Zoom Image"
             >
               ⛶

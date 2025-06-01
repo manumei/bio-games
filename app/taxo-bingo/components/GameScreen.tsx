@@ -227,9 +227,9 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
       return `${filledCount} out of 12, tough luck I guess, im sure it's just a warm up gamr tho`;
     }
     if (filledCount >= 1) {
-      return `${filledCount}/12, vayan a estudiar`;
+      return `${filledCount}/12, I guess it was a pretty hard game, maybe check out the Cheat Sheet`;
     }
-    return "0 out of 12... guess it was a pretty hard game, maybe check out the Cheat Sheet";
+    return "0 out of 12, vayan a estudiar";
   })();
 
   const gameWon = Object.keys(filledCells).length === 12;

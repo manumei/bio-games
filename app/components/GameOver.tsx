@@ -33,7 +33,7 @@ export default function GameOver({
 
       {/* Popup panel */}
       <div
-        className="absolute top-1/2 left-1/2 w-[80vw] sm:w-[30rem] -translate-x-1/2 -translate-y-1/2 
+        className="absolute top-1/2 left-1/2 w-[80vw] max-h-[70vh] sm:w-[30rem] -translate-x-1/2 -translate-y-1/2 
       bg-[rgb(207,200,200)] text-black p-8 rounded-xl shadow-lg z-[1000] text-center"
       >
         {/* Close Button */}
@@ -46,30 +46,30 @@ export default function GameOver({
         </button>
 
         {/* Title */}
-        <h2 className="text-3xl font-bold mb-4">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-4">
           {won ? "You Won! 🎉" : "You Lost 🥀"}
         </h2>
 
         {/* Message */}
-        <p className="text-lg font-medium">{message}</p>
+        <p className="text-base sm:text-lg font-medium">{message}</p>
         <br />
         {won ? (
           hard ? (
-            <p className="text-lg font-medium">
+            <p className="text-base sm:text-lg font-medium">
               And you even beat it on Hard Mode! You, are the greatest
               biological mind I've ever known.
             </p>
           ) : (
-            <p className="text-lg font-medium">
+            <p className="text-base sm:text-lg font-medium">
               Try Hard Mode if you're up for a bigger challenge
             </p>
           )
         ) : hard ? (
-          <p className="text-lg font-medium">
+          <p className="text-base sm:text-lg font-medium">
             Don't give up! Hard mode is tough, but you can do it!
           </p>
         ) : (
-          <p className="text-lg font-medium">
+          <p className="text-base sm:text-lg font-medium">
             Remember, failure is the starting point for learning.
           </p>
         )}

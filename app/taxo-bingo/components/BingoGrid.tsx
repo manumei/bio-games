@@ -31,7 +31,7 @@ export default function BingoGrid({
         return (
           <div
             key={i}
-            className={`border-2 border-solid border-[rgb(29,35,73)] md:w-40 h-28 bg-custom-6 text-xs md:text-base text-white rounded flex items-center 
+            className={`border-2 border-solid border-[rgb(29,35,73)] sm:w-40 h-28 bg-custom-6 text-xs sm:text-base text-white rounded flex items-center 
               justify-center text-center font-bold p-2 cursor-pointer transition duration-300 hover:opacity-80 ${
                 filled ? "pointer-events-none opacity-70" : ""
               } ${isShaking ? "shake-wrong" : ""}`}
