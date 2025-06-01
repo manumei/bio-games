@@ -21,12 +21,12 @@ export default function MenuScreen({
   const [hardMode, setHardMode] = useState(false);
 
   return (
-    <div className="menu-container p-6 rounded-xl border-2 border-green-600 w-[800px] mx-auto text-white bg-custom-3">
+    <div className="menu-container p-6 rounded-xl border-2 border-green-600 md:w-185 lg:w-200 mx-auto text-white bg-custom-3">
       <h2 className="text-3xl font-bold text-center mb-6">{title}</h2>
-      <div className="grid grid-cols-2 gap-6 items-center justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-items-center">
         <Image
-          width={300}
-          height={300}
+          width={500}
+          height={500}
           src={imgSource}
           alt="Game Cover"
           className="w-full h-auto rounded-md shadow-lg"
@@ -49,7 +49,11 @@ export default function MenuScreen({
                       : "bg-gray-700 hover:bg-gray-600 cursor-pointer"
                   }`}
                 >
-                  {timer === null ? "No Timer" : timer === 120 ? "120s" : "180s"}
+                  {timer === null
+                    ? "No Timer"
+                    : timer === 120
+                    ? "120s"
+                    : "180s"}
                 </button>
               ))}
             </div>
