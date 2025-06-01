@@ -21,7 +21,7 @@ export default function Panel({
 
   const panelButton = (
     <button
-      className={`relative w-40 bg-gradient-to-b from-custom-3 to-custom-3 p-2 font-bold flex flex-col gap-2 rounded-md transition ${
+      className={`relative w-35 sm:w-40 bg-gradient-to-b from-custom-3 to-custom-3 p-2 font-bold flex flex-col gap-2 rounded-md transition ${
         coming_soon
           ? "hover:none cursor-not-allowed"
           : "hover:from-secondary hover:to-primary cursor-pointer"
