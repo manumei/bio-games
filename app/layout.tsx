@@ -3,6 +3,7 @@ import { Figtree } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const FigtreeSans = Figtree({
   subsets: ["latin"],
@@ -14,8 +15,16 @@ export const metadata: Metadata = {
   description: "BioGames | Play and Learn",
   icons: {
     icon: [
-      { url: "/favicon_io/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon_io/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "/favicon_io/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/favicon_io/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
     ],
     apple: "/favicon_io/apple-touch-icon.png",
     shortcut: "/favicon_io/favicon-32x32.png",
@@ -36,6 +45,7 @@ export default function RootLayout({
         <Header />
         <div className="bg-custom-2">{children}</div>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
