@@ -1,3 +1,6 @@
+"use client";
+import { useEffect } from "react";
+import ReactGA from "react-ga4";
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
 import "./globals.css";
@@ -37,6 +40,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  useEffect(() => {
+    ReactGA.initialize("G-SR2881QNM3"); // Replace with your GA4 ID
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   return (
     <html lang="en">
       <body
