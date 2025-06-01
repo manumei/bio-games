@@ -215,21 +215,21 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
 
   const lossMessage = (() => {
     if (filledCount === 11 && unfilledCategory) {
-      return `AAA ikr, that one "${unfilledCategory}" you probably skimmed through or just didn't wanna show up`;
+      return `ikr, that one "${unfilledCategory}" you probably skimmed through or just didn't wanna show up`;
     }
     if (filledCount >= 9) {
-      return "You came quite close, even I couldn't do all 12 cells at first, and I literally made this game by hand";
+      return "You came quite close, even I couldn't do all 12 cells at first, and I made this game by hand";
     }
     if (filledCount >= 6) {
-      return `${filledCount} Roentgen, not great, not terrible`;
+      return `${filledCount} cells... not great, not terrible`;
     }
     if (filledCount >= 3) {
-      return "Warm Up game fr, I'm sure you'll do better next time";
+      return `${filledCount} out of 12, tough luck I guess, im sure it's just a warm up gamr tho`;
     }
     if (filledCount >= 1) {
-      return "vayan a estudiar";
+      return `${filledCount}/12, vayan a estudiar`;
     }
-    return "dont even blame the RNG, just put the fries in the bag lil bro";
+    return "0 out of 12... guess it was a pretty hard game, maybe check out the Cheat Sheet";
   })();
 
   const gameWon = Object.keys(filledCells).length === 12;
@@ -298,9 +298,21 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           won={gameWon}
           hard={hardMode}
           message={
-            gameWon
-              ? "Congratulations on beating Taxo Bingo. You, are the greatest biological mind I've ever met."
-              : lossMessage
+            gameWon ? (
+              <>
+                Congratulations on beating Taxo Bingo{" "}
+                <a
+                  href="https://iamawesome.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-blue-700 hover:text-blue-900"
+                >
+                  you're awesome
+                </a>
+              </>
+            ) : (
+              lossMessage
+            )
           }
           onClose={() => setShowGameOverPopup(false)}
         />
