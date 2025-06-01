@@ -16,12 +16,14 @@
   --color-custom-3: #0A2144;
   --color-custom-4: #f7cf4f;
   --color-custom-5: #0b1626;
+  --color-custom-6: #0a1d38be;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --test: #0a1d38be;
   }
 }
 
