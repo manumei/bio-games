@@ -6,7 +6,7 @@ export default function Home() {
       <h2 className="mt-8 text-xl font-thin text-center">
         Select the biology game you want to play:
       </h2>
-      <div className="grid grid-cols-3 gap-8 p-5 mx-auto w-fit">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 p-5 mx-auto w-fit">
         <Panel
           title="Taxo-Bingo"
           isNew
