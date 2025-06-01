@@ -169,7 +169,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
     }
 
     if (available.length > 0) {
-      const initialQueue = Array.from({ length: 5 }, preloadOrganism).filter(
+      const initialQueue = Array.from({ length: 4 }, preloadOrganism).filter(
         Boolean
       ) as Organism[];
       setQueue(initialQueue);
