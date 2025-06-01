@@ -1,10 +1,9 @@
 "use client";
-import { useEffect } from "react";
-import ReactGA from "react-ga4";
 import { Figtree } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 
 const FigtreeSans = Figtree({
@@ -17,13 +16,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  useEffect(() => {
-    ReactGA.initialize("G-XXXXXXXXXX"); // Replace with actual ID
-    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
-  }, []);
-
   return (
     <html lang="en">
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-SR2881QNM3"
+        />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-SR2881QNM3');
+          `}
+        </Script>
+      </head>
       <body
         className={`${FigtreeSans.variable} antialiased bg-custom-2 text-white`}
       >
