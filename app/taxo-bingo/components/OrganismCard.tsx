@@ -31,8 +31,11 @@ export default function OrganismCard({
 
   return (
     <>
-      <div className={`grid grid-cols-[1fr_auto_1fr] items-center justify-items-center ${disabled ? 'opacity-50 pointer-events-none' : ''}`}>
-
+      <div
+        className={`grid grid-cols-[1fr_auto_1fr] items-center justify-items-center ${
+          disabled ? "opacity-50 pointer-events-none" : ""
+        }`}
+      >
         {/* Cheat Sheet Button */}
         {showCheatSheetButton && (
           <div className="col-start-1">
@@ -45,21 +48,22 @@ export default function OrganismCard({
                   ? "Wouldn't be 'Hard Mode' if you could see the Cheat Sheet..."
                   : "View helpful category descriptions"
               }
-              className={`font-bold py-2 px-3 rounded transition 
-                ${hardMode
-                  ? "bg-green-200 text-black opacity-50 cursor-not-allowed"
-                  : "bg-green-300 text-black hover:bg-green-400 cursor-pointer"
+              className={`font-bold py-2 px-3 w-16 sm:w-30 text-sm sm:text-base rounded transition 
+                ${
+                  hardMode
+                    ? "bg-green-200 text-black opacity-50 cursor-not-allowed"
+                    : "bg-green-300 text-black hover:bg-green-400 cursor-pointer"
                 }`}
             >
               Cheat Sheet
             </button>
           </div>
         )}
-        
+
         {/* Image + Name */}
-        <div className="flex flex-col items-center text-center col-start-2 w-64 relative">
+        <div className="flex flex-col items-center text-center col-start-2 w-32 sm:w-64 relative">
           <div
-            className="relative w-48 h-48 cursor-zoom-in"
+            className="relative sm:w-48 sm:h-48 cursor-zoom-in"
             onClick={() => setZoomed(true)}
           >
             <img
@@ -84,29 +88,31 @@ export default function OrganismCard({
             {hardMode ? <em>❓❓❓</em> : organism.name}
           </p>
         </div>
-  
+
         {/* Controls (Skip + Timer) */}
         <div className="flex flex-col items-center gap-2 col-start-3">
           <button
             onClick={onSkip}
             disabled={disabled}
-            className={`bg-orange-400 text-black font-bold py-2 px-4 rounded transition duration-300 transform cursor-pointer hover:bg-orange-500 ${disabled ? 'opacity-50 pointer-events-none' : ''}`}
+            className={`bg-orange-400 text-black font-bold text-sm sm:text-base py-2 px-3 sm:py-2 sm:px-4 rounded transition duration-300 transform cursor-pointer hover:bg-orange-500 ${
+              disabled ? "opacity-50 pointer-events-none" : ""
+            }`}
           >
             Skip
           </button>
           {timeLeft !== null && (
-            <div className="text-yellow-300 font-bold text-lg min-w-[11ch] text-center">
+            <div className="text-yellow-300 font-bold text-sm sm:text-base min-w-[11ch] text-center">
               Time Left: <span>{timeLeft}s</span>
             </div>
           )}
         </div>
       </div>
-  
+
       {/* Zoom Overlay */}
       {zoomed && (
         <div
           id="zoom-overlay"
-          className="fixed inset-0 bg-black bg-opacity-65 flex justify-center items-center z-[999]"
+          className="fixed inset-0 bg-[#000000df] flex justify-center items-center z-[999]"
           onClick={() => setZoomed(false)}
         >
           <img
@@ -117,5 +123,5 @@ export default function OrganismCard({
         </div>
       )}
     </>
-  );  
+  );
 }
