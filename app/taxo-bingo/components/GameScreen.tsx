@@ -24,15 +24,15 @@ interface GameScreenProps {
 }
 
 const tx_Domains = ["Bacteria", "Eukaryota"];
-const tx_Kingdoms = ["Animalia", "Plantae", "Fungi", "Protista"];
-const tx_PhylaAnimalia = [
+const tx_big_Kingdoms_and_classes = ["Animalia", "Plantae", "Chordata", "Arthropoda"];
+const tx_PhylaAnimalia_and_small_kingdoms = [
   "Porifera",
   "Cnidaria",
   "Platyhelminthes",
   "Nematoda",
   "Annelida",
-  "Chordata",
-  "Arthropoda",
+  "Fungi", // chordata
+  "Protista", // arthropoda
   "Echinodermata",
   "Mollusca",
 ];
@@ -73,10 +73,10 @@ const angiosperma = "Angiospermae";
 const domainCategory =
   tx_Domains[Math.floor(Math.random() * tx_Domains.length)];
 const kingdomCategory =
-  tx_Kingdoms[Math.floor(Math.random() * tx_Kingdoms.length)];
+  tx_big_Kingdoms_and_classes[Math.floor(Math.random() * tx_big_Kingdoms_and_classes.length)];
 
 const remainingCategories = [
-  ...tx_PhylaAnimalia,
+  ...tx_PhylaAnimalia_and_small_kingdoms,
   ...tx_PhylaPlantae,
   ...tx_ClassesChordata,
   ...tx_ClassesArthropoda,

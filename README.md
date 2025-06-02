@@ -1,6 +1,6 @@
 ![BioGames Cover](public/biogames-cover.png)
 
-# BioGames
+# BioGames | Play and Learn
 
 **BioGames** is a collection of interactive, biology-themed web games built with **React** and **Next.js**. It is designed as an educational and entertaining platform to explore key biological concepts through gameplay.
 
@@ -11,7 +11,8 @@
 ## 🎮 Released Games
 
 ### **Taxo Bingo**
-*Description placeholder — to be filled manually.*
+
+*Given a Bingo-like grid of taxonomic classifications, match the organisms that appear on the screen with one that suits them. Fill all 12 cells to win the game!*
 
 ---
 
@@ -38,10 +39,8 @@ These games are currently in development and will be released in future updates:
 
 ## 🚧 Status
 
----
-
 Active development. Contributions and feedback welcome once v1.0 is released.
 
 ---
 
-**Created by Manuel Meiriño**
+#### Created by Manuel Meiriño
