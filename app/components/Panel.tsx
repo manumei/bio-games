@@ -28,7 +28,7 @@ export default function Panel({
       } group`}
     >
       {isNew && (
-        <span className="absolute z-10 px-2 py-1 text-sm font-bold text-black rounded-md -top-3 -left-3 bg-custom-4">
+        <span className="absolute z-10 px-2 py-1 text-sm font-bold text-black rounded-md -top-3 -left-2 sm:-left-3 bg-custom-4">
           NEW
         </span>
       )}

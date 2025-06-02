@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 
 // Global Game Imports
 import { TimerOption } from "@/app/components/MenuScreen";
@@ -24,7 +24,12 @@ interface GameScreenProps {
 }
 
 const tx_Domains = ["Bacteria", "Eukaryota"];
-const tx_big_Kingdoms_and_classes = ["Animalia", "Plantae", "Chordata", "Arthropoda"];
+const tx_big_Kingdoms_and_classes = [
+  "Animalia",
+  "Plantae",
+  "Chordata",
+  "Arthropoda",
+];
 const tx_PhylaAnimalia_and_small_kingdoms = [
   "Porifera",
   "Cnidaria",
@@ -73,7 +78,9 @@ const angiosperma = "Angiospermae";
 const domainCategory =
   tx_Domains[Math.floor(Math.random() * tx_Domains.length)];
 const kingdomCategory =
-  tx_big_Kingdoms_and_classes[Math.floor(Math.random() * tx_big_Kingdoms_and_classes.length)];
+  tx_big_Kingdoms_and_classes[
+    Math.floor(Math.random() * tx_big_Kingdoms_and_classes.length)
+  ];
 
 const remainingCategories = [
   ...tx_PhylaAnimalia_and_small_kingdoms,
@@ -117,13 +124,13 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
     return finalCategories.sort(() => 0.5 - Math.random());
   };
 
-  const skipOrganism = () => {
+  const skipOrganism = useCallback(() => {
     if (!isImageLoaded) return; // prevent skipping before image is loaded
 
     const filtered = available.filter((o) => o !== current);
     setAvailable(filtered);
     showNextOrganism();
-  };
+  }, [available, current, isImageLoaded]);
 
   const preloadOrganism = (): Organism | null => {
     if (available.length === 0) return null;
@@ -243,6 +250,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           onSkip={skipOrganism}
           timeLeft={timeLeft}
           disabled={gameOver}
+          isImageLoaded={isImageLoaded}
           setIsImageLoaded={setIsImageLoaded}
           showCheatSheetButton={true}
           onCheatSheetClick={() => setShowCheatSheet(true)}

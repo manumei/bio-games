@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 interface Organism {
   name: string;
@@ -11,6 +11,7 @@ interface Props {
   onSkip: () => void;
   timeLeft?: number | null;
   disabled?: boolean;
+  isImageLoaded?: boolean;
   setIsImageLoaded: (loaded: boolean) => void;
   showCheatSheetButton?: boolean;
   onCheatSheetClick?: () => void;
@@ -22,12 +23,12 @@ export default function OrganismCard({
   onSkip,
   timeLeft = null,
   disabled = false,
+  isImageLoaded,
   setIsImageLoaded,
   showCheatSheetButton,
   onCheatSheetClick,
 }: Props) {
   const [zoomed, setZoomed] = useState(false);
-  if (!organism) return null;
 
   const sgaMap = {
     a: "ᔑ",
@@ -66,16 +67,17 @@ export default function OrganismCard({
       .join("");
   };
 
+  if (!organism) return null;
   return (
     <>
       <div
-        className={`grid grid-cols-[1fr_auto_1fr] items-center justify-items-center ${
+        className={`grid grid-cols-3 gap-2 items-center justify-items-center ${
           disabled ? "opacity-50 pointer-events-none" : ""
         }`}
       >
         {/* Cheat Sheet Button */}
         {showCheatSheetButton && (
-          <div className="col-start-1">
+          <div>
             <button
               onClick={() => {
                 if (!hardMode && onCheatSheetClick) onCheatSheetClick();
@@ -98,11 +100,21 @@ export default function OrganismCard({
         )}
 
         {/* Image + Name */}
-        <div className="flex flex-col items-center text-center col-start-2 w-32 sm:w-64 relative">
+        <div className="flex flex-col items-center text-center w-32 sm:w-64 relative">
           <div
             className="relative sm:w-48 sm:h-48 cursor-zoom-in"
             onClick={() => setZoomed(true)}
           >
+            {/* Loading Spinner */}
+            {!isImageLoaded && (
+              <div
+                className={`absolute sm:w-48 sm:h-48 inset-0 flex items-center justify-center bg-custom-1 ${
+                  organism.imagePath ? "" : "hidden"
+                }`}
+              >
+                <div className="w-8 h-8 border-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
+              </div>
+            )}
             <img
               src={organism.imagePath}
               alt={organism.name}
@@ -110,17 +122,19 @@ export default function OrganismCard({
               onLoad={() => setIsImageLoaded(true)}
               title="Click to zoom"
             />
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                setZoomed(true);
-              }}
-              className="w-7.5 h-7.5 absolute -top-3 -right-2.5 bg-[rgba(255,255,255,0.8)] text-black rounded-full 
+            {isImageLoaded && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setZoomed(true);
+                }}
+                className="w-7.5 h-7.5 absolute -top-3 -right-2.5 bg-[rgba(255,255,255,0.8)] text-black rounded-full 
               z-1 shadow-md flex items-center justify-center hover:bg-[rgba(255,255,255,0.6)] transition duration-300 cursor-pointer"
-              title="Zoom Image"
-            >
-              ⛶
-            </button>
+                title="Zoom Image"
+              >
+                ⛶
+              </button>
+            )}
           </div>
           <p className="hidden sm:block mt-1 font-bold text-sm sm:text-base text-wrap max-w-full">
             {hardMode ? (
@@ -132,7 +146,7 @@ export default function OrganismCard({
         </div>
 
         {/* Controls (Skip + Timer) */}
-        <div className="flex flex-col items-center gap-2 col-start-3">
+        <div className="flex flex-col items-center gap-2">
           <button
             onClick={onSkip}
             disabled={disabled}
@@ -143,8 +157,10 @@ export default function OrganismCard({
             Skip
           </button>
           {timeLeft !== null && (
-            <div className="text-yellow-300 font-bold text-sm sm:text-base min-w-[11ch] ml-2 text-center">
-              Time Left: <span>{timeLeft}s</span>
+            <div className="text-yellow-300 font-bold text-sm sm:text-base text-center">
+              <span className="hidden sm:inline">Time Left:</span>
+              <span className="inline sm:hidden">Timer:</span>
+              <span> {timeLeft}s</span>
             </div>
           )}
         </div>

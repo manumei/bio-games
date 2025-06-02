@@ -10,7 +10,7 @@ export default function TaxoBingoPage() {
 
   if (!gameStarted) {
     return (
-      <main className="min-h-[80vh] bg-custom-2 py-10">
+      <main className="min-h-[80vh] bg-custom-2 px-4 md:px-0 py-10">
         <MenuScreen
           title={
             <>
@@ -22,7 +22,7 @@ export default function TaxoBingoPage() {
           }
           imgSource="/assets/img/covers/menu/taxo.png"
           description={
-            <>
+            <div>
               <p>
                 Fill the bingo grid organisms matching the 12 taxonomic
                 categories given.
@@ -35,7 +35,7 @@ export default function TaxoBingoPage() {
                 <strong>Hard Mode</strong> hides the names, giving you only the
                 image of the organism for your guess.
               </p>
-            </>
+            </div>
           }
           onStart={(selectedTimer, selectedHardMode) => {
             setTimer(selectedTimer);

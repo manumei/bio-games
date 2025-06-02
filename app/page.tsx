@@ -3,10 +3,10 @@ import Panel from "./components/Panel";
 export default function Home() {
   return (
     <main className="min-h-[80vh] bg-custom-2 flex flex-col">
-      <h2 className="mt-8 text-base sm:text-xl font-thin text-center">
-        Select the biology game you want to play:
+      <h2 className="px-2 sm:px-0 mt-8 mb-4 text-md sm:text-xl font-thin text-center">
+        Select the game you want to play:
       </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 p-5 mx-auto w-fit">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-8 p-2 sm:p-5 mx-auto w-fit">
         <Panel
           title="Taxo-Bingo"
           isNew
