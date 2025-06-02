@@ -31,8 +31,8 @@ export default function BingoGrid({
         return (
           <div
             key={i}
-            className={`border-2 border-solid border-[rgb(29,35,73)] sm:w-40 h-28 bg-custom-6 text-xs sm:text-base text-white rounded flex items-center 
-              justify-center text-center font-bold p-2 cursor-pointer transition duration-300 hover:opacity-80 ${
+            className={`border-2 border-solid border-[rgb(29,35,73)] h-28 aspect-square sm:aspect-[10/7] bg-custom-6 text-xs sm:text-base text-white rounded flex items-center 
+              justify-center text-center font-bold p-2 cursor-pointer transition duration-300 hover:ring-2 ring-blue-400 ${
                 filled ? "pointer-events-none opacity-70" : ""
               } ${isShaking ? "shake-wrong" : ""}`}
             onClick={() => onCellClick(category)}
@@ -44,7 +44,7 @@ export default function BingoGrid({
                   alt={filled.name}
                   className="w-full h-full object-cover rounded"
                 />
-                <div className="absolute top-1 left-1 bg-white bg-opacity-80 text-black text-xs px-1 rounded">
+                <div className="absolute top-1 left-1 backdrop-blur bg-white/80 text-black text-xs px-1 rounded max-w-[80%] text-ellipsis overflow-hidden">
                   {category}
                 </div>
               </div>

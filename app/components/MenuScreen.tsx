@@ -39,23 +39,28 @@ export default function MenuScreen({
           <div className="space-y-1">
             <p>Select your timer below:</p>
             <div className="flex gap-2">
-              {[null, 120, 180].map((timer) => (
-                <button
-                  key={timer}
-                  onClick={() => setSelectedTimer(timer as TimerOption)}
-                  className={`px-4 py-2 rounded ${
-                    selectedTimer === timer
-                      ? "bg-[#00C8FF] text-black transition duration-300 hover:opacity-80"
-                      : "bg-gray-700 hover:bg-gray-600 cursor-pointer"
-                  }`}
-                >
-                  {timer === null
-                    ? "No Timer"
-                    : timer === 120
-                    ? "120s"
-                    : "180s"}
-                </button>
-              ))}
+              {[null, 120, 180].map((timer) => {
+                const isDisabled = hardMode && timer !== 120;
+                return (
+                  <button
+                    key={timer}
+                    onClick={() =>
+                      !isDisabled && setSelectedTimer(timer as TimerOption)
+                    }
+                    className={`px-4 py-2 rounded transition duration-200 ${
+                      selectedTimer === timer
+                        ? "bg-[#00C8FF] text-black hover:opacity-80"
+                        : isDisabled
+                        ? "bg-gray-700 opacity-50 cursor-not-allowed"
+                        : "bg-gray-700 hover:bg-gray-600 cursor-pointer"
+                    }`}
+                    title={isDisabled ? "Disabled for Hard Mode" : ""}
+                    disabled={isDisabled}
+                  >
+                    {timer === null ? "No Timer" : `${timer}s`}
+                  </button>
+                );
+              })}
             </div>
           </div>
 
@@ -68,7 +73,11 @@ export default function MenuScreen({
               Start Game
             </button>
             <button
-              onClick={() => setHardMode(!hardMode)}
+              onClick={() => {
+                const isHard = !hardMode;
+                setHardMode(isHard);
+                if (isHard) setSelectedTimer(120); // Force 120s on hard mode
+              }}
               className={`py-2 px-4 rounded transition duration-300 ${
                 hardMode
                   ? "font-bold bg-[#ff0000] text-white"

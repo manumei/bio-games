@@ -29,6 +29,43 @@ export default function OrganismCard({
   const [zoomed, setZoomed] = useState(false);
   if (!organism) return null;
 
+  const sgaMap = {
+    a: "ᔑ",
+    b: "ʖ",
+    c: "ᓵ",
+    d: "↸",
+    e: "ᒷ",
+    f: "⎓",
+    g: "⊣",
+    h: "⍑",
+    i: "╎",
+    j: "⋮",
+    k: "ꖌ",
+    l: "ꖎ",
+    m: "ᒲ",
+    n: "リ",
+    o: "𝙹",
+    p: "!¡",
+    q: "ᑑ",
+    r: "∷",
+    s: "ᓭ",
+    t: "ℸ ̣",
+    u: "⚍",
+    v: "⍊",
+    w: "∴",
+    x: " ̇/",
+    y: "||",
+    z: "⨅",
+  };
+
+  const convertToSga = (text: string) => {
+    return text
+      .toLowerCase()
+      .split("")
+      .map((char: string) => sgaMap[char as keyof typeof sgaMap] || char)
+      .join("");
+  };
+
   return (
     <>
       <div
@@ -85,8 +122,12 @@ export default function OrganismCard({
               ⛶
             </button>
           </div>
-          <p className="mt-1 font-bold text-[1.1rem] truncate max-w-full">
-            {hardMode ? <em>❓❓❓</em> : organism.name}
+          <p className="hidden sm:block mt-1 font-bold text-sm sm:text-base text-wrap max-w-full">
+            {hardMode ? (
+              <em className="text-xs">{convertToSga(organism.name)}</em>
+            ) : (
+              organism.name
+            )}
           </p>
         </div>
 
@@ -102,12 +143,23 @@ export default function OrganismCard({
             Skip
           </button>
           {timeLeft !== null && (
-            <div className="text-yellow-300 font-bold text-sm sm:text-base min-w-[11ch] text-center">
+            <div className="text-yellow-300 font-bold text-sm sm:text-base min-w-[11ch] ml-2 text-center">
               Time Left: <span>{timeLeft}s</span>
             </div>
           )}
         </div>
       </div>
+      <p
+        className={`block sm:hidden font-bold text-lg my-2 sm:text-base text-wrap max-w-full ${
+          disabled ? "opacity-50" : ""
+        }`}
+      >
+        {hardMode ? (
+          <em className="text-xs">{convertToSga(organism.name)}</em>
+        ) : (
+          organism.name
+        )}
+      </p>
 
       {/* Zoom Overlay */}
       {zoomed && (
