@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![BioGames Cover](public/biogames-cover.png)
 
-## Getting Started
+# BioGames
 
-First, run the development server:
+**BioGames** is a collection of interactive, biology-themed web games built with **React** and **Next.js**. It is designed as an educational and entertaining platform to explore key biological concepts through gameplay.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> This repository is a continuation of [DEPRECATED-biogames](https://github.com/manumei/DEPRECATED-biogames-)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎮 Released Games
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Taxo Bingo**
+*Description placeholder — to be filled manually.*
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔜 Coming Soon
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+These games are currently in development and will be released in future updates:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **BioWordle**
+- **Symptoms Link**
+- **Bio Top8**
+- **Animal Tic Tac Toe**
+- **Cell Classifier**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework:** Next.js (React)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Hosting:** Vercel
+
+---
+
+## 🚧 Status
+
+---
+
+Active development. Contributions and feedback welcome once v1.0 is released.
+
+---
+
+**Created by Manuel Meiriño**
