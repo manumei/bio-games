@@ -2,7 +2,7 @@
 import { useEffect, useState, useRef, useCallback } from "react";
 
 // Global Game Imports
-import { TimerOption } from "@/app/components/MenuScreen";
+import { TimerOption } from "@/app/components/MenuTimerHard";
 import GiveUpButton from "@/app/components/GiveUpButton";
 import GiveUpPopup from "@/app/components/GiveUpPopup";
 import GameOver from "@/app/components/GameOver";

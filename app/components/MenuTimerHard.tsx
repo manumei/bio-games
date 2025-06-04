@@ -4,19 +4,19 @@ import Image from "next/image";
 
 export type TimerOption = null | 120 | 180;
 
-interface MenuScreenProps {
+interface MenuTimerHardProps {
   title: ReactNode;
   imgSource: string;
   description: ReactNode;
   onStart: (timer: TimerOption, hardMode: boolean) => void;
 }
 
-export default function MenuScreen({
+export default function MenuTimerHard({
   title,
   imgSource,
   description,
   onStart,
-}: MenuScreenProps) {
+}: MenuTimerHardProps) {
   const [selectedTimer, setSelectedTimer] = useState<TimerOption>(180);
   const [hardMode, setHardMode] = useState(false);
 
@@ -66,12 +66,14 @@ export default function MenuScreen({
 
           {/* Action Buttons */}
           <div className="flex gap-4 mt-4">
+            {/* Start Game */}
             <button
               onClick={() => onStart(selectedTimer, hardMode)}
-              className="bg-green-300 hover:bg-green-500 text-black py-2 px-4 rounded transition-transform transform hover:scale-105 cursor-pointer"
+              className="bg-green-300 hover:bg-green-500 hover:font-medium text-black py-2 px-4 rounded transition-transform transform hover:scale-105 cursor-pointer"
             >
               Start Game
             </button>
+            {/* Hard Mode */}
             <button
               onClick={() => {
                 const isHard = !hardMode;

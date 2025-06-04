@@ -13,7 +13,12 @@ export default function Home() {
           route="/taxo-bingo"
           imgSrc="/assets/img/covers/home/taxo.png"
         />
-        <Panel title="Bio Wordle" coming_soon />
+        <Panel
+          title="Bio Wordle"
+          isNew
+          route="/bio-wordle"
+          imgSrc="/assets/img/covers/home/wordle.png"
+        />
         <Panel title="Symptoms Link" coming_soon />
         <Panel title="Animal Tic-Tac-Toe" coming_soon />
         <Panel title="Bio Top 8" coming_soon />

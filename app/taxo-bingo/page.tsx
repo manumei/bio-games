@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import MenuScreen, { TimerOption } from "@/app/components/MenuScreen";
+import MenuTimerHard, { TimerOption } from "@/app/components/MenuTimerHard";
 import GameScreen from "./components/GameScreen";
 
 export default function TaxoBingoPage() {
@@ -11,7 +11,7 @@ export default function TaxoBingoPage() {
   if (!gameStarted) {
     return (
       <main className="min-h-[80vh] bg-custom-2 px-4 md:px-0 py-10">
-        <MenuScreen
+        <MenuTimerHard
           title={
             <>
               <span className="text-transparent bg-gradient-to-b from-secondary to-primary bg-clip-text">

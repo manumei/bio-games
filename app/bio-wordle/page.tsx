@@ -1,16 +1,27 @@
 "use client";
 import { useState } from "react";
-import MenuScreen, { TimerOption } from "@/app/components/MenuScreen";
+import MenuHard, { TimerOption } from "@/app/components/MenuHard";
 import GameScreen from "./components/GameScreen";
 
-export default function TaxoBingoPage() {
+const NytWordleLink = (
+  <a
+    href="https://www.nytimes.com/games/wordle/index.html"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline cursor-pointer"
+  >
+    NYT's Wordle
+  </a>
+);
+
+export default function BioWordlePage() {
   const [gameStarted, setGameStarted] = useState(false);
-  const [timer, setTimer] = useState<TimerOption>(180);
+  const [hardMode, setHardMode] = useState(false);
 
   if (!gameStarted) {
     return (
       <main className="min-h-[80vh] bg-custom-2 px-4 md:px-0 py-10">
-        <MenuScreen
+        <MenuHard
           title={
             <>
               <span className="text-transparent bg-gradient-to-b from-secondary to-primary bg-clip-text">
@@ -19,25 +30,26 @@ export default function TaxoBingoPage() {
               WORDLE
             </>
           }
-          imgSource="/assets/img/covers/menu/taxo.png"
+          imgSource="/assets/img/covers/menu/wordle.png"
           description={
             <div>
               <p>
-                Fill the bingo grid organisms matching the 12 taxonomic
-                categories given.
+                Take guesses to find the secret biology-related word. Inspired by {NytWordleLink}
               </p>
               <p>
-                When an organism appears, click a category where it fits, or
-                skip to the next. Fill the whole grid to win!
+                🟩 Green means the right letter in the right spot. <br></br>
+                🟨 Yellow means correct letter, in the wrong spot.
+              </p>
+              <p><br></br>
+                Only alphabetical characters are allowed, guesses must always be real english words. 
+                If a letter appears more than once, colors will treat them accordingly as different characters.
               </p>
               <p>
-                <strong>Hard Mode</strong> hides the names, giving you only the
-                image of the organism for your guess.
+                <strong>Hard Mode</strong> gives you 1 less guess, and forces a 120-second timer.
               </p>
             </div>
           }
-          onStart={(selectedTimer) => {
-            setTimer(selectedTimer);
+          onStart={() => {
             setGameStarted(true);
           }}
         />
