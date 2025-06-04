@@ -24,7 +24,7 @@ export default function TaxoBingoPage() {
           description={
             <div>
               <p>
-                Fill the bingo grid organisms matching the 12 taxonomic
+                Fill the bingo grid by matching organisms with the 12 taxonomic
                 categories given.
               </p>
               <p>
