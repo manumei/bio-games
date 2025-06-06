@@ -1,4 +1,4 @@
-![BioGames Cover](public/biogames-cover.png)
+![BioGames Cover](public/assets/img/coversbiogames-cover.png)
 
 # BioGames | Play and Learn
 
