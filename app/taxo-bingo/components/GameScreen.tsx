@@ -6,6 +6,7 @@ import { TimerOption } from "@/app/components/MenuTimerHard";
 import GiveUpButton from "@/app/components/GiveUpButton";
 import GiveUpPopup from "@/app/components/GiveUpPopup";
 import GameOver from "@/app/components/GameOver";
+import { useCountdownTimer } from "@/app/hooks/useCountdownTimer";
 
 // Taxo Imports
 import BingoGrid from "./BingoGrid";
@@ -97,7 +98,6 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [organisms, setOrganisms] = useState<Organism[]>([]);
   const [available, setAvailable] = useState<Organism[]>([]);
   const [current, setCurrent] = useState<Organism | null>(null);
-  const [timeLeft, setTimeLeft] = useState<number | null>(null);
   const [showGiveUp, setShowGiveUp] = useState(false);
   const [gameOver, setGameOver] = useState(false);
   const [showGameOverPopup, setShowGameOverPopup] = useState(false);
@@ -185,25 +185,13 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
     }
   }, [available]);
 
+  const { timeLeft, expired } = useCountdownTimer(timer, !gameOver);
   useEffect(() => {
-    if (timer !== null && !gameOver) {
-      const targetTime = Date.now() + timer * 1000;
-
-      const interval = setInterval(() => {
-        const diff = Math.round((targetTime - Date.now()) / 1000);
-        if (diff <= 0) {
-          clearInterval(interval);
-          setTimeLeft(0);
-          setGameOver(true);
-          setShowGameOverPopup(true);
-        } else {
-          setTimeLeft(diff);
-        }
-      }, 500);
-
-      return () => clearInterval(interval);
+    if (expired) {
+      setGameOver(true);
+      setShowGameOverPopup(true);
     }
-  }, [timer, gameOver]);
+  }, [expired]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {

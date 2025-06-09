@@ -34,18 +34,21 @@ export default function BioWordlePage() {
           description={
             <div>
               <p>
-                Take guesses to find the secret biology-related word. Inspired by {NytWordleLink}
+                Take guesses to find the secret biology-related word. Inspired
+                by {NytWordleLink}
               </p>
               <p>
                 🟩 Green means the right letter in the right spot. <br></br>
                 🟨 Yellow means correct letter, in the wrong spot.
               </p>
-              <p><br></br>
-                Only alphabetical characters are allowed, guesses must always be real english words. 
-                If a letter appears more than once, colors will treat them accordingly as different characters.
+              <p>
+                Only alphabetical characters are allowed, guesses must always be
+                real english words.
               </p>
               <p>
-                <strong>Hard Mode</strong> gives you 1 less guess, and forces a 120-second timer.
+                <br></br>
+                <strong>Hard Mode</strong> gives you 1 less guess, and forces a
+                120-second timer.
               </p>
             </div>
           }
