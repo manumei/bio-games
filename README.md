@@ -4,6 +4,8 @@
 
 **BioGames** is a collection of interactive, biology-themed web games built with **React** and **Next.js**. It is designed as an educational and entertaining platform to explore key biological concepts through gameplay.
 
+[Play it now!](https://bio-games.vercel.app/)
+
 > This repository is a continuation of [DEPRECATED-biogames](https://github.com/manumei/DEPRECATED-biogames-)
 
 ---
