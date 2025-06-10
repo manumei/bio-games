@@ -16,7 +16,14 @@ const NytWordleLink = (
 
 export default function BioWordlePage() {
   const [gameStarted, setGameStarted] = useState(false);
+  const [timer, setTimer] = useState<TimerOption>(null);
   const [hardMode, setHardMode] = useState(false);
+
+  const handleStart = (selectedTimer: TimerOption, isHardMode: boolean) => {
+    setTimer(selectedTimer);
+    setHardMode(isHardMode);
+    setGameStarted(true);
+  };
 
   if (!gameStarted) {
     return (
@@ -52,9 +59,7 @@ export default function BioWordlePage() {
               </p>
             </div>
           }
-          onStart={() => {
-            setGameStarted(true);
-          }}
+          onStart={handleStart}
         />
       </main>
     );
@@ -62,7 +67,7 @@ export default function BioWordlePage() {
 
   return (
     <main className="min-h-[90vh] bg-custom-2 py-2">
-      <GameScreen />
+      <GameScreen timer={timer} hardMode={hardMode} />
     </main>
   );
 }
