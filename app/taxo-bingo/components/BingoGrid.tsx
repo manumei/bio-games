@@ -40,11 +40,11 @@ export default function BingoGrid({
             onClick={() => onCellClick(category)}
           >
             {filled ? (
-              <div className="relative w-full h-full flex flex-col items-center justify-center">
+              <div className="relative w-full flex flex-col items-center justify-center">
                 <img
                   src={filled.imagePath}
                   alt={filled.name}
-                  className="w-full h-full object-cover rounded"
+                  className="w-full object-cover rounded aspect-square sm:aspect-[10/7]"
                 />
                 <div className="absolute top-1 left-1 backdrop-blur bg-black/50 text-white text-xs sm:text-sm px-1 rounded max-w-[80%] text-ellipsis overflow-hidden font-medium">
                   {category}
