@@ -16,7 +16,6 @@ interface GameScreenProps {
   timer: number | null;
   hardMode: boolean;
 }
-const alertTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
 export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [gameOver, setGameOver] = useState(false);
@@ -27,6 +26,8 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [guesses, setGuesses] = useState<string[]>([]);
   const [currentGuess, setCurrentGuess] = useState<string>("");
   const [alert, setAlert] = useState<string | null>(null);
+  const alertTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
 
   useEffect(() => {
     const randomLength = Math.floor(Math.random() * 4) + 4; // 4 to 7
