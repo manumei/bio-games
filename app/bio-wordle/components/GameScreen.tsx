@@ -55,12 +55,20 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
       else if (key === "Enter") {
         if (currentGuess.length !== wordLength) {
           if (alertTimeoutRef.current) clearTimeout(alertTimeoutRef.current);
-          setAlert("Not enough letters!");
-          setShakeRow(true);
-          alertTimeoutRef.current = setTimeout(() => {
-            setAlert(null);
-            setShakeRow(false);
-          }, 2000);
+
+          // Reset both states to trigger re-animation
+          setAlert(null);
+          setShakeRow(false);
+
+          // Trigger again on next tick
+          setTimeout(() => {
+            setAlert("Not enough letters!");
+            setShakeRow(true);
+            alertTimeoutRef.current = setTimeout(() => {
+              setAlert(null);
+              setShakeRow(false);
+            }, 2000);
+          }, 10);
         } else {
           setGuesses(prev => [...prev, currentGuess]);
           setCurrentGuess("");
