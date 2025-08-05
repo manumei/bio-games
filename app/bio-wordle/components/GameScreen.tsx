@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 // Global Game Imports
 import { TimerOption } from "@/app/components/MenuHard";
@@ -11,10 +11,12 @@ import { useCountdownTimer } from "@/app/hooks/useCountdownTimer";
 // Bio-Wordle Imports
 import GuessRows from "./GuessRows";
 
+
 interface GameScreenProps {
   timer: number | null;
   hardMode: boolean;
 }
+const alertTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
 export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [gameOver, setGameOver] = useState(false);
@@ -24,6 +26,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [wordLength, setWordLength] = useState<number>(5); // temporary default para despues cambiarlo bien
   const [guesses, setGuesses] = useState<string[]>([]);
   const [currentGuess, setCurrentGuess] = useState<string>("");
+  const [alert, setAlert] = useState<string | null>(null);
 
   useEffect(() => {
     const randomLength = Math.floor(Math.random() * 4) + 4; // 4 to 7
@@ -45,12 +48,20 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
 
       if (key === "Backspace") {
         setCurrentGuess(prev => prev.slice(0, -1));
-      } else if (key === "Enter") {
-        if (currentGuess.length === wordLength) {
+      } 
+      
+      else if (key === "Enter") {
+        if (currentGuess.length !== wordLength) {
+          if (alertTimeoutRef.current) clearTimeout(alertTimeoutRef.current);
+          setAlert("Not enough letters!");
+          alertTimeoutRef.current = setTimeout(() => setAlert(null), 2000);
+        } else {
           setGuesses(prev => [...prev, currentGuess]);
           setCurrentGuess("");
         }
-      } else if (/^[a-zA-Z]$/.test(key)) {
+      }
+
+      else if (/^[a-zA-Z]$/.test(key)) {
         if (currentGuess.length < wordLength) {
           setCurrentGuess(prev => prev + key.toUpperCase());
         }
@@ -71,6 +82,13 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
             <span className="hidden sm:inline">Time Left:</span>
             <span className="inline sm:hidden">Timer:</span>
             <span> {timeLeft}s</span>
+          </div>
+        )}
+
+        {/* Alert Popup */}
+        {alert && (
+          <div className="fixed top-8 bg-red-500 text-white px-4 py-2 rounded shadow-md z-50 animate-fade-in-out">
+            {alert}
           </div>
         )}
 
