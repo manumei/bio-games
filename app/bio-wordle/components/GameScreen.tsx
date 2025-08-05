@@ -27,6 +27,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [currentGuess, setCurrentGuess] = useState<string>("");
   const [alert, setAlert] = useState<string | null>(null);
   const alertTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const [shakeRow, setShakeRow] = useState(false);
 
 
   useEffect(() => {
@@ -55,7 +56,11 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
         if (currentGuess.length !== wordLength) {
           if (alertTimeoutRef.current) clearTimeout(alertTimeoutRef.current);
           setAlert("Not enough letters!");
-          alertTimeoutRef.current = setTimeout(() => setAlert(null), 2000);
+          setShakeRow(true);
+          alertTimeoutRef.current = setTimeout(() => {
+            setAlert(null);
+            setShakeRow(false);
+          }, 2000);
         } else {
           setGuesses(prev => [...prev, currentGuess]);
           setCurrentGuess("");
@@ -98,6 +103,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           wordLength={wordLength}
           guesses={guesses}
           currentGuess={currentGuess}
+          shake={shakeRow}
         />
 
       </div>
