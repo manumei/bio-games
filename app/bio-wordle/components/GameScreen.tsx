@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useMemo } from "react";
 
 // Global Game Imports
 import { TimerOption } from "@/app/components/MenuHard";
@@ -7,6 +7,8 @@ import GiveUpButton from "@/app/components/GiveUpButton";
 import GiveUpPopup from "@/app/components/GiveUpPopup";
 import GameOver from "@/app/components/GameOver";
 import { useCountdownTimer } from "@/app/hooks/useCountdownTimer";
+import englishWords from 'an-array-of-english-words';
+
 
 // Bio-Wordle Imports
 import GuessRows from "./GuessRows";
@@ -28,6 +30,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   const [alert, setAlert] = useState<string | null>(null);
   const alertTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const [shakeRow, setShakeRow] = useState(false);
+  const englishSet = useMemo(() => new Set(englishWords.map(w => w.toUpperCase())), []);
 
 
   useEffect(() => {
@@ -55,14 +58,22 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
       else if (key === "Enter") {
         if (currentGuess.length !== wordLength) {
           if (alertTimeoutRef.current) clearTimeout(alertTimeoutRef.current);
-
-          // Reset both states to trigger re-animation
           setAlert(null);
           setShakeRow(false);
-
-          // Trigger again on next tick
           setTimeout(() => {
             setAlert("Not enough letters!");
+            setShakeRow(true);
+            alertTimeoutRef.current = setTimeout(() => {
+              setAlert(null);
+              setShakeRow(false);
+            }, 2000);
+          }, 10);
+        } else if (!englishSet.has(currentGuess)) {
+          if (alertTimeoutRef.current) clearTimeout(alertTimeoutRef.current);
+          setAlert(null);
+          setShakeRow(false);
+          setTimeout(() => {
+            setAlert("Not an English word!");
             setShakeRow(true);
             alertTimeoutRef.current = setTimeout(() => {
               setAlert(null);
