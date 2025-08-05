@@ -147,17 +147,20 @@ export default function OrganismCard({
 
         {/* Controls (Skip + Timer) */}
         <div className="flex flex-col items-center gap-2">
+          <span className="hidden lg:inline text-xs text-gray-300 tracking-wide mb-1">
+          Press Spacebar to Skip
+          </span>
           <button
             onClick={onSkip}
             disabled={disabled}
-            className={`bg-orange-400 text-black font-bold text-sm sm:text-base py-2 px-3 sm:py-2 sm:px-4 rounded transition duration-300 transform cursor-pointer hover:bg-orange-500 ${
+            className={`bg-orange-500 hover:bg-orange-600 text-black font-semibold text-base px-5 py-2 rounded-md shadow-md transition duration-250 transform cursor-pointer ${
               disabled ? "opacity-50 pointer-events-none" : ""
             }`}
           >
             Skip
           </button>
           {timeLeft !== null && (
-            <div className="text-yellow-300 font-bold text-sm sm:text-base text-center">
+            <div className="text-yellow-400 font-semibold text-sm mt-2 sm:text-base text-center">
               <span className="hidden sm:inline">Time Left:</span>
               <span className="inline sm:hidden">Timer:</span>
               <span> {timeLeft}s</span>
