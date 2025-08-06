@@ -11,7 +11,7 @@ const GuessRows: React.FC<GuessRowsProps> = ({ wordLength, guesses, currentGuess
   const totalRows = 6;
 
   return (
-    <div className="flex flex-col items-center gap-1.5">
+    <div className="flex flex-col items-center gap-2.5">
       {Array.from({ length: totalRows }).map((_, rowIndex) => {
         const guess =
           rowIndex < guesses.length
