@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import StreakBadge from "@/components/home/StreakBadge";
 import type { GameMeta } from "@/games/registry";
 import { cn } from "@/lib/cn";
 
@@ -27,6 +28,8 @@ export default function GameCard({ game }: GameCardProps) {
           NEW
         </span>
       )}
+
+      {game.daily && <StreakBadge slug={game.slug} />}
 
       <Image
         src={coverSrc}

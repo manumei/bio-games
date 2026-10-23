@@ -79,7 +79,7 @@ export default function Modal({
         tabIndex={-1}
         onClick={(e) => e.stopPropagation()}
         className={cn(
-          "relative z-[1000] max-h-[75vh] w-[85vw] sm:w-[30rem] overflow-y-auto rounded-xl bg-[rgb(241,234,234)] p-6 sm:p-8 text-black shadow-lg outline-none",
+          "relative z-[1000] max-h-[85vh] w-[90vw] sm:w-[32rem] overflow-y-auto rounded-xl bg-[rgb(241,234,234)] p-6 sm:p-8 text-black shadow-lg outline-none",
           className
         )}
       >

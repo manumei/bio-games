@@ -22,6 +22,7 @@ export const GAMES: readonly GameMeta[] = [
       "Match organisms to the 12 taxonomic categories on the bingo grid.",
     status: "live",
     isNew: true,
+    daily: true,
     cover: {
       card: "/assets/img/covers/home/taxo.png",
       menu: "/assets/img/covers/menu/taxo.png",

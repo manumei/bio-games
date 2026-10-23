@@ -3,6 +3,24 @@ import { hashString } from "@/lib/rng";
 const MS_PER_DAY = 86_400_000;
 const DEFAULT_EPOCH_KEY = "2026-01-01";
 
+export type DailyEndReason =
+  | "completed"
+  | "timeout"
+  | "gave-up"
+  | "failed"
+  | "abandoned";
+
+export interface DailyStateBase<TOptions> {
+  version: 1;
+  dayKey: string;
+  options: TOptions; // locked menu choices
+  status: "playing" | "won" | "lost";
+  startedAt: number; // epoch ms
+  deadline: number | null; // epoch ms, null = no timer
+  endedAt: number | null;
+  endReason: DailyEndReason | null;
+}
+
 function parseDayKeyUTC(dayKey: string): number {
   const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dayKey);
   if (!match) {
@@ -34,6 +52,16 @@ export function dayNumber(
   const dayUtc = parseDayKeyUTC(dayKey);
   const epochUtc = parseDayKeyUTC(epochKey);
   return Math.round((dayUtc - epochUtc) / MS_PER_DAY);
+}
+
+/**
+ * 1-based puzzle number shown to players ("Taxo Bingo #42").
+ */
+export function puzzleNumber(
+  dayKey: string,
+  epochKey: string = DEFAULT_EPOCH_KEY
+): number {
+  return dayNumber(dayKey, epochKey) + 1;
 }
 
 /**
