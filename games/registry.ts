@@ -21,7 +21,7 @@ export const GAMES: readonly GameMeta[] = [
     description:
       "Match organisms to the 12 taxonomic categories on the bingo grid.",
     status: "live",
-    daily: true,
+    daily: false,
     cover: {
       card: "/assets/img/covers/home/taxo.png",
       menu: "/assets/img/covers/menu/taxo.png",
@@ -33,7 +33,7 @@ export const GAMES: readonly GameMeta[] = [
     brand: ["BIO", "WORDLE"],
     description: "Guess the secret biology word in six tries.",
     status: "live",
-    daily: true,
+    daily: false,
     cover: {
       card: "/assets/img/covers/card/bio-wordle.svg",
       menu: "/assets/img/covers/menu/bio-wordle.svg",
@@ -46,7 +46,7 @@ export const GAMES: readonly GameMeta[] = [
     description:
       "Identify the pathogen or disease from progressively revealed symptoms.",
     status: "live",
-    daily: true,
+    daily: false,
     cover: {
       card: "/assets/img/covers/card/symptoms-link.svg",
       menu: "/assets/img/covers/menu/symptoms-link.svg",
@@ -59,7 +59,8 @@ export const GAMES: readonly GameMeta[] = [
     description:
       "Claim cells on a trait-crossed grid in a biology twist on tic-tac-toe.",
     status: "live",
-    daily: true,
+    isNew: true,
+    daily: false,
     cover: {
       card: "/assets/img/covers/card/animal-tictactoe.svg",
       menu: "/assets/img/covers/menu/animal-tictactoe.svg",
@@ -77,8 +78,8 @@ export const GAMES: readonly GameMeta[] = [
     title: "Cell Classifier",
     brand: ["CELL", "CLASSIFIER"],
     description: "Identify organelles and cell structures across cell types.",
-    status: "live",
-    daily: true,
+    status: "coming-soon",
+    daily: false,
     cover: {
       card: "/assets/img/covers/card/cell-classifier.svg",
       menu: "/assets/img/covers/menu/cell-classifier.svg",
@@ -90,8 +91,7 @@ export const GAMES: readonly GameMeta[] = [
     brand: ["BIO", "GUESSER"],
     description:
       "Think of any living organism; Linnaeus will ask questions and guess it.",
-    status: "live",
-    isNew: true,
+    status: "coming-soon",
     daily: false,
     cover: {
       card: "/assets/img/covers/card/bio-guesser.svg",

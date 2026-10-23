@@ -12,8 +12,8 @@ const PUBLIC_DIR = path.resolve(import.meta.dirname, "../public");
 const MIN_ORGANISMS_PER_CATEGORY = 5;
 
 describe("data integrity", () => {
-  it("contains 546 organisms with unique ids", () => {
-    expect(ORGANISMS).toHaveLength(546);
+  it("contains unique organisms with valid accessors", () => {
+    expect(ORGANISMS.length).toBeGreaterThanOrEqual(546);
     const ids = new Set(ORGANISMS.map((o) => o.id));
     expect(ids.size).toBe(ORGANISMS.length);
     for (const org of ORGANISMS) {
@@ -33,7 +33,7 @@ describe("data integrity", () => {
   });
 
   it("ensures every organism path segment is a known taxon in TAXONOMY", () => {
-    expect(TAXONOMY).toHaveLength(50);
+    expect(TAXONOMY.length).toBeGreaterThanOrEqual(50);
     for (const org of ORGANISMS) {
       expect(org.path.length).toBeGreaterThan(0);
       for (const taxonId of org.path) {

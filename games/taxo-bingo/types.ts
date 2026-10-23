@@ -68,5 +68,6 @@ export type TaxoAction =
   | { type: "SKIP"; rng: Rng; force?: boolean }
   | { type: "TICK_EXPIRED"; now?: number }
   | { type: "GIVE_UP"; now?: number }
+  | { type: "RESET_TO_MENU" }
   | { type: "CLOSE_MODAL" }
   | { type: "OPEN_MODAL" };

@@ -46,6 +46,7 @@ export type LinkAction =
   | { type: "GUESS"; diseaseId: string; now: number }
   | { type: "SKIP" }
   | { type: "GIVE_UP"; now: number }
+  | { type: "RESET_TO_MENU" }
   | { type: "CLOSE_MODAL" }
   | { type: "OPEN_MODAL" };
 

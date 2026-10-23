@@ -6,7 +6,7 @@ export const HARD_MODE_GLOSSARY_TOOLTIP =
 export const LUPUS_WRONG_TOAST = "It's never lupus.";
 
 export const LUPUS_LOSS_MESSAGE =
-  "It's never lupus… except today it was.";
+  "The correct diagnosis was Systemic Lupus Erythematosus. Review the presentation and try another case.";
 
 export const WIN_MESSAGES_BY_STAGE: Readonly<
   Record<number, readonly string[]>
@@ -34,9 +34,9 @@ export const WIN_MESSAGES_BY_STAGE: Readonly<
 };
 
 export const LOSS_MESSAGES: readonly string[] = [
-  "It was {Disease}. The patient did not make it 🥀",
-  "It was {Disease}. Vayan a estudiar (medicina).",
-  "Diagnosis: {Disease}. Medical license under review, lil bro.",
+  "The correct diagnosis was {Disease}. Review the clinical signs and try another case.",
+  "Case closed. The correct condition was {Disease}.",
+  "Diagnosis missed: {Disease}. Better luck next time.",
 ];
 
 export function pickLinkWinMessage(

@@ -1,5 +1,6 @@
 "use client";
 
+import HardModeToggle from "@/components/ui/HardModeToggle";
 import type { TicTacOptions } from "../types";
 
 export interface TicTacMenuOptionsProps {
@@ -12,23 +13,18 @@ export function TicTacMenuOptions({
   onChange,
 }: TicTacMenuOptionsProps) {
   return (
-    <div className="flex flex-wrap items-center justify-center gap-2">
-      <button
-        type="button"
-        onClick={() =>
+    <div className="flex flex-wrap items-center justify-center gap-3">
+      <HardModeToggle
+        hardMode={options.hardMode && !options.versus}
+        disabled={options.versus}
+        disabledReason="Disabled in Versus mode"
+        onToggle={() =>
           onChange({
             hardMode: !options.hardMode,
             versus: false,
           })
         }
-        className={`cursor-pointer rounded px-4 py-2 transition duration-300 ${
-          options.hardMode && !options.versus
-            ? "bg-[#ff0000] font-bold text-white"
-            : "bg-red-200 text-black"
-        } hover:opacity-80`}
-      >
-        Hard Mode {options.hardMode && !options.versus ? "✔" : "✖"}
-      </button>
+      />
 
       <button
         type="button"
@@ -38,26 +34,44 @@ export function TicTacMenuOptions({
             daily: false,
           })
         }
-        className={`cursor-pointer rounded px-4 py-2 transition duration-300 ${
+        className={`inline-flex items-center justify-center h-10 px-4 rounded font-bold text-sm sm:text-base transition duration-200 cursor-pointer ${
           options.versus
-            ? "bg-amber-500 font-bold text-slate-950"
-            : "bg-slate-700 text-slate-100"
-        } hover:opacity-80`}
+            ? "bg-amber-500 hover:bg-amber-400 font-bold text-slate-950 shadow-md ring-2 ring-amber-300"
+            : "bg-slate-700 hover:bg-slate-600 text-slate-200 border border-slate-500"
+        }`}
       >
-        Versus (2P ❌/⭕) {options.versus ? "✔" : "✖"}
+        <span>Versus (2P ❌/⭕)</span>
+        <span
+          className={`ml-2 text-xs px-1.5 py-0.5 rounded font-extrabold uppercase ${
+            options.versus
+              ? "bg-slate-950 text-amber-400"
+              : "bg-slate-800 text-slate-400"
+          }`}
+        >
+          {options.versus ? "ON" : "OFF"}
+        </span>
       </button>
 
       {options.versus && (
         <button
           type="button"
           onClick={() => onChange({ versusTimer: !options.versusTimer })}
-          className={`cursor-pointer rounded px-3 py-2 text-sm transition duration-300 ${
+          className={`inline-flex items-center justify-center h-10 px-3 rounded font-bold text-sm transition duration-200 cursor-pointer ${
             options.versusTimer
-              ? "bg-cyan-500 font-bold text-slate-950"
-              : "bg-slate-800 text-slate-200"
-          } hover:opacity-80`}
+              ? "bg-cyan-500 hover:bg-cyan-400 text-slate-950 shadow-md ring-2 ring-cyan-300"
+              : "bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600"
+          }`}
         >
-          20s Turn Timer {options.versusTimer ? "✔" : "✖"}
+          <span>20s Timer</span>
+          <span
+            className={`ml-1.5 text-xs px-1 py-0.5 rounded font-bold uppercase ${
+              options.versusTimer
+                ? "bg-slate-950 text-cyan-300"
+                : "bg-slate-900 text-slate-400"
+            }`}
+          >
+            {options.versusTimer ? "ON" : "OFF"}
+          </span>
         </button>
       )}
     </div>

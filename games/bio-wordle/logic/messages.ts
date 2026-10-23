@@ -31,10 +31,10 @@ export const WIN_MESSAGES_BY_GUESS: Readonly<Record<number, readonly string[]>> 
 };
 
 export const LOSS_MESSAGES: readonly string[] = [
-  "It was {WORD}. Vayan a estudiar.",
-  "{WORD}. Not even a mitochondrion could power you through that one.",
-  "The word was {WORD}. Not great, not terrible… ok it was terrible.",
-  "It was {WORD}. Put the pipette in the bag lil bro.",
+  "Game over. The correct biological term was {WORD}.",
+  "Out of guesses. The word was {WORD}.",
+  "The secret word was {WORD}. Review the definition and try another round.",
+  "Better luck next time. The target term was {WORD}.",
 ];
 
 export function pickWordleWinMessage(

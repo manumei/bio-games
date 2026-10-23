@@ -1,5 +1,7 @@
 "use client";
 
+import HardModeToggle from "@/components/ui/HardModeToggle";
+
 export function LinkHardModeButton({
   hardMode,
   onToggle,
@@ -7,16 +9,6 @@ export function LinkHardModeButton({
   hardMode: boolean;
   onToggle: () => void;
 }) {
-  return (
-    <button
-      type="button"
-      onClick={onToggle}
-      className={`py-2 px-4 rounded transition duration-300 ${
-        hardMode ? "font-bold bg-[#ff0000] text-white" : "bg-red-200 text-black"
-      } hover:opacity-80 cursor-pointer`}
-    >
-      Hard Mode {hardMode ? "✔" : "✖"}
-    </button>
-  );
+  return <HardModeToggle hardMode={hardMode} onToggle={onToggle} />;
 }
 

@@ -6,43 +6,24 @@ import {
 } from "@/games/taxo-bingo/logic/messages";
 
 describe("games/taxo-bingo/logic/messages", () => {
-  it("contains every shipped and original-notes message verbatim", () => {
+  it("contains standard serious messages for each loss bracket", () => {
     expect(LOSS_MESSAGE_POOLS["11"]).toContain(
-      'ikr, that one "{cat}" you probably skimmed through or just didn\'t wanna show up'
-    );
-    expect(LOSS_MESSAGE_POOLS["11"]).toContain(
-      "AAA ikr, that one {cat} you probably skimmed through or just didn't wanna show up"
-    );
-
-    expect(LOSS_MESSAGE_POOLS["9-10"]).toContain(
-      "You came quite close, even I couldn't do all 12 cells at first, and I made this game by hand"
+      '11 out of 12 categories completed. Just missed the final "{cat}".'
     );
     expect(LOSS_MESSAGE_POOLS["9-10"]).toContain(
-      "You came quite close, even I couldn't do all 12 cells at first, and I literally made this game by hand"
-    );
-
-    expect(LOSS_MESSAGE_POOLS["6-8"]).toContain(
-      "{n} cells... not great, not terrible"
+      "{n} out of 12 categories identified. Solid taxonomic classification."
     );
     expect(LOSS_MESSAGE_POOLS["6-8"]).toContain(
-      "{n} Roentgen, not great, not terrible"
-    );
-
-    expect(LOSS_MESSAGE_POOLS["3-5"]).toContain(
-      "{n} out of 12, tough luck I guess, im sure it's just a warm up gamr tho"
+      "{n} out of 12 categories identified. Halfway through the grid."
     );
     expect(LOSS_MESSAGE_POOLS["3-5"]).toContain(
-      "Warm Up game fr, I'm sure you'll do better next time"
+      "{n} out of 12 categories matched. Review the taxonomy tree and try another round."
     );
-
     expect(LOSS_MESSAGE_POOLS["1-2"]).toContain(
-      "{n}/12, I guess it was a pretty hard game, maybe check out the Cheat Sheet"
+      "{n} out of 12 categories matched. Review the taxonomic categories and try again."
     );
-    expect(LOSS_MESSAGE_POOLS["1-2"]).toContain("vayan a estudiar");
-
-    expect(LOSS_MESSAGE_POOLS["0"]).toContain("0 out of 12, vayan a estudiar");
     expect(LOSS_MESSAGE_POOLS["0"]).toContain(
-      "dont even blame the RNG, just put the fries in the bag lil bro"
+      "0 out of 12 categories matched. Review the taxonomic groups and try again."
     );
 
     expect(ZERO_MISTAKES_MESSAGE).toBe(

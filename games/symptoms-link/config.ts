@@ -13,6 +13,7 @@ export type DiseaseCategory =
   | "respiratory"
   | "neurological"
   | "nutritional"
+  | "oncological"
   | "other";
 
 export interface CategoryInfo {
@@ -34,6 +35,7 @@ export const DISEASE_CATEGORIES: Readonly<
   respiratory: { emoji: "🫁", label: "Respiratory condition" },
   neurological: { emoji: "🧠", label: "Neurological disorder" },
   nutritional: { emoji: "🍋", label: "Nutritional deficiency" },
+  oncological: { emoji: "🎗️", label: "Neoplasm / Cancer" },
   other: { emoji: "🏥", label: "Clinical condition" },
 };
 

@@ -425,6 +425,195 @@ export const TAXONOMY: readonly Taxon[] = [
     description:
       "Sloths and anteaters, mammals with slow movement and long tongues",
   },
+  {
+    id: "ascomycota",
+    label: "Ascomycota",
+    rank: "phylum",
+    parent: "fungi",
+    emoji: "🧫",
+    description:
+      "Sac fungi producing spores in asci, like yeasts, morels, truffles, and penicillium",
+  },
+  {
+    id: "basidiomycota",
+    label: "Basidiomycota",
+    rank: "phylum",
+    parent: "fungi",
+    emoji: "🍄",
+    description:
+      "Club fungi producing spores on basidia, including gilled mushrooms and puffballs",
+  },
+  {
+    id: "cephalopoda",
+    label: "Cephalopoda",
+    rank: "class",
+    parent: "mollusca",
+    emoji: "🐙",
+    description:
+      "Marine mollusks with tentacles and bilateral symmetry, like octopuses, squids, and nautiluses",
+  },
+  {
+    id: "gastropoda",
+    label: "Gastropoda",
+    rank: "class",
+    parent: "mollusca",
+    emoji: "🐌",
+    description:
+      "Mollusks with a muscular foot, like snails and slugs, often with coiled shells",
+  },
+  {
+    id: "bivalvia",
+    label: "Bivalvia",
+    rank: "class",
+    parent: "mollusca",
+    emoji: "🦪",
+    description:
+      "Aquatic mollusks enclosed by a two-part hinged shell, like clams, oysters, and mussels",
+  },
+  {
+    id: "asteroidea",
+    label: "Asteroidea",
+    rank: "class",
+    parent: "echinodermata",
+    emoji: "⭐",
+    description:
+      "Star-shaped marine echinoderms known as sea stars or starfish",
+  },
+  {
+    id: "echinoidea",
+    label: "Echinoidea",
+    rank: "class",
+    parent: "echinodermata",
+    emoji: "🦔",
+    description:
+      "Spiny, globular or flattened echinoderms like sea urchins and sand dollars",
+  },
+  {
+    id: "anthozoa",
+    label: "Anthozoa",
+    rank: "class",
+    parent: "cnidaria",
+    emoji: "🪸",
+    description:
+      "Exclusively marine polyp cnidarians with no medusa stage, including corals and sea anemones",
+  },
+  {
+    id: "scyphozoa",
+    label: "Scyphozoa",
+    rank: "class",
+    parent: "cnidaria",
+    emoji: "🪼",
+    description:
+      "The true jellyfish, pulsating cup-shaped marine cnidarians with stinging tentacles",
+  },
+  {
+    id: "anura",
+    label: "Anura",
+    rank: "order",
+    parent: "amphibia",
+    emoji: "🐸",
+    description:
+      "Tailless amphibians with elongated hind legs adapted for jumping—frogs and toads",
+  },
+  {
+    id: "caudata",
+    label: "Caudata",
+    rank: "order",
+    parent: "amphibia",
+    emoji: "🦎",
+    description:
+      "Tailed amphibians with slender bodies, short limbs, and aquatic larvae—salamanders and newts",
+  },
+  {
+    id: "passeriformes",
+    label: "Passeriformes",
+    rank: "order",
+    parent: "aves",
+    emoji: "🐦",
+    description:
+      "Perching birds and songbirds, the largest order of birds with three forward toes and one back",
+  },
+  {
+    id: "anseriformes",
+    label: "Anseriformes",
+    rank: "order",
+    parent: "aves",
+    emoji: "🦆",
+    description:
+      "Waterfowl like ducks, geese, and swans adapted for swimming with webbed feet",
+  },
+  {
+    id: "falconiformes",
+    label: "Falconiformes",
+    rank: "order",
+    parent: "aves",
+    emoji: "🦅",
+    description:
+      "Diurnal raptors like falcons and caracaras with hooked beaks and sharp talons",
+  },
+  {
+    id: "strigiformes",
+    label: "Strigiformes",
+    rank: "order",
+    parent: "aves",
+    emoji: "🦉",
+    description:
+      "Nocturnal birds of prey with forward-facing facial discs, silent flight, and keen hearing—owls",
+  },
+  {
+    id: "sphenisciformes",
+    label: "Sphenisciformes",
+    rank: "order",
+    parent: "aves",
+    emoji: "🐧",
+    description:
+      "Flightless aquatic birds with dense waterproof feathers and flipper wings—penguins",
+  },
+  {
+    id: "lagomorpha",
+    label: "Lagomorpha",
+    rank: "order",
+    parent: "mammalia",
+    emoji: "🐇",
+    description:
+      "Herbivorous mammals with four upper incisors and continuous enamel, like rabbits, hares, and pikas",
+  },
+  {
+    id: "proboscidea",
+    label: "Proboscidea",
+    rank: "order",
+    parent: "mammalia",
+    emoji: "🐘",
+    description:
+      "Large mammals with elongated muscular trunks, columnar legs, and tusks—elephants",
+  },
+  {
+    id: "perciformes",
+    label: "Perciformes",
+    rank: "order",
+    parent: "osteichthyes",
+    emoji: "🐠",
+    description:
+      "Perch-like ray-finned fishes, a huge order including cichlids, clownfish, perch, and tuna",
+  },
+  {
+    id: "salmoniformes",
+    label: "Salmoniformes",
+    rank: "order",
+    parent: "osteichthyes",
+    emoji: "🐟",
+    description:
+      "Ray-finned fishes with an adipose fin and sleek bodies, including salmon and trout",
+  },
+  {
+    id: "selachimorpha",
+    label: "Selachimorpha",
+    rank: "order",
+    parent: "chondrichthyes",
+    emoji: "🦈",
+    description:
+      "Cartilaginous predatory fish with multiple gill slits, placoid scales, and oil-filled livers—sharks",
+  },
 ];
 
 const TAXON_BY_ID = new Map<TaxonId, Taxon>(

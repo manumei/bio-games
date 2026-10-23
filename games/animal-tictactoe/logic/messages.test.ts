@@ -21,9 +21,11 @@ describe("Animal Tic-Tac-Toe messages", () => {
       "9/9. David Attenborough just followed you.",
     );
     expect(LOSS_CLOSE_MESSAGES).toContain(
-      "So close. That last cell is still out there, roaming free.",
+      "7 of 9 cells claimed. A strong effort, but the grid remains incomplete.",
     );
-    expect(LOSS_LOW_MESSAGES).toContain("Vayan a estudiar (zoología).");
+    expect(LOSS_LOW_MESSAGES).toContain(
+      "Grid incomplete. Practice matching traits with diverse animal classes to improve your score.",
+    );
   });
 
   it("picks from the appropriate pool based on outcome and filled count", () => {

@@ -24,13 +24,13 @@ describe("Cell Classifier messages", () => {
       "Cellular excellence. Only a few ribosomes out of place.",
     );
     expect(SCORE_MID_MESSAGES).toContain(
-      "Mid. Your cell is functional, just not thriving.",
+      "Moderate cytology score. Review the organelle diagrams to improve your accuracy.",
     );
     expect(SCORE_LOW_MESSAGES).toContain(
-      "Your organelles are in shambles. Vayan a estudiar.",
+      "Round complete. Study the cell anatomy diagram and try another round.",
     );
     expect(SCORE_ZERO_MESSAGES).toContain(
-      "0/10. Are you sure you're not a virus? They don't have cells either.",
+      "0/10. Review the cell diagram and try again.",
     );
   });
 

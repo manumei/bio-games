@@ -22,7 +22,7 @@ describe("games/taxo-bingo/logic/deck", () => {
       deck = skipCurrent(deck, rng);
     }
 
-    expect(deck.ids).toHaveLength(546);
+    expect(deck.ids).toHaveLength(ORGANISMS.length);
     const nematodaLeft = deck.ids.filter((id) =>
       getOrganism(id).path.includes("nematoda")
     );

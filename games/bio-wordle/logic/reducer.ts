@@ -58,6 +58,13 @@ export function wordleReducer(
   action: WordleAction
 ): WordleGameState {
   switch (action.type) {
+    case "RESET_TO_MENU": {
+      return {
+        ...createInitialWordleState(),
+        options: state.options,
+      };
+    }
+
     case "SET_OPTIONS": {
       return {
         ...state,

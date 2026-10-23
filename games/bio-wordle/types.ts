@@ -48,6 +48,7 @@ export type WordleAction =
   | { type: "SUBMIT_ACCEPTED"; guess: string; now: number }
   | { type: "TRIGGER_SHAKE" }
   | { type: "USE_HINT" }
+  | { type: "RESET_TO_MENU" }
   | { type: "CLOSE_MODAL" }
   | { type: "OPEN_MODAL" };
 

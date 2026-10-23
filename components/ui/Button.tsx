@@ -32,9 +32,9 @@ const VARIANT_CLASSES: Record<ButtonVariant, string> = {
 };
 
 const SIZE_CLASSES: Record<ButtonSize, string> = {
-  sm: "px-3 py-1.5 text-sm rounded",
-  md: "px-4 py-2 text-sm sm:text-base rounded",
-  lg: "px-6 py-2 text-base rounded",
+  sm: "h-8 px-3 text-sm rounded inline-flex items-center justify-center",
+  md: "h-10 px-4 text-sm sm:text-base rounded inline-flex items-center justify-center",
+  lg: "h-12 px-6 text-base rounded inline-flex items-center justify-center",
 };
 
 export default function Button({

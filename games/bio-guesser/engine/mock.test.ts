@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { ORGANISMS } from "@/data/organisms";
-import { MAX_GUESSES } from "../config";
+import { MAX_GUESSES, MAX_QUESTIONS } from "../config";
 import { getQuestion } from "../data/questions";
 import type { AnsweredQuestion, NextRequest } from "../api/types";
 import { nextStep } from "./mock";
@@ -51,7 +51,7 @@ describe("Bio Guesser mock engine", () => {
         maxQuestionsBeforeFirstGuess,
         answers.length,
       );
-      expect(answers.length).toBeLessThanOrEqual(12);
+      expect(answers.length).toBeLessThanOrEqual(MAX_QUESTIONS);
 
       // Assert the guessed organism shares the same leaf group (same path) as target
       const guessedOrg = ORGANISMS.find(
@@ -61,11 +61,29 @@ describe("Bio Guesser mock engine", () => {
 
       // Reject 5 guesses in a row: each guess must be unique and give_up must happen on 5th rejection
       while (rejectedGuesses.length < MAX_GUESSES) {
+        while (step.kind === "question") {
+          const q = getQuestion(step.question.id);
+          const has = target.path.includes(q.taxonId);
+          answers.push({
+            questionId: step.question.id,
+            answer: has ? "yes" : "no",
+          });
+          step = nextStep({ answers, rejectedGuesses });
+        }
         if (step.kind !== "guess") {
           throw new Error("Expected guess before 5 rejections");
         }
         rejectedGuesses.push(step.guess.id);
         step = nextStep({ answers, rejectedGuesses });
+        while (step.kind === "question" && rejectedGuesses.length < MAX_GUESSES) {
+          const q = getQuestion(step.question.id);
+          const has = target.path.includes(q.taxonId);
+          answers.push({
+            questionId: step.question.id,
+            answer: has ? "yes" : "no",
+          });
+          step = nextStep({ answers, rejectedGuesses });
+        }
         if (rejectedGuesses.length < MAX_GUESSES) {
           expect(step.kind).toBe("guess");
           if (step.kind === "guess") {

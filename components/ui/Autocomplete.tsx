@@ -113,7 +113,7 @@ export default function Autocomplete<T extends Searchable = Searchable>({
               }
             }
           }}
-          className="flex-1 px-3 py-2 rounded-md bg-white text-black font-semibold text-sm sm:text-base border-2 border-slate-500 focus:border-accent focus:outline-none disabled:opacity-50"
+          className="flex-1 h-10 px-3 py-2 rounded-md bg-white text-black font-semibold text-sm sm:text-base border-2 border-slate-500 focus:border-accent focus:outline-none disabled:opacity-50"
         />
 
         <Button

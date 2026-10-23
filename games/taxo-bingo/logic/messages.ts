@@ -16,34 +16,34 @@ export const LOSS_MESSAGE_POOLS: Readonly<
   Record<LossBracket, readonly string[]>
 > = {
   "11": [
-    'ikr, that one "{cat}" you probably skimmed through or just didn\'t wanna show up',
-    "AAA ikr, that one {cat} you probably skimmed through or just didn't wanna show up",
-    '11/12... "{cat}" really saw your streak and chose violence',
+    '11 out of 12 categories completed. Just missed the final "{cat}".',
+    '11/12 categories matched. A very close taxonomic identification.',
+    '11 out of 12 cells identified. Review {cat} and try again.',
   ],
   "9-10": [
-    "You came quite close, even I couldn't do all 12 cells at first, and I made this game by hand",
-    "You came quite close, even I couldn't do all 12 cells at first, and I literally made this game by hand",
-    "{n}/12 is lowkey respectable, Darwin would still let you on the Beagle",
+    "{n} out of 12 categories identified. Solid taxonomic classification.",
+    "{n}/12 categories matched. Good attempt at completing the tree of life.",
+    "Well played: {n} out of 12 categories correctly identified.",
   ],
   "6-8": [
-    "{n} cells... not great, not terrible",
-    "{n} Roentgen, not great, not terrible",
-    "{n}/12, perfectly balanced, as half a biology textbook should be",
+    "{n} out of 12 categories identified. Halfway through the grid.",
+    "{n}/12 categories matched. Keep practicing taxonomic relationships.",
+    "{n} categories completed. Review organism classifications to improve your score.",
   ],
   "3-5": [
-    "{n} out of 12, tough luck I guess, im sure it's just a warm up gamr tho",
-    "Warm Up game fr, I'm sure you'll do better next time",
-    "{n}/12, the taxonomy tree shook and you fell out of it",
+    "{n} out of 12 categories matched. Review the taxonomy tree and try another round.",
+    "{n}/12 categories completed. Practice identifying traits across different kingdoms.",
+    "{n} categories identified. Better luck on the next attempt.",
   ],
   "1-2": [
-    "{n}/12, I guess it was a pretty hard game, maybe check out the Cheat Sheet",
-    "vayan a estudiar",
-    "{n}/12, bro guessed on vibes and the vibes were paraphyletic",
+    "{n} out of 12 categories matched. Review the taxonomic categories and try again.",
+    "{n}/12 categories identified. Check the classification guide to strengthen your recall.",
+    "{n} category matched. Study the taxonomy tree and attempt another round.",
   ],
   "0": [
-    "0 out of 12, vayan a estudiar",
-    "dont even blame the RNG, just put the fries in the bag lil bro",
-    "0/12, did you play with the monitor turned off or what",
+    "0 out of 12 categories matched. Review the taxonomic groups and try again.",
+    "Game over. No categories matched this round. Try another attempt to practice.",
+    "0/12 categories matched. Familiarize yourself with the taxonomy tree and give it another try.",
   ],
 };
 

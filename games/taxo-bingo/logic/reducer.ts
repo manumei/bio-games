@@ -46,6 +46,12 @@ export function taxoReducer(
   action: TaxoAction
 ): TaxoGameState {
   switch (action.type) {
+    case "RESET_TO_MENU": {
+      return {
+        ...createInitialTaxoState(),
+        options: state.options,
+      };
+    }
     case "SET_OPTIONS": {
       const nextHard = action.hardMode ?? state.options.hardMode;
       const requestedTimer =

@@ -67,6 +67,34 @@ export const RANDOM_POOL_TAXA: readonly TaxonId[] = [
   "cetacea",
   "marsupialia",
   "pilosa",
+  "lagomorpha",
+  "proboscidea",
+  // Orders of Amphibia
+  "anura",
+  "caudata",
+  // Orders of Aves
+  "passeriformes",
+  "anseriformes",
+  "falconiformes",
+  "strigiformes",
+  "sphenisciformes",
+  // Classes of Mollusca
+  "cephalopoda",
+  "gastropoda",
+  "bivalvia",
+  // Classes of Echinodermata
+  "asteroidea",
+  "echinoidea",
+  // Classes of Cnidaria
+  "anthozoa",
+  "scyphozoa",
+  // Phyla of Fungi
+  "ascomycota",
+  "basidiomycota",
+  // Orders of Fishes
+  "perciformes",
+  "salmoniformes",
+  "selachimorpha",
 ];
 
 export const RANDOM_POOL_PICK_COUNT = 9;

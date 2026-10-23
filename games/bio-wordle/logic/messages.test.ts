@@ -24,12 +24,14 @@ describe("games/bio-wordle/logic/messages", () => {
       "Clutch. Survival of the fittest, but barely."
     );
 
-    expect(LOSS_MESSAGES).toContain("It was {WORD}. Vayan a estudiar.");
     expect(LOSS_MESSAGES).toContain(
-      "{WORD}. Not even a mitochondrion could power you through that one."
+      "Game over. The correct biological term was {WORD}."
     );
     expect(LOSS_MESSAGES).toContain(
-      "The word was {WORD}. Not great, not terrible… ok it was terrible."
+      "Out of guesses. The word was {WORD}."
+    );
+    expect(LOSS_MESSAGES).toContain(
+      "The secret word was {WORD}. Review the definition and try another round."
     );
 
     expect(HARD_MODE_HINT_TOOLTIP).toBe(

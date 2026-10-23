@@ -9,9 +9,8 @@ import { FALLBACK_GRIDS } from "./fallbackGrids";
 import { TRAITS, getTrait } from "./traits";
 
 describe("ANIMALS dataset invariants", () => {
-  it("contains between 200 and 250 animals", () => {
+  it("contains at least 200 animals", () => {
     expect(ANIMALS.length).toBeGreaterThanOrEqual(200);
-    expect(ANIMALS.length).toBeLessThanOrEqual(250);
   });
 
   it("has unique snake_case ids, unique names, and non-colliding aliases", () => {

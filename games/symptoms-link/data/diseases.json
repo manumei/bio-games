@@ -2,7 +2,10 @@
   {
     "id": "tuberculosis",
     "name": "Tuberculosis",
-    "aliases": ["TB", "Consumption"],
+    "aliases": [
+      "TB",
+      "Consumption"
+    ],
     "category": "bacterial",
     "emoji": "🫁",
     "symptoms": [
@@ -22,7 +25,10 @@
   {
     "id": "leprosy",
     "name": "Leprosy",
-    "aliases": ["Hansen's disease", "Hansens disease"],
+    "aliases": [
+      "Hansen's disease",
+      "Hansens disease"
+    ],
     "category": "bacterial",
     "emoji": "🦠",
     "symptoms": [
@@ -42,7 +48,9 @@
   {
     "id": "anthrax",
     "name": "Anthrax",
-    "aliases": ["Woolsorter's disease"],
+    "aliases": [
+      "Woolsorter's disease"
+    ],
     "category": "bacterial",
     "emoji": "🐑",
     "symptoms": [
@@ -62,7 +70,10 @@
   {
     "id": "lyme_disease",
     "name": "Lyme disease",
-    "aliases": ["Lyme", "Borreliosis"],
+    "aliases": [
+      "Lyme",
+      "Borreliosis"
+    ],
     "category": "bacterial",
     "emoji": "🎯",
     "symptoms": [
@@ -86,7 +97,9 @@
   {
     "id": "rocky_mountain_spotted_fever",
     "name": "Rocky Mountain spotted fever",
-    "aliases": ["RMSF"],
+    "aliases": [
+      "RMSF"
+    ],
     "category": "bacterial",
     "emoji": "🕷️",
     "symptoms": [
@@ -110,7 +123,10 @@
   {
     "id": "plague",
     "name": "Plague",
-    "aliases": ["Bubonic plague", "Black Death"],
+    "aliases": [
+      "Bubonic plague",
+      "Black Death"
+    ],
     "category": "bacterial",
     "emoji": "🐀",
     "symptoms": [
@@ -133,7 +149,9 @@
   {
     "id": "cholera",
     "name": "Cholera",
-    "aliases": ["Asiatic cholera"],
+    "aliases": [
+      "Asiatic cholera"
+    ],
     "category": "bacterial",
     "emoji": "💧",
     "symptoms": [
@@ -153,7 +171,9 @@
   {
     "id": "tetanus",
     "name": "Tetanus",
-    "aliases": ["Lockjaw"],
+    "aliases": [
+      "Lockjaw"
+    ],
     "category": "bacterial",
     "emoji": "😬",
     "symptoms": [
@@ -173,7 +193,9 @@
   {
     "id": "botulism",
     "name": "Botulism",
-    "aliases": ["Foodborne botulism"],
+    "aliases": [
+      "Foodborne botulism"
+    ],
     "category": "bacterial",
     "emoji": "🥫",
     "symptoms": [
@@ -193,7 +215,9 @@
   {
     "id": "syphilis",
     "name": "Syphilis",
-    "aliases": ["Lues"],
+    "aliases": [
+      "Lues"
+    ],
     "category": "bacterial",
     "emoji": "🦠",
     "symptoms": [
@@ -213,7 +237,9 @@
   {
     "id": "gonorrhea",
     "name": "Gonorrhea",
-    "aliases": ["The clap"],
+    "aliases": [
+      "The clap"
+    ],
     "category": "bacterial",
     "emoji": "🦠",
     "symptoms": [
@@ -233,7 +259,10 @@
   {
     "id": "legionnaires_disease",
     "name": "Legionnaires' disease",
-    "aliases": ["Legionellosis", "Legionnaires disease"],
+    "aliases": [
+      "Legionellosis",
+      "Legionnaires disease"
+    ],
     "category": "bacterial",
     "emoji": "🏢",
     "symptoms": [
@@ -253,7 +282,9 @@
   {
     "id": "listeriosis",
     "name": "Listeriosis",
-    "aliases": ["Listeria infection"],
+    "aliases": [
+      "Listeria infection"
+    ],
     "category": "bacterial",
     "emoji": "🧀",
     "symptoms": [
@@ -273,7 +304,10 @@
   {
     "id": "typhoid_fever",
     "name": "Typhoid fever",
-    "aliases": ["Enteric fever", "Typhoid"],
+    "aliases": [
+      "Enteric fever",
+      "Typhoid"
+    ],
     "category": "bacterial",
     "emoji": "🌡️",
     "symptoms": [
@@ -293,7 +327,9 @@
   {
     "id": "shigellosis",
     "name": "Shigellosis",
-    "aliases": ["Bacillary dysentery"],
+    "aliases": [
+      "Bacillary dysentery"
+    ],
     "category": "bacterial",
     "emoji": "🦠",
     "symptoms": [
@@ -313,7 +349,10 @@
   {
     "id": "scarlet_fever",
     "name": "Scarlet fever",
-    "aliases": ["Scarlatina", "Strep throat"],
+    "aliases": [
+      "Scarlatina",
+      "Strep throat"
+    ],
     "category": "bacterial",
     "emoji": "🍓",
     "symptoms": [
@@ -333,7 +372,9 @@
   {
     "id": "pneumococcal_pneumonia",
     "name": "Pneumococcal pneumonia",
-    "aliases": ["Lobar pneumonia"],
+    "aliases": [
+      "Lobar pneumonia"
+    ],
     "category": "bacterial",
     "emoji": "🫁",
     "symptoms": [
@@ -353,7 +394,10 @@
   {
     "id": "c_diff_colitis",
     "name": "C. diff colitis",
-    "aliases": ["Clostridioides difficile colitis", "Pseudomembranous colitis"],
+    "aliases": [
+      "Clostridioides difficile colitis",
+      "Pseudomembranous colitis"
+    ],
     "category": "bacterial",
     "emoji": "💊",
     "symptoms": [
@@ -373,7 +417,9 @@
   {
     "id": "malaria",
     "name": "Malaria",
-    "aliases": ["Plasmodium infection"],
+    "aliases": [
+      "Plasmodium infection"
+    ],
     "category": "parasitic",
     "emoji": "🦟",
     "symptoms": [
@@ -397,7 +443,10 @@
   {
     "id": "african_sleeping_sickness",
     "name": "African sleeping sickness",
-    "aliases": ["African trypanosomiasis", "Sleeping sickness"],
+    "aliases": [
+      "African trypanosomiasis",
+      "Sleeping sickness"
+    ],
     "category": "parasitic",
     "emoji": "🪰",
     "symptoms": [
@@ -420,7 +469,9 @@
   {
     "id": "toxoplasmosis",
     "name": "Toxoplasmosis",
-    "aliases": ["Toxo"],
+    "aliases": [
+      "Toxo"
+    ],
     "category": "parasitic",
     "emoji": "🐱",
     "symptoms": [
@@ -440,7 +491,10 @@
   {
     "id": "amoebic_meningoencephalitis",
     "name": "Primary amoebic meningoencephalitis",
-    "aliases": ["PAM", "Brain-eating amoeba"],
+    "aliases": [
+      "PAM",
+      "Brain-eating amoeba"
+    ],
     "category": "parasitic",
     "emoji": "🏊",
     "symptoms": [
@@ -460,7 +514,10 @@
   {
     "id": "dengue",
     "name": "Dengue fever",
-    "aliases": ["Dengue", "Breakbone fever"],
+    "aliases": [
+      "Dengue",
+      "Breakbone fever"
+    ],
     "category": "viral",
     "emoji": "🦟",
     "symptoms": [
@@ -483,7 +540,9 @@
   {
     "id": "yellow_fever",
     "name": "Yellow fever",
-    "aliases": ["Yellow jack"],
+    "aliases": [
+      "Yellow jack"
+    ],
     "category": "viral",
     "emoji": "🦟",
     "symptoms": [
@@ -506,7 +565,10 @@
   {
     "id": "zika_fever",
     "name": "Zika virus disease",
-    "aliases": ["Zika", "Zika fever"],
+    "aliases": [
+      "Zika",
+      "Zika fever"
+    ],
     "category": "viral",
     "emoji": "🦟",
     "symptoms": [
@@ -529,7 +591,9 @@
   {
     "id": "ascariasis",
     "name": "Ascariasis",
-    "aliases": ["Giant roundworm infection"],
+    "aliases": [
+      "Giant roundworm infection"
+    ],
     "category": "parasitic",
     "emoji": "🪱",
     "symptoms": [
@@ -549,7 +613,11 @@
   {
     "id": "pinworm_infection",
     "name": "Pinworm infection",
-    "aliases": ["Enterobiasis", "Threadworm", "Pinworm"],
+    "aliases": [
+      "Enterobiasis",
+      "Threadworm",
+      "Pinworm"
+    ],
     "category": "parasitic",
     "emoji": "🪱",
     "symptoms": [
@@ -569,7 +637,10 @@
   {
     "id": "hookworm_infection",
     "name": "Hookworm infection",
-    "aliases": ["Ancylostomiasis", "Hookworm"],
+    "aliases": [
+      "Ancylostomiasis",
+      "Hookworm"
+    ],
     "category": "parasitic",
     "emoji": "🦶",
     "symptoms": [
@@ -589,7 +660,9 @@
   {
     "id": "trichinosis",
     "name": "Trichinosis",
-    "aliases": ["Trichinellosis"],
+    "aliases": [
+      "Trichinellosis"
+    ],
     "category": "parasitic",
     "emoji": "🥩",
     "symptoms": [
@@ -609,7 +682,10 @@
   {
     "id": "schistosomiasis",
     "name": "Schistosomiasis",
-    "aliases": ["Bilharzia", "Snail fever"],
+    "aliases": [
+      "Bilharzia",
+      "Snail fever"
+    ],
     "category": "parasitic",
     "emoji": "🐌",
     "symptoms": [
@@ -629,7 +705,10 @@
   {
     "id": "cysticercosis",
     "name": "Cysticercosis",
-    "aliases": ["Neurocysticercosis", "Pork tapeworm infection"],
+    "aliases": [
+      "Neurocysticercosis",
+      "Pork tapeworm infection"
+    ],
     "category": "parasitic",
     "emoji": "🧠",
     "symptoms": [
@@ -649,7 +728,9 @@
   {
     "id": "hydatid_disease",
     "name": "Hydatid disease",
-    "aliases": ["Echinococcosis"],
+    "aliases": [
+      "Echinococcosis"
+    ],
     "category": "parasitic",
     "emoji": "🐕",
     "symptoms": [
@@ -669,7 +750,9 @@
   {
     "id": "scabies",
     "name": "Scabies",
-    "aliases": ["Seven-year itch"],
+    "aliases": [
+      "Seven-year itch"
+    ],
     "category": "parasitic",
     "emoji": "🖐️",
     "symptoms": [
@@ -689,7 +772,9 @@
   {
     "id": "river_blindness",
     "name": "River blindness",
-    "aliases": ["Onchocerciasis"],
+    "aliases": [
+      "Onchocerciasis"
+    ],
     "category": "parasitic",
     "emoji": "👁️",
     "symptoms": [
@@ -712,7 +797,9 @@
   {
     "id": "measles",
     "name": "Measles",
-    "aliases": ["Rubeola"],
+    "aliases": [
+      "Rubeola"
+    ],
     "category": "viral",
     "emoji": "🔴",
     "symptoms": [
@@ -731,7 +818,9 @@
   {
     "id": "chickenpox",
     "name": "Chickenpox",
-    "aliases": ["Varicella"],
+    "aliases": [
+      "Varicella"
+    ],
     "category": "viral",
     "emoji": "🫧",
     "symptoms": [
@@ -750,7 +839,9 @@
   {
     "id": "mumps",
     "name": "Mumps",
-    "aliases": ["Epidemic parotitis"],
+    "aliases": [
+      "Epidemic parotitis"
+    ],
     "category": "viral",
     "emoji": "🐿️",
     "symptoms": [
@@ -769,7 +860,10 @@
   {
     "id": "influenza",
     "name": "Influenza",
-    "aliases": ["Flu", "The flu"],
+    "aliases": [
+      "Flu",
+      "The flu"
+    ],
     "category": "viral",
     "emoji": "🤧",
     "symptoms": [
@@ -788,7 +882,11 @@
   {
     "id": "covid_19",
     "name": "COVID-19",
-    "aliases": ["Coronavirus disease 2019", "Covid", "SARS-CoV-2"],
+    "aliases": [
+      "Coronavirus disease 2019",
+      "Covid",
+      "SARS-CoV-2"
+    ],
     "category": "viral",
     "emoji": "😷",
     "symptoms": [
@@ -807,7 +905,9 @@
   {
     "id": "rabies",
     "name": "Rabies",
-    "aliases": ["Hydrophobia"],
+    "aliases": [
+      "Hydrophobia"
+    ],
     "category": "viral",
     "emoji": "🦇",
     "symptoms": [
@@ -826,7 +926,9 @@
   {
     "id": "polio",
     "name": "Polio",
-    "aliases": ["Poliomyelitis"],
+    "aliases": [
+      "Poliomyelitis"
+    ],
     "category": "viral",
     "emoji": "🦽",
     "symptoms": [
@@ -845,7 +947,10 @@
   {
     "id": "hiv_aids",
     "name": "HIV/AIDS",
-    "aliases": ["HIV", "AIDS"],
+    "aliases": [
+      "HIV",
+      "AIDS"
+    ],
     "category": "viral",
     "emoji": "🎗️",
     "symptoms": [
@@ -864,7 +969,10 @@
   {
     "id": "hepatitis_b",
     "name": "Hepatitis B",
-    "aliases": ["Hep B", "HBV"],
+    "aliases": [
+      "Hep B",
+      "HBV"
+    ],
     "category": "viral",
     "emoji": "🟡",
     "symptoms": [
@@ -883,7 +991,11 @@
   {
     "id": "mononucleosis",
     "name": "Infectious mononucleosis",
-    "aliases": ["Mono", "Glandular fever", "Kissing disease"],
+    "aliases": [
+      "Mono",
+      "Glandular fever",
+      "Kissing disease"
+    ],
     "category": "viral",
     "emoji": "💋",
     "symptoms": [
@@ -902,7 +1014,10 @@
   {
     "id": "type_1_diabetes",
     "name": "Type 1 diabetes",
-    "aliases": ["Diabetes mellitus type 1", "Juvenile diabetes"],
+    "aliases": [
+      "Diabetes mellitus type 1",
+      "Juvenile diabetes"
+    ],
     "category": "metabolic",
     "emoji": "🩸",
     "symptoms": [
@@ -918,7 +1033,10 @@
   {
     "id": "hypothyroidism",
     "name": "Hypothyroidism",
-    "aliases": ["Hashimoto's thyroiditis", "Underactive thyroid"],
+    "aliases": [
+      "Underactive thyroid",
+      "Low thyroid"
+    ],
     "category": "metabolic",
     "emoji": "🦋",
     "symptoms": [
@@ -934,7 +1052,10 @@
   {
     "id": "graves_disease",
     "name": "Graves' disease",
-    "aliases": ["Graves disease", "Hyperthyroidism"],
+    "aliases": [
+      "Graves disease",
+      "Hyperthyroidism"
+    ],
     "category": "autoimmune",
     "emoji": "👀",
     "symptoms": [
@@ -950,7 +1071,9 @@
   {
     "id": "iron_deficiency_anemia",
     "name": "Iron-deficiency anemia",
-    "aliases": ["Microcytic anemia"],
+    "aliases": [
+      "Microcytic anemia"
+    ],
     "category": "nutritional",
     "emoji": "🩸",
     "symptoms": [
@@ -966,7 +1089,9 @@
   {
     "id": "sickle_cell_disease",
     "name": "Sickle cell disease",
-    "aliases": ["Sickle cell anemia"],
+    "aliases": [
+      "Sickle cell anemia"
+    ],
     "category": "genetic",
     "emoji": "🌙",
     "symptoms": [
@@ -982,7 +1107,9 @@
   {
     "id": "cystic_fibrosis",
     "name": "Cystic fibrosis",
-    "aliases": ["CF"],
+    "aliases": [
+      "CF"
+    ],
     "category": "genetic",
     "emoji": "🫁",
     "symptoms": [
@@ -998,7 +1125,10 @@
   {
     "id": "hemophilia",
     "name": "Hemophilia",
-    "aliases": ["Haemophilia", "Royal disease"],
+    "aliases": [
+      "Haemophilia",
+      "Royal disease"
+    ],
     "category": "genetic",
     "emoji": "🩸",
     "symptoms": [
@@ -1014,7 +1144,9 @@
   {
     "id": "asthma",
     "name": "Asthma",
-    "aliases": ["Bronchial asthma"],
+    "aliases": [
+      "Bronchial asthma"
+    ],
     "category": "respiratory",
     "emoji": "💨",
     "symptoms": [
@@ -1030,7 +1162,9 @@
   {
     "id": "appendicitis",
     "name": "Appendicitis",
-    "aliases": ["Acute appendicitis"],
+    "aliases": [
+      "Acute appendicitis"
+    ],
     "category": "other",
     "emoji": "🏥",
     "symptoms": [
@@ -1046,7 +1180,10 @@
   {
     "id": "gout",
     "name": "Gout",
-    "aliases": ["Gouty arthritis", "Podagra"],
+    "aliases": [
+      "Gouty arthritis",
+      "Podagra"
+    ],
     "category": "metabolic",
     "emoji": "🦶",
     "symptoms": [
@@ -1062,7 +1199,9 @@
   {
     "id": "migraine",
     "name": "Migraine",
-    "aliases": ["Migraine headache"],
+    "aliases": [
+      "Migraine headache"
+    ],
     "category": "neurological",
     "emoji": "⚡",
     "symptoms": [
@@ -1078,7 +1217,10 @@
   {
     "id": "parkinsons_disease",
     "name": "Parkinson's disease",
-    "aliases": ["Parkinsons disease", "Parkinson disease"],
+    "aliases": [
+      "Parkinsons disease",
+      "Parkinson disease"
+    ],
     "category": "neurological",
     "emoji": "🧠",
     "symptoms": [
@@ -1094,7 +1236,10 @@
   {
     "id": "alzheimers_disease",
     "name": "Alzheimer's disease",
-    "aliases": ["Alzheimers disease", "Alzheimer disease"],
+    "aliases": [
+      "Alzheimers disease",
+      "Alzheimer disease"
+    ],
     "category": "neurological",
     "emoji": "🧩",
     "symptoms": [
@@ -1110,7 +1255,9 @@
   {
     "id": "multiple_sclerosis",
     "name": "Multiple sclerosis",
-    "aliases": ["MS"],
+    "aliases": [
+      "MS"
+    ],
     "category": "autoimmune",
     "emoji": "⚡",
     "symptoms": [
@@ -1126,7 +1273,10 @@
   {
     "id": "lupus",
     "name": "Lupus",
-    "aliases": ["Systemic lupus erythematosus", "SLE"],
+    "aliases": [
+      "Systemic lupus erythematosus",
+      "SLE"
+    ],
     "category": "autoimmune",
     "emoji": "🦋",
     "symptoms": [
@@ -1142,7 +1292,9 @@
   {
     "id": "rheumatoid_arthritis",
     "name": "Rheumatoid arthritis",
-    "aliases": ["RA"],
+    "aliases": [
+      "RA"
+    ],
     "category": "autoimmune",
     "emoji": "🤲",
     "symptoms": [
@@ -1158,7 +1310,10 @@
   {
     "id": "celiac_disease",
     "name": "Celiac disease",
-    "aliases": ["Coeliac disease", "Celiac sprue"],
+    "aliases": [
+      "Coeliac disease",
+      "Celiac sprue"
+    ],
     "category": "autoimmune",
     "emoji": "🌾",
     "symptoms": [
@@ -1174,7 +1329,9 @@
   {
     "id": "scurvy",
     "name": "Scurvy",
-    "aliases": ["Vitamin C deficiency"],
+    "aliases": [
+      "Vitamin C deficiency"
+    ],
     "category": "nutritional",
     "emoji": "🍋",
     "symptoms": [
@@ -1190,7 +1347,9 @@
   {
     "id": "rickets",
     "name": "Rickets",
-    "aliases": ["Vitamin D deficiency"],
+    "aliases": [
+      "Vitamin D deficiency"
+    ],
     "category": "nutritional",
     "emoji": "☀️",
     "symptoms": [
@@ -1206,7 +1365,10 @@
   {
     "id": "myocardial_infarction",
     "name": "Heart attack",
-    "aliases": ["Myocardial infarction", "MI"],
+    "aliases": [
+      "Myocardial infarction",
+      "MI"
+    ],
     "category": "cardiovascular",
     "emoji": "🫀",
     "symptoms": [
@@ -1218,5 +1380,835 @@
     ],
     "fact": "Rupture of an atherosclerotic plaque triggers a thrombus that starves downstream heart muscle of oxygen.",
     "difficulty": 1
+  },
+  {
+    "id": "candidiasis",
+    "name": "Candidiasis",
+    "aliases": [
+      "Thrush",
+      "Yeast Infection",
+      "Moniliasis"
+    ],
+    "category": "fungal",
+    "emoji": "🍄",
+    "symptoms": [
+      "White curd-like plaques on oral mucosa",
+      "Burning sensation and altered taste",
+      "Erythematous base that bleeds if scraped",
+      "Curd-like discharge and intense itching",
+      "Recent broad-spectrum antibiotic use"
+    ],
+    "cause": {
+      "label": "Candida albicans"
+    },
+    "fact": "Candida albicans is a dimorphic fungus capable of shifting between yeast cells and invasive pseudohyphae.",
+    "difficulty": 1
+  },
+  {
+    "id": "aspergillosis",
+    "name": "Aspergillosis",
+    "aliases": [
+      "Fungal Ball",
+      "Aspergilloma"
+    ],
+    "category": "fungal",
+    "emoji": "🍄",
+    "symptoms": [
+      "Recurrent hemoptysis and chronic cough",
+      "Low-grade fever and night sweats",
+      "Wheezing unresponsive to bronchodilators",
+      "Fungus ball in pre-existing lung cavity",
+      "Elevated serum galactomannan antigen"
+    ],
+    "cause": {
+      "label": "Aspergillus fumigatus"
+    },
+    "fact": "Aspergillus fumigatus produces airborne conidia that germinate into branching septate hyphae in damaged lung tissue.",
+    "difficulty": 2
+  },
+  {
+    "id": "cryptococcosis",
+    "name": "Cryptococcosis",
+    "aliases": [
+      "Cryptococcal Meningitis",
+      "Torulosis"
+    ],
+    "category": "fungal",
+    "emoji": "🍄",
+    "symptoms": [
+      "Subacute progressive headache",
+      "Low-grade fever and photophobia",
+      "Neck stiffness and papilledema",
+      "Budding yeast with halo on India ink",
+      "Exposure to pigeon droppings or soil"
+    ],
+    "cause": {
+      "label": "Cryptococcus neoformans"
+    },
+    "fact": "Cryptococcus neoformans is protected by a prominent glucuronoxylomannan polysaccharide capsule visible via negative stain.",
+    "difficulty": 2
+  },
+  {
+    "id": "histoplasmosis",
+    "name": "Histoplasmosis",
+    "aliases": [
+      "Ohio Valley Disease",
+      "Darling Disease"
+    ],
+    "category": "fungal",
+    "emoji": "🍄",
+    "symptoms": [
+      "Flulike illness with dry cough",
+      "Substernal chest pain and malaise",
+      "Hilar lymphadenopathy on chest X-ray",
+      "Small yeasts inside macrophages",
+      "Exposure to bat caves or bird guano"
+    ],
+    "cause": {
+      "label": "Histoplasma capsulatum"
+    },
+    "fact": "Histoplasma capsulatum thrives in soil enriched by bird or bat guano, predominantly in river valley basins.",
+    "difficulty": 2
+  },
+  {
+    "id": "coccidioidomycosis",
+    "name": "Coccidioidomycosis",
+    "aliases": [
+      "Valley Fever",
+      "San Joaquin Fever",
+      "Desert Rheumatism"
+    ],
+    "category": "fungal",
+    "emoji": "🍄",
+    "symptoms": [
+      "Fever and productive cough",
+      "Tender red skin nodules on shins",
+      "Migratory joint pain and swelling",
+      "Large spherules packed with endospores",
+      "Recent dust exposure in arid southwest"
+    ],
+    "cause": {
+      "label": "Coccidioides immitis"
+    },
+    "fact": "Coccidioides arthroconidia become airborne in desert dust and transform into endospore-filled spherules inside lung alveoli.",
+    "difficulty": 2
+  },
+  {
+    "id": "blastomycosis",
+    "name": "Blastomycosis",
+    "aliases": [
+      "Gilchrist Disease",
+      "North American Blastomycosis"
+    ],
+    "category": "fungal",
+    "emoji": "🍄",
+    "symptoms": [
+      "Chronic cough with purulent sputum",
+      "Crusted verrucous skin ulcerations",
+      "Osteolytic bone lesions and joint swelling",
+      "Broad-based budding yeasts on microscopy",
+      "Soil disturbance near riverbanks"
+    ],
+    "cause": {
+      "label": "Blastomyces dermatitidis"
+    },
+    "fact": "Blastomyces dermatitidis yeasts exhibit a distinctive thick doubly refractive wall and broad-based budding neck.",
+    "difficulty": 3
+  },
+  {
+    "id": "pneumocystis_pneumonia",
+    "name": "Pneumocystis Pneumonia",
+    "aliases": [
+      "PCP",
+      "Pneumocystosis"
+    ],
+    "category": "fungal",
+    "emoji": "🍄",
+    "symptoms": [
+      "Progressive exertional dyspnea",
+      "Persistent nonproductive dry cough",
+      "Severe hypoxemia out of proportion to signs",
+      "Diffuse bilateral ground-glass infiltrates",
+      "Cup-shaped cysts on silver methenamine stain"
+    ],
+    "cause": {
+      "label": "Pneumocystis jirovecii"
+    },
+    "fact": "Formerly considered a protozoan, DNA sequencing proved Pneumocystis is an atypical fungus with cholesterol in its membrane.",
+    "difficulty": 2
+  },
+  {
+    "id": "tinea_corporis",
+    "name": "Tinea Corporis",
+    "aliases": [
+      "Ringworm",
+      "Tinea"
+    ],
+    "category": "fungal",
+    "emoji": "🍄",
+    "symptoms": [
+      "Pruritic annular scaling plaque",
+      "Raised active erythematous border",
+      "Central clearing forming a ring shape",
+      "Septate hyphae on KOH preparation",
+      "Contact with infected pet or wrestler"
+    ],
+    "cause": {
+      "label": "Trichophyton rubrum"
+    },
+    "fact": "Dermatophyte fungi secrete keratinase enzymes allowing them to feed strictly on dead keratinized tissue like skin and nails.",
+    "difficulty": 1
+  },
+  {
+    "id": "sporotrichosis",
+    "name": "Sporotrichosis",
+    "aliases": [
+      "Rose Gardener Disease",
+      "Sporothrix"
+    ],
+    "category": "fungal",
+    "emoji": "🍄",
+    "symptoms": [
+      "Painless papule at puncture site",
+      "Ulcer discharging watery fluid",
+      "Nodules ascending along lymphatics",
+      "Cigar-shaped budding yeast cells",
+      "Prick from rose thorn or sphagnum"
+    ],
+    "cause": {
+      "label": "Sporothrix schenckii"
+    },
+    "fact": "Sporothrix exhibits classic nodular lymphangitis, spreading sequentially along lymphatic channels draining the inoculated limb.",
+    "difficulty": 3
+  },
+  {
+    "id": "mucormycosis",
+    "name": "Mucormycosis",
+    "aliases": [
+      "Zygomycosis",
+      "Black Fungus"
+    ],
+    "category": "fungal",
+    "emoji": "🍄",
+    "symptoms": [
+      "Facial pain and periorbital edema",
+      "Black necrotic eschar on palate",
+      "Proptosis and cranial nerve palsy",
+      "Broad non-septate hyphae at 90 degrees",
+      "Precipitated by diabetic ketoacidosis"
+    ],
+    "cause": {
+      "label": "Rhizopus arrhizus"
+    },
+    "fact": "Mucorales fungi are angioinvasive, invading blood vessel walls to cause extensive ischemic thrombosis and tissue necrosis.",
+    "difficulty": 3
+  },
+  {
+    "id": "lung_cancer",
+    "name": "Lung Cancer",
+    "aliases": [
+      "Bronchogenic Carcinoma",
+      "Lung Carcinoma",
+      "Pulmonary Neoplasm"
+    ],
+    "category": "oncological",
+    "emoji": "🎗️",
+    "symptoms": [
+      "Chronic worsening cough for months",
+      "Hemoptysis and pleuritic chest pain",
+      "Unintended profound weight loss",
+      "Horner syndrome with ptosis and miosis",
+      "Solitary pulmonary mass on imaging"
+    ],
+    "fact": "Lung malignancies often produce paraneoplastic syndromes like SIADH or hypercalcemia by ectopic hormone secretion.",
+    "difficulty": 1
+  },
+  {
+    "id": "breast_cancer",
+    "name": "Breast Cancer",
+    "aliases": [
+      "Mammary Carcinoma",
+      "Breast Carcinoma"
+    ],
+    "category": "oncological",
+    "emoji": "🎗️",
+    "symptoms": [
+      "Firm painless solitary breast mass",
+      "Dimpled skin like an orange peel",
+      "Recent unilateral nipple inversion",
+      "Palpable hard axillary lymph nodes",
+      "High familial risk linked to BRCA"
+    ],
+    "fact": "Peau d'orange skin texture occurs when malignant cells infiltrate and obstruct subdermal lymphatic drainage.",
+    "difficulty": 1
+  },
+  {
+    "id": "colorectal_cancer",
+    "name": "Colorectal Cancer",
+    "aliases": [
+      "Colon Cancer",
+      "Bowel Cancer",
+      "Rectal Cancer"
+    ],
+    "category": "oncological",
+    "emoji": "🎗️",
+    "symptoms": [
+      "Change in bowel habits and caliber",
+      "Occult fecal blood and iron deficiency",
+      "Unexplained progressive fatigue",
+      "Cramping abdominal pain and fullness",
+      "Annular apple-core lesion on barium"
+    ],
+    "fact": "Most bowel malignancies evolve gradually through an adenoma-to-carcinoma sequence driven by chromosomal instability.",
+    "difficulty": 1
+  },
+  {
+    "id": "pancreatic_cancer",
+    "name": "Pancreatic Cancer",
+    "aliases": [
+      "Pancreatic Adenocarcinoma",
+      "Pancreatic Carcinoma"
+    ],
+    "category": "oncological",
+    "emoji": "🎗️",
+    "symptoms": [
+      "Progressive painless jaundice",
+      "Dark amber urine and pale clay stool",
+      "Dull epigastric ache radiating back",
+      "Palpable distended gallbladder",
+      "Markedly elevated serum CA 19-9"
+    ],
+    "fact": "Courvoisier's law states that an enlarged painless gallbladder in a jaundiced patient strongly suggests an obstructive pancreatic head tumor.",
+    "difficulty": 2
+  },
+  {
+    "id": "prostate_cancer",
+    "name": "Prostate Cancer",
+    "aliases": [
+      "Prostate Carcinoma",
+      "Prostatic Neoplasm"
+    ],
+    "category": "oncological",
+    "emoji": "🎗️",
+    "symptoms": [
+      "Urinary hesitancy in older males",
+      "Nocturia and weak urinary stream",
+      "Hard nodular prostate on exam",
+      "Unremitting lower back and hip pain",
+      "Osteoblastic bone lesions on scan"
+    ],
+    "fact": "Prostate adenocarcinoma metastasizes characteristically to the lumbar spine through Batson's venous plexus.",
+    "difficulty": 1
+  },
+  {
+    "id": "melanoma",
+    "name": "Melanoma",
+    "aliases": [
+      "Malignant Melanoma",
+      "Cutaneous Melanoma"
+    ],
+    "category": "oncological",
+    "emoji": "🎗️",
+    "symptoms": [
+      "Asymmetrical cutaneous lesion",
+      "Irregular scalloped lesion borders",
+      "Variegated shades of brown and black",
+      "Diameter greater than six millimeters",
+      "Evolution in lesion shape or elevation"
+    ],
+    "fact": "Breslow depth measures the vertical tumor thickness in millimeters and represents the single strongest prognostic indicator.",
+    "difficulty": 1
+  },
+  {
+    "id": "acute_lymphoblastic_leukemia",
+    "name": "Acute Lymphoblastic Leukemia",
+    "aliases": [
+      "Acute Lymphocytic Leukemia",
+      "Lymphoblastic Leukemia"
+    ],
+    "category": "oncological",
+    "emoji": "🎗️",
+    "symptoms": [
+      "Profound exhaustion and skin pallor",
+      "Petechiae and mucosal bleeding",
+      "Bone and joint pain in a child",
+      "Hepatosplenomegaly and swollen nodes",
+      "Over twenty percent marrow blasts"
+    ],
+    "fact": "ALL is the most prevalent childhood malignancy, characterized by uncontrolled clonal proliferation of immature lymphoid progenitor cells.",
+    "difficulty": 2
+  },
+  {
+    "id": "hodgkin_lymphoma",
+    "name": "Hodgkin Lymphoma",
+    "aliases": [
+      "Hodgkin Disease",
+      "Lymphogranuloma"
+    ],
+    "category": "oncological",
+    "emoji": "🎗️",
+    "symptoms": [
+      "Painless rubbery cervical nodes",
+      "Pel-Ebstein cyclical fevers",
+      "Drenching night sweats and weight loss",
+      "Node pain triggered by alcohol",
+      "Owl-eyed Reed-Sternberg giant cells"
+    ],
+    "fact": "Reed-Sternberg cells are giant neoplastic B cells that display bilateral mirror-image nuclei with prominent eosinophilic nucleoli.",
+    "difficulty": 2
+  },
+  {
+    "id": "glioblastoma",
+    "name": "Glioblastoma",
+    "aliases": [
+      "GBM",
+      "Glioblastoma Multiforme"
+    ],
+    "category": "oncological",
+    "emoji": "🎗️",
+    "symptoms": [
+      "Morning headache with projectile emesis",
+      "New-onset seizures in an adult",
+      "Progressive hemiparesis and confusion",
+      "Rapid cognitive and memory decline",
+      "Butterfly ring-enhancing brain mass"
+    ],
+    "fact": "Glioblastoma multiforme is an aggressive grade IV astrocytoma displaying pseudopalisading necrosis and extensive microvascular proliferation.",
+    "difficulty": 3
+  },
+  {
+    "id": "gastric_cancer",
+    "name": "Gastric Cancer",
+    "aliases": [
+      "Stomach Cancer",
+      "Gastric Adenocarcinoma"
+    ],
+    "category": "oncological",
+    "emoji": "🎗️",
+    "symptoms": [
+      "Early satiety and postprandial fullness",
+      "Severe unprompted body weight loss",
+      "Microcytic anemia from occult bleed",
+      "Palpable left supraclavicular node",
+      "Signet-ring mucin cells on biopsy"
+    ],
+    "fact": "Virchow's node (left supraclavicular enlargement) signifies advanced transperitoneal metastasis of gastric adenocarcinoma.",
+    "difficulty": 2
+  },
+  {
+    "id": "salmonellosis",
+    "name": "Salmonellosis",
+    "aliases": [
+      "Salmonella Food Poisoning",
+      "Salmonella Enteritis"
+    ],
+    "category": "bacterial",
+    "emoji": "🦠",
+    "symptoms": [
+      "Inflammatory loose watery stools",
+      "Cramping periumbilical pain",
+      "Low-grade fever chills and nausea",
+      "Onset 12 to 72 hours after eating",
+      "History of raw eggs or reptile contact"
+    ],
+    "cause": {
+      "label": "Salmonella enterica"
+    },
+    "fact": "Salmonella utilizes a type III secretion system to inject effector proteins into intestinal enterocytes, triggering inflammatory endocytosis.",
+    "difficulty": 1
+  },
+  {
+    "id": "pertussis",
+    "name": "Pertussis",
+    "aliases": [
+      "Whooping Cough",
+      "100-Day Cough"
+    ],
+    "category": "bacterial",
+    "emoji": "🦠",
+    "symptoms": [
+      "Mild coryza and low fever for two weeks",
+      "Paroxysmal bursts of staccato coughs",
+      "High-pitched inspiratory whoop sound",
+      "Post-tussive vomiting and exhaustion",
+      "Marked lymphocytosis on blood test"
+    ],
+    "cause": {
+      "label": "Bordetella pertussis"
+    },
+    "fact": "Pertussis toxin catalyzes ADP-ribosylation of inhibitory G proteins, locking adenylyl cyclase in an active state.",
+    "difficulty": 1
+  },
+  {
+    "id": "diphtheria",
+    "name": "Diphtheria",
+    "aliases": [
+      "Corynebacterial Croup"
+    ],
+    "category": "bacterial",
+    "emoji": "🦠",
+    "symptoms": [
+      "Sore throat low fever and hoarseness",
+      "Adherent gray pharyngeal pseudomembrane",
+      "Bleeding when peeling the membrane",
+      "Massive bull-neck cervical swelling",
+      "Toxin-mediated myocarditis risk"
+    ],
+    "cause": {
+      "label": "Corynebacterium diphtheriae"
+    },
+    "fact": "Diphtheria exotoxin permanently halts host protein synthesis by ADP-ribosylating elongation factor 2 (EF-2).",
+    "difficulty": 2
+  },
+  {
+    "id": "ebola_virus_disease",
+    "name": "Ebola Virus Disease",
+    "aliases": [
+      "Ebola",
+      "Ebola Hemorrhagic Fever"
+    ],
+    "category": "viral",
+    "emoji": "🧬",
+    "symptoms": [
+      "Sudden high fever and intense myalgia",
+      "Voluminous watery diarrhea and vomiting",
+      "Maculopapular rash on the trunk",
+      "Unexplained hemorrhage and bruising",
+      "Exposure to bats or primates in tropics"
+    ],
+    "cause": {
+      "label": "Zaire ebolavirus"
+    },
+    "fact": "Ebolavirus is a filamentous single-stranded negative-sense RNA filovirus that infects monocytes and triggers devastating cytokine release.",
+    "difficulty": 2
+  },
+  {
+    "id": "creutzfeldt_jakob_disease",
+    "name": "Creutzfeldt-Jakob Disease",
+    "aliases": [
+      "CJD",
+      "Subacute Spongiform Encephalopathy"
+    ],
+    "category": "neurological",
+    "emoji": "🧠",
+    "symptoms": [
+      "Rapid cognitive decline over months",
+      "Startle-induced involuntary myoclonus",
+      "Ataxic unsteady gait and dysarthria",
+      "Sharp wave complexes on EEG tracing",
+      "Spongiform changes on brain histology"
+    ],
+    "fact": "CJD is triggered by misfolded prions (PrPSc) that recruit normal alpha-helical prion proteins into insoluble beta-sheet aggregates.",
+    "difficulty": 3
+  },
+  {
+    "id": "hepatitis_a",
+    "name": "Hepatitis A",
+    "aliases": [
+      "Infectious Jaundice",
+      "HAV"
+    ],
+    "category": "viral",
+    "emoji": "🧬",
+    "symptoms": [
+      "Malaise anorexia and low-grade fever",
+      "Right upper quadrant liver tenderness",
+      "Scleral icterus and bodily jaundice",
+      "Dark tea-colored urine and pale stool",
+      "Ingestion of raw shellfish or water"
+    ],
+    "cause": {
+      "label": "Hepatovirus A"
+    },
+    "fact": "Unlike Hepatitis B and C, Hepatitis A is an acute self-limiting picornavirus that never progresses to chronic hepatitis or cirrhosis.",
+    "difficulty": 1
+  },
+  {
+    "id": "hepatitis_c",
+    "name": "Hepatitis C",
+    "aliases": [
+      "HCV",
+      "Non-A Non-B Hepatitis"
+    ],
+    "category": "viral",
+    "emoji": "🧬",
+    "symptoms": [
+      "Insidious fatigue and joint stiffness",
+      "Fluctuating alanine aminotransferase",
+      "Spider angiomas and palmar erythema",
+      "Ascites and portal hypertension",
+      "Past history of blood transfusion"
+    ],
+    "cause": {
+      "label": "Hepacivirus C"
+    },
+    "fact": "Over seventy percent of acute Hep C infections become chronic due to hypervariable envelope genes that evade neutralizing antibodies.",
+    "difficulty": 2
+  },
+  {
+    "id": "hepatitis_d",
+    "name": "Hepatitis D",
+    "aliases": [
+      "Delta Hepatitis",
+      "HDV"
+    ],
+    "category": "viral",
+    "emoji": "🧬",
+    "symptoms": [
+      "Clinical worsening of known HBV carrier",
+      "Deepening jaundice and hepatic ache",
+      "Marked elevation of transaminases",
+      "Rapid onset of hepatic encephalopathy",
+      "Presence of delta antigen with HBsAg"
+    ],
+    "cause": {
+      "label": "Hepatitis delta virus"
+    },
+    "fact": "HDV is a defective subviral satellite RNA that cannot replicate or encapsulate without Hepatitis B surface antigens.",
+    "difficulty": 3
+  },
+  {
+    "id": "hepatitis_e",
+    "name": "Hepatitis E",
+    "aliases": [
+      "Enteric Non-A Non-B",
+      "HEV"
+    ],
+    "category": "viral",
+    "emoji": "🧬",
+    "symptoms": [
+      "Acute jaundice anorexia and fatigue",
+      "Enlarged tender liver on palpation",
+      "Dark amber urine and generalized itch",
+      "Waterborne spread during monsoon rain",
+      "High mortality in pregnant females"
+    ],
+    "cause": {
+      "label": "Paslahepevirus balayani"
+    },
+    "fact": "Infection during the third trimester of pregnancy can lead to fulminant hepatic failure with mortality rates approaching twenty-five percent.",
+    "difficulty": 3
+  },
+  {
+    "id": "rubella",
+    "name": "Rubella",
+    "aliases": [
+      "German Measles",
+      "Three-Day Measles"
+    ],
+    "category": "viral",
+    "emoji": "🧬",
+    "symptoms": [
+      "Low fever and mild conjunctivitis",
+      "Tender posterior auricular nodes",
+      "Faint pink rash spreading downward",
+      "Transient joint aches in young adults",
+      "Cataracts and deafness risk in newborn"
+    ],
+    "cause": {
+      "label": "Rubella virus"
+    },
+    "fact": "Congenital rubella syndrome causes the classic triad of sensorineural deafness, cataracts, and cardiac patent ductus arteriosus.",
+    "difficulty": 2
+  },
+  {
+    "id": "chikungunya",
+    "name": "Chikungunya",
+    "aliases": [
+      "CHIKV",
+      "Chikungunya Fever"
+    ],
+    "category": "viral",
+    "emoji": "🧬",
+    "symptoms": [
+      "High fever and sudden violent chills",
+      "Severe debilitating polyarthralgia",
+      "Contorted posture from joint agony",
+      "Maculopapular rash on limbs",
+      "Bite from daytime Aedes mosquito"
+    ],
+    "cause": {
+      "label": "Chikungunya virus"
+    },
+    "vector": {
+      "label": "Aedes aegypti"
+    },
+    "fact": "The name originates from the Kimakonde language meaning 'to become contorted', describing the patient's hunched arthritic posture.",
+    "difficulty": 2
+  },
+  {
+    "id": "chlamydia",
+    "name": "Chlamydia",
+    "aliases": [
+      "Chlamydial Urethritis",
+      "Chlamydiosis"
+    ],
+    "category": "bacterial",
+    "emoji": "🦠",
+    "symptoms": [
+      "Dysuria with clear urethral discharge",
+      "Frequently asymptomatic in females",
+      "Deep pelvic discomfort and bleeding",
+      "Risk of salpingitis and infertility",
+      "Elementary bodies in infected cells"
+    ],
+    "cause": {
+      "label": "Chlamydia trachomatis"
+    },
+    "fact": "Chlamydia alternates between infectious metabolically inactive elementary bodies and non-infectious replicating reticulate bodies.",
+    "difficulty": 1
+  },
+  {
+    "id": "amyotrophic_lateral_sclerosis",
+    "name": "Amyotrophic Lateral Sclerosis",
+    "aliases": [
+      "ALS",
+      "Lou Gehrig Disease",
+      "Motor Neuron Disease"
+    ],
+    "category": "neurological",
+    "emoji": "🧠",
+    "symptoms": [
+      "Asymmetric limb muscle weakness",
+      "Visible muscle twitches and cramps",
+      "Spasticity with brisk deep reflexes",
+      "Dysarthria dysphagia and tongue atrophy",
+      "Preserved sensation and eye movements"
+    ],
+    "fact": "ALS damages both upper motor neurons in the motor cortex and lower motor neurons in the anterior horn of the spinal cord.",
+    "difficulty": 2
+  },
+  {
+    "id": "huntingtons_disease",
+    "name": "Huntington's Disease",
+    "aliases": [
+      "Huntington Chorea",
+      "HD"
+    ],
+    "category": "genetic",
+    "emoji": "🧬",
+    "symptoms": [
+      "Involuntary jerky writhing movements",
+      "Personality shifts and mood swings",
+      "Decline in executive cognitive tasks",
+      "Autosomal dominant family history",
+      "Caudate atrophy with enlarged ventricles"
+    ],
+    "fact": "Huntington's is caused by an unstable CAG trinucleotide repeat expansion encoding an elongated polyglutamine tract in the huntingtin protein.",
+    "difficulty": 2
+  },
+  {
+    "id": "crohns_disease",
+    "name": "Crohn's Disease",
+    "aliases": [
+      "Regional Enteritis",
+      "Granulomatous Enteritis"
+    ],
+    "category": "autoimmune",
+    "emoji": "🛡️",
+    "symptoms": [
+      "Right lower quadrant abdominal pain",
+      "Chronic diarrhea without gross blood",
+      "Transmural bowel wall inflammation",
+      "Cobblestone appearance on colonoscopy",
+      "Perianal fissures and strictures"
+    ],
+    "fact": "Crohn's disease features transmural inflammation throughout any part of the gastrointestinal tract, sparing no layer of the bowel wall.",
+    "difficulty": 2
+  },
+  {
+    "id": "ulcerative_colitis",
+    "name": "Ulcerative Colitis",
+    "aliases": [
+      "UC",
+      "Idiopathic Colitis"
+    ],
+    "category": "autoimmune",
+    "emoji": "🛡️",
+    "symptoms": [
+      "Recurrent bloody diarrhea with mucus",
+      "Urgent tenesmus and lower left cramps",
+      "Continuous mucosal erythema from rectum",
+      "Pseudopolyps and mucosal crypt ulcers",
+      "Loss of bowel haustra on imaging"
+    ],
+    "fact": "Unlike Crohn's, ulcerative colitis is strictly limited to the mucosa and submucosa of the colon and rectum.",
+    "difficulty": 2
+  },
+  {
+    "id": "pellagra",
+    "name": "Pellagra",
+    "aliases": [
+      "Niacin Deficiency",
+      "Vitamin B3 Deficiency"
+    ],
+    "category": "nutritional",
+    "emoji": "🍋",
+    "symptoms": [
+      "Photosensitive symmetrical skin rash",
+      "Hyperpigmented collar around the neck",
+      "Chronic watery diarrhea and cramping",
+      "Memory loss confusion and dementia",
+      "Diet based strictly on untreated maize"
+    ],
+    "fact": "Pellagra is classic for the 4 D's: Dermatitis, Diarrhea, Dementia, and Death if left untreated with nicotinamide.",
+    "difficulty": 2
+  },
+  {
+    "id": "beriberi",
+    "name": "Beriberi",
+    "aliases": [
+      "Thiamine Deficiency",
+      "Vitamin B1 Deficiency"
+    ],
+    "category": "nutritional",
+    "emoji": "🍋",
+    "symptoms": [
+      "High-output congestive heart failure",
+      "Symmetric polyneuropathy and foot drop",
+      "Loss of ankle reflexes and calf ache",
+      "Confusion and ataxia from thiamine drop",
+      "Dietary reliance on polished rice"
+    ],
+    "fact": "Wet beriberi impacts cardiovascular physiology with vasodilation and edema, while dry beriberi manifests as peripheral neuropathy.",
+    "difficulty": 2
+  },
+  {
+    "id": "hashimotos_thyroiditis",
+    "name": "Hashimoto's Thyroiditis",
+    "aliases": [
+      "Chronic Lymphocytic Thyroiditis",
+      "Autoimmune Thyroiditis"
+    ],
+    "category": "autoimmune",
+    "emoji": "🛡️",
+    "symptoms": [
+      "Painless firm symmetrical goiter",
+      "Cold intolerance and weight gain",
+      "Dry skin constipation and fatigue",
+      "Delayed relaxation of tendon reflexes",
+      "High antithyroid peroxidase antibody"
+    ],
+    "fact": "Hashimoto's thyroiditis is marked histologically by dense lymphocytic infiltration with germinal centers and Hurthle cells.",
+    "difficulty": 1
+  },
+  {
+    "id": "myasthenia_gravis",
+    "name": "Myasthenia Gravis",
+    "aliases": [
+      "MG",
+      "Erb-Goldflam Disease"
+    ],
+    "category": "autoimmune",
+    "emoji": "🛡️",
+    "symptoms": [
+      "Fluctuating ptosis and double vision",
+      "Fatiguing weakness worsening with use",
+      "Difficulty chewing at the end of meals",
+      "Marked symptom relief with ice pack",
+      "Antibodies against nicotinic receptors"
+    ],
+    "fact": "Myasthenia gravis is commonly associated with thymic hyperplasia or thymoma, both involving T-cell dysregulation.",
+    "difficulty": 2
   }
 ]

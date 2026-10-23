@@ -15,6 +15,7 @@ import Modal from "@/components/ui/Modal";
 import Spinner from "@/components/ui/Spinner";
 import Toast, { useToast } from "@/components/ui/Toast";
 import { getGame } from "@/games/registry";
+import { playHardModeCelebration, stopCelebration } from "@/lib/audio";
 import { dailySeed, getDayKey, puzzleNumber } from "@/lib/daily";
 import { useCountdown } from "@/lib/hooks/useCountdown";
 import { useHasMounted } from "@/lib/hooks/useHasMounted";
@@ -257,6 +258,7 @@ function AnimalTicTacToeClient() {
     setGameOverModalOpen(false);
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- Preserved for Daily Challenge re-enablement
   const handleStartDaily = () => {
     if (dailyState && dailyState.dayKey === todayKey) {
       const budget = dailyState.options.hardMode
@@ -368,10 +370,8 @@ function AnimalTicTacToeClient() {
 
   const handleConfirmGiveUp = () => {
     setConfirmGiveUpOpen(false);
-    const nextState = ticTacReducer(state, { type: "GIVE_UP" });
-    dispatch({ type: "HYDRATE_STATE", state: nextState });
-    persistProgress(nextState, dailyState);
-    setGameOverModalOpen(true);
+    stopCelebration();
+    dispatch({ type: "BACK_TO_MENU" });
   };
 
   const handleVersusSubmit = (
@@ -396,6 +396,7 @@ function AnimalTicTacToeClient() {
   }, [showToast]);
 
   const filledCount = state.cells.filter((c) => c !== null).length;
+  const isWon = state.outcome === "completed";
   const shareText = state.options.daily
     ? formatTicTacShare({
         dayKey: dailyState?.dayKey ?? todayKey,
@@ -404,6 +405,15 @@ function AnimalTicTacToeClient() {
         hardMode: state.options.hardMode,
       })
     : "";
+
+  useEffect(() => {
+    if (state.phase === "over" && isWon && state.options.hardMode) {
+      playHardModeCelebration();
+    }
+    return () => {
+      stopCelebration();
+    };
+  }, [state.phase, isWon, state.options.hardMode]);
 
   return (
     <div className="mx-auto flex w-full max-w-4xl flex-col items-center px-3 py-4 sm:px-6">
@@ -415,7 +425,7 @@ function AnimalTicTacToeClient() {
             brand={TICTAC_META.brand}
             coverSrc={TICTAC_META.cover!.menu}
             startLabel={
-              state.options.versus ? "Start Versus Match" : "Start Practice"
+              state.options.versus ? "Start Versus Match" : "Start Game"
             }
             onStart={handleStartPractice}
             description={
@@ -445,30 +455,23 @@ function AnimalTicTacToeClient() {
                 }
               />
             }
+            extraActions={
+              <div className="flex flex-wrap items-center gap-2">
+                <Button
+                  variant="secondary"
+                  onClick={() => setStatsModalOpen(true)}
+                >
+                  📊 Stats
+                </Button>
+                <Button
+                  variant="secondary"
+                  onClick={() => setAnimalListOpen(true)}
+                >
+                  🐾 Animal List ({ANIMALS.length})
+                </Button>
+              </div>
+            }
           />
-
-          <div className="flex flex-wrap items-center justify-center gap-3">
-            <Button variant="primary" onClick={handleStartDaily}>
-              📅 Daily #{todayNum}
-              {dailyState?.dayKey === todayKey
-                ? dailyState.status === "playing"
-                  ? " (Resume)"
-                  : " (Completed)"
-                : ""}
-            </Button>
-            <Button
-              variant="secondary"
-              onClick={() => setStatsModalOpen(true)}
-            >
-              📊 Daily Stats
-            </Button>
-            <Button
-              variant="secondary"
-              onClick={() => setAnimalListOpen(true)}
-            >
-              🐾 Animal List ({ANIMALS.length})
-            </Button>
-          </div>
         </div>
       )}
 
@@ -738,14 +741,34 @@ function AnimalTicTacToeClient() {
         <GameOverModal
           won={state.outcome === "completed"}
           title={state.outcome === "completed" ? "You Won! 🎉" : "Game Over"}
-          onClose={() => setGameOverModalOpen(false)}
+          onClose={() => {
+            stopCelebration();
+            setGameOverModalOpen(false);
+          }}
           actions={
             <div className="flex flex-wrap justify-center gap-3">
-              <Button variant="primary" onClick={handleStartPractice}>
-                {state.options.daily ? "Practice Unlimited" : "Play Again"}
+              <Button
+                variant="primary"
+                onClick={() => {
+                  stopCelebration();
+                  handleStartPractice();
+                }}
+              >
+                Play Again
+              </Button>
+              <Button
+                variant="secondary"
+                onClick={() => {
+                  stopCelebration();
+                  dispatch({ type: "BACK_TO_MENU" });
+                  setGameOverModalOpen(false);
+                }}
+              >
+                Game Menu
               </Button>
               <Link
                 href="/"
+                onClick={stopCelebration}
                 className="inline-block cursor-pointer rounded bg-[#6574fd] px-6 py-2 font-bold text-white transition-colors duration-300 hover:bg-[#4755d4]"
               >
                 Go back to home

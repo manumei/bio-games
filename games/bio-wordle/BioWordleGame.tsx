@@ -12,6 +12,7 @@ import Modal from "@/components/ui/Modal";
 import Spinner from "@/components/ui/Spinner";
 import Toast, { useToast } from "@/components/ui/Toast";
 import { getGame } from "@/games/registry";
+import { playHardModeCelebration, stopCelebration } from "@/lib/audio";
 import Board from "@/games/bio-wordle/components/Board";
 import Keyboard from "@/games/bio-wordle/components/Keyboard";
 import WordCard from "@/games/bio-wordle/components/WordCard";
@@ -198,6 +199,7 @@ function BioWordleClient() {
   const todayKey = state.dayKey ?? getDayKey();
   const dailyNumber = puzzleNumber(todayKey);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- Preserved for Daily Challenge re-enablement
   const handleStartDaily = useCallback(() => {
     const dayKey = getDayKey();
     const initialDaily = createDailyState(dayKey, state.options, Date.now());
@@ -277,6 +279,19 @@ function BioWordleClient() {
     return map;
   }, [state.guesses, state.evaluations]);
 
+  const isGameOver = state.phase === "over";
+  const lastGuess = state.guesses[state.guesses.length - 1];
+  const gameWon = isGameOver && lastGuess === state.answer.word;
+
+  useEffect(() => {
+    if (isGameOver && gameWon && state.options.hardMode) {
+      playHardModeCelebration();
+    }
+    return () => {
+      stopCelebration();
+    };
+  }, [isGameOver, gameWon, state.options.hardMode]);
+
   if (state.mode === "daily" && state.phase === "over") {
     recordWordleDailyStats(buildDailySnapshot(state));
   }
@@ -288,29 +303,13 @@ function BioWordleClient() {
         <GameMenu
           brand={WORDLE_META.brand}
           coverSrc={WORDLE_META.cover!.menu}
-          startLabel={
-            state.dailyFinishedForToday
-              ? "Practice Round"
-              : `Start Daily #${dailyNumber}`
-          }
-          onStart={
-            state.dailyFinishedForToday ? handleStartPractice : handleStartDaily
-          }
+          startLabel="Start Game"
+          onStart={handleStartPractice}
           description={
             <div className="space-y-2">
-              <div className="flex flex-wrap items-center gap-2 text-accent font-bold">
-                <span>
-                  Daily #{dailyNumber} · {todayKey}
-                </span>
-                {currentStats.currentStreak >= 3 && (
-                  <span className="bg-accent text-black px-2 py-0.5 rounded text-xs font-extrabold">
-                    🔥{currentStats.currentStreak}
-                  </span>
-                )}
-              </div>
               <p>
                 Guess the hidden <strong>biology</strong> word in 6 tries.
-                It&apos;s 4 to 7 letters long, and the length changes every day!
+                It&apos;s 4 to 7 letters long, and the length changes every round!
               </p>
               <p>
                 After each guess the tiles change color: 🟩 right letter, right
@@ -338,11 +337,6 @@ function BioWordleClient() {
                   })
                 }
               />
-              {!state.dailyFinishedForToday && (
-                <Button variant="secondary" onClick={handleStartPractice}>
-                  Practice
-                </Button>
-              )}
               <Button
                 variant="secondary"
                 onClick={() => setShowStatsModal(true)}
@@ -366,9 +360,6 @@ function BioWordleClient() {
     );
   }
 
-  const isGameOver = state.phase === "over";
-  const lastGuess = state.guesses[state.guesses.length - 1];
-  const gameWon = isGameOver && lastGuess === state.answer.word;
   const showHintControl = state.guesses.length >= HINT_AFTER && !isGameOver;
   const topicInfo = TOPICS[state.answer.topic];
   const primaryMessage = gameWon
@@ -386,24 +377,32 @@ function BioWordleClient() {
 
       <div className="text-white flex flex-col items-center gap-3 w-full max-w-xl">
         {/* Header */}
-        <div className="flex flex-wrap items-center justify-center gap-2 text-sm sm:text-base font-bold text-accent">
-          {state.mode === "daily" ? (
-            <span>
-              Daily #{dailyNumber} · {wordLength} letters
-            </span>
-          ) : (
-            <span>Practice · {wordLength} letters</span>
-          )}
-          {state.options.hardMode && (
-            <span className="bg-red-600 text-white px-2 py-0.5 rounded text-xs">
-              💀 Hard
-            </span>
-          )}
-          {state.mode === "daily" && currentStats.currentStreak >= 3 && (
-            <span className="bg-accent text-black px-2 py-0.5 rounded text-xs font-extrabold">
-              🔥{currentStats.currentStreak}
-            </span>
-          )}
+        <div className="flex w-full items-center justify-between px-2 text-sm sm:text-base font-bold text-accent">
+          <Button
+            size="sm"
+            variant="ghost"
+            onClick={() => {
+              stopCelebration();
+              dispatch({ type: "RESET_TO_MENU" });
+            }}
+          >
+            ← Menu
+          </Button>
+          <div className="flex items-center gap-2">
+            <span>{wordLength} letters</span>
+            {state.options.hardMode && (
+              <span className="bg-red-600 text-white px-2 py-0.5 rounded text-xs">
+                💀 Hard
+              </span>
+            )}
+          </div>
+          <Button
+            size="sm"
+            variant="ghost"
+            onClick={() => setShowStatsModal(true)}
+          >
+            📊 Stats
+          </Button>
         </div>
 
         {/* Topic Hint Chip / Button */}
@@ -478,14 +477,33 @@ function BioWordleClient() {
       {isGameOver && state.modalOpen && (
         <GameOverModal
           won={gameWon}
-          onClose={() => dispatch({ type: "CLOSE_MODAL" })}
+          onClose={() => {
+            stopCelebration();
+            dispatch({ type: "CLOSE_MODAL" });
+          }}
           actions={
             <div className="flex flex-wrap items-center justify-center gap-3">
-              <Button variant="secondary" onClick={handleStartPractice}>
-                Practice round
+              <Button
+                variant="primary"
+                onClick={() => {
+                  stopCelebration();
+                  handleStartPractice();
+                }}
+              >
+                Play Again
+              </Button>
+              <Button
+                variant="secondary"
+                onClick={() => {
+                  stopCelebration();
+                  dispatch({ type: "RESET_TO_MENU" });
+                }}
+              >
+                Game Menu
               </Button>
               <Link
                 href="/"
+                onClick={stopCelebration}
                 className="inline-block px-6 py-2 bg-[#6574fd] hover:bg-[#4755d4] text-white font-bold rounded cursor-pointer transition-colors duration-300"
               >
                 Go back to home

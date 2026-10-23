@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useReducer, useState } from "react";
+import { useCallback, useEffect, useReducer, useState } from "react";
 import GameMenu from "@/components/game/GameMenu";
 import GameOverModal from "@/components/game/GameOverModal";
 import GiveUpButton from "@/components/game/GiveUpButton";
@@ -15,6 +15,7 @@ import Modal from "@/components/ui/Modal";
 import Spinner from "@/components/ui/Spinner";
 import Toast, { useToast } from "@/components/ui/Toast";
 import { getGame } from "@/games/registry";
+import { playHardModeCelebration, stopCelebration } from "@/lib/audio";
 import { getDayKey, puzzleNumber } from "@/lib/daily";
 import { useHasMounted } from "@/lib/hooks/useHasMounted";
 import { randomSeed } from "@/lib/rng";
@@ -321,6 +322,15 @@ function CellClassifierClient() {
         hardMode: state.options.hardMode,
       })
     : "";
+
+  useEffect(() => {
+    if (state.phase === "over" && state.score >= 8 && state.options.hardMode) {
+      playHardModeCelebration();
+    }
+    return () => {
+      stopCelebration();
+    };
+  }, [state.phase, state.score, state.options.hardMode]);
 
   return (
     <div className="mx-auto flex w-full max-w-4xl flex-col items-center px-3 py-4 sm:px-6">

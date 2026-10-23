@@ -191,4 +191,5 @@ tasks/                # Game specifications for upcoming games
 - **Raw PNG Storage (`E1`):** `raw-assets/taxo/` (1.7 GB of source PNGs) was moved out of `public/` via `git mv` so it is no longer deployed as static public assets, without rewriting git history. Deciding whether to move `raw-assets/` to Git LFS or external storage is left to the repo owner.
 - **Placeholder Social URLs (`B4`):** `SITE_CONFIG.social` retains the original placeholder homepage URLs (`instagram.com`, `x.com`, `discord.com`) until real account handles are provided.
 - **Third-Party Win Link (`D14`):** The Taxo Bingo win message retains the original link to `https://iamawesome.com` per the behavior contract.
+- **Daily Challenge Architecture:** Daily challenge mode is temporarily archived in the UI for unlimited free play; the underlying logic, schedules, and stats reducers remain intact. See [`docs/DAILY_CHALLENGES.md`](file:///c:/Users/manue/Desktop/manum/repos/bio-games/docs/DAILY_CHALLENGES.md) for re-enablement instructions.
 - **Bio Wordle Word List (`E4`):** `public/assets/data/bio_words.txt` is left untouched for curation during the `tasks/bio-wordle.md` implementation.

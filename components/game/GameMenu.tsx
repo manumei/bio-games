@@ -46,7 +46,7 @@ export default function GameMenu({
 
           {options}
 
-          <div className="flex gap-4 mt-4">
+          <div className="flex flex-wrap items-center gap-3 pt-2">
             <Button variant="primary" onClick={onStart}>
               {startLabel}
             </Button>

@@ -15,6 +15,7 @@ import Spinner from "@/components/ui/Spinner";
 import { getOrganism } from "@/data/organisms";
 import { getTaxon } from "@/data/taxonomy";
 import { getGame } from "@/games/registry";
+import { playHardModeCelebration, stopCelebration } from "@/lib/audio";
 import BingoGrid from "@/games/taxo-bingo/components/BingoGrid";
 import CheatSheet from "@/games/taxo-bingo/components/CheatSheet";
 import OrganismCard from "@/games/taxo-bingo/components/OrganismCard";
@@ -172,6 +173,7 @@ function TaxoBingoClient() {
     }
   }, [state]);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- Preserved for Daily Challenge re-enablement
   const handleStartDaily = useCallback(() => {
     const dayKey = getDayKey();
     const now = Date.now();
@@ -243,6 +245,18 @@ function TaxoBingoClient() {
     return () => window.clearTimeout(timeout);
   }, [state.misplacedCell]);
 
+  const isGameOver = state.phase === "over";
+  const gameWon = state.endReason === "won";
+
+  useEffect(() => {
+    if (isGameOver && gameWon && state.options.hardMode) {
+      playHardModeCelebration();
+    }
+    return () => {
+      stopCelebration();
+    };
+  }, [isGameOver, gameWon, state.options.hardMode]);
+
   const handleSkip = useCallback(() => {
     dispatch({ type: "SKIP", rng: getRng() });
   }, [getRng]);
@@ -274,26 +288,10 @@ function TaxoBingoClient() {
         <GameMenu
           brand={TAXO_META.brand}
           coverSrc={TAXO_META.cover!.menu}
-          startLabel={
-            state.dailyFinishedForToday
-              ? "Practice Round"
-              : `Start Daily #${dailyNumber}`
-          }
-          onStart={
-            state.dailyFinishedForToday ? handleStartPractice : handleStartDaily
-          }
+          startLabel="Start Game"
+          onStart={handleStartPractice}
           description={
             <div className="space-y-2">
-              <div className="flex flex-wrap items-center gap-2 text-accent font-bold">
-                <span>
-                  Daily #{dailyNumber} · {todayKey}
-                </span>
-                {currentStats.currentStreak >= 3 && (
-                  <span className="bg-accent text-black px-2 py-0.5 rounded text-xs font-extrabold">
-                    🔥{currentStats.currentStreak}
-                  </span>
-                )}
-              </div>
               <p>
                 Fill the bingo grid organisms matching the 12 taxonomic
                 categories given.
@@ -328,11 +326,6 @@ function TaxoBingoClient() {
                   })
                 }
               />
-              {!state.dailyFinishedForToday && (
-                <Button variant="secondary" onClick={handleStartPractice}>
-                  Practice
-                </Button>
-              )}
               <Button
                 variant="secondary"
                 onClick={() => setShowStatsModal(true)}
@@ -358,8 +351,6 @@ function TaxoBingoClient() {
 
   const currentId = currentOrganismId(state.deck);
   const currentOrganism = currentId ? getOrganism(currentId) : null;
-  const isGameOver = state.phase === "over";
-  const gameWon = state.endReason === "won";
   const filledCount = Object.keys(state.filled).length;
   const unfilledTaxonId = state.grid.find((id) => !state.filled[id]);
   const unfilledLabel = unfilledTaxonId
@@ -458,11 +449,12 @@ function TaxoBingoClient() {
 
         {showGiveUpConfirm && (
           <ConfirmDialog
-            message="Are you sure you want to give up?"
+            message="Quit this game? Your board will be reset."
             tone="danger"
             onConfirm={() => {
               setShowGiveUpConfirm(false);
-              dispatch({ type: "GIVE_UP", now: Date.now() });
+              stopCelebration();
+              dispatch({ type: "RESET_TO_MENU" });
             }}
             onCancel={() => setShowGiveUpConfirm(false)}
           />
@@ -472,14 +464,33 @@ function TaxoBingoClient() {
       {isGameOver && state.modalOpen && (
         <GameOverModal
           won={gameWon}
-          onClose={() => dispatch({ type: "CLOSE_MODAL" })}
+          onClose={() => {
+            stopCelebration();
+            dispatch({ type: "CLOSE_MODAL" });
+          }}
           actions={
             <div className="flex flex-wrap items-center justify-center gap-3">
-              <Button variant="secondary" onClick={handleStartPractice}>
-                Practice round
+              <Button
+                variant="primary"
+                onClick={() => {
+                  stopCelebration();
+                  handleStartPractice();
+                }}
+              >
+                Play Again
+              </Button>
+              <Button
+                variant="secondary"
+                onClick={() => {
+                  stopCelebration();
+                  dispatch({ type: "RESET_TO_MENU" });
+                }}
+              >
+                Game Menu
               </Button>
               <Link
                 href="/"
+                onClick={stopCelebration}
                 className="inline-block px-6 py-2 bg-[#6574fd] hover:bg-[#4755d4] text-white font-bold rounded cursor-pointer transition-colors duration-300"
               >
                 Go back to home

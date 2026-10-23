@@ -15,18 +15,18 @@ export const WIN_MESSAGES: readonly string[] = [
 ];
 
 export const LOSS_CLOSE_MESSAGES: readonly string[] = [
-  "So close. That last cell is still out there, roaming free.",
-  "7+ cells filled and one elusive creature got away. Heartbreaking fieldwork.",
+  "7 of 9 cells claimed. A strong effort, but the grid remains incomplete.",
+  "Almost there! Just a couple of animal niches remained unclaimed.",
 ];
 
 export const LOSS_MID_MESSAGES: readonly string[] = [
-  "Half an ecosystem is not a stable food web, chief.",
-  "Ran out of tranquilizer darts before the grid was full 🥀",
+  "Grid partially completed. Review animal traits and try another round.",
+  "Good attempt. Expand your species recall and give it another try.",
 ];
 
 export const LOSS_LOW_MESSAGES: readonly string[] = [
-  "Vayan a estudiar (zoología).",
-  "Did you forget what an animal is? Touch grass (and observe the fauna).",
+  "Grid incomplete. Practice matching traits with diverse animal classes to improve your score.",
+  "Game over. Study animal classifications and try again.",
 ];
 
 export function pickTicTacEndMessage(

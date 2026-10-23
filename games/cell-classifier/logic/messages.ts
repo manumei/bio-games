@@ -16,17 +16,17 @@ export const SCORE_HIGH_MESSAGES: readonly string[] = [
 ];
 
 export const SCORE_MID_MESSAGES: readonly string[] = [
-  "Mid. Your cell is functional, just not thriving.",
-  "Borderline homeostasis. Not quite enough ATP to keep the streak alive.",
+  "Moderate cytology score. Review the organelle diagrams to improve your accuracy.",
+  "Fair attempt. Practice identifying internal cell structures to strengthen recall.",
 ];
 
 export const SCORE_LOW_MESSAGES: readonly string[] = [
-  "Your organelles are in shambles. Vayan a estudiar.",
-  "Apoptosis imminent — the lysosomes are already cleaning up this attempt 🥀",
+  "Round complete. Study the cell anatomy diagram and try another round.",
+  "Room for improvement. Review organelle functions in the study guide and try again.",
 ];
 
 export const SCORE_ZERO_MESSAGES: readonly string[] = [
-  "0/10. Are you sure you're not a virus? They don't have cells either.",
+  "0/10. Review the cell diagram and try again.",
 ];
 
 export function pickCellEndMessage(

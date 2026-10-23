@@ -86,6 +86,13 @@ export function linkReducer(
   action: LinkAction
 ): LinkGameState {
   switch (action.type) {
+    case "RESET_TO_MENU": {
+      return {
+        ...createInitialLinkState(),
+        options: state.options,
+      };
+    }
+
     case "SET_OPTIONS": {
       return {
         ...state,

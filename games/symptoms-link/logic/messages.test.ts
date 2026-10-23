@@ -26,23 +26,23 @@ describe("games/symptoms-link/logic/messages", () => {
     );
 
     expect(LOSS_MESSAGES).toContain(
-      "It was {Disease}. The patient did not make it 🥀"
+      "The correct diagnosis was {Disease}. Review the clinical signs and try another case."
     );
     expect(LOSS_MESSAGES).toContain(
-      "It was {Disease}. Vayan a estudiar (medicina)."
+      "Case closed. The correct condition was {Disease}."
     );
     expect(LUPUS_WRONG_TOAST).toBe("It's never lupus.");
     expect(LUPUS_LOSS_MESSAGE).toBe(
-      "It's never lupus… except today it was."
+      "The correct diagnosis was Systemic Lupus Erythematosus. Review the presentation and try another case."
     );
     expect(HARD_MODE_GLOSSARY_TOOLTIP).toBe(
       "Real doctors don't get a cheat sheet either. Well… they have Google."
     );
   });
 
-  it("returns the special lupus loss line when the answer was lupus", () => {
+  it("returns the standard lupus loss line when the answer was lupus", () => {
     expect(pickLinkLossMessage("lupus", "Lupus", 42)).toBe(
-      "It's never lupus… except today it was."
+      "The correct diagnosis was Systemic Lupus Erythematosus. Review the presentation and try another case."
     );
     expect(pickLinkWinMessage(1, 42)).toBe(pickLinkWinMessage(1, 42));
   });
