@@ -78,11 +78,24 @@ export const GAMES: readonly GameMeta[] = [
     brand: ["CELL", "CLASSIFIER"],
     description: "Identify organelles and cell structures across cell types.",
     status: "live",
-    isNew: true,
     daily: true,
     cover: {
       card: "/assets/img/covers/card/cell-classifier.svg",
       menu: "/assets/img/covers/menu/cell-classifier.svg",
+    },
+  },
+  {
+    slug: "bio-guesser",
+    title: "Bio Guesser",
+    brand: ["BIO", "GUESSER"],
+    description:
+      "Think of any living organism; Linnaeus will ask questions and guess it.",
+    status: "live",
+    isNew: true,
+    daily: false,
+    cover: {
+      card: "/assets/img/covers/card/bio-guesser.svg",
+      menu: "/assets/img/covers/menu/bio-guesser.svg",
     },
   },
 ];

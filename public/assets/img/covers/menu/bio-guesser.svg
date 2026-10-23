@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <rect width="500" height="500" rx="28" fill="#0D1B2A"/>
+  <!-- Linnaeus cameo / parchment circle -->
+  <circle cx="250" cy="230" r="150" fill="#1B263B" stroke="#E0E1DD" stroke-width="5"/>
+  <circle cx="250" cy="230" r="132" fill="#415A77" fill-opacity="0.35"/>
+  <!-- Linnaeus silhouette / portrait elements -->
+  <path d="M205 270 Q180 282 155 320 L345 320 Q320 282 295 270 Z" fill="#E0E1DD"/>
+  <!-- 18th century periwig -->
+  <path d="M205 175 C180 175 170 200 175 225 C180 242 192 248 198 248 C192 260 180 272 188 285 C200 285 212 268 218 255 C224 262 235 266 250 266 C265 266 276 262 282 255 C288 268 300 285 312 285 C320 272 308 260 302 248 C308 248 320 242 325 225 C330 200 320 175 295 175 C285 150 215 150 205 175 Z" fill="#F8F9FA"/>
+  <!-- Face -->
+  <ellipse cx="250" cy="220" rx="30" ry="36" fill="#FDE2D2"/>
+  <circle cx="240" cy="216" r="3.5" fill="#1B263B"/>
+  <circle cx="260" cy="216" r="3.5" fill="#1B263B"/>
+  <path d="M248 222 L252 232 L245 234" stroke="#D4A373" stroke-width="2.2" fill="none"/>
+  <path d="M242 242 Q250 248 258 242" stroke="#1B263B" stroke-width="2.2" fill="none"/>
+  <!-- Quill & Inkwell -->
+  <path d="M340 285 Q395 225 410 155 Q365 190 340 285 Z" fill="#E0A96D"/>
+  <path d="M340 285 L328 302 L348 295 Z" fill="#4A3E3D"/>
+  <text x="250" y="445" text-anchor="middle" fill="#E0E1DD" font-family="system-ui, serif" font-weight="800" font-size="28" letter-spacing="4">BIO GUESSER</text>
+</svg>
+
