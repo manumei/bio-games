@@ -33,7 +33,6 @@ export const GAMES: readonly GameMeta[] = [
     brand: ["BIO", "WORDLE"],
     description: "Guess the secret biology word in six tries.",
     status: "live",
-    isNew: true,
     daily: true,
     cover: {
       card: "/assets/img/covers/card/bio-wordle.svg",
@@ -46,7 +45,13 @@ export const GAMES: readonly GameMeta[] = [
     brand: ["SYMPTOMS", "LINK"],
     description:
       "Identify the pathogen or disease from progressively revealed symptoms.",
-    status: "coming-soon",
+    status: "live",
+    isNew: true,
+    daily: true,
+    cover: {
+      card: "/assets/img/covers/card/symptoms-link.svg",
+      menu: "/assets/img/covers/menu/symptoms-link.svg",
+    },
   },
   {
     slug: "animal-tictactoe",

@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "tuberculosis",
+    "name": "Tuberculosis",
+    "aliases": ["TB", "Consumption"],
+    "category": "bacterial",
+    "emoji": "🫁",
+    "symptoms": [
+      "Persistent low-grade fever",
+      "Unintended weight loss and fatigue",
+      "Drenching night sweats",
+      "Chronic cough lasting over 3 weeks",
+      "Coughing up blood (hemoptysis)"
+    ],
+    "cause": {
+      "label": "Mycobacterium tuberculosis",
+      "organismId": "mycobacterium_tuberculosis"
+    },
+    "fact": "Mycobacterium tuberculosis has a waxy mycolic acid cell wall that lets it survive inside lung macrophages.",
+    "difficulty": 1
+  },
+  {
+    "id": "leprosy",
+    "name": "Leprosy",
+    "aliases": ["Hansen's disease", "Hansens disease"],
+    "category": "bacterial",
+    "emoji": "🦠",
+    "symptoms": [
+      "Slowly developing skin patches",
+      "Tingling in hands and feet",
+      "Thickened peripheral nerves",
+      "Muscle weakness in extremities",
+      "Complete loss of pain in skin lesions"
+    ],
+    "cause": {
+      "label": "Mycobacterium leprae",
+      "organismId": "mycobacterium_leprae"
+    },
+    "fact": "Mycobacterium leprae prefers cooler body tissues like skin and peripheral nerves and has an incubation period of years.",
+    "difficulty": 2
+  },
+  {
+    "id": "anthrax",
+    "name": "Anthrax",
+    "aliases": ["Woolsorter's disease"],
+    "category": "bacterial",
+    "emoji": "🐑",
+    "symptoms": [
+      "Sudden fever and malaise",
+      "Localized swelling after animal contact",
+      "Fluid-filled skin blister (vesicle)",
+      "Severe chest pain if inhaled",
+      "Painless ulcer with black center (eschar)"
+    ],
+    "cause": {
+      "label": "Bacillus anthracis",
+      "organismId": "bacillus_anthracis"
+    },
+    "fact": "Bacillus anthracis forms tough endospores that can remain dormant in soil for decades.",
+    "difficulty": 2
+  },
+  {
+    "id": "lyme_disease",
+    "name": "Lyme disease",
+    "aliases": ["Lyme", "Borreliosis"],
+    "category": "bacterial",
+    "emoji": "🎯",
+    "symptoms": [
+      "Fatigue, fever, and headache",
+      "Swollen lymph nodes",
+      "Migratory joint pain in the knees",
+      "Facial nerve palsy if untreated",
+      "Expanding bull's-eye skin rash"
+    ],
+    "cause": {
+      "label": "Borrelia burgdorferi",
+      "organismId": "borrelia_burgdorferi"
+    },
+    "vector": {
+      "label": "Ixodes scapularis (blacklegged tick)",
+      "organismId": "ixodes_scapularis"
+    },
+    "fact": "The classic erythema migrans rash spreads outward from the site of an Ixodes tick bite.",
+    "difficulty": 1
+  },
+  {
+    "id": "rocky_mountain_spotted_fever",
+    "name": "Rocky Mountain spotted fever",
+    "aliases": ["RMSF"],
+    "category": "bacterial",
+    "emoji": "🕷️",
+    "symptoms": [
+      "Sudden high fever and severe headache",
+      "Muscle aches and nausea",
+      "Swelling around eyes and hands",
+      "Pinpoint rash starting on wrists and ankles",
+      "Rash spreading to palms and soles"
+    ],
+    "cause": {
+      "label": "Rickettsia rickettsii",
+      "organismId": "rickettsia_rickettsii"
+    },
+    "vector": {
+      "label": "Dermacentor variabilis (dog tick)",
+      "organismId": "dermacentor_variabilis"
+    },
+    "fact": "Rickettsia rickettsii is an obligate intracellular bacterium that infects the endothelial cells lining blood vessels.",
+    "difficulty": 3
+  },
+  {
+    "id": "plague",
+    "name": "Plague",
+    "aliases": ["Bubonic plague", "Black Death"],
+    "category": "bacterial",
+    "emoji": "🐀",
+    "symptoms": [
+      "Sudden high fever and chills",
+      "Extreme weakness and headache",
+      "History of rodent or flea exposure",
+      "Darkening tissue on fingers and toes",
+      "Painful swollen lymph nodes (buboes)"
+    ],
+    "cause": {
+      "label": "Yersinia pestis",
+      "organismId": "yersinia_pestis"
+    },
+    "vector": {
+      "label": "Xenopsylla cheopis (oriental rat flea)"
+    },
+    "fact": "Yersinia pestis caused the 14th-century Black Death pandemic and is today treatable with antibiotics.",
+    "difficulty": 1
+  },
+  {
+    "id": "cholera",
+    "name": "Cholera",
+    "aliases": ["Asiatic cholera"],
+    "category": "bacterial",
+    "emoji": "💧",
+    "symptoms": [
+      "Sudden onset of nausea and vomiting",
+      "Rapid heart rate and dry mouth",
+      "Sunken eyes and skin tenting",
+      "Severe leg cramps from electrolyte loss",
+      "Profuse watery 'rice-water' diarrhea"
+    ],
+    "cause": {
+      "label": "Vibrio cholerae",
+      "organismId": "vibrio_cholerae"
+    },
+    "fact": "Vibrio cholerae secretes a toxin that locks intestinal chloride channels open, pouring water into the gut lumen.",
+    "difficulty": 1
+  },
+  {
+    "id": "tetanus",
+    "name": "Tetanus",
+    "aliases": ["Lockjaw"],
+    "category": "bacterial",
+    "emoji": "😬",
+    "symptoms": [
+      "Restlessness and headache",
+      "History of a deep puncture wound",
+      "Stiffness in neck and abdominal muscles",
+      "Painful full-body spasms (opisthotonos)",
+      "Rigidly clenched jaw and fixed grin"
+    ],
+    "cause": {
+      "label": "Clostridium tetani",
+      "organismId": "clostridium_tetani"
+    },
+    "fact": "Tetanospasmin neurotoxin blocks inhibitory neurotransmitters in the spinal cord, causing continuous muscle contraction.",
+    "difficulty": 1
+  },
+  {
+    "id": "botulism",
+    "name": "Botulism",
+    "aliases": ["Foodborne botulism"],
+    "category": "bacterial",
+    "emoji": "🥫",
+    "symptoms": [
+      "Dry mouth and difficulty swallowing",
+      "Blurred or double vision",
+      "Drooping eyelids and slurred speech",
+      "Exposure to improperly canned food",
+      "Descending flaccid muscle paralysis"
+    ],
+    "cause": {
+      "label": "Clostridium botulinum",
+      "organismId": "clostridium_botulinum"
+    },
+    "fact": "Botulinum toxin prevents acetylcholine release at neuromuscular junctions, causing flaccid paralysis.",
+    "difficulty": 2
+  },
+  {
+    "id": "syphilis",
+    "name": "Syphilis",
+    "aliases": ["Lues"],
+    "category": "bacterial",
+    "emoji": "🦠",
+    "symptoms": [
+      "Swollen lymph nodes near groin",
+      "Single painless genital ulcer (chancre)",
+      "Copper-colored rash on palms and soles",
+      "Patchy hair loss in the second stage",
+      "Years-later aortic or neurological damage"
+    ],
+    "cause": {
+      "label": "Treponema pallidum",
+      "organismId": "treponema_palidium"
+    },
+    "fact": "Treponema pallidum is a corkscrew-shaped spirochete bacterium known in medicine as 'the great imitator'.",
+    "difficulty": 2
+  },
+  {
+    "id": "gonorrhea",
+    "name": "Gonorrhea",
+    "aliases": ["The clap"],
+    "category": "bacterial",
+    "emoji": "🦠",
+    "symptoms": [
+      "Lower abdominal or pelvic discomfort",
+      "Painful or burning urination (dysuria)",
+      "Swelling and tenderness at the urethra",
+      "Septic joint inflammation if untreated",
+      "Thick purulent urethral or cervical discharge"
+    ],
+    "cause": {
+      "label": "Neisseria gonorrhoeae",
+      "organismId": "neisseria_gonorrhea"
+    },
+    "fact": "Neisseria gonorrhoeae is a coffee-bean-shaped Gram-negative diplococcus that uses pili to attach to mucosal surfaces.",
+    "difficulty": 2
+  },
+  {
+    "id": "legionnaires_disease",
+    "name": "Legionnaires' disease",
+    "aliases": ["Legionellosis", "Legionnaires disease"],
+    "category": "bacterial",
+    "emoji": "🏢",
+    "symptoms": [
+      "High fever, chills, and muscle aches",
+      "Dry cough progressing to chest pain",
+      "Watery diarrhea and confusion",
+      "Low blood sodium (hyponatremia)",
+      "Pneumonia after mist from cooling towers"
+    ],
+    "cause": {
+      "label": "Legionella pneumophila",
+      "organismId": "legionella_pneumophila"
+    },
+    "fact": "Legionella pneumophila thrives inside freshwater amoebae in warm building plumbing and cooling systems.",
+    "difficulty": 3
+  },
+  {
+    "id": "listeriosis",
+    "name": "Listeriosis",
+    "aliases": ["Listeria infection"],
+    "category": "bacterial",
+    "emoji": "🧀",
+    "symptoms": [
+      "Fever, muscle aches, and nausea",
+      "Diarrhea after eating soft cheese or meats",
+      "Severe risk in pregnancy or newborns",
+      "Stiff neck, headache, and loss of balance",
+      "Foodborne sepsis from cold-tolerant rods"
+    ],
+    "cause": {
+      "label": "Listeria monocytogenes",
+      "organismId": "listeria_monocytogenes"
+    },
+    "fact": "Listeria monocytogenes can multiply at refrigerator temperatures (4 °C) and propel itself between cells using actin tails.",
+    "difficulty": 3
+  },
+  {
+    "id": "typhoid_fever",
+    "name": "Typhoid fever",
+    "aliases": ["Enteric fever", "Typhoid"],
+    "category": "bacterial",
+    "emoji": "🌡️",
+    "symptoms": [
+      "Stepwise rising fever over days",
+      "Abdominal pain and constipation",
+      "Abnormally slow pulse for the high fever",
+      "Enlarged liver and spleen",
+      "Faint salmon-pink 'rose spots' on the trunk"
+    ],
+    "cause": {
+      "label": "Salmonella enterica",
+      "organismId": "salmonella_enterica"
+    },
+    "fact": "Salmonella enterica serovar Typhi can persist chronically in the gallbladder of asymptomatic carriers.",
+    "difficulty": 2
+  },
+  {
+    "id": "shigellosis",
+    "name": "Shigellosis",
+    "aliases": ["Bacillary dysentery"],
+    "category": "bacterial",
+    "emoji": "🦠",
+    "symptoms": [
+      "Sudden fever and abdominal cramps",
+      "Frequent urge to pass stool (tenesmus)",
+      "Spread by tiny fecal-oral infectious dose",
+      "Shallow mucosal ulcers in the colon",
+      "Small-volume stools with blood and mucus"
+    ],
+    "cause": {
+      "label": "Shigella dysenteriae",
+      "organismId": "shigella_dysenteriae"
+    },
+    "fact": "As few as 10 to 100 Shigella bacteria can cause infection because they resist stomach acid.",
+    "difficulty": 3
+  },
+  {
+    "id": "scarlet_fever",
+    "name": "Scarlet fever",
+    "aliases": ["Scarlatina", "Strep throat"],
+    "category": "bacterial",
+    "emoji": "🍓",
+    "symptoms": [
+      "Sudden fever and sore throat",
+      "Swollen tender neck lymph nodes",
+      "White exudate on inflamed tonsils",
+      "Coarse red 'sandpaper' rash on the trunk",
+      "Bright red 'strawberry tongue'"
+    ],
+    "cause": {
+      "label": "Streptococcus pyogenes",
+      "organismId": "streptococcus_pyogenes"
+    },
+    "fact": "Streptococcus pyogenes strains carrying a bacteriophage produce erythrogenic toxin, causing the sandpaper rash.",
+    "difficulty": 2
+  },
+  {
+    "id": "pneumococcal_pneumonia",
+    "name": "Pneumococcal pneumonia",
+    "aliases": ["Lobar pneumonia"],
+    "category": "bacterial",
+    "emoji": "🫁",
+    "symptoms": [
+      "Abrupt high fever and shaking chills",
+      "Rapid shallow breathing",
+      "Sharp chest pain worse on deep breath",
+      "Dense consolidation of one lung lobe",
+      "Coughing up rust-colored sputum"
+    ],
+    "cause": {
+      "label": "Streptococcus pneumoniae",
+      "organismId": "streptococcus_pneumonae"
+    },
+    "fact": "Streptococcus pneumoniae is the most common cause of community-acquired bacterial pneumonia.",
+    "difficulty": 2
+  },
+  {
+    "id": "c_diff_colitis",
+    "name": "C. diff colitis",
+    "aliases": ["Clostridioides difficile colitis", "Pseudomembranous colitis"],
+    "category": "bacterial",
+    "emoji": "💊",
+    "symptoms": [
+      "Fever and loss of appetite",
+      "Cramping lower abdominal pain",
+      "High white blood cell count",
+      "Frequent watery diarrhea after antibiotics",
+      "Yellow-white plaques lining the colon"
+    ],
+    "cause": {
+      "label": "Clostridium difficile",
+      "organismId": "clostridium_difficile"
+    },
+    "fact": "Broad-spectrum antibiotics wipe out normal gut flora, allowing spore-forming C. difficile to overgrow.",
+    "difficulty": 2
+  },
+  {
+    "id": "malaria",
+    "name": "Malaria",
+    "aliases": ["Plasmodium infection"],
+    "category": "parasitic",
+    "emoji": "🦟",
+    "symptoms": [
+      "Headache, muscle aches, and nausea",
+      "Anemia from red blood cell destruction",
+      "Enlarged spleen (splenomegaly)",
+      "Recent travel to a tropical region",
+      "Cyclical shaking chills and fever every 48h"
+    ],
+    "cause": {
+      "label": "Plasmodium falciparum",
+      "organismId": "plasmodium_falciparum"
+    },
+    "vector": {
+      "label": "Anopheles gambiae mosquito",
+      "organismId": "anopheles_gambiae"
+    },
+    "fact": "Synchronized bursting of infected red blood cells every 48 or 72 hours triggers the periodic fever paroxysms.",
+    "difficulty": 1
+  },
+  {
+    "id": "african_sleeping_sickness",
+    "name": "African sleeping sickness",
+    "aliases": ["African trypanosomiasis", "Sleeping sickness"],
+    "category": "parasitic",
+    "emoji": "🪰",
+    "symptoms": [
+      "Intermittent fever and headache",
+      "Painful skin sore after a fly bite",
+      "Swollen lymph nodes at back of neck",
+      "Confusion and poor coordination",
+      "Reversed sleep cycle: daytime stupor"
+    ],
+    "cause": {
+      "label": "Trypanosoma brucei",
+      "organismId": "trypanosoma_brucei"
+    },
+    "vector": {
+      "label": "Glossina morsitans (tsetse fly)"
+    },
+    "fact": "Trypanosoma brucei constantly switches its surface glycoprotein coat to evade the host immune system.",
+    "difficulty": 2
+  },
+  {
+    "id": "toxoplasmosis",
+    "name": "Toxoplasmosis",
+    "aliases": ["Toxo"],
+    "category": "parasitic",
+    "emoji": "🐱",
+    "symptoms": [
+      "Mild flu-like fatigue and body aches",
+      "Painless swollen neck lymph nodes",
+      "Exposure to cat litter or undercooked meat",
+      "Retinal inflammation in severe cases",
+      "Ring-enhancing brain lesions in weak immunity"
+    ],
+    "cause": {
+      "label": "Toxoplasma gondii",
+      "organismId": "toxoplasma_gondii"
+    },
+    "fact": "Domestic and wild felids are the only definitive hosts in which Toxoplasma gondii can reproduce sexually.",
+    "difficulty": 2
+  },
+  {
+    "id": "amoebic_meningoencephalitis",
+    "name": "Primary amoebic meningoencephalitis",
+    "aliases": ["PAM", "Brain-eating amoeba"],
+    "category": "parasitic",
+    "emoji": "🏊",
+    "symptoms": [
+      "Sudden severe frontal headache and fever",
+      "Nausea, vomiting, and stiff neck",
+      "Altered sense of smell and taste",
+      "Swimming in warm freshwater lakes",
+      "Rapidly fatal brain inflammation via nose"
+    ],
+    "cause": {
+      "label": "Naegleria fowleri",
+      "organismId": "naegleria_fowleri"
+    },
+    "fact": "Naegleria fowleri enters through the nasal passages during freshwater diving and travels along the olfactory nerve.",
+    "difficulty": 3
+  },
+  {
+    "id": "dengue",
+    "name": "Dengue fever",
+    "aliases": ["Dengue", "Breakbone fever"],
+    "category": "viral",
+    "emoji": "🦟",
+    "symptoms": [
+      "Sudden high fever",
+      "Pain behind the eyes (retro-orbital pain)",
+      "Low platelet count and easy bruising",
+      "Flushed skin rash after fever drops",
+      "Crushing 'breakbone' muscle and joint pain"
+    ],
+    "cause": {
+      "label": "Dengue virus (Flavivirus)"
+    },
+    "vector": {
+      "label": "Aedes aegypti mosquito",
+      "organismId": "aedes_aegypti"
+    },
+    "fact": "Secondary infection with a different viral serotype increases the risk of severe hemorrhagic complications.",
+    "difficulty": 1
+  },
+  {
+    "id": "yellow_fever",
+    "name": "Yellow fever",
+    "aliases": ["Yellow jack"],
+    "category": "viral",
+    "emoji": "🦟",
+    "symptoms": [
+      "Sudden fever, chills, and backache",
+      "Brief remission followed by toxic relapse",
+      "Liver and kidney damage",
+      "Dark bloody vomit ('black vomit')",
+      "Deep jaundice after tropical mosquito bite"
+    ],
+    "cause": {
+      "label": "Flavivirus febricis"
+    },
+    "vector": {
+      "label": "Aedes aegypti mosquito",
+      "organismId": "aedes_aegypti"
+    },
+    "fact": "Waiter Walter Reed and Carlos Finlay proved that Aedes aegypti mosquitoes transmit the virus.",
+    "difficulty": 2
+  },
+  {
+    "id": "zika_fever",
+    "name": "Zika virus disease",
+    "aliases": ["Zika", "Zika fever"],
+    "category": "viral",
+    "emoji": "🦟",
+    "symptoms": [
+      "Low-grade fever and mild headache",
+      "Itchy maculopapular skin rash",
+      "Non-purulent red eyes (conjunctivitis)",
+      "Joint pain in hands and feet",
+      "Congenital microcephaly if caught pregnant"
+    ],
+    "cause": {
+      "label": "Flavivirus zikaense"
+    },
+    "vector": {
+      "label": "Aedes aegypti mosquito",
+      "organismId": "aedes_aegypti"
+    },
+    "fact": "First identified in Uganda's Zika Forest in 1947, the virus can cross the placental barrier to infect fetal neural progenitors.",
+    "difficulty": 2
+  },
+  {
+    "id": "ascariasis",
+    "name": "Ascariasis",
+    "aliases": ["Giant roundworm infection"],
+    "category": "parasitic",
+    "emoji": "🪱",
+    "symptoms": [
+      "Mild abdominal discomfort",
+      "Dry cough and wheezing during larval phase",
+      "Elevated eosinophil white blood cells",
+      "Stunted growth or intestinal blockage",
+      "Passing large 25-cm pinkish roundworms"
+    ],
+    "cause": {
+      "label": "Ascaris lumbricoides",
+      "organismId": "ascaris_lumbricoides"
+    },
+    "fact": "Swallowed Ascaris larvae hatch in the gut, migrate through the bloodstream to the lungs, and are coughed up and swallowed again.",
+    "difficulty": 2
+  },
+  {
+    "id": "pinworm_infection",
+    "name": "Pinworm infection",
+    "aliases": ["Enterobiasis", "Threadworm", "Pinworm"],
+    "category": "parasitic",
+    "emoji": "🪱",
+    "symptoms": [
+      "Restless sleep and irritability",
+      "Mild abdominal discomfort",
+      "Commonly spreads among school children",
+      "Intense perianal itching at night",
+      "Tiny white worms detected by tape test"
+    ],
+    "cause": {
+      "label": "Enterobius vermicularis",
+      "organismId": "enterobius_vermicularis"
+    },
+    "fact": "Gravid female worms migrate out of the anus at night to lay thousands of microscopic eggs on perianal skin.",
+    "difficulty": 2
+  },
+  {
+    "id": "hookworm_infection",
+    "name": "Hookworm infection",
+    "aliases": ["Ancylostomiasis", "Hookworm"],
+    "category": "parasitic",
+    "emoji": "🦶",
+    "symptoms": [
+      "Fatigue and pale skin",
+      "Itchy rash on feet after walking barefoot",
+      "Abdominal pain and diarrhea",
+      "Worms attach to small intestine mucosa",
+      "Severe iron-deficiency anemia from blood loss"
+    ],
+    "cause": {
+      "label": "Ancylostoma duodenale",
+      "organismId": "ancylostoma_duodenale"
+    },
+    "fact": "Soil-dwelling filariform larvae penetrate directly through the skin of bare feet and feed on intestinal blood.",
+    "difficulty": 2
+  },
+  {
+    "id": "trichinosis",
+    "name": "Trichinosis",
+    "aliases": ["Trichinellosis"],
+    "category": "parasitic",
+    "emoji": "🥩",
+    "symptoms": [
+      "Nausea, diarrhea, and abdominal cramps",
+      "High fever and weakness",
+      "Marked eosinophilia in blood tests",
+      "Eating undercooked pork or wild game",
+      "Swelling around eyes and painful muscles"
+    ],
+    "cause": {
+      "label": "Trichinella spiralis",
+      "organismId": "trichinella_spiralis"
+    },
+    "fact": "Trichinella larvae encyst inside striated skeletal muscle cells, turning them into specialized 'nurse cells'.",
+    "difficulty": 3
+  },
+  {
+    "id": "schistosomiasis",
+    "name": "Schistosomiasis",
+    "aliases": ["Bilharzia", "Snail fever"],
+    "category": "parasitic",
+    "emoji": "🐌",
+    "symptoms": [
+      "Fever, chills, and cough",
+      "Itchy rash after wading in freshwater",
+      "Abdominal pain and bloody stool or urine",
+      "Life cycle requires freshwater snails",
+      "Liver fibrosis and portal hypertension"
+    ],
+    "cause": {
+      "label": "Schistosoma mansoni",
+      "organismId": "schistosoma_mansoni"
+    },
+    "fact": "Fork-tailed cercariae released by freshwater snails penetrate human skin in seconds.",
+    "difficulty": 3
+  },
+  {
+    "id": "cysticercosis",
+    "name": "Cysticercosis",
+    "aliases": ["Neurocysticercosis", "Pork tapeworm infection"],
+    "category": "parasitic",
+    "emoji": "🧠",
+    "symptoms": [
+      "Recurrent headaches",
+      "Muscle nodules under the skin",
+      "Ingestion of pork tapeworm eggs",
+      "Adult onset seizures",
+      "Calcified larval cysts visible on brain CT"
+    ],
+    "cause": {
+      "label": "Taenia solium",
+      "organismId": "taenia_solium"
+    },
+    "fact": "Eating undercooked pork causes intestinal tapeworms, whereas ingesting Taenia solium eggs causes tissue cysts in the brain.",
+    "difficulty": 3
+  },
+  {
+    "id": "hydatid_disease",
+    "name": "Hydatid disease",
+    "aliases": ["Echinococcosis"],
+    "category": "parasitic",
+    "emoji": "🐕",
+    "symptoms": [
+      "Vague upper right abdominal fullness",
+      "Close contact with sheepdogs and livestock",
+      "Cough if lung involvement occurs",
+      "Anaphylactic shock if cyst ruptures",
+      "Large fluid-filled liver cyst with 'sand'"
+    ],
+    "cause": {
+      "label": "Echinococcus granulosus",
+      "organismId": "echinococcus_granulosus"
+    },
+    "fact": "Dogs are the definitive host and sheep are the intermediate host for this tiny 5-mm tapeworm.",
+    "difficulty": 3
+  },
+  {
+    "id": "scabies",
+    "name": "Scabies",
+    "aliases": ["Seven-year itch"],
+    "category": "parasitic",
+    "emoji": "🖐️",
+    "symptoms": [
+      "Pimple-like red skin bumps",
+      "Spreads through close skin-to-skin contact",
+      "Itching dramatically worse at night",
+      "Lesions between fingers and on wrists",
+      "Tiny wavy burrow lines in the epidermis"
+    ],
+    "cause": {
+      "label": "Sarcoptes scabiei",
+      "organismId": "sarcoptes_scabiei"
+    },
+    "fact": "Microscopic Sarcoptes scabiei mites tunnel into the upper layer of the skin to lay their eggs.",
+    "difficulty": 1
+  },
+  {
+    "id": "river_blindness",
+    "name": "River blindness",
+    "aliases": ["Onchocerciasis"],
+    "category": "parasitic",
+    "emoji": "👁️",
+    "symptoms": [
+      "Intense chronic skin itching",
+      "Firm nodules under the skin",
+      "Depigmented 'leopard-skin' patches on shins",
+      "Bites from blackflies near fast rivers",
+      "Corneal scarring leading to blindness"
+    ],
+    "cause": {
+      "label": "Onchocerca volvulus (filarial nematode)"
+    },
+    "vector": {
+      "label": "Simulium damnosum (blackfly)",
+      "organismId": "simulium_damnosum"
+    },
+    "fact": "Satoshi Omura and William Campbell won the 2015 Nobel Prize for discovering ivermectin, which prevents this disease.",
+    "difficulty": 3
+  },
+  {
+    "id": "measles",
+    "name": "Measles",
+    "aliases": ["Rubeola"],
+    "category": "viral",
+    "emoji": "🔴",
+    "symptoms": [
+      "High fever and malaise",
+      "Cough, runny nose, and red eyes",
+      "Sensitivity to bright light",
+      "Red blotchy rash starting at the hairline",
+      "Tiny white spots inside cheek (Koplik spots)"
+    ],
+    "cause": {
+      "label": "Measles morbillivirus"
+    },
+    "fact": "One of the most contagious human viruses known, with a basic reproduction number (R0) of 12 to 18.",
+    "difficulty": 1
+  },
+  {
+    "id": "chickenpox",
+    "name": "Chickenpox",
+    "aliases": ["Varicella"],
+    "category": "viral",
+    "emoji": "🫧",
+    "symptoms": [
+      "Mild fever and fatigue",
+      "Loss of appetite and headache",
+      "Intensely itchy red spots on trunk and face",
+      "Fluid blisters ('dewdrops on a rose petal')",
+      "Spots, blisters, and scabs all at once"
+    ],
+    "cause": {
+      "label": "Varicella-zoster virus (VZV)"
+    },
+    "fact": "After recovery, the virus stays dormant in sensory nerve ganglia and can reactivate decades later as shingles.",
+    "difficulty": 1
+  },
+  {
+    "id": "mumps",
+    "name": "Mumps",
+    "aliases": ["Epidemic parotitis"],
+    "category": "viral",
+    "emoji": "🐿️",
+    "symptoms": [
+      "Low-grade fever and headache",
+      "Muscle aches and loss of appetite",
+      "Pain when chewing or swallowing sour foods",
+      "Possible testicular or ovarian inflammation",
+      "Puffy 'chipmunk' swelling of parotid glands"
+    ],
+    "cause": {
+      "label": "Mumps orthorubulavirus"
+    },
+    "fact": "Before routine MMR vaccination, this paramyxovirus was a leading cause of viral meningitis and acquired deafness in children.",
+    "difficulty": 1
+  },
+  {
+    "id": "influenza",
+    "name": "Influenza",
+    "aliases": ["Flu", "The flu"],
+    "category": "viral",
+    "emoji": "🤧",
+    "symptoms": [
+      "Abrupt high fever and chills",
+      "Severe body aches and fatigue",
+      "Dry hacking cough and sore throat",
+      "Seasonal winter outbreaks",
+      "Driven by hemagglutinin and neuraminidase"
+    ],
+    "cause": {
+      "label": "Influenza virus (Orthomyxoviridae)"
+    },
+    "fact": "Segmented RNA genomes allow antigenic shift and drift, which is why seasonal vaccines are updated annually.",
+    "difficulty": 1
+  },
+  {
+    "id": "covid_19",
+    "name": "COVID-19",
+    "aliases": ["Coronavirus disease 2019", "Covid", "SARS-CoV-2"],
+    "category": "viral",
+    "emoji": "😷",
+    "symptoms": [
+      "Fever, fatigue, and dry cough",
+      "Shortness of breath on exertion",
+      "Ground-glass opacities on chest CT",
+      "Binds ACE2 receptors on airway cells",
+      "Sudden loss of smell and taste (anosmia)"
+    ],
+    "cause": {
+      "label": "SARS-CoV-2 coronavirus"
+    },
+    "fact": "The viral spike glycoprotein binds to the host cell's angiotensin-converting enzyme 2 (ACE2) receptor.",
+    "difficulty": 1
+  },
+  {
+    "id": "rabies",
+    "name": "Rabies",
+    "aliases": ["Hydrophobia"],
+    "category": "viral",
+    "emoji": "🦇",
+    "symptoms": [
+      "Fever and tingling at a healed bite wound",
+      "Agitation, anxiety, and confusion",
+      "Excessive salivation ('foaming')",
+      "Virus travels up peripheral nerves to brain",
+      "Painful throat spasms at the sight of water"
+    ],
+    "cause": {
+      "label": "Rabies lyssavirus"
+    },
+    "fact": "Nearly 100% fatal once neurological symptoms appear, yet preventable with prompt post-exposure vaccination.",
+    "difficulty": 1
+  },
+  {
+    "id": "polio",
+    "name": "Polio",
+    "aliases": ["Poliomyelitis"],
+    "category": "viral",
+    "emoji": "🦽",
+    "symptoms": [
+      "Fever, sore throat, and nausea",
+      "Headache and neck stiffness",
+      "Fecal-oral enterovirus transmission",
+      "Destruction of spinal motor neurons",
+      "Asymmetric flaccid limb paralysis"
+    ],
+    "cause": {
+      "label": "Poliovirus (Enterovirus C)"
+    },
+    "fact": "The Salk inactivated and Sabin oral vaccines have eliminated wild poliovirus from almost the entire world.",
+    "difficulty": 1
+  },
+  {
+    "id": "hiv_aids",
+    "name": "HIV/AIDS",
+    "aliases": ["HIV", "AIDS"],
+    "category": "viral",
+    "emoji": "🎗️",
+    "symptoms": [
+      "Flu-like fever and rash weeks after exposure",
+      "Generalized swollen lymph nodes",
+      "Weight loss and chronic night sweats",
+      "Progressive depletion of CD4+ helper T cells",
+      "Opportunistic infections like thrush or PCP"
+    ],
+    "cause": {
+      "label": "Human immunodeficiency virus (Retrovirus)"
+    },
+    "fact": "HIV uses reverse transcriptase to transcribe its single-stranded RNA genome into double-stranded DNA inside host T cells.",
+    "difficulty": 1
+  },
+  {
+    "id": "hepatitis_b",
+    "name": "Hepatitis B",
+    "aliases": ["Hep B", "HBV"],
+    "category": "viral",
+    "emoji": "🟡",
+    "symptoms": [
+      "Fatigue, nausea, and loss of appetite",
+      "Pain in the upper right abdomen",
+      "Dark tea-colored urine and pale stools",
+      "Bloodborne or perinatal transmission",
+      "Yellowing of skin and eyes (jaundice)"
+    ],
+    "cause": {
+      "label": "Hepatitis B virus (Hepadnaviridae)"
+    },
+    "fact": "The Hepatitis B vaccine was the first vaccine capable of preventing a human cancer (hepatocellular carcinoma).",
+    "difficulty": 1
+  },
+  {
+    "id": "mononucleosis",
+    "name": "Infectious mononucleosis",
+    "aliases": ["Mono", "Glandular fever", "Kissing disease"],
+    "category": "viral",
+    "emoji": "💋",
+    "symptoms": [
+      "Prolonged fatigue lasting weeks",
+      "Fever and severe sore throat",
+      "Swollen posterior neck lymph nodes",
+      "Enlarged spleen (no contact sports!)",
+      "Atypical lymphocytes from saliva spread"
+    ],
+    "cause": {
+      "label": "Epstein-Barr virus (Human herpesvirus 4)"
+    },
+    "fact": "Epstein-Barr virus infects B lymphocytes via the CD21 receptor, stimulating reactive 'atypical' T cells.",
+    "difficulty": 1
+  },
+  {
+    "id": "type_1_diabetes",
+    "name": "Type 1 diabetes",
+    "aliases": ["Diabetes mellitus type 1", "Juvenile diabetes"],
+    "category": "metabolic",
+    "emoji": "🩸",
+    "symptoms": [
+      "Unintended weight loss and fatigue",
+      "Constant excessive thirst (polydipsia)",
+      "Frequent large-volume urination (polyuria)",
+      "Fruity acetone smell on the breath",
+      "Autoimmune loss of pancreatic beta cells"
+    ],
+    "fact": "Without insulin, cells cannot take up blood glucose and break down fats into acidic ketone bodies instead.",
+    "difficulty": 1
+  },
+  {
+    "id": "hypothyroidism",
+    "name": "Hypothyroidism",
+    "aliases": ["Hashimoto's thyroiditis", "Underactive thyroid"],
+    "category": "metabolic",
+    "emoji": "🦋",
+    "symptoms": [
+      "Chronic fatigue and sluggishness",
+      "Unexplained weight gain and constipation",
+      "Dry skin, brittle hair, and puffy face",
+      "Slow heart rate and high TSH hormone",
+      "Extreme sensitivity to cold temperatures"
+    ],
+    "fact": "Insufficient thyroxine (T4) and triiodothyronine (T3) lowers the basal metabolic rate across all tissues.",
+    "difficulty": 1
+  },
+  {
+    "id": "graves_disease",
+    "name": "Graves' disease",
+    "aliases": ["Graves disease", "Hyperthyroidism"],
+    "category": "autoimmune",
+    "emoji": "👀",
+    "symptoms": [
+      "Restlessness, anxiety, and insomnia",
+      "Weight loss despite increased appetite",
+      "Rapid heartbeat and heat intolerance",
+      "Fine tremor in outstretched hands",
+      "Bulging eyes (exophthalmos) and goiter"
+    ],
+    "fact": "Autoantibodies mimic TSH and continuously stimulate the thyroid gland to overproduce thyroid hormones.",
+    "difficulty": 2
+  },
+  {
+    "id": "iron_deficiency_anemia",
+    "name": "Iron-deficiency anemia",
+    "aliases": ["Microcytic anemia"],
+    "category": "nutritional",
+    "emoji": "🩸",
+    "symptoms": [
+      "Chronic tiredness and weakness",
+      "Pale skin and inner eyelids (pallor)",
+      "Shortness of breath on climbing stairs",
+      "Spoon-shaped fingernails (koilonychia)",
+      "Craving to chew ice or dirt (pica)"
+    ],
+    "fact": "Iron is the central atom of the heme group in hemoglobin; without it, red blood cells become small and pale.",
+    "difficulty": 1
+  },
+  {
+    "id": "sickle_cell_disease",
+    "name": "Sickle cell disease",
+    "aliases": ["Sickle cell anemia"],
+    "category": "genetic",
+    "emoji": "🌙",
+    "symptoms": [
+      "Chronic hemolytic anemia and fatigue",
+      "Jaundice and gallstones",
+      "Painful hand and foot swelling in children",
+      "Episodes of severe vaso-occlusive bone pain",
+      "Crescent-shaped red blood cells from HbS"
+    ],
+    "fact": "A single glutamate-to-valine point mutation in beta-globin causes hemoglobin S to polymerize under low oxygen.",
+    "difficulty": 1
+  },
+  {
+    "id": "cystic_fibrosis",
+    "name": "Cystic fibrosis",
+    "aliases": ["CF"],
+    "category": "genetic",
+    "emoji": "🫁",
+    "symptoms": [
+      "Poor weight gain despite good appetite",
+      "Chronic cough with thick sticky mucus",
+      "Recurrent bacterial lung infections",
+      "Blocked pancreatic digestive ducts",
+      "Abnormally salty skin sweat (CFTR defect)"
+    ],
+    "fact": "Mutations in the CFTR chloride channel gene impair water movement across mucus-producing epithelia.",
+    "difficulty": 1
+  },
+  {
+    "id": "hemophilia",
+    "name": "Hemophilia",
+    "aliases": ["Haemophilia", "Royal disease"],
+    "category": "genetic",
+    "emoji": "🩸",
+    "symptoms": [
+      "Easy and extensive skin bruising",
+      "Prolonged oozing after dental work",
+      "X-linked recessive inheritance pattern",
+      "Deficiency of clotting factor VIII or IX",
+      "Spontaneous bleeding into knee joints"
+    ],
+    "fact": "Because the factor VIII and IX genes sit on the X chromosome, the disorder predominantly affects males.",
+    "difficulty": 1
+  },
+  {
+    "id": "asthma",
+    "name": "Asthma",
+    "aliases": ["Bronchial asthma"],
+    "category": "respiratory",
+    "emoji": "💨",
+    "symptoms": [
+      "Chest tightness and shortness of breath",
+      "Dry cough worse at night or in cold air",
+      "Triggered by pollen, dust mites, or exercise",
+      "Reversible airway narrowing",
+      "High-pitched whistling wheeze on exhalation"
+    ],
+    "fact": "Bronchospasm, mucosal swelling, and mucus plugs narrow the bronchioles during an acute flare-up.",
+    "difficulty": 1
+  },
+  {
+    "id": "appendicitis",
+    "name": "Appendicitis",
+    "aliases": ["Acute appendicitis"],
+    "category": "other",
+    "emoji": "🏥",
+    "symptoms": [
+      "Loss of appetite and mild nausea",
+      "Low-grade fever and white cell spike",
+      "Dull pain starting around the belly button",
+      "Rebound tenderness when pressing abdomen",
+      "Sharp pain localizing to McBurney's point"
+    ],
+    "fact": "Obstruction of the appendiceal lumen leads to bacterial overgrowth, ischemia, and risk of perforation.",
+    "difficulty": 1
+  },
+  {
+    "id": "gout",
+    "name": "Gout",
+    "aliases": ["Gouty arthritis", "Podagra"],
+    "category": "metabolic",
+    "emoji": "🦶",
+    "symptoms": [
+      "Sudden nighttime joint pain flare",
+      "Joint becomes swollen, red, and hot",
+      "Triggered by purine-rich meat or seafood",
+      "Chalky nodules (tophi) on ears or fingers",
+      "Needle-shaped urate crystals in big toe"
+    ],
+    "fact": "Monosodium urate crystals precipitate in cooler peripheral joints like the first metatarsophalangeal joint.",
+    "difficulty": 1
+  },
+  {
+    "id": "migraine",
+    "name": "Migraine",
+    "aliases": ["Migraine headache"],
+    "category": "neurological",
+    "emoji": "⚡",
+    "symptoms": [
+      "Fatigue and neck stiffness before onset",
+      "Nausea and vomiting",
+      "Extreme sensitivity to light and sound",
+      "Zigzag flashing visual aura for 20 minutes",
+      "One-sided throbbing headache lasting hours"
+    ],
+    "fact": "Cortical spreading depression and trigeminal nerve release of CGRP peptide drive the aura and pain phases.",
+    "difficulty": 1
+  },
+  {
+    "id": "parkinsons_disease",
+    "name": "Parkinson's disease",
+    "aliases": ["Parkinsons disease", "Parkinson disease"],
+    "category": "neurological",
+    "emoji": "🧠",
+    "symptoms": [
+      "Reduced facial expression and soft voice",
+      "Slowed movement (bradykinesia)",
+      "Cogwheel muscle rigidity and stooped posture",
+      "Loss of dopamine neurons in substantia nigra",
+      "Resting 'pill-rolling' hand tremor"
+    ],
+    "fact": "Degeneration of dopaminergic neurons in the midbrain's substantia nigra impairs basal ganglia motor control.",
+    "difficulty": 1
+  },
+  {
+    "id": "alzheimers_disease",
+    "name": "Alzheimer's disease",
+    "aliases": ["Alzheimers disease", "Alzheimer disease"],
+    "category": "neurological",
+    "emoji": "🧩",
+    "symptoms": [
+      "Difficulty recalling recent conversations",
+      "Misplacing items and getting lost",
+      "Trouble finding words and planning tasks",
+      "Progressive shrinkage of hippocampus",
+      "Amyloid plaques and tau tangles in cortex"
+    ],
+    "fact": "Extracellular beta-amyloid plaques and intracellular hyperphosphorylated tau tangles are the pathological hallmarks.",
+    "difficulty": 1
+  },
+  {
+    "id": "multiple_sclerosis",
+    "name": "Multiple sclerosis",
+    "aliases": ["MS"],
+    "category": "autoimmune",
+    "emoji": "⚡",
+    "symptoms": [
+      "Episodes of numbness and tingling in limbs",
+      "Symptoms worsen in hot weather",
+      "Electric-shock feeling when bending neck",
+      "Painful blurring of vision in one eye",
+      "Autoimmune demyelination of CNS white matter"
+    ],
+    "fact": "Immune attacks strip myelin sheaths in the brain, optic nerves, and spinal cord, slowing nerve conduction.",
+    "difficulty": 2
+  },
+  {
+    "id": "lupus",
+    "name": "Lupus",
+    "aliases": ["Systemic lupus erythematosus", "SLE"],
+    "category": "autoimmune",
+    "emoji": "🦋",
+    "symptoms": [
+      "Fever, fatigue, and joint pain",
+      "Painless mouth ulcers and hair thinning",
+      "Skin rash worsened by sunlight",
+      "Anti-double-stranded DNA autoantibodies",
+      "Butterfly-shaped malar rash across cheeks"
+    ],
+    "fact": "An autoimmune disease where antinuclear antibodies form immune complexes that deposit in skin, joints, and kidneys.",
+    "difficulty": 1
+  },
+  {
+    "id": "rheumatoid_arthritis",
+    "name": "Rheumatoid arthritis",
+    "aliases": ["RA"],
+    "category": "autoimmune",
+    "emoji": "🤲",
+    "symptoms": [
+      "Fatigue and low-grade fever",
+      "Morning joint stiffness lasting > 1 hour",
+      "Symmetric swelling of wrists and knuckles",
+      "Spares the fingertip (DIP) joints",
+      "Autoimmune pannus eroding joint cartilage"
+    ],
+    "fact": "Unlike osteoarthritis from wear and tear, immune inflammation of the synovial membrane symmetrically attacks joints.",
+    "difficulty": 2
+  },
+  {
+    "id": "celiac_disease",
+    "name": "Celiac disease",
+    "aliases": ["Coeliac disease", "Celiac sprue"],
+    "category": "autoimmune",
+    "emoji": "🌾",
+    "symptoms": [
+      "Bloating, gas, and chronic diarrhea",
+      "Iron deficiency and weight loss",
+      "Itchy blisters on elbows and knees",
+      "Triggered by eating wheat, barley, or rye",
+      "Flattening of small intestine villi"
+    ],
+    "fact": "An autoimmune reaction to dietary gluten damages the absorptive villi of the duodenum and jejunum.",
+    "difficulty": 1
+  },
+  {
+    "id": "scurvy",
+    "name": "Scurvy",
+    "aliases": ["Vitamin C deficiency"],
+    "category": "nutritional",
+    "emoji": "🍋",
+    "symptoms": [
+      "Fatigue, weakness, and aching legs",
+      "Poor wound healing and easy bruising",
+      "Coiled 'corkscrew' body hairs",
+      "Swollen, spongy, bleeding gums",
+      "Defective collagen from lack of vitamin C"
+    ],
+    "fact": "Ascorbic acid (vitamin C) is an essential cofactor for prolyl hydroxylase, which cross-links collagen fibers.",
+    "difficulty": 1
+  },
+  {
+    "id": "rickets",
+    "name": "Rickets",
+    "aliases": ["Vitamin D deficiency"],
+    "category": "nutritional",
+    "emoji": "☀️",
+    "symptoms": [
+      "Bone pain and muscle weakness in children",
+      "Delayed closure of skull fontanelles",
+      "Knobby widening of wrists and ribs",
+      "Impaired calcium absorption from low sun/diet",
+      "Outward bowing of the weight-bearing legs"
+    ],
+    "fact": "Without vitamin D, growing epiphyseal plates cannot mineralize properly with calcium and phosphate.",
+    "difficulty": 1
+  },
+  {
+    "id": "myocardial_infarction",
+    "name": "Heart attack",
+    "aliases": ["Myocardial infarction", "MI"],
+    "category": "cardiovascular",
+    "emoji": "🫀",
+    "symptoms": [
+      "Sudden shortness of breath and cold sweat",
+      "Nausea and lightheadedness",
+      "Crushing pressure in the center of chest",
+      "Pain radiating to left arm and jaw",
+      "Coronary artery blockage with troponin spike"
+    ],
+    "fact": "Rupture of an atherosclerotic plaque triggers a thrombus that starves downstream heart muscle of oxygen.",
+    "difficulty": 1
+  }
+]
