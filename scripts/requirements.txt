@@ -1,0 +1,4 @@
+Pillow>=10.0.0
+# Optional (only needed for historical notebooks/wordvec.ipynb):
+# wordfreq
+# gensim
