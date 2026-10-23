@@ -2,10 +2,10 @@
 import { useEffect, useState, useRef, useCallback } from "react";
 
 // Global Game Imports
-import { TimerOption } from "@/app/components/MenuScreen";
-import GiveUpButton from "@/app/components/GiveUpButton";
-import GiveUpPopup from "@/app/components/GiveUpPopup";
-import GameOver from "@/app/components/GameOver";
+import GameOverModal from "@/components/game/GameOverModal";
+import GiveUpButton from "@/components/game/GiveUpButton";
+import ConfirmDialog from "@/components/ui/ConfirmDialog";
+import type { TimerOption } from "@/games/taxo-bingo/config";
 
 // Taxo Imports
 import BingoGrid from "./BingoGrid";
@@ -36,12 +36,12 @@ const tx_PhylaAnimalia_and_small_kingdoms = [
   "Platyhelminthes",
   "Nematoda",
   "Annelida",
-  "Fungi", // chordata
-  "Protista", // arthropoda
+  "Fungi",
+  "Protista",
   "Echinodermata",
   "Mollusca",
 ];
-const tx_PhylaPlantae = ["Bryophyta", "Pteridophyta", "Gymnospermae"]; // anGOATspermae ya esta puesta sola
+const tx_PhylaPlantae = ["Bryophyta", "Pteridophyta", "Gymnospermae"];
 const tx_ClassesChordata = [
   "Mammalia",
   "Aves",
@@ -51,7 +51,6 @@ const tx_ClassesChordata = [
   "Osteichthyes",
 ];
 const tx_ClassesArthropoda = ["Arachnida", "Insecta", "Crustacea", "Myriapoda"];
-// const tx_ClassesMollusca = ["Gastropoda", "Bivalvia", "Cephalopoda"];
 const tx_OrdersArachnida = ["Araneae", "Scorpiones", "Acari"];
 const tx_OrdersInsecta = [
   "Coleoptera",
@@ -72,7 +71,7 @@ const tx_OrdersMammalia = [
   "Cetacea",
   "Marsupialia",
   "Pilosa",
-]; // eulipotyphla, la de rabbits, etc.
+];
 const angiosperma = "Angiospermae";
 
 const domainCategory =
@@ -120,28 +119,18 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
       angiosperma,
       ...selectedCategories,
     ];
-    // const finalCategories = ["Eukaryota", "Animalia", "Plantae", "Chordata", "Arthropoda", "Mammalia", "Insecta", "Reptilia", "Arachnida", "Aves", "Angiospermae", "Fungi"];
     return finalCategories.sort(() => 0.5 - Math.random());
   };
 
-  const skipOrganism = useCallback(() => {
-    if (!isImageLoaded) return; // prevent skipping before image is loaded
-
-    const filtered = available.filter((o) => o !== current);
-    setAvailable(filtered);
-    // eslint-disable-next-line react-hooks/immutability -- legacy hook order replaced in Phase 5 (D1)
-    showNextOrganism();
-  }, [available, current, isImageLoaded]);
-
-  const preloadOrganism = (): Organism | null => {
+  const preloadOrganism = useCallback((): Organism | null => {
     if (available.length === 0) return null;
     const org = available[Math.floor(Math.random() * available.length)];
     const img = new Image();
     img.src = org.imagePath;
     return org;
-  };
+  }, [available]);
 
-  const showNextOrganism = () => {
+  const showNextOrganism = useCallback(() => {
     const next = queue[0];
     setQueue(
       (prev) =>
@@ -149,14 +138,22 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
     );
     setCurrent(next);
     setIsImageLoaded(false);
-  };
+  }, [queue, preloadOrganism]);
+
+  const skipOrganism = useCallback(() => {
+    if (!isImageLoaded) return;
+
+    const filtered = available.filter((o) => o !== current);
+    setAvailable(filtered);
+    showNextOrganism();
+  }, [available, current, isImageLoaded, showNextOrganism]);
 
   useEffect(() => {
     fetch("/assets/data/taxonomy.csv")
       .then((res) => res.text())
       .then((text) => {
         const lines = text.trim().split("\n");
-        lines.shift(); // remove header
+        lines.shift();
         const data = lines.map((line) => {
           const [name, catString, imagePath] = line.split(",");
           return {
@@ -185,7 +182,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
       setCurrent(initialQueue[0]);
       setIsImageLoaded(false);
     }
-  }, [available]);
+  }, [available, preloadOrganism]);
 
   useEffect(() => {
     if (timer !== null && !gameOver) {
@@ -210,7 +207,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.code === "Space" && !gameOver && isImageLoaded) {
-        e.preventDefault(); // prevent page scroll
+        e.preventDefault();
         skipOrganism();
       }
     };
@@ -265,7 +262,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
           shakingCell={shakingCell}
           onCellClick={(category) => {
             if (!current || !isImageLoaded) return;
-            if (filledCells[category]) return; // already filled
+            if (filledCells[category]) return;
 
             const categoryNormalized = category.toLowerCase();
 
@@ -278,38 +275,38 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
                 setGameOver(true);
                 setShowGameOverPopup(true);
               } else {
-                // eslint-disable-next-line react-hooks/immutability -- legacy hook order replaced in Phase 5 (D1)
-    showNextOrganism();
+                showNextOrganism();
               }
             } else {
               setShakingCell(category);
-              setTimeout(() => setShakingCell(null), 700); // Clear shake after 0.7s
+              setTimeout(() => setShakingCell(null), 700);
             }
           }}
         />
 
-        {/* Give Up Button */}
         <GiveUpButton onClick={() => setShowGiveUp(true)} disabled={gameOver} />
 
-        {/* Give Up Popup */}
         {showGiveUp && (
-          <GiveUpPopup
+          <ConfirmDialog
+            message="Are you sure you want to give up?"
+            tone="danger"
             onConfirm={() => {
               setShowGiveUp(false);
               setGameOver(true);
+              setShowGameOverPopup(true);
             }}
             onCancel={() => setShowGiveUp(false)}
           />
         )}
       </div>
 
-      {/* Game Over Popup */}
       {gameOver && showGameOverPopup && (
-        <GameOver
+        <GameOverModal
           won={gameWon}
-          hard={hardMode}
-          message={
-            gameWon ? (
+          onClose={() => setShowGameOverPopup(false)}
+        >
+          <p className="text-base sm:text-lg font-medium">
+            {gameWon ? (
               <>
                 Congratulations on beating Taxo Bingo{" "}
                 <a
@@ -323,13 +320,20 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
               </>
             ) : (
               lossMessage
-            )
-          }
-          onClose={() => setShowGameOverPopup(false)}
-        />
+            )}
+          </p>
+          <p className="text-base sm:text-lg font-medium">
+            {gameWon
+              ? hardMode
+                ? "And you even beat it on Hard Mode! You, are the greatest biological mind I've ever known."
+                : "Try Hard Mode if you're up for a bigger challenge"
+              : hardMode
+              ? "Don't give up! Hard mode is tough, but you can do it!"
+              : "Remember, failure is the starting point for learning."}
+          </p>
+        </GameOverModal>
       )}
 
-      {/* Cheat Sheet Show */}
       {showCheatSheet && (
         <CheatSheet onClose={() => setShowCheatSheet(false)} />
       )}

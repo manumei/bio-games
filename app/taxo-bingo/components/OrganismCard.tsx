@@ -108,7 +108,7 @@ export default function OrganismCard({
             {/* Loading Spinner */}
             {!isImageLoaded && (
               <div
-                className={`absolute sm:w-48 sm:h-48 inset-0 flex items-center justify-center bg-custom-1 ${
+                className={`absolute sm:w-48 sm:h-48 inset-0 flex items-center justify-center bg-surface ${
                   organism.imagePath ? "" : "hidden"
                 }`}
               >

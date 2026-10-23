@@ -1,28 +1,33 @@
 "use client";
+
 import { useState } from "react";
-import MenuScreen, { TimerOption } from "@/app/components/MenuScreen";
+import GameMenu from "@/components/game/GameMenu";
+import { getGame } from "@/games/registry";
+import TaxoMenuOptions, {
+  TaxoHardModeButton,
+} from "@/games/taxo-bingo/components/TaxoMenuOptions";
+import {
+  DEFAULT_TIMER,
+  resolveTimerForHardMode,
+  type TimerOption,
+} from "@/games/taxo-bingo/config";
 import GameScreen from "./components/GameScreen";
+
+const TAXO_META = getGame("taxo-bingo");
 
 export default function TaxoBingoPage() {
   const [gameStarted, setGameStarted] = useState(false);
-  const [timer, setTimer] = useState<TimerOption>(180);
+  const [timer, setTimer] = useState<TimerOption>(DEFAULT_TIMER);
   const [hardMode, setHardMode] = useState(false);
 
   if (!gameStarted) {
     return (
-      <main className="min-h-[80vh] bg-custom-2 px-4 md:px-0 py-10">
-        <MenuScreen
-          title={
-            <>
-              <span className="text-transparent bg-gradient-to-b from-secondary to-primary bg-clip-text">
-                TAXO
-              </span>{" "}
-              BINGO
-            </>
-          }
-          imgSource="/assets/img/covers/menu/taxo.png"
+      <main className="min-h-[80vh] bg-page px-4 md:px-0 py-10">
+        <GameMenu
+          brand={TAXO_META.brand}
+          coverSrc={TAXO_META.cover!.menu}
           description={
-            <div>
+            <div className="space-y-2">
               <p>
                 Fill the bingo grid organisms matching the 12 taxonomic
                 categories given.
@@ -37,18 +42,31 @@ export default function TaxoBingoPage() {
               </p>
             </div>
           }
-          onStart={(selectedTimer, selectedHardMode) => {
-            setTimer(selectedTimer);
-            setHardMode(selectedHardMode);
-            setGameStarted(true);
-          }}
+          options={
+            <TaxoMenuOptions
+              timer={timer}
+              hardMode={hardMode}
+              onTimerChange={setTimer}
+            />
+          }
+          extraActions={
+            <TaxoHardModeButton
+              hardMode={hardMode}
+              onToggle={() => {
+                const nextHard = !hardMode;
+                setHardMode(nextHard);
+                setTimer((prev) => resolveTimerForHardMode(prev, nextHard));
+              }}
+            />
+          }
+          onStart={() => setGameStarted(true)}
         />
       </main>
     );
   }
 
   return (
-    <main className="min-h-[90vh] bg-custom-2 py-2">
+    <main className="min-h-[90vh] bg-page py-2">
       <GameScreen timer={timer} hardMode={hardMode} />
     </main>
   );

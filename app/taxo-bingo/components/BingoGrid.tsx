@@ -32,7 +32,7 @@ export default function BingoGrid({
           <div
             key={i}
             className={`border-2 border-solid border-[rgb(29,35,73)] sm:h-28 aspect-square sm:aspect-[10/7] 
-              bg-custom-6 text-xs sm:text-base text-white rounded flex items-center 
+              bg-cell text-xs sm:text-base text-white rounded flex items-center 
               justify-center text-center font-bold p-2
               cursor-pointer transition duration-300 hover:ring-2 ring-blue-400 ${
                 filled ? "pointer-events-none" : ""
