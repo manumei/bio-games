@@ -60,3 +60,4 @@ describe("games/symptoms-link/logic/share", () => {
     expect(lines[1]).not.toContain("🟩");
   });
 });
+

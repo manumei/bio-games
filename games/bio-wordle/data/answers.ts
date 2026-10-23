@@ -27,3 +27,4 @@ export function getAnswer(word: string): Answer | undefined {
 export function isSupportedLength(len: number): len is WordLength {
   return (WORD_LENGTHS as readonly number[]).includes(len);
 }
+

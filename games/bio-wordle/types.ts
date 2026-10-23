@@ -50,3 +50,4 @@ export type WordleAction =
   | { type: "USE_HINT" }
   | { type: "CLOSE_MODAL" }
   | { type: "OPEN_MODAL" };
+

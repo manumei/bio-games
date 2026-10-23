@@ -29,3 +29,4 @@ describe("games/symptoms-link/logic/daily", () => {
     expect(nextDayAbandoned.abandonedState?.endReason).toBe("abandoned");
   });
 });
+

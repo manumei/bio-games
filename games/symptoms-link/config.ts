@@ -36,3 +36,4 @@ export const DISEASE_CATEGORIES: Readonly<
   nutritional: { emoji: "🍋", label: "Nutritional deficiency" },
   other: { emoji: "🏥", label: "Clinical condition" },
 };
+

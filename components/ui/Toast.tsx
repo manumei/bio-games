@@ -53,3 +53,4 @@ export default function Toast({ toast }: { toast: ToastState | null }) {
     </div>
   );
 }
+

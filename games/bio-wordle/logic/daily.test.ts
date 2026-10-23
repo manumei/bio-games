@@ -45,3 +45,4 @@ describe("games/bio-wordle/logic/daily", () => {
     expect(nextDay.abandonedState).toBeNull();
   });
 });
+

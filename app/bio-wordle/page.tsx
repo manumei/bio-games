@@ -6,3 +6,4 @@ export const metadata = gameMetadata("bio-wordle");
 export default function BioWordlePage() {
   return <BioWordleGame />;
 }
+

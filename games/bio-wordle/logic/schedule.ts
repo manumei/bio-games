@@ -64,3 +64,4 @@ export function pickPracticeAnswer(rng: Rng): Answer {
   const length = pick(WORD_LENGTHS, rng);
   return pick(ANSWERS_BY_LENGTH[length], rng);
 }
+

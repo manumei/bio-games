@@ -146,3 +146,4 @@ export function recordWordleDailyStats(state: WordleDailyState): GameStats {
   saveStats(WORDLE_SLUG, updated);
   return updated;
 }
+

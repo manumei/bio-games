@@ -33,3 +33,4 @@ export function getDisease(id: string): Disease {
   }
   return found;
 }
+

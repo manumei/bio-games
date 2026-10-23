@@ -48,3 +48,4 @@ export type LinkAction =
   | { type: "GIVE_UP"; now: number }
   | { type: "CLOSE_MODAL" }
   | { type: "OPEN_MODAL" };
+

@@ -73,3 +73,4 @@ export function getLinkFollowUpMessage(
     ? "Don't give up! Hard mode is tough, but you can do it!"
     : "Remember, failure is the starting point for learning.";
 }
+

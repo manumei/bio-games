@@ -29,3 +29,4 @@ export default function WrongGuesses({ log }: WrongGuessesProps) {
     </div>
   );
 }
+

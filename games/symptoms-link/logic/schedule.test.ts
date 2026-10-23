@@ -20,3 +20,4 @@ describe("games/symptoms-link/logic/schedule", () => {
     expect(diseaseFor("2026-04-17").id).not.toBe(diseaseFor("2026-04-18").id);
   });
 });
+

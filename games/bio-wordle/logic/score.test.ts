@@ -57,3 +57,4 @@ describe("games/bio-wordle/logic/score", () => {
     expect(keys.e).toBe("correct");
   });
 });
+

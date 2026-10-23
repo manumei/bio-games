@@ -31,3 +31,4 @@ export const TOPICS: Readonly<Record<Topic, TopicInfo>> = {
   disease: { emoji: "🦠", label: "Disease" },
   ecology: { emoji: "🌍", label: "Ecology & evolution" },
 };
+

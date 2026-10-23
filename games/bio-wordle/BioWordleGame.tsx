@@ -521,3 +521,4 @@ function BioWordleClient() {
     </main>
   );
 }
+

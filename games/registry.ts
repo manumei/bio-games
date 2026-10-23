@@ -46,7 +46,6 @@ export const GAMES: readonly GameMeta[] = [
     description:
       "Identify the pathogen or disease from progressively revealed symptoms.",
     status: "live",
-    isNew: true,
     daily: true,
     cover: {
       card: "/assets/img/covers/card/symptoms-link.svg",
@@ -59,7 +58,13 @@ export const GAMES: readonly GameMeta[] = [
     brand: ["ANIMAL", "TIC-TAC-TOE"],
     description:
       "Claim cells on a trait-crossed grid in a biology twist on tic-tac-toe.",
-    status: "coming-soon",
+    status: "live",
+    isNew: true,
+    daily: true,
+    cover: {
+      card: "/assets/img/covers/card/animal-tictactoe.svg",
+      menu: "/assets/img/covers/menu/animal-tictactoe.svg",
+    },
   },
   {
     slug: "bio-top8",

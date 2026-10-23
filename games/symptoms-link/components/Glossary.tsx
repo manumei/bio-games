@@ -55,3 +55,4 @@ export default function Glossary({ onClose }: GlossaryProps) {
     </Modal>
   );
 }
+

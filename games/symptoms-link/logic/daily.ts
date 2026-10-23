@@ -145,3 +145,4 @@ export function recordLinkDailyStats(state: LinkDailyState): GameStats {
   saveStats(LINK_SLUG, updated);
   return updated;
 }
+

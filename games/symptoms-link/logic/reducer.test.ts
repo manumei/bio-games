@@ -90,3 +90,4 @@ describe("games/symptoms-link/logic/reducer", () => {
     ).toBe(false);
   });
 });
+

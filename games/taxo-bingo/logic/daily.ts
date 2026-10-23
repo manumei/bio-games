@@ -228,3 +228,4 @@ export function recordTaxoDailyStats(state: TaxoDailyState): GameStats {
   saveStats(TAXO_SLUG, updated);
   return updated;
 }
+

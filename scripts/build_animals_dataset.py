@@ -1,0 +1,334 @@
+#!/usr/bin/env python3
+"""
+Generate `games/animal-tictactoe/data/animals.json` with >200 well-known animals
+diverse across all 9 classes, linking `scientificName` to `data/organisms.json`
+when present, and validating trait consistency.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+ORGANISMS_PATH = ROOT / "data" / "organisms.json"
+OUT_PATH = ROOT / "games" / "animal-tictactoe" / "data" / "animals.json"
+
+CLASS_TRAITS = {
+    "mammal",
+    "bird",
+    "reptile",
+    "amphibian",
+    "fish",
+    "insect",
+    "arachnid",
+    "crustacean",
+    "mollusk",
+}
+
+DIET_TRAITS = {"carnivorous", "herbivore", "omnivore"}
+
+# Tuple format: (id, name, aliases, scientificName, traits)
+RAW_ANIMALS: list[tuple[str, str, list[str], str | None, list[str]]] = [
+    # ==================== MAMMALS (65) ====================
+    ("lion", "Lion", ["African Lion"], "Panthera leo", ["mammal", "carnivorous", "warm_blooded", "savanna", "africa", "apex_predator", "lives_in_groups"]),
+    ("tiger", "Tiger", ["Bengal Tiger", "Siberian Tiger"], "Panthera tigris", ["mammal", "carnivorous", "warm_blooded", "rainforest", "asia", "apex_predator", "nocturnal"]),
+    ("jaguar", "Jaguar", ["Panthera onca"], "Panthera onca", ["mammal", "carnivorous", "warm_blooded", "rainforest", "south_america", "apex_predator", "nocturnal"]),
+    ("leopard", "Leopard", ["Panther", "Black Panther"], "Panthera pardus", ["mammal", "carnivorous", "warm_blooded", "savanna", "rainforest", "africa", "asia", "apex_predator", "nocturnal"]),
+    ("snow_leopard", "Snow Leopard", ["Ounce"], "Panthera uncia", ["mammal", "carnivorous", "warm_blooded", "mountains", "asia", "apex_predator"]),
+    ("cheetah", "Cheetah", ["Hunting Leopard"], "Acinonyx jubatus", ["mammal", "carnivorous", "warm_blooded", "savanna", "africa"]),
+    ("cougar", "Cougar", ["Mountain Lion", "Puma"], "Puma concolor", ["mammal", "carnivorous", "warm_blooded", "mountains", "north_america", "south_america", "apex_predator"]),
+    ("eurasian_lynx", "Eurasian Lynx", ["Lynx"], "Lynx lynx", ["mammal", "carnivorous", "warm_blooded", "mountains", "europe", "asia", "nocturnal"]),
+    ("domestic_cat", "Domestic Cat", ["House Cat", "Cat"], "Felis catus", ["mammal", "carnivorous", "warm_blooded", "nocturnal"]),
+    ("gray_wolf", "Gray Wolf", ["Wolf", "Timber Wolf"], "Canis lupus", ["mammal", "carnivorous", "warm_blooded", "lives_in_tundra", "mountains", "north_america", "europe", "asia", "apex_predator", "lives_in_groups"]),
+    ("red_fox", "Red Fox", ["Fox"], "Vulpes vulpes", ["mammal", "omnivore", "warm_blooded", "north_america", "europe", "asia", "nocturnal"]),
+    ("arctic_fox", "Arctic Fox", ["Polar Fox", "White Fox"], "Vulpes lagopus", ["mammal", "omnivore", "warm_blooded", "lives_in_tundra", "north_america", "europe", "asia"]),
+    ("polar_bear", "Polar Bear", ["White Bear", "Ice Bear"], "Ursus maritimus", ["mammal", "carnivorous", "warm_blooded", "lives_in_tundra", "lives_in_ocean", "north_america", "europe", "asia", "apex_predator"]),
+    ("brown_bear", "Brown Bear", ["Grizzly Bear", "Kodiak Bear"], "Ursus arctos", ["mammal", "omnivore", "warm_blooded", "mountains", "north_america", "europe", "asia", "apex_predator", "hibernates"]),
+    ("giant_panda", "Giant Panda", ["Panda", "Panda Bear"], "Ailuropoda melanoleuca", ["mammal", "herbivore", "warm_blooded", "mountains", "asia"]),
+    ("red_panda", "Red Panda", ["Lesser Panda", "Firefox"], "Ailurus fulgens", ["mammal", "herbivore", "warm_blooded", "mountains", "asia", "nocturnal"]),
+    ("sea_otter", "Sea Otter", ["Marine Otter"], "Enhydra lutris", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "north_america", "asia", "lives_in_groups"]),
+    ("spotted_hyena", "Spotted Hyena", ["Hyena", "Laughing Hyena"], "Crocuta crocuta", ["mammal", "carnivorous", "warm_blooded", "savanna", "africa", "apex_predator", "lives_in_groups", "nocturnal"]),
+    ("meerkat", "Meerkat", ["Suricate"], "Suricata suricatta", ["mammal", "carnivorous", "warm_blooded", "desert", "savanna", "africa", "lives_in_groups"]),
+    ("walrus", "Walrus", ["Odobenus rosmarus"], "Odobenus rosmarus", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "lives_in_tundra", "north_america", "europe", "asia", "lives_in_groups"]),
+    ("harbor_seal", "Harbor Seal", ["Common Seal"], "Phoca vitulina", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "north_america", "europe", "asia"]),
+    ("orca", "Orca", ["Killer Whale"], "Orcinus orca", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "lives_in_tundra", "north_america", "south_america", "europe", "africa", "asia", "australia", "apex_predator", "lives_in_groups", "migrates"]),
+    ("blue_whale", "Blue Whale", ["Sulphur-bottom Whale"], "Balaenoptera musculus", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "migrates"]),
+    ("humpback_whale", "Humpback Whale", ["Megaptera novaeangliae"], "Megaptera novaeangliae", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "migrates", "lives_in_groups"]),
+    ("fin_whale", "Fin Whale", ["Finback Whale"], "Balaenoptera physalus", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "migrates", "lives_in_groups"]),
+    ("minke_whale", "Minke Whale", ["Common Minke Whale"], "Balaenoptera acutorostrata", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "migrates"]),
+    ("sperm_whale", "Sperm Whale", ["Cachalot"], "Physeter macrocephalus", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "apex_predator", "lives_in_groups", "migrates"]),
+    ("beluga_whale", "Beluga Whale", ["Beluga", "White Whale"], "Delphinapterus leucas", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "lives_in_tundra", "north_america", "europe", "asia", "lives_in_groups", "migrates"]),
+    ("narwhal", "Narwhal", ["Narwhale"], "Monodon monoceros", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "lives_in_tundra", "north_america", "europe", "lives_in_groups", "migrates"]),
+    ("bottlenose_dolphin", "Bottlenose Dolphin", ["Dolphin"], "Tursiops truncatus", ["mammal", "carnivorous", "warm_blooded", "lives_in_ocean", "lives_in_groups"]),
+    ("african_elephant", "African Elephant", ["Savanna Elephant", "Bush Elephant"], "Loxodonta africana", ["mammal", "herbivore", "warm_blooded", "savanna", "africa", "lives_in_groups", "migrates"]),
+    ("giraffe", "Giraffe", ["Northern Giraffe"], "Giraffa camelopardalis", ["mammal", "herbivore", "warm_blooded", "savanna", "africa", "lives_in_groups"]),
+    ("hippopotamus", "Hippopotamus", ["Hippo"], "Hippopotamus amphibius", ["mammal", "herbivore", "warm_blooded", "freshwater", "savanna", "africa", "lives_in_groups"]),
+    ("plains_zebra", "Plains Zebra", ["Zebra", "Common Zebra"], "Equus quagga", ["mammal", "herbivore", "warm_blooded", "savanna", "africa", "lives_in_groups", "migrates"]),
+    ("mountain_zebra", "Mountain Zebra", ["Equus zebra"], "Equus zebra", ["mammal", "herbivore", "warm_blooded", "mountains", "savanna", "africa", "lives_in_groups"]),
+    ("white_rhinoceros", "White Rhinoceros", ["White Rhino", "Square-lipped Rhinoceros"], "Ceratotherium simum", ["mammal", "herbivore", "warm_blooded", "savanna", "africa", "lives_in_groups"]),
+    ("black_rhinoceros", "Black Rhinoceros", ["Black Rhino"], "Diceros bicornis", ["mammal", "herbivore", "warm_blooded", "savanna", "africa"]),
+    ("bactrian_camel", "Bactrian Camel", ["Two-humped Camel", "Camel"], "Camelus bactrianus", ["mammal", "herbivore", "warm_blooded", "desert", "asia", "lives_in_groups"]),
+    ("llama", "Llama", ["Lama glama"], "Lama glama", ["mammal", "herbivore", "warm_blooded", "mountains", "south_america", "lives_in_groups"]),
+    ("alpaca", "Alpaca", ["Vicugna pacos"], "Vicugna pacos", ["mammal", "herbivore", "warm_blooded", "mountains", "south_america", "lives_in_groups"]),
+    ("moose", "Moose", ["Eurasian Elk"], "Alces alces", ["mammal", "herbivore", "warm_blooded", "lives_in_tundra", "freshwater", "north_america", "europe", "asia"]),
+    ("reindeer", "Reindeer", ["Caribou"], "Rangifer tarandus", ["mammal", "herbivore", "warm_blooded", "lives_in_tundra", "north_america", "europe", "asia", "lives_in_groups", "migrates"]),
+    ("american_bison", "American Bison", ["Buffalo", "Bison"], "Bison bison", ["mammal", "herbivore", "warm_blooded", "savanna", "north_america", "lives_in_groups", "migrates"]),
+    ("wild_boar", "Wild Boar", ["Wild Pig", "Eurasian Wild Pig"], "Sus scrofa", ["mammal", "omnivore", "warm_blooded", "europe", "asia", "africa", "lives_in_groups", "nocturnal"]),
+    ("horse", "Horse", ["Domestic Horse", "Wild Horse"], "Equus caballus", ["mammal", "herbivore", "warm_blooded", "savanna", "lives_in_groups"]),
+    ("brazilian_tapir", "South American Tapir", ["Brazilian Tapir", "Lowland Tapir"], "Tapirus terrestris", ["mammal", "herbivore", "warm_blooded", "rainforest", "freshwater", "south_america", "nocturnal"]),
+    ("capybara", "Capybara", ["Carpincho"], "Hydrochoerus hydrochaeris", ["mammal", "herbivore", "warm_blooded", "freshwater", "rainforest", "savanna", "south_america", "lives_in_groups"]),
+    ("american_beaver", "North American Beaver", ["Beaver"], "Castor canadensis", ["mammal", "herbivore", "warm_blooded", "freshwater", "north_america", "nocturnal", "lives_in_groups"]),
+    ("porcupine", "North American Porcupine", ["Porcupine"], "Erethizon dorsatum", ["mammal", "herbivore", "warm_blooded", "north_america", "nocturnal"]),
+    ("eastern_chipmunk", "Eastern Chipmunk", ["Chipmunk"], "Tamias striatus", ["mammal", "omnivore", "warm_blooded", "north_america", "hibernates"]),
+    ("edible_dormouse", "Edible Dormouse", ["Dormouse", "Fat Dormouse"], "Glis glis", ["mammal", "omnivore", "warm_blooded", "europe", "nocturnal", "hibernates"]),
+    ("desert_kangaroo_rat", "Desert Kangaroo Rat", ["Kangaroo Rat"], "Dipodomys deserti", ["mammal", "herbivore", "warm_blooded", "desert", "north_america", "nocturnal"]),
+    ("house_mouse", "House Mouse", ["Mouse"], "Mus musculus", ["mammal", "omnivore", "warm_blooded", "nocturnal", "lives_in_groups"]),
+    ("brown_rat", "Brown Rat", ["Norway Rat", "Common Rat"], "Rattus norvegicus", ["mammal", "omnivore", "warm_blooded", "nocturnal", "lives_in_groups"]),
+    ("chimpanzee", "Chimpanzee", ["Chimp"], "Pan troglodytes", ["mammal", "omnivore", "warm_blooded", "rainforest", "savanna", "africa", "lives_in_groups"]),
+    ("western_gorilla", "Gorilla", ["Western Gorilla", "Silverback Gorilla"], "Gorilla gorilla", ["mammal", "herbivore", "warm_blooded", "rainforest", "mountains", "africa", "lives_in_groups"]),
+    ("bornean_orangutan", "Orangutan", ["Bornean Orangutan"], "Pongo pygmaeus", ["mammal", "omnivore", "warm_blooded", "rainforest", "asia"]),
+    ("ring_tailed_lemur", "Ring-tailed Lemur", ["Lemur"], "Lemur catta", ["mammal", "omnivore", "warm_blooded", "africa", "lives_in_groups"]),
+    ("mandrill", "Mandrill", ["Mandrillus sphinx"], "Mandrillus sphinx", ["mammal", "omnivore", "warm_blooded", "rainforest", "africa", "lives_in_groups"]),
+    ("black_howler_monkey", "Howler Monkey", ["Black Howler"], "Alouatta caraya", ["mammal", "herbivore", "warm_blooded", "rainforest", "south_america", "lives_in_groups"]),
+    ("spider_monkey", "Spider Monkey", ["Geoffroy's Spider Monkey"], "Ateles geoffroyi", ["mammal", "herbivore", "warm_blooded", "rainforest", "south_america", "lives_in_groups"]),
+    ("rhesus_macaque", "Rhesus Macaque", ["Rhesus Monkey"], "Macaca mulatta", ["mammal", "omnivore", "warm_blooded", "asia", "lives_in_groups"]),
+    ("red_kangaroo", "Red Kangaroo", ["Kangaroo"], "Osphranter rufus", ["mammal", "herbivore", "warm_blooded", "desert", "savanna", "australia", "lives_in_groups"]),
+    ("koala", "Koala", ["Koala Bear"], "Phascolarctos cinereus", ["mammal", "herbivore", "warm_blooded", "australia", "nocturnal"]),
+    ("common_wombat", "Common Wombat", ["Wombat"], "Vombatus ursinus", ["mammal", "herbivore", "warm_blooded", "australia", "nocturnal"]),
+    ("tasmanian_devil", "Tasmanian Devil", ["Sarcophilus harrisii"], "Sarcophilus harrisii", ["mammal", "carnivorous", "warm_blooded", "australia", "nocturnal"]),
+    ("sugar_glider", "Sugar Glider", ["Petaurus breviceps"], "Petaurus breviceps", ["mammal", "omnivore", "warm_blooded", "rainforest", "australia", "nocturnal", "lives_in_groups"]),
+    ("quokka", "Quokka", ["Setonix brachyurus"], "Setonix brachyurus", ["mammal", "herbivore", "warm_blooded", "australia", "nocturnal"]),
+    ("platypus", "Platypus", ["Duck-billed Platypus"], "Ornithorhynchus anatinus", ["mammal", "carnivorous", "warm_blooded", "freshwater", "australia", "lays_eggs", "venomous", "nocturnal"]),
+    ("three_toed_sloth", "Brown-throated Sloth", ["Three-toed Sloth", "Sloth"], "Bradypus variegatus", ["mammal", "herbivore", "warm_blooded", "rainforest", "south_america"]),
+    ("giant_anteater", "Giant Anteater", ["Ant Bear"], "Myrmecophaga tridactyla", ["mammal", "carnivorous", "warm_blooded", "savanna", "rainforest", "south_america"]),
+    ("nine_banded_armadillo", "Nine-banded Armadillo", ["Armadillo"], "Dasypus novemcinctus", ["mammal", "carnivorous", "warm_blooded", "north_america", "south_america", "nocturnal"]),
+    ("common_vampire_bat", "Common Vampire Bat", ["Vampire Bat"], "Desmodus rotundus", ["mammal", "carnivorous", "warm_blooded", "rainforest", "south_america", "north_america", "can_fly", "nocturnal", "lives_in_groups"]),
+    ("mexican_free_tailed_bat", "Mexican Free-tailed Bat", ["Brazilian Free-tailed Bat"], "Tadarida brasiliensis", ["mammal", "carnivorous", "warm_blooded", "north_america", "south_america", "can_fly", "nocturnal", "migrates", "lives_in_groups"]),
+    ("jamaican_fruit_bat", "Jamaican Fruit Bat", ["Fruit Bat"], "Artibeus jamaicensis", ["mammal", "herbivore", "warm_blooded", "rainforest", "north_america", "south_america", "can_fly", "nocturnal", "lives_in_groups"]),
+    ("little_brown_bat", "Little Brown Bat", ["Myotis lucifugus"], None, ["mammal", "carnivorous", "warm_blooded", "north_america", "can_fly", "nocturnal", "hibernates", "lives_in_groups"]),
+
+    # ==================== BIRDS (30) ====================
+    ("emperor_penguin", "Emperor Penguin", ["Penguin"], "Aptenodytes forsteri", ["bird", "carnivorous", "warm_blooded", "lays_eggs", "lives_in_ocean", "lives_in_tundra", "lives_in_groups", "migrates"]),
+    ("ostrich", "Common Ostrich", ["Ostrich"], "Struthio camelus", ["bird", "omnivore", "warm_blooded", "lays_eggs", "savanna", "desert", "africa", "lives_in_groups"]),
+    ("emu", "Emu", ["Dromaius novaehollandiae"], "Dromaius novaehollandiae", ["bird", "omnivore", "warm_blooded", "lays_eggs", "savanna", "australia", "lives_in_groups"]),
+    ("bald_eagle", "Bald Eagle", ["American Eagle"], "Haliaeetus leucocephalus", ["bird", "carnivorous", "warm_blooded", "lays_eggs", "can_fly", "freshwater", "north_america", "apex_predator", "migrates"]),
+    ("peregrine_falcon", "Peregrine Falcon", ["Duck Hawk"], "Falco peregrinus", ["bird", "carnivorous", "warm_blooded", "lays_eggs", "can_fly", "mountains", "north_america", "south_america", "europe", "africa", "asia", "australia", "apex_predator", "migrates"]),
+    ("snowy_owl", "Snowy Owl", ["Arctic Owl", "Polar Owl"], "Bubo scandiacus", ["bird", "carnivorous", "warm_blooded", "lays_eggs", "can_fly", "lives_in_tundra", "north_america", "europe", "asia", "apex_predator", "migrates"]),
+    ("barn_owl", "Barn Owl", ["Tyto alba"], None, ["bird", "carnivorous", "warm_blooded", "lays_eggs", "can_fly", "north_america", "south_america", "europe", "africa", "asia", "australia", "nocturnal"]),
+    ("great_horned_owl", "Great Horned Owl", ["Tiger Owl"], None, ["bird", "carnivorous", "warm_blooded", "lays_eggs", "can_fly", "north_america", "south_america", "apex_predator", "nocturnal"]),
+    ("scarlet_macaw", "Scarlet Macaw", ["Macaw"], "Ara macao", ["bird", "herbivore", "warm_blooded", "lays_eggs", "can_fly", "rainforest", "south_america", "lives_in_groups"]),
+    ("mallard", "Mallard", ["Wild Duck", "Mallard Duck"], "Anas platyrhynchos", ["bird", "omnivore", "warm_blooded", "lays_eggs", "can_fly", "freshwater", "north_america", "europe", "asia", "migrates", "lives_in_groups"]),
+    ("mute_swan", "Mute Swan", ["Swan"], "Cygnus olor", ["bird", "herbivore", "warm_blooded", "lays_eggs", "can_fly", "freshwater", "europe", "asia", "migrates"]),
+    ("greater_flamingo", "Greater Flamingo", ["Flamingo"], "Phoenicopterus roseus", ["bird", "omnivore", "warm_blooded", "lays_eggs", "can_fly", "freshwater", "africa", "europe", "asia", "lives_in_groups", "migrates"]),
+    ("indian_peafowl", "Indian Peafowl", ["Peacock"], "Pavo cristatus", ["bird", "omnivore", "warm_blooded", "lays_eggs", "can_fly", "asia", "lives_in_groups"]),
+    ("red_junglefowl", "Chicken", ["Red Junglefowl", "Rooster", "Hen"], "Gallus gallus", ["bird", "omnivore", "warm_blooded", "lays_eggs", "asia", "lives_in_groups"]),
+    ("rock_pigeon", "Rock Pigeon", ["Pigeon", "Rock Dove"], "Columba livia", ["bird", "herbivore", "warm_blooded", "lays_eggs", "can_fly", "europe", "asia", "africa", "lives_in_groups"]),
+    ("mourning_dove", "Mourning Dove", ["Turtle Dove"], "Zenaida macroura", ["bird", "herbivore", "warm_blooded", "lays_eggs", "can_fly", "north_america", "migrates"]),
+    ("american_robin", "American Robin", ["Robin"], "Turdus migratorius", ["bird", "omnivore", "warm_blooded", "lays_eggs", "can_fly", "north_america", "migrates"]),
+    ("pileated_woodpecker", "Pileated Woodpecker", ["Woodpecker"], "Dryocopus pileatus", ["bird", "omnivore", "warm_blooded", "lays_eggs", "can_fly", "north_america"]),
+    ("common_raven", "Common Raven", ["Raven"], "Corvus corax", ["bird", "omnivore", "warm_blooded", "lays_eggs", "can_fly", "mountains", "lives_in_tundra", "north_america", "europe", "asia"]),
+    ("zebra_finch", "Zebra Finch", ["Taeniopygia guttata"], "Taeniopygia guttata", ["bird", "herbivore", "warm_blooded", "lays_eggs", "can_fly", "savanna", "desert", "australia", "lives_in_groups"]),
+    ("wandering_albatross", "Wandering Albatross", ["Albatross"], None, ["bird", "carnivorous", "warm_blooded", "lays_eggs", "can_fly", "lives_in_ocean", "migrates"]),
+    ("atlantic_puffin", "Atlantic Puffin", ["Puffin"], None, ["bird", "carnivorous", "warm_blooded", "lays_eggs", "can_fly", "lives_in_ocean", "north_america", "europe", "lives_in_groups", "migrates"]),
+    ("brown_pelican", "Brown Pelican", ["Pelican"], "Pelecanus occidentalis", ["bird", "carnivorous", "warm_blooded", "lays_eggs", "can_fly", "lives_in_ocean", "north_america", "south_america", "lives_in_groups"]),
+    ("great_blue_heron", "Great Blue Heron", ["Heron"], None, ["bird", "carnivorous", "warm_blooded", "lays_eggs", "can_fly", "freshwater", "north_america", "migrates"]),
+    ("andean_condor", "Andean Condor", ["Condor"], None, ["bird", "carnivorous", "warm_blooded", "lays_eggs", "can_fly", "mountains", "south_america"]),
+    ("ruby_throated_hummingbird", "Ruby-throated Hummingbird", ["Hummingbird"], None, ["bird", "herbivore", "warm_blooded", "lays_eggs", "can_fly", "north_america", "migrates"]),
+    ("toco_toucan", "Toco Toucan", ["Toucan"], None, ["bird", "omnivore", "warm_blooded", "lays_eggs", "can_fly", "rainforest", "south_america"]),
+    ("kiwi", "Brown Kiwi", ["Kiwi", "Kiwi Bird"], None, ["bird", "omnivore", "warm_blooded", "lays_eggs", "australia", "nocturnal"]),
+    ("kakapo", "Kakapo", ["Owl Parrot"], None, ["bird", "herbivore", "warm_blooded", "lays_eggs", "rainforest", "australia", "nocturnal"]),
+    ("arctic_tern", "Arctic Tern", ["Sterna paradisaea"], None, ["bird", "carnivorous", "warm_blooded", "lays_eggs", "can_fly", "lives_in_ocean", "lives_in_tundra", "north_america", "europe", "asia", "migrates", "lives_in_groups"]),
+
+    # ==================== REPTILES (30) ====================
+    ("american_alligator", "American Alligator", ["Alligator", "Gator"], "Alligator mississippiensis", ["reptile", "carnivorous", "lays_eggs", "freshwater", "north_america", "apex_predator", "hibernates"]),
+    ("chinese_alligator", "Chinese Alligator", ["Yangtze Alligator"], "Alligator sinensis", ["reptile", "carnivorous", "lays_eggs", "freshwater", "asia", "hibernates"]),
+    ("nile_crocodile", "Nile Crocodile", ["Crocodile"], "Crocodylus niloticus", ["reptile", "carnivorous", "lays_eggs", "freshwater", "africa", "apex_predator"]),
+    ("saltwater_crocodile", "Saltwater Crocodile", ["Estuarine Crocodile", "Saltie"], "Crocodylus porosus", ["reptile", "carnivorous", "lays_eggs", "lives_in_ocean", "freshwater", "asia", "australia", "apex_predator"]),
+    ("gharial", "Gharial", ["Gavial"], "Gavialis gangeticus", ["reptile", "carnivorous", "lays_eggs", "freshwater", "asia"]),
+    ("komodo_dragon", "Komodo Dragon", ["Komodo Monitor"], "Varanus komodoensis", ["reptile", "carnivorous", "lays_eggs", "savanna", "asia", "venomous", "apex_predator"]),
+    ("green_iguana", "Green Iguana", ["Iguana", "Common Iguana"], "Iguana iguana", ["reptile", "herbivore", "lays_eggs", "rainforest", "south_america", "north_america"]),
+    ("marine_iguana", "Marine Iguana", ["Galapagos Marine Iguana"], None, ["reptile", "herbivore", "lays_eggs", "lives_in_ocean", "south_america", "lives_in_groups"]),
+    ("gila_monster", "Gila Monster", ["Heloderma suspectum"], "Heloderma suspectum", ["reptile", "carnivorous", "lays_eggs", "desert", "north_america", "venomous", "hibernates"]),
+    ("green_anole", "Green Anole", ["Carolina Anole"], "Anolis carolinensis", ["reptile", "carnivorous", "lays_eggs", "north_america"]),
+    ("panther_chameleon", "Panther Chameleon", ["Chameleon"], "Furcifer pardalis", ["reptile", "carnivorous", "lays_eggs", "rainforest", "africa"]),
+    ("tokay_gecko", "Tokay Gecko", ["Gecko"], None, ["reptile", "carnivorous", "lays_eggs", "rainforest", "asia", "nocturnal"]),
+    ("king_cobra", "King Cobra", ["Ophiophagus hannah"], "Ophiophagus hannah", ["reptile", "carnivorous", "lays_eggs", "rainforest", "asia", "venomous", "apex_predator"]),
+    ("indian_cobra", "Indian Cobra", ["Spectacled Cobra"], "Naja naja", ["reptile", "carnivorous", "lays_eggs", "asia", "venomous"]),
+    ("black_mamba", "Black Mamba", ["Dendroaspis polylepis"], "Dendroaspis polylepis", ["reptile", "carnivorous", "lays_eggs", "savanna", "africa", "venomous"]),
+    ("inland_taipan", "Inland Taipan", ["Fierce Snake"], "Oxyuranus microlepidotus", ["reptile", "carnivorous", "lays_eggs", "desert", "australia", "venomous"]),
+    ("western_diamondback_rattlesnake", "Western Diamondback Rattlesnake", ["Rattlesnake", "Diamondback Rattlesnake"], "Crotalus atrox", ["reptile", "carnivorous", "desert", "north_america", "venomous", "nocturnal", "hibernates"]),
+    ("cottonmouth", "Cottonmouth", ["Water Moccasin"], "Agkistrodon piscivorus", ["reptile", "carnivorous", "freshwater", "north_america", "venomous", "nocturnal"]),
+    ("fer_de_lance", "Fer-de-lance", ["Terciopelo"], "Bothrops asper", ["reptile", "carnivorous", "rainforest", "south_america", "north_america", "venomous", "nocturnal"]),
+    ("green_anaconda", "Green Anaconda", ["Anaconda"], "Eunectes murinus", ["reptile", "carnivorous", "freshwater", "rainforest", "south_america", "apex_predator"]),
+    ("reticulated_python", "Reticulated Python", ["Python"], "Malayopython reticulatus", ["reptile", "carnivorous", "lays_eggs", "rainforest", "asia", "apex_predator", "nocturnal"]),
+    ("common_garter_snake", "Common Garter Snake", ["Garter Snake"], "Thamnophis sirtalis", ["reptile", "carnivorous", "north_america", "hibernates"]),
+    ("banded_sea_krait", "Yellow-lipped Sea Krait", ["Banded Sea Krait", "Sea Snake"], "Laticauda colubrina", ["reptile", "carnivorous", "lays_eggs", "lives_in_ocean", "asia", "australia", "venomous"]),
+    ("leatherback_sea_turtle", "Leatherback Sea Turtle", ["Leatherback Turtle"], "Dermochelys coriacea", ["reptile", "carnivorous", "lays_eggs", "has_shell", "lives_in_ocean", "migrates"]),
+    ("green_sea_turtle", "Green Sea Turtle", ["Sea Turtle"], "Chelonia mydas", ["reptile", "herbivore", "lays_eggs", "has_shell", "lives_in_ocean", "migrates"]),
+    ("aldabra_giant_tortoise", "Aldabra Giant Tortoise", ["Giant Tortoise"], "Aldabrachelys gigantea", ["reptile", "herbivore", "lays_eggs", "has_shell", "africa"]),
+    ("african_spurred_tortoise", "African Spurred Tortoise", ["Sulcata Tortoise"], "Geochelone sulcata", ["reptile", "herbivore", "lays_eggs", "has_shell", "desert", "savanna", "africa"]),
+    ("desert_tortoise", "Desert Tortoise", ["Gopherus agassizii"], "Gopherus agassizii", ["reptile", "herbivore", "lays_eggs", "has_shell", "desert", "north_america", "hibernates"]),
+    ("eastern_box_turtle", "Eastern Box Turtle", ["Box Turtle"], "Terrapene carolina", ["reptile", "omnivore", "lays_eggs", "has_shell", "north_america", "hibernates"]),
+    ("european_pond_turtle", "European Pond Turtle", ["Emys orbicularis"], "Emys orbicularis", ["reptile", "carnivorous", "lays_eggs", "has_shell", "freshwater", "europe", "hibernates"]),
+
+    # ==================== AMPHIBIANS (18) ====================
+    ("axolotl", "Axolotl", ["Mexican Walking Fish"], "Ambystoma mexicanum", ["amphibian", "carnivorous", "lays_eggs", "freshwater", "north_america"]),
+    ("tiger_salamander", "Tiger Salamander", ["Ambystoma tigrinum"], "Ambystoma tigrinum", ["amphibian", "carnivorous", "lays_eggs", "freshwater", "north_america", "nocturnal", "hibernates"]),
+    ("japanese_giant_salamander", "Japanese Giant Salamander", ["Andrias japonicus"], "Andrias japonicus", ["amphibian", "carnivorous", "lays_eggs", "freshwater", "asia", "nocturnal"]),
+    ("fire_salamander", "Fire Salamander", ["Salamandra salamandra"], "Salamandra salamandra", ["amphibian", "carnivorous", "europe", "nocturnal", "hibernates"]),
+    ("red_eyed_tree_frog", "Red-eyed Tree Frog", ["Agalychnis callidryas"], "Agalychnis callidryas", ["amphibian", "carnivorous", "lays_eggs", "rainforest", "south_america", "north_america", "nocturnal"]),
+    ("green_tree_frog", "American Green Tree Frog", ["Green Tree Frog"], "Hyla cinerea", ["amphibian", "carnivorous", "lays_eggs", "freshwater", "north_america", "nocturnal"]),
+    ("dyeing_poison_dart_frog", "Dyeing Poison Dart Frog", ["Poison Dart Frog", "Blue Poison Dart Frog"], "Dendrobates tinctorius", ["amphibian", "carnivorous", "lays_eggs", "rainforest", "south_america"]),
+    ("golden_poison_frog", "Golden Poison Frog", ["Phyllobates terribilis"], "Phyllobates terribilis", ["amphibian", "carnivorous", "lays_eggs", "rainforest", "south_america"]),
+    ("american_bullfrog", "American Bullfrog", ["Bullfrog"], "Lithobates catesbeianus", ["amphibian", "carnivorous", "lays_eggs", "freshwater", "north_america", "nocturnal", "hibernates"]),
+    ("common_frog", "European Common Frog", ["Common Frog", "Grass Frog"], "Rana temporaria", ["amphibian", "carnivorous", "lays_eggs", "freshwater", "europe", "hibernates"]),
+    ("cane_toad", "Cane Toad", ["Marine Toad", "Giant Neotropical Toad"], "Rhinella marina", ["amphibian", "omnivore", "lays_eggs", "rainforest", "south_america", "north_america", "nocturnal"]),
+    ("common_toad", "European Toad", ["Common Toad"], "Bufo bufo", ["amphibian", "carnivorous", "lays_eggs", "freshwater", "europe", "nocturnal", "hibernates", "migrates"]),
+    ("african_clawed_frog", "African Clawed Frog", ["Xenopus laevis"], "Xenopus laevis", ["amphibian", "carnivorous", "lays_eggs", "freshwater", "africa", "nocturnal"]),
+    ("surinam_toad", "Common Surinam Toad", ["Star-fingered Toad"], "Pipa pipa", ["amphibian", "carnivorous", "lays_eggs", "freshwater", "rainforest", "south_america", "nocturnal"]),
+    ("olm", "Olm", ["Cave Salamander", "Proteus anguinus"], "Proteus anguinus", ["amphibian", "carnivorous", "lays_eggs", "freshwater", "europe"]),
+    ("oriental_fire_bellied_toad", "Oriental Fire-bellied Toad", ["Fire-bellied Toad"], "Bombina orientalis", ["amphibian", "carnivorous", "lays_eggs", "freshwater", "asia", "hibernates"]),
+    ("wood_frog", "Wood Frog", ["Lithobates sylvaticus"], None, ["amphibian", "carnivorous", "lays_eggs", "lives_in_tundra", "freshwater", "north_america", "hibernates"]),
+    ("desert_rain_frog", "Desert Rain Frog", ["Breviceps macrops"], None, ["amphibian", "carnivorous", "lays_eggs", "desert", "africa", "nocturnal"]),
+
+    # ==================== FISH (26) ====================
+    ("great_white_shark", "Great White Shark", ["White Shark", "White Pointer"], "Carcharodon carcharias", ["fish", "carnivorous", "lives_in_ocean", "apex_predator", "migrates"]),
+    ("tiger_shark", "Tiger Shark", ["Galeocerdo cuvier"], "Galeocerdo cuvier", ["fish", "carnivorous", "lives_in_ocean", "apex_predator", "nocturnal", "migrates"]),
+    ("scalloped_hammerhead", "Hammerhead Shark", ["Scalloped Hammerhead"], "Sphyrna lewini", ["fish", "carnivorous", "lives_in_ocean", "lives_in_groups", "migrates"]),
+    ("shortfin_mako_shark", "Shortfin Mako Shark", ["Mako Shark"], "Isurus oxyrinchus", ["fish", "carnivorous", "lives_in_ocean", "apex_predator", "migrates"]),
+    ("whale_shark", "Whale Shark", ["Rhincodon typus"], "Rhincodon typus", ["fish", "carnivorous", "lives_in_ocean", "migrates"]),
+    ("giant_oceanic_manta_ray", "Giant Manta Ray", ["Manta Ray"], "Mobula birostris", ["fish", "carnivorous", "lives_in_ocean", "migrates"]),
+    ("spotted_eagle_ray", "Spotted Eagle Ray", ["Eagle Ray"], "Aetobatus narinari", ["fish", "carnivorous", "lives_in_ocean", "venomous"]),
+    ("marbled_electric_ray", "Marbled Electric Ray", ["Torpedo Ray"], "Torpedo marmorata", ["fish", "carnivorous", "lives_in_ocean", "nocturnal"]),
+    ("clownfish", "Ocellaris Clownfish", ["Clownfish", "Anemonefish"], "Amphiprion ocellaris", ["fish", "omnivore", "lays_eggs", "lives_in_ocean", "asia", "australia", "lives_in_groups"]),
+    ("lined_seahorse", "Lined Seahorse", ["Seahorse"], "Hippocampus erectus", ["fish", "carnivorous", "lays_eggs", "lives_in_ocean", "north_america", "south_america"]),
+    ("yellowfin_tuna", "Yellowfin Tuna", ["Ahi Tuna", "Tuna"], "Thunnus albacares", ["fish", "carnivorous", "lays_eggs", "lives_in_ocean", "lives_in_groups", "migrates"]),
+    ("swordfish", "Swordfish", ["Broadbill"], "Xiphias gladius", ["fish", "carnivorous", "lays_eggs", "lives_in_ocean", "apex_predator", "migrates"]),
+    ("atlantic_cod", "Atlantic Cod", ["Cod"], "Gadus morhua", ["fish", "carnivorous", "lays_eggs", "lives_in_ocean", "north_america", "europe", "lives_in_groups", "migrates"]),
+    ("atlantic_salmon", "Atlantic Salmon", ["Salmon"], "Salmo salar", ["fish", "carnivorous", "lays_eggs", "lives_in_ocean", "freshwater", "north_america", "europe", "migrates"]),
+    ("european_eel", "European Eel", ["Anguilla anguilla"], "Anguilla anguilla", ["fish", "carnivorous", "lays_eggs", "lives_in_ocean", "freshwater", "europe", "nocturnal", "migrates"]),
+    ("electric_eel", "Electric Eel", ["Electrophorus electricus"], "Electrophorus electricus", ["fish", "carnivorous", "lays_eggs", "freshwater", "rainforest", "south_america", "apex_predator", "nocturnal"]),
+    ("red_bellied_piranha", "Red-bellied Piranha", ["Piranha"], "Pygocentrus nattereri", ["fish", "omnivore", "lays_eggs", "freshwater", "rainforest", "south_america", "lives_in_groups"]),
+    ("channel_catfish", "Channel Catfish", ["Catfish"], "Ictalurus punctatus", ["fish", "omnivore", "lays_eggs", "freshwater", "north_america", "nocturnal"]),
+    ("common_carp", "Common Carp", ["Carp", "Koi"], "Cyprinus carpio", ["fish", "omnivore", "lays_eggs", "freshwater", "europe", "asia", "lives_in_groups"]),
+    ("siamese_fighting_fish", "Siamese Fighting Fish", ["Betta", "Betta Fish"], "Betta splendens", ["fish", "carnivorous", "lays_eggs", "freshwater", "asia"]),
+    ("reef_stonefish", "Reef Stonefish", ["Stonefish"], "Synanceia verrucosa", ["fish", "carnivorous", "lays_eggs", "lives_in_ocean", "asia", "australia", "venomous"]),
+    ("red_lionfish", "Red Lionfish", ["Lionfish"], "Pterois volitans", ["fish", "carnivorous", "lays_eggs", "lives_in_ocean", "asia", "australia", "venomous", "nocturnal"]),
+    ("guineafowl_puffer", "Guineafowl Puffer", ["Pufferfish", "Blowfish"], "Arothron meleagris", ["fish", "omnivore", "lays_eggs", "lives_in_ocean", "asia"]),
+    ("ocean_sunfish", "Ocean Sunfish", ["Mola mola"], "Mola mola", ["fish", "carnivorous", "lays_eggs", "lives_in_ocean", "migrates"]),
+    ("longnose_gar", "Longnose Gar", ["Gar"], "Lepisosteus osseus", ["fish", "carnivorous", "lays_eggs", "freshwater", "north_america"]),
+    ("pacific_blue_tang", "Regal Blue Tang", ["Blue Tang", "Palette Surgeonfish"], "Paracanthurus hepatus", ["fish", "herbivore", "lays_eggs", "lives_in_ocean", "asia", "australia", "lives_in_groups"]),
+
+    # ==================== INSECTS (22) ====================
+    ("western_honey_bee", "Western Honey Bee", ["Honey Bee", "Honeybee"], "Apis mellifera", ["insect", "herbivore", "lays_eggs", "can_fly", "venomous", "lives_in_groups"]),
+    ("buff_tailed_bumblebee", "Buff-tailed Bumblebee", ["Bumblebee"], "Bombus terrestris", ["insect", "herbivore", "lays_eggs", "can_fly", "europe", "africa", "asia", "venomous", "hibernates", "lives_in_groups"]),
+    ("eastern_carpenter_bee", "Eastern Carpenter Bee", ["Carpenter Bee"], "Xylocopa virginica", ["insect", "herbivore", "lays_eggs", "can_fly", "north_america", "venomous", "hibernates"]),
+    ("leafcutter_ant", "Leafcutter Ant", ["Atta cephalotes"], "Atta cephalotes", ["insect", "herbivore", "lays_eggs", "rainforest", "south_america", "north_america", "lives_in_groups"]),
+    ("bullet_ant", "Bullet Ant", ["Paraponera clavata"], None, ["insect", "omnivore", "lays_eggs", "rainforest", "south_america", "venomous", "lives_in_groups"]),
+    ("asian_giant_hornet", "Asian Giant Hornet", ["Murder Hornet"], None, ["insect", "carnivorous", "lays_eggs", "can_fly", "asia", "venomous", "lives_in_groups"]),
+    ("monarch_butterfly", "Monarch Butterfly", ["Monarch"], None, ["insect", "herbivore", "lays_eggs", "can_fly", "north_america", "migrates", "lives_in_groups"]),
+    ("painted_lady", "Painted Lady", ["Painted Lady Butterfly"], "Vanessa cardui", ["insect", "herbivore", "lays_eggs", "can_fly", "north_america", "europe", "africa", "asia", "migrates"]),
+    ("peacock_butterfly", "European Peacock Butterfly", ["Peacock Butterfly"], "Aglais io", ["insect", "herbivore", "lays_eggs", "can_fly", "europe", "asia", "hibernates"]),
+    ("domestic_silkmoth", "Domestic Silkmoth", ["Silkworm", "Silkmoth"], "Bombyx mori", ["insect", "herbivore", "lays_eggs", "asia"]),
+    ("io_moth", "Io Moth", ["Automeris io"], "Automeris io", ["insect", "herbivore", "lays_eggs", "can_fly", "north_america", "nocturnal"]),
+    ("hercules_beetle", "Hercules Beetle", ["Dynastes hercules"], "Dynastes hercules", ["insect", "herbivore", "lays_eggs", "can_fly", "rainforest", "south_america", "nocturnal"]),
+    ("goliath_beetle", "Goliath Beetle", ["Goliathus goliatus"], "Goliathus goliatus", ["insect", "herbivore", "lays_eggs", "can_fly", "rainforest", "africa"]),
+    ("japanese_rhino_beetle", "Japanese Rhinoceros Beetle", ["Kabutomushi"], "Trypoxylus dichotomus", ["insect", "herbivore", "lays_eggs", "can_fly", "asia", "nocturnal"]),
+    ("seven_spot_ladybird", "Seven-spot Ladybird", ["Ladybug", "Ladybird Beetle"], "Coccinella septempunctata", ["insect", "carnivorous", "lays_eggs", "can_fly", "europe", "asia", "hibernates"]),
+    ("namib_desert_beetle", "Namib Desert Beetle", ["Fog-basking Beetle"], "Stenocara gracilipes", ["insect", "omnivore", "lays_eggs", "desert", "africa"]),
+    ("chinese_mantis", "Chinese Mantis", ["Praying Mantis"], "Tenodera sinensis", ["insect", "carnivorous", "lays_eggs", "can_fly", "asia", "north_america"]),
+    ("madagascar_hissing_cockroach", "Madagascar Hissing Cockroach", ["Hissing Cockroach"], "Gromphadorhina portentosa", ["insect", "omnivore", "rainforest", "africa", "nocturnal", "lives_in_groups"]),
+    ("yellow_fever_mosquito", "Yellow Fever Mosquito", ["Aedes aegypti"], "Aedes aegypti", ["insect", "omnivore", "lays_eggs", "can_fly", "freshwater", "africa", "south_america", "asia"]),
+    ("malaria_mosquito", "African Malaria Mosquito", ["Anopheles gambiae"], "Anopheles gambiae", ["insect", "omnivore", "lays_eggs", "can_fly", "freshwater", "africa", "nocturnal"]),
+    ("common_water_strider", "Common Pond Skater", ["Water Strider"], "Gerris lacustris", ["insect", "carnivorous", "lays_eggs", "freshwater", "europe", "asia"]),
+    ("emperor_dragonfly", "Emperor Dragonfly", ["Dragonfly"], None, ["insect", "carnivorous", "lays_eggs", "can_fly", "freshwater", "europe", "africa", "asia"]),
+
+    # ==================== ARACHNIDS (14) ====================
+    ("southern_black_widow", "Southern Black Widow", ["Black Widow", "Black Widow Spider"], "Latrodectus mactans", ["arachnid", "carnivorous", "lays_eggs", "north_america", "venomous", "nocturnal"]),
+    ("brown_recluse_spider", "Brown Recluse Spider", ["Brown Recluse", "Violin Spider"], "Loxosceles reclusa", ["arachnid", "carnivorous", "lays_eggs", "north_america", "venomous", "nocturnal"]),
+    ("goliath_birdeater", "Goliath Birdeater", ["Goliath Tarantula"], "Theraphosa blondi", ["arachnid", "carnivorous", "lays_eggs", "rainforest", "south_america", "venomous", "nocturnal"]),
+    ("european_garden_spider", "European Garden Spider", ["Cross Orbweaver"], "Araneus diadematus", ["arachnid", "carnivorous", "lays_eggs", "europe", "north_america", "venomous"]),
+    ("giant_huntsman_spider", "Giant Huntsman Spider", ["Huntsman Spider"], "Heteropoda maxima", ["arachnid", "carnivorous", "lays_eggs", "asia", "venomous", "nocturnal"]),
+    ("carolina_wolf_spider", "Carolina Wolf Spider", ["Wolf Spider"], "Hogna carolinensis", ["arachnid", "carnivorous", "lays_eggs", "desert", "north_america", "venomous", "nocturnal"]),
+    ("peacock_spider", "Peacock Spider", ["Maratus volans"], "Maratus volans", ["arachnid", "carnivorous", "lays_eggs", "australia", "venomous"]),
+    ("diving_bell_spider", "Diving Bell Spider", ["Water Spider"], None, ["arachnid", "carnivorous", "lays_eggs", "freshwater", "europe", "asia", "venomous"]),
+    ("emperor_scorpion", "Emperor Scorpion", ["Pandinus imperator"], "Pandinus imperator", ["arachnid", "carnivorous", "rainforest", "savanna", "africa", "venomous", "nocturnal"]),
+    ("deathstalker_scorpion", "Deathstalker", ["Deathstalker Scorpion"], "Leiurus quinquestriatus", ["arachnid", "carnivorous", "desert", "africa", "asia", "venomous", "nocturnal"]),
+    ("arizona_hairy_scorpion", "Giant Desert Hairy Scorpion", ["Arizona Bark Scorpion"], "Hadrurus arizonensis", ["arachnid", "carnivorous", "desert", "north_america", "venomous", "nocturnal"]),
+    ("yellow_fattail_scorpion", "Yellow Fat-tailed Scorpion", ["Fattail Scorpion"], "Androctonus australis", ["arachnid", "carnivorous", "desert", "africa", "asia", "venomous", "nocturnal"]),
+    ("deer_tick", "Blacklegged Tick", ["Deer Tick"], "Ixodes scapularis", ["arachnid", "carnivorous", "lays_eggs", "north_america"]),
+    ("american_dog_tick", "American Dog Tick", ["Wood Tick"], "Dermacentor variabilis", ["arachnid", "carnivorous", "lays_eggs", "north_america"]),
+
+    # ==================== CRUSTACEANS (12) ====================
+    ("american_lobster", "American Lobster", ["Maine Lobster", "Atlantic Lobster"], "Homarus americanus", ["crustacean", "carnivorous", "lays_eggs", "has_shell", "lives_in_ocean", "north_america", "nocturnal"]),
+    ("japanese_spider_crab", "Japanese Spider Crab", ["Macrocheira kaempferi"], "Macrocheira kaempferi", ["crustacean", "omnivore", "lays_eggs", "has_shell", "lives_in_ocean", "asia"]),
+    ("coconut_crab", "Coconut Crab", ["Robber Crab"], "Birgus latro", ["crustacean", "omnivore", "lays_eggs", "has_shell", "asia", "australia", "nocturnal"]),
+    ("atlantic_blue_crab", "Atlantic Blue Crab", ["Blue Crab"], "Callinectes sapidus", ["crustacean", "omnivore", "lays_eggs", "has_shell", "lives_in_ocean", "north_america"]),
+    ("fiddler_crab", "Atlantic Sand Fiddler Crab", ["Fiddler Crab"], "Uca pugilator", ["crustacean", "omnivore", "lays_eggs", "has_shell", "lives_in_ocean", "north_america", "lives_in_groups"]),
+    ("peacock_mantis_shrimp", "Peacock Mantis Shrimp", ["Mantis Shrimp"], "Odontodactylus scyllarus", ["crustacean", "carnivorous", "lays_eggs", "has_shell", "lives_in_ocean", "asia", "australia"]),
+    ("antarctic_krill", "Antarctic Krill", ["Krill"], "Euphausia superba", ["crustacean", "herbivore", "lays_eggs", "has_shell", "lives_in_ocean", "lives_in_tundra", "lives_in_groups"]),
+    ("red_swamp_crayfish", "Red Swamp Crayfish", ["Crawfish", "Crayfish"], "Procambarus clarkii", ["crustacean", "omnivore", "lays_eggs", "has_shell", "freshwater", "north_america", "nocturnal"]),
+    ("common_pill_woodlouse", "Common Pill Woodlouse", ["Roly-poly", "Pill Bug"], "Armadillidium vulgare", ["crustacean", "herbivore", "lays_eggs", "has_shell", "europe", "nocturnal"]),
+    ("acorn_barnacle", "Acorn Barnacle", ["Barnacle"], "Balanus glandula", ["crustacean", "omnivore", "lays_eggs", "has_shell", "lives_in_ocean", "north_america", "lives_in_groups"]),
+    ("brine_shrimp", "Brine Shrimp", ["Sea-Monkey"], "Artemia salina", ["crustacean", "herbivore", "lays_eggs", "has_shell", "lives_in_groups"]),
+    ("tadpole_shrimp", "Longtail Tadpole Shrimp", ["Triops"], "Triops longicaudatus", ["crustacean", "omnivore", "lays_eggs", "has_shell", "freshwater", "desert", "north_america"]),
+
+    # ==================== MOLLUSKS (12) ====================
+    ("giant_pacific_octopus", "Giant Pacific Octopus", ["Enteroctopus dofleini"], "Enteroctopus dofleini", ["mollusk", "carnivorous", "lays_eggs", "lives_in_ocean", "north_america", "asia", "nocturnal"]),
+    ("common_octopus", "Common Octopus", ["Octopus"], "Octopus vulgaris", ["mollusk", "carnivorous", "lays_eggs", "lives_in_ocean", "europe", "africa", "nocturnal"]),
+    ("blue_ringed_octopus", "Blue-ringed Octopus", ["Hapalochlaena"], "Hapalochlaena spp.", ["mollusk", "carnivorous", "lays_eggs", "lives_in_ocean", "asia", "australia", "venomous"]),
+    ("giant_squid", "Giant Squid", ["Architeuthis dux"], "Architeuthis dux", ["mollusk", "carnivorous", "lays_eggs", "lives_in_ocean"]),
+    ("common_cuttlefish", "Common Cuttlefish", ["Cuttlefish"], "Sepia officinalis", ["mollusk", "carnivorous", "lays_eggs", "lives_in_ocean", "europe", "africa"]),
+    ("chambered_nautilus", "Chambered Nautilus", ["Nautilus"], "Nautilus pompilius", ["mollusk", "carnivorous", "lays_eggs", "has_shell", "lives_in_ocean", "asia", "australia", "nocturnal"]),
+    ("giant_clam", "Giant Clam", ["Tridacna gigas"], "Tridacna gigas", ["mollusk", "herbivore", "lays_eggs", "has_shell", "lives_in_ocean", "asia", "australia"]),
+    ("blue_mussel", "Blue Mussel", ["Common Mussel"], "Mytilus edulis", ["mollusk", "omnivore", "lays_eggs", "has_shell", "lives_in_ocean", "north_america", "europe", "lives_in_groups"]),
+    ("pacific_oyster", "Pacific Oyster", ["Oyster"], "Crassostrea gigas", ["mollusk", "omnivore", "lays_eggs", "has_shell", "lives_in_ocean", "asia", "lives_in_groups"]),
+    ("roman_snail", "Roman Snail", ["Burgundy Snail", "Escargot"], "Helix pomatia", ["mollusk", "herbivore", "lays_eggs", "has_shell", "europe", "nocturnal", "hibernates"]),
+    ("giant_african_land_snail", "Giant African Land Snail", ["Achatina fulica"], "Achatina fulica", ["mollusk", "herbivore", "lays_eggs", "has_shell", "rainforest", "africa", "nocturnal"]),
+    ("blue_glaucus", "Blue Dragon", ["Blue Glaucus", "Sea Swallow"], "Glaucus atlanticus", ["mollusk", "carnivorous", "lays_eggs", "lives_in_ocean", "venomous"]),
+]
+
+
+def main() -> None:
+    orgs = json.loads(ORGANISMS_PATH.read_text(encoding="utf-8"))
+    org_names = {o["name"] for o in orgs}
+
+    animals = []
+    seen_ids = set()
+
+    for aid, name, aliases, sci_name, traits in RAW_ANIMALS:
+        assert aid not in seen_ids, f"Duplicate id: {aid}"
+        seen_ids.add(aid)
+
+        trait_set = list(dict.fromkeys(traits))
+        classes = [t for t in trait_set if t in CLASS_TRAITS]
+        diets = [t for t in trait_set if t in DIET_TRAITS]
+        assert len(classes) == 1, f"{aid} has classes {classes}"
+        assert len(diets) == 1, f"{aid} has diets {diets}"
+
+        if sci_name is not None and sci_name not in aliases and "spp." not in sci_name:
+            aliases = [*aliases, sci_name]
+
+        entry: dict[str, object] = {
+            "id": aid,
+            "name": name,
+            "aliases": aliases,
+            "traits": trait_set,
+        }
+        if sci_name is not None:
+            entry["scientificName"] = sci_name
+
+        animals.append(entry)
+
+    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    OUT_PATH.write_text(
+        json.dumps(animals, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    with_taxo = sum(1 for a in animals if a.get("scientificName") in org_names)
+    print(f"Wrote {len(animals)} animals ({with_taxo} with Taxo scientificName images)")
+
+
+if __name__ == "__main__":
+    main()

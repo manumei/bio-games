@@ -41,3 +41,4 @@ export function buildShareText(
 
   return [header, squares.join(""), url].join("\n");
 }
+

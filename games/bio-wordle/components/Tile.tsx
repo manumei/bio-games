@@ -40,3 +40,4 @@ export default function Tile({ letter, state, colIndex = 0 }: TileProps) {
     </div>
   );
 }
+

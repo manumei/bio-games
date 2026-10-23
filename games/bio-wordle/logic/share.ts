@@ -46,3 +46,4 @@ export function buildShareText(
 
   return [header, ...gridLines, url].join("\n");
 }
+

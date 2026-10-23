@@ -1,0 +1,4228 @@
+[
+  {
+    "id": "lion",
+    "name": "Lion",
+    "aliases": [
+      "African Lion",
+      "Panthera leo"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "savanna",
+      "africa",
+      "apex_predator",
+      "lives_in_groups"
+    ],
+    "scientificName": "Panthera leo"
+  },
+  {
+    "id": "tiger",
+    "name": "Tiger",
+    "aliases": [
+      "Bengal Tiger",
+      "Siberian Tiger",
+      "Panthera tigris"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "rainforest",
+      "asia",
+      "apex_predator",
+      "nocturnal"
+    ],
+    "scientificName": "Panthera tigris"
+  },
+  {
+    "id": "jaguar",
+    "name": "Jaguar",
+    "aliases": [
+      "Panthera onca"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "rainforest",
+      "south_america",
+      "apex_predator",
+      "nocturnal"
+    ],
+    "scientificName": "Panthera onca"
+  },
+  {
+    "id": "leopard",
+    "name": "Leopard",
+    "aliases": [
+      "Panther",
+      "Black Panther",
+      "Panthera pardus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "savanna",
+      "rainforest",
+      "africa",
+      "asia",
+      "apex_predator",
+      "nocturnal"
+    ],
+    "scientificName": "Panthera pardus"
+  },
+  {
+    "id": "snow_leopard",
+    "name": "Snow Leopard",
+    "aliases": [
+      "Ounce",
+      "Panthera uncia"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "mountains",
+      "asia",
+      "apex_predator"
+    ],
+    "scientificName": "Panthera uncia"
+  },
+  {
+    "id": "cheetah",
+    "name": "Cheetah",
+    "aliases": [
+      "Hunting Leopard",
+      "Acinonyx jubatus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "savanna",
+      "africa"
+    ],
+    "scientificName": "Acinonyx jubatus"
+  },
+  {
+    "id": "cougar",
+    "name": "Cougar",
+    "aliases": [
+      "Mountain Lion",
+      "Puma",
+      "Puma concolor"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "mountains",
+      "north_america",
+      "south_america",
+      "apex_predator"
+    ],
+    "scientificName": "Puma concolor"
+  },
+  {
+    "id": "eurasian_lynx",
+    "name": "Eurasian Lynx",
+    "aliases": [
+      "Lynx",
+      "Lynx lynx"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "mountains",
+      "europe",
+      "asia",
+      "nocturnal"
+    ],
+    "scientificName": "Lynx lynx"
+  },
+  {
+    "id": "domestic_cat",
+    "name": "Domestic Cat",
+    "aliases": [
+      "House Cat",
+      "Cat",
+      "Felis catus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "nocturnal"
+    ],
+    "scientificName": "Felis catus"
+  },
+  {
+    "id": "gray_wolf",
+    "name": "Gray Wolf",
+    "aliases": [
+      "Wolf",
+      "Timber Wolf",
+      "Canis lupus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_tundra",
+      "mountains",
+      "north_america",
+      "europe",
+      "asia",
+      "apex_predator",
+      "lives_in_groups"
+    ],
+    "scientificName": "Canis lupus"
+  },
+  {
+    "id": "red_fox",
+    "name": "Red Fox",
+    "aliases": [
+      "Fox",
+      "Vulpes vulpes"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "north_america",
+      "europe",
+      "asia",
+      "nocturnal"
+    ],
+    "scientificName": "Vulpes vulpes"
+  },
+  {
+    "id": "arctic_fox",
+    "name": "Arctic Fox",
+    "aliases": [
+      "Polar Fox",
+      "White Fox",
+      "Vulpes lagopus"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "lives_in_tundra",
+      "north_america",
+      "europe",
+      "asia"
+    ],
+    "scientificName": "Vulpes lagopus"
+  },
+  {
+    "id": "polar_bear",
+    "name": "Polar Bear",
+    "aliases": [
+      "White Bear",
+      "Ice Bear",
+      "Ursus maritimus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_tundra",
+      "lives_in_ocean",
+      "north_america",
+      "europe",
+      "asia",
+      "apex_predator"
+    ],
+    "scientificName": "Ursus maritimus"
+  },
+  {
+    "id": "brown_bear",
+    "name": "Brown Bear",
+    "aliases": [
+      "Grizzly Bear",
+      "Kodiak Bear",
+      "Ursus arctos"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "mountains",
+      "north_america",
+      "europe",
+      "asia",
+      "apex_predator",
+      "hibernates"
+    ],
+    "scientificName": "Ursus arctos"
+  },
+  {
+    "id": "giant_panda",
+    "name": "Giant Panda",
+    "aliases": [
+      "Panda",
+      "Panda Bear",
+      "Ailuropoda melanoleuca"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "mountains",
+      "asia"
+    ],
+    "scientificName": "Ailuropoda melanoleuca"
+  },
+  {
+    "id": "red_panda",
+    "name": "Red Panda",
+    "aliases": [
+      "Lesser Panda",
+      "Firefox",
+      "Ailurus fulgens"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "mountains",
+      "asia",
+      "nocturnal"
+    ],
+    "scientificName": "Ailurus fulgens"
+  },
+  {
+    "id": "sea_otter",
+    "name": "Sea Otter",
+    "aliases": [
+      "Marine Otter",
+      "Enhydra lutris"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "north_america",
+      "asia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Enhydra lutris"
+  },
+  {
+    "id": "spotted_hyena",
+    "name": "Spotted Hyena",
+    "aliases": [
+      "Hyena",
+      "Laughing Hyena",
+      "Crocuta crocuta"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "savanna",
+      "africa",
+      "apex_predator",
+      "lives_in_groups",
+      "nocturnal"
+    ],
+    "scientificName": "Crocuta crocuta"
+  },
+  {
+    "id": "meerkat",
+    "name": "Meerkat",
+    "aliases": [
+      "Suricate",
+      "Suricata suricatta"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "desert",
+      "savanna",
+      "africa",
+      "lives_in_groups"
+    ],
+    "scientificName": "Suricata suricatta"
+  },
+  {
+    "id": "walrus",
+    "name": "Walrus",
+    "aliases": [
+      "Odobenus rosmarus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "lives_in_tundra",
+      "north_america",
+      "europe",
+      "asia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Odobenus rosmarus"
+  },
+  {
+    "id": "harbor_seal",
+    "name": "Harbor Seal",
+    "aliases": [
+      "Common Seal",
+      "Phoca vitulina"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "north_america",
+      "europe",
+      "asia"
+    ],
+    "scientificName": "Phoca vitulina"
+  },
+  {
+    "id": "orca",
+    "name": "Orca",
+    "aliases": [
+      "Killer Whale",
+      "Orcinus orca"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "lives_in_tundra",
+      "north_america",
+      "south_america",
+      "europe",
+      "africa",
+      "asia",
+      "australia",
+      "apex_predator",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Orcinus orca"
+  },
+  {
+    "id": "blue_whale",
+    "name": "Blue Whale",
+    "aliases": [
+      "Sulphur-bottom Whale",
+      "Balaenoptera musculus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "migrates"
+    ],
+    "scientificName": "Balaenoptera musculus"
+  },
+  {
+    "id": "humpback_whale",
+    "name": "Humpback Whale",
+    "aliases": [
+      "Megaptera novaeangliae"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "migrates",
+      "lives_in_groups"
+    ],
+    "scientificName": "Megaptera novaeangliae"
+  },
+  {
+    "id": "fin_whale",
+    "name": "Fin Whale",
+    "aliases": [
+      "Finback Whale",
+      "Balaenoptera physalus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "migrates",
+      "lives_in_groups"
+    ],
+    "scientificName": "Balaenoptera physalus"
+  },
+  {
+    "id": "minke_whale",
+    "name": "Minke Whale",
+    "aliases": [
+      "Common Minke Whale",
+      "Balaenoptera acutorostrata"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "migrates"
+    ],
+    "scientificName": "Balaenoptera acutorostrata"
+  },
+  {
+    "id": "sperm_whale",
+    "name": "Sperm Whale",
+    "aliases": [
+      "Cachalot",
+      "Physeter macrocephalus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "apex_predator",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Physeter macrocephalus"
+  },
+  {
+    "id": "beluga_whale",
+    "name": "Beluga Whale",
+    "aliases": [
+      "Beluga",
+      "White Whale",
+      "Delphinapterus leucas"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "lives_in_tundra",
+      "north_america",
+      "europe",
+      "asia",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Delphinapterus leucas"
+  },
+  {
+    "id": "narwhal",
+    "name": "Narwhal",
+    "aliases": [
+      "Narwhale",
+      "Monodon monoceros"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "lives_in_tundra",
+      "north_america",
+      "europe",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Monodon monoceros"
+  },
+  {
+    "id": "bottlenose_dolphin",
+    "name": "Bottlenose Dolphin",
+    "aliases": [
+      "Dolphin",
+      "Tursiops truncatus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "lives_in_ocean",
+      "lives_in_groups"
+    ],
+    "scientificName": "Tursiops truncatus"
+  },
+  {
+    "id": "african_elephant",
+    "name": "African Elephant",
+    "aliases": [
+      "Savanna Elephant",
+      "Bush Elephant",
+      "Loxodonta africana"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "savanna",
+      "africa",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Loxodonta africana"
+  },
+  {
+    "id": "giraffe",
+    "name": "Giraffe",
+    "aliases": [
+      "Northern Giraffe",
+      "Giraffa camelopardalis"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "savanna",
+      "africa",
+      "lives_in_groups"
+    ],
+    "scientificName": "Giraffa camelopardalis"
+  },
+  {
+    "id": "hippopotamus",
+    "name": "Hippopotamus",
+    "aliases": [
+      "Hippo",
+      "Hippopotamus amphibius"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "freshwater",
+      "savanna",
+      "africa",
+      "lives_in_groups"
+    ],
+    "scientificName": "Hippopotamus amphibius"
+  },
+  {
+    "id": "plains_zebra",
+    "name": "Plains Zebra",
+    "aliases": [
+      "Zebra",
+      "Common Zebra",
+      "Equus quagga"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "savanna",
+      "africa",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Equus quagga"
+  },
+  {
+    "id": "mountain_zebra",
+    "name": "Mountain Zebra",
+    "aliases": [
+      "Equus zebra"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "mountains",
+      "savanna",
+      "africa",
+      "lives_in_groups"
+    ],
+    "scientificName": "Equus zebra"
+  },
+  {
+    "id": "white_rhinoceros",
+    "name": "White Rhinoceros",
+    "aliases": [
+      "White Rhino",
+      "Square-lipped Rhinoceros",
+      "Ceratotherium simum"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "savanna",
+      "africa",
+      "lives_in_groups"
+    ],
+    "scientificName": "Ceratotherium simum"
+  },
+  {
+    "id": "black_rhinoceros",
+    "name": "Black Rhinoceros",
+    "aliases": [
+      "Black Rhino",
+      "Diceros bicornis"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "savanna",
+      "africa"
+    ],
+    "scientificName": "Diceros bicornis"
+  },
+  {
+    "id": "bactrian_camel",
+    "name": "Bactrian Camel",
+    "aliases": [
+      "Two-humped Camel",
+      "Camel",
+      "Camelus bactrianus"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "desert",
+      "asia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Camelus bactrianus"
+  },
+  {
+    "id": "llama",
+    "name": "Llama",
+    "aliases": [
+      "Lama glama"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "mountains",
+      "south_america",
+      "lives_in_groups"
+    ],
+    "scientificName": "Lama glama"
+  },
+  {
+    "id": "alpaca",
+    "name": "Alpaca",
+    "aliases": [
+      "Vicugna pacos"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "mountains",
+      "south_america",
+      "lives_in_groups"
+    ],
+    "scientificName": "Vicugna pacos"
+  },
+  {
+    "id": "moose",
+    "name": "Moose",
+    "aliases": [
+      "Eurasian Elk",
+      "Alces alces"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "lives_in_tundra",
+      "freshwater",
+      "north_america",
+      "europe",
+      "asia"
+    ],
+    "scientificName": "Alces alces"
+  },
+  {
+    "id": "reindeer",
+    "name": "Reindeer",
+    "aliases": [
+      "Caribou",
+      "Rangifer tarandus"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "lives_in_tundra",
+      "north_america",
+      "europe",
+      "asia",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Rangifer tarandus"
+  },
+  {
+    "id": "american_bison",
+    "name": "American Bison",
+    "aliases": [
+      "Buffalo",
+      "Bison",
+      "Bison bison"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "savanna",
+      "north_america",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Bison bison"
+  },
+  {
+    "id": "wild_boar",
+    "name": "Wild Boar",
+    "aliases": [
+      "Wild Pig",
+      "Eurasian Wild Pig",
+      "Sus scrofa"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "europe",
+      "asia",
+      "africa",
+      "lives_in_groups",
+      "nocturnal"
+    ],
+    "scientificName": "Sus scrofa"
+  },
+  {
+    "id": "horse",
+    "name": "Horse",
+    "aliases": [
+      "Domestic Horse",
+      "Wild Horse",
+      "Equus caballus"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "savanna",
+      "lives_in_groups"
+    ],
+    "scientificName": "Equus caballus"
+  },
+  {
+    "id": "brazilian_tapir",
+    "name": "South American Tapir",
+    "aliases": [
+      "Brazilian Tapir",
+      "Lowland Tapir",
+      "Tapirus terrestris"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "rainforest",
+      "freshwater",
+      "south_america",
+      "nocturnal"
+    ],
+    "scientificName": "Tapirus terrestris"
+  },
+  {
+    "id": "capybara",
+    "name": "Capybara",
+    "aliases": [
+      "Carpincho",
+      "Hydrochoerus hydrochaeris"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "freshwater",
+      "rainforest",
+      "savanna",
+      "south_america",
+      "lives_in_groups"
+    ],
+    "scientificName": "Hydrochoerus hydrochaeris"
+  },
+  {
+    "id": "american_beaver",
+    "name": "North American Beaver",
+    "aliases": [
+      "Beaver",
+      "Castor canadensis"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "freshwater",
+      "north_america",
+      "nocturnal",
+      "lives_in_groups"
+    ],
+    "scientificName": "Castor canadensis"
+  },
+  {
+    "id": "porcupine",
+    "name": "North American Porcupine",
+    "aliases": [
+      "Porcupine",
+      "Erethizon dorsatum"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "north_america",
+      "nocturnal"
+    ],
+    "scientificName": "Erethizon dorsatum"
+  },
+  {
+    "id": "eastern_chipmunk",
+    "name": "Eastern Chipmunk",
+    "aliases": [
+      "Chipmunk",
+      "Tamias striatus"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "north_america",
+      "hibernates"
+    ],
+    "scientificName": "Tamias striatus"
+  },
+  {
+    "id": "edible_dormouse",
+    "name": "Edible Dormouse",
+    "aliases": [
+      "Dormouse",
+      "Fat Dormouse",
+      "Glis glis"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "europe",
+      "nocturnal",
+      "hibernates"
+    ],
+    "scientificName": "Glis glis"
+  },
+  {
+    "id": "desert_kangaroo_rat",
+    "name": "Desert Kangaroo Rat",
+    "aliases": [
+      "Kangaroo Rat",
+      "Dipodomys deserti"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "desert",
+      "north_america",
+      "nocturnal"
+    ],
+    "scientificName": "Dipodomys deserti"
+  },
+  {
+    "id": "house_mouse",
+    "name": "House Mouse",
+    "aliases": [
+      "Mouse",
+      "Mus musculus"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "nocturnal",
+      "lives_in_groups"
+    ],
+    "scientificName": "Mus musculus"
+  },
+  {
+    "id": "brown_rat",
+    "name": "Brown Rat",
+    "aliases": [
+      "Norway Rat",
+      "Common Rat",
+      "Rattus norvegicus"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "nocturnal",
+      "lives_in_groups"
+    ],
+    "scientificName": "Rattus norvegicus"
+  },
+  {
+    "id": "chimpanzee",
+    "name": "Chimpanzee",
+    "aliases": [
+      "Chimp",
+      "Pan troglodytes"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "rainforest",
+      "savanna",
+      "africa",
+      "lives_in_groups"
+    ],
+    "scientificName": "Pan troglodytes"
+  },
+  {
+    "id": "western_gorilla",
+    "name": "Gorilla",
+    "aliases": [
+      "Western Gorilla",
+      "Silverback Gorilla",
+      "Gorilla gorilla"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "rainforest",
+      "mountains",
+      "africa",
+      "lives_in_groups"
+    ],
+    "scientificName": "Gorilla gorilla"
+  },
+  {
+    "id": "bornean_orangutan",
+    "name": "Orangutan",
+    "aliases": [
+      "Bornean Orangutan",
+      "Pongo pygmaeus"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "rainforest",
+      "asia"
+    ],
+    "scientificName": "Pongo pygmaeus"
+  },
+  {
+    "id": "ring_tailed_lemur",
+    "name": "Ring-tailed Lemur",
+    "aliases": [
+      "Lemur",
+      "Lemur catta"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "africa",
+      "lives_in_groups"
+    ],
+    "scientificName": "Lemur catta"
+  },
+  {
+    "id": "mandrill",
+    "name": "Mandrill",
+    "aliases": [
+      "Mandrillus sphinx"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "rainforest",
+      "africa",
+      "lives_in_groups"
+    ],
+    "scientificName": "Mandrillus sphinx"
+  },
+  {
+    "id": "black_howler_monkey",
+    "name": "Howler Monkey",
+    "aliases": [
+      "Black Howler",
+      "Alouatta caraya"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "rainforest",
+      "south_america",
+      "lives_in_groups"
+    ],
+    "scientificName": "Alouatta caraya"
+  },
+  {
+    "id": "spider_monkey",
+    "name": "Spider Monkey",
+    "aliases": [
+      "Geoffroy's Spider Monkey",
+      "Ateles geoffroyi"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "rainforest",
+      "south_america",
+      "lives_in_groups"
+    ],
+    "scientificName": "Ateles geoffroyi"
+  },
+  {
+    "id": "rhesus_macaque",
+    "name": "Rhesus Macaque",
+    "aliases": [
+      "Rhesus Monkey",
+      "Macaca mulatta"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "asia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Macaca mulatta"
+  },
+  {
+    "id": "red_kangaroo",
+    "name": "Red Kangaroo",
+    "aliases": [
+      "Kangaroo",
+      "Osphranter rufus"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "desert",
+      "savanna",
+      "australia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Osphranter rufus"
+  },
+  {
+    "id": "koala",
+    "name": "Koala",
+    "aliases": [
+      "Koala Bear",
+      "Phascolarctos cinereus"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "australia",
+      "nocturnal"
+    ],
+    "scientificName": "Phascolarctos cinereus"
+  },
+  {
+    "id": "common_wombat",
+    "name": "Common Wombat",
+    "aliases": [
+      "Wombat",
+      "Vombatus ursinus"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "australia",
+      "nocturnal"
+    ],
+    "scientificName": "Vombatus ursinus"
+  },
+  {
+    "id": "tasmanian_devil",
+    "name": "Tasmanian Devil",
+    "aliases": [
+      "Sarcophilus harrisii"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "australia",
+      "nocturnal"
+    ],
+    "scientificName": "Sarcophilus harrisii"
+  },
+  {
+    "id": "sugar_glider",
+    "name": "Sugar Glider",
+    "aliases": [
+      "Petaurus breviceps"
+    ],
+    "traits": [
+      "mammal",
+      "omnivore",
+      "warm_blooded",
+      "rainforest",
+      "australia",
+      "nocturnal",
+      "lives_in_groups"
+    ],
+    "scientificName": "Petaurus breviceps"
+  },
+  {
+    "id": "quokka",
+    "name": "Quokka",
+    "aliases": [
+      "Setonix brachyurus"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "australia",
+      "nocturnal"
+    ],
+    "scientificName": "Setonix brachyurus"
+  },
+  {
+    "id": "platypus",
+    "name": "Platypus",
+    "aliases": [
+      "Duck-billed Platypus",
+      "Ornithorhynchus anatinus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "freshwater",
+      "australia",
+      "lays_eggs",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Ornithorhynchus anatinus"
+  },
+  {
+    "id": "three_toed_sloth",
+    "name": "Brown-throated Sloth",
+    "aliases": [
+      "Three-toed Sloth",
+      "Sloth",
+      "Bradypus variegatus"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "rainforest",
+      "south_america"
+    ],
+    "scientificName": "Bradypus variegatus"
+  },
+  {
+    "id": "giant_anteater",
+    "name": "Giant Anteater",
+    "aliases": [
+      "Ant Bear",
+      "Myrmecophaga tridactyla"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "savanna",
+      "rainforest",
+      "south_america"
+    ],
+    "scientificName": "Myrmecophaga tridactyla"
+  },
+  {
+    "id": "nine_banded_armadillo",
+    "name": "Nine-banded Armadillo",
+    "aliases": [
+      "Armadillo",
+      "Dasypus novemcinctus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "north_america",
+      "south_america",
+      "nocturnal"
+    ],
+    "scientificName": "Dasypus novemcinctus"
+  },
+  {
+    "id": "common_vampire_bat",
+    "name": "Common Vampire Bat",
+    "aliases": [
+      "Vampire Bat",
+      "Desmodus rotundus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "rainforest",
+      "south_america",
+      "north_america",
+      "can_fly",
+      "nocturnal",
+      "lives_in_groups"
+    ],
+    "scientificName": "Desmodus rotundus"
+  },
+  {
+    "id": "mexican_free_tailed_bat",
+    "name": "Mexican Free-tailed Bat",
+    "aliases": [
+      "Brazilian Free-tailed Bat",
+      "Tadarida brasiliensis"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "north_america",
+      "south_america",
+      "can_fly",
+      "nocturnal",
+      "migrates",
+      "lives_in_groups"
+    ],
+    "scientificName": "Tadarida brasiliensis"
+  },
+  {
+    "id": "jamaican_fruit_bat",
+    "name": "Jamaican Fruit Bat",
+    "aliases": [
+      "Fruit Bat",
+      "Artibeus jamaicensis"
+    ],
+    "traits": [
+      "mammal",
+      "herbivore",
+      "warm_blooded",
+      "rainforest",
+      "north_america",
+      "south_america",
+      "can_fly",
+      "nocturnal",
+      "lives_in_groups"
+    ],
+    "scientificName": "Artibeus jamaicensis"
+  },
+  {
+    "id": "little_brown_bat",
+    "name": "Little Brown Bat",
+    "aliases": [
+      "Myotis lucifugus"
+    ],
+    "traits": [
+      "mammal",
+      "carnivorous",
+      "warm_blooded",
+      "north_america",
+      "can_fly",
+      "nocturnal",
+      "hibernates",
+      "lives_in_groups"
+    ]
+  },
+  {
+    "id": "emperor_penguin",
+    "name": "Emperor Penguin",
+    "aliases": [
+      "Penguin",
+      "Aptenodytes forsteri"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "lives_in_ocean",
+      "lives_in_tundra",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Aptenodytes forsteri"
+  },
+  {
+    "id": "ostrich",
+    "name": "Common Ostrich",
+    "aliases": [
+      "Ostrich",
+      "Struthio camelus"
+    ],
+    "traits": [
+      "bird",
+      "omnivore",
+      "warm_blooded",
+      "lays_eggs",
+      "savanna",
+      "desert",
+      "africa",
+      "lives_in_groups"
+    ],
+    "scientificName": "Struthio camelus"
+  },
+  {
+    "id": "emu",
+    "name": "Emu",
+    "aliases": [
+      "Dromaius novaehollandiae"
+    ],
+    "traits": [
+      "bird",
+      "omnivore",
+      "warm_blooded",
+      "lays_eggs",
+      "savanna",
+      "australia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Dromaius novaehollandiae"
+  },
+  {
+    "id": "bald_eagle",
+    "name": "Bald Eagle",
+    "aliases": [
+      "American Eagle",
+      "Haliaeetus leucocephalus"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "freshwater",
+      "north_america",
+      "apex_predator",
+      "migrates"
+    ],
+    "scientificName": "Haliaeetus leucocephalus"
+  },
+  {
+    "id": "peregrine_falcon",
+    "name": "Peregrine Falcon",
+    "aliases": [
+      "Duck Hawk",
+      "Falco peregrinus"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "mountains",
+      "north_america",
+      "south_america",
+      "europe",
+      "africa",
+      "asia",
+      "australia",
+      "apex_predator",
+      "migrates"
+    ],
+    "scientificName": "Falco peregrinus"
+  },
+  {
+    "id": "snowy_owl",
+    "name": "Snowy Owl",
+    "aliases": [
+      "Arctic Owl",
+      "Polar Owl",
+      "Bubo scandiacus"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "lives_in_tundra",
+      "north_america",
+      "europe",
+      "asia",
+      "apex_predator",
+      "migrates"
+    ],
+    "scientificName": "Bubo scandiacus"
+  },
+  {
+    "id": "barn_owl",
+    "name": "Barn Owl",
+    "aliases": [
+      "Tyto alba"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "north_america",
+      "south_america",
+      "europe",
+      "africa",
+      "asia",
+      "australia",
+      "nocturnal"
+    ]
+  },
+  {
+    "id": "great_horned_owl",
+    "name": "Great Horned Owl",
+    "aliases": [
+      "Tiger Owl"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "north_america",
+      "south_america",
+      "apex_predator",
+      "nocturnal"
+    ]
+  },
+  {
+    "id": "scarlet_macaw",
+    "name": "Scarlet Macaw",
+    "aliases": [
+      "Macaw",
+      "Ara macao"
+    ],
+    "traits": [
+      "bird",
+      "herbivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "rainforest",
+      "south_america",
+      "lives_in_groups"
+    ],
+    "scientificName": "Ara macao"
+  },
+  {
+    "id": "mallard",
+    "name": "Mallard",
+    "aliases": [
+      "Wild Duck",
+      "Mallard Duck",
+      "Anas platyrhynchos"
+    ],
+    "traits": [
+      "bird",
+      "omnivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "freshwater",
+      "north_america",
+      "europe",
+      "asia",
+      "migrates",
+      "lives_in_groups"
+    ],
+    "scientificName": "Anas platyrhynchos"
+  },
+  {
+    "id": "mute_swan",
+    "name": "Mute Swan",
+    "aliases": [
+      "Swan",
+      "Cygnus olor"
+    ],
+    "traits": [
+      "bird",
+      "herbivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "freshwater",
+      "europe",
+      "asia",
+      "migrates"
+    ],
+    "scientificName": "Cygnus olor"
+  },
+  {
+    "id": "greater_flamingo",
+    "name": "Greater Flamingo",
+    "aliases": [
+      "Flamingo",
+      "Phoenicopterus roseus"
+    ],
+    "traits": [
+      "bird",
+      "omnivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "freshwater",
+      "africa",
+      "europe",
+      "asia",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Phoenicopterus roseus"
+  },
+  {
+    "id": "indian_peafowl",
+    "name": "Indian Peafowl",
+    "aliases": [
+      "Peacock",
+      "Pavo cristatus"
+    ],
+    "traits": [
+      "bird",
+      "omnivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "asia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Pavo cristatus"
+  },
+  {
+    "id": "red_junglefowl",
+    "name": "Chicken",
+    "aliases": [
+      "Red Junglefowl",
+      "Rooster",
+      "Hen",
+      "Gallus gallus"
+    ],
+    "traits": [
+      "bird",
+      "omnivore",
+      "warm_blooded",
+      "lays_eggs",
+      "asia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Gallus gallus"
+  },
+  {
+    "id": "rock_pigeon",
+    "name": "Rock Pigeon",
+    "aliases": [
+      "Pigeon",
+      "Rock Dove",
+      "Columba livia"
+    ],
+    "traits": [
+      "bird",
+      "herbivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "europe",
+      "asia",
+      "africa",
+      "lives_in_groups"
+    ],
+    "scientificName": "Columba livia"
+  },
+  {
+    "id": "mourning_dove",
+    "name": "Mourning Dove",
+    "aliases": [
+      "Turtle Dove",
+      "Zenaida macroura"
+    ],
+    "traits": [
+      "bird",
+      "herbivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "north_america",
+      "migrates"
+    ],
+    "scientificName": "Zenaida macroura"
+  },
+  {
+    "id": "american_robin",
+    "name": "American Robin",
+    "aliases": [
+      "Robin",
+      "Turdus migratorius"
+    ],
+    "traits": [
+      "bird",
+      "omnivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "north_america",
+      "migrates"
+    ],
+    "scientificName": "Turdus migratorius"
+  },
+  {
+    "id": "pileated_woodpecker",
+    "name": "Pileated Woodpecker",
+    "aliases": [
+      "Woodpecker",
+      "Dryocopus pileatus"
+    ],
+    "traits": [
+      "bird",
+      "omnivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "north_america"
+    ],
+    "scientificName": "Dryocopus pileatus"
+  },
+  {
+    "id": "common_raven",
+    "name": "Common Raven",
+    "aliases": [
+      "Raven",
+      "Corvus corax"
+    ],
+    "traits": [
+      "bird",
+      "omnivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "mountains",
+      "lives_in_tundra",
+      "north_america",
+      "europe",
+      "asia"
+    ],
+    "scientificName": "Corvus corax"
+  },
+  {
+    "id": "zebra_finch",
+    "name": "Zebra Finch",
+    "aliases": [
+      "Taeniopygia guttata"
+    ],
+    "traits": [
+      "bird",
+      "herbivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "savanna",
+      "desert",
+      "australia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Taeniopygia guttata"
+  },
+  {
+    "id": "wandering_albatross",
+    "name": "Wandering Albatross",
+    "aliases": [
+      "Albatross"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "lives_in_ocean",
+      "migrates"
+    ]
+  },
+  {
+    "id": "atlantic_puffin",
+    "name": "Atlantic Puffin",
+    "aliases": [
+      "Puffin"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "lives_in_ocean",
+      "north_america",
+      "europe",
+      "lives_in_groups",
+      "migrates"
+    ]
+  },
+  {
+    "id": "brown_pelican",
+    "name": "Brown Pelican",
+    "aliases": [
+      "Pelican",
+      "Pelecanus occidentalis"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "lives_in_ocean",
+      "north_america",
+      "south_america",
+      "lives_in_groups"
+    ],
+    "scientificName": "Pelecanus occidentalis"
+  },
+  {
+    "id": "great_blue_heron",
+    "name": "Great Blue Heron",
+    "aliases": [
+      "Heron"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "freshwater",
+      "north_america",
+      "migrates"
+    ]
+  },
+  {
+    "id": "andean_condor",
+    "name": "Andean Condor",
+    "aliases": [
+      "Condor"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "mountains",
+      "south_america"
+    ]
+  },
+  {
+    "id": "ruby_throated_hummingbird",
+    "name": "Ruby-throated Hummingbird",
+    "aliases": [
+      "Hummingbird"
+    ],
+    "traits": [
+      "bird",
+      "herbivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "north_america",
+      "migrates"
+    ]
+  },
+  {
+    "id": "toco_toucan",
+    "name": "Toco Toucan",
+    "aliases": [
+      "Toucan"
+    ],
+    "traits": [
+      "bird",
+      "omnivore",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "rainforest",
+      "south_america"
+    ]
+  },
+  {
+    "id": "kiwi",
+    "name": "Brown Kiwi",
+    "aliases": [
+      "Kiwi",
+      "Kiwi Bird"
+    ],
+    "traits": [
+      "bird",
+      "omnivore",
+      "warm_blooded",
+      "lays_eggs",
+      "australia",
+      "nocturnal"
+    ]
+  },
+  {
+    "id": "kakapo",
+    "name": "Kakapo",
+    "aliases": [
+      "Owl Parrot"
+    ],
+    "traits": [
+      "bird",
+      "herbivore",
+      "warm_blooded",
+      "lays_eggs",
+      "rainforest",
+      "australia",
+      "nocturnal"
+    ]
+  },
+  {
+    "id": "arctic_tern",
+    "name": "Arctic Tern",
+    "aliases": [
+      "Sterna paradisaea"
+    ],
+    "traits": [
+      "bird",
+      "carnivorous",
+      "warm_blooded",
+      "lays_eggs",
+      "can_fly",
+      "lives_in_ocean",
+      "lives_in_tundra",
+      "north_america",
+      "europe",
+      "asia",
+      "migrates",
+      "lives_in_groups"
+    ]
+  },
+  {
+    "id": "american_alligator",
+    "name": "American Alligator",
+    "aliases": [
+      "Alligator",
+      "Gator",
+      "Alligator mississippiensis"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "north_america",
+      "apex_predator",
+      "hibernates"
+    ],
+    "scientificName": "Alligator mississippiensis"
+  },
+  {
+    "id": "chinese_alligator",
+    "name": "Chinese Alligator",
+    "aliases": [
+      "Yangtze Alligator",
+      "Alligator sinensis"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "asia",
+      "hibernates"
+    ],
+    "scientificName": "Alligator sinensis"
+  },
+  {
+    "id": "nile_crocodile",
+    "name": "Nile Crocodile",
+    "aliases": [
+      "Crocodile",
+      "Crocodylus niloticus"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "africa",
+      "apex_predator"
+    ],
+    "scientificName": "Crocodylus niloticus"
+  },
+  {
+    "id": "saltwater_crocodile",
+    "name": "Saltwater Crocodile",
+    "aliases": [
+      "Estuarine Crocodile",
+      "Saltie",
+      "Crocodylus porosus"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "freshwater",
+      "asia",
+      "australia",
+      "apex_predator"
+    ],
+    "scientificName": "Crocodylus porosus"
+  },
+  {
+    "id": "gharial",
+    "name": "Gharial",
+    "aliases": [
+      "Gavial",
+      "Gavialis gangeticus"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "asia"
+    ],
+    "scientificName": "Gavialis gangeticus"
+  },
+  {
+    "id": "komodo_dragon",
+    "name": "Komodo Dragon",
+    "aliases": [
+      "Komodo Monitor",
+      "Varanus komodoensis"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "savanna",
+      "asia",
+      "venomous",
+      "apex_predator"
+    ],
+    "scientificName": "Varanus komodoensis"
+  },
+  {
+    "id": "green_iguana",
+    "name": "Green Iguana",
+    "aliases": [
+      "Iguana",
+      "Common Iguana",
+      "Iguana iguana"
+    ],
+    "traits": [
+      "reptile",
+      "herbivore",
+      "lays_eggs",
+      "rainforest",
+      "south_america",
+      "north_america"
+    ],
+    "scientificName": "Iguana iguana"
+  },
+  {
+    "id": "marine_iguana",
+    "name": "Marine Iguana",
+    "aliases": [
+      "Galapagos Marine Iguana"
+    ],
+    "traits": [
+      "reptile",
+      "herbivore",
+      "lays_eggs",
+      "lives_in_ocean",
+      "south_america",
+      "lives_in_groups"
+    ]
+  },
+  {
+    "id": "gila_monster",
+    "name": "Gila Monster",
+    "aliases": [
+      "Heloderma suspectum"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "desert",
+      "north_america",
+      "venomous",
+      "hibernates"
+    ],
+    "scientificName": "Heloderma suspectum"
+  },
+  {
+    "id": "green_anole",
+    "name": "Green Anole",
+    "aliases": [
+      "Carolina Anole",
+      "Anolis carolinensis"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "north_america"
+    ],
+    "scientificName": "Anolis carolinensis"
+  },
+  {
+    "id": "panther_chameleon",
+    "name": "Panther Chameleon",
+    "aliases": [
+      "Chameleon",
+      "Furcifer pardalis"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "rainforest",
+      "africa"
+    ],
+    "scientificName": "Furcifer pardalis"
+  },
+  {
+    "id": "tokay_gecko",
+    "name": "Tokay Gecko",
+    "aliases": [
+      "Gecko"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "rainforest",
+      "asia",
+      "nocturnal"
+    ]
+  },
+  {
+    "id": "king_cobra",
+    "name": "King Cobra",
+    "aliases": [
+      "Ophiophagus hannah"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "rainforest",
+      "asia",
+      "venomous",
+      "apex_predator"
+    ],
+    "scientificName": "Ophiophagus hannah"
+  },
+  {
+    "id": "indian_cobra",
+    "name": "Indian Cobra",
+    "aliases": [
+      "Spectacled Cobra",
+      "Naja naja"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "asia",
+      "venomous"
+    ],
+    "scientificName": "Naja naja"
+  },
+  {
+    "id": "black_mamba",
+    "name": "Black Mamba",
+    "aliases": [
+      "Dendroaspis polylepis"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "savanna",
+      "africa",
+      "venomous"
+    ],
+    "scientificName": "Dendroaspis polylepis"
+  },
+  {
+    "id": "inland_taipan",
+    "name": "Inland Taipan",
+    "aliases": [
+      "Fierce Snake",
+      "Oxyuranus microlepidotus"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "desert",
+      "australia",
+      "venomous"
+    ],
+    "scientificName": "Oxyuranus microlepidotus"
+  },
+  {
+    "id": "western_diamondback_rattlesnake",
+    "name": "Western Diamondback Rattlesnake",
+    "aliases": [
+      "Rattlesnake",
+      "Diamondback Rattlesnake",
+      "Crotalus atrox"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "desert",
+      "north_america",
+      "venomous",
+      "nocturnal",
+      "hibernates"
+    ],
+    "scientificName": "Crotalus atrox"
+  },
+  {
+    "id": "cottonmouth",
+    "name": "Cottonmouth",
+    "aliases": [
+      "Water Moccasin",
+      "Agkistrodon piscivorus"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "freshwater",
+      "north_america",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Agkistrodon piscivorus"
+  },
+  {
+    "id": "fer_de_lance",
+    "name": "Fer-de-lance",
+    "aliases": [
+      "Terciopelo",
+      "Bothrops asper"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "rainforest",
+      "south_america",
+      "north_america",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Bothrops asper"
+  },
+  {
+    "id": "green_anaconda",
+    "name": "Green Anaconda",
+    "aliases": [
+      "Anaconda",
+      "Eunectes murinus"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "freshwater",
+      "rainforest",
+      "south_america",
+      "apex_predator"
+    ],
+    "scientificName": "Eunectes murinus"
+  },
+  {
+    "id": "reticulated_python",
+    "name": "Reticulated Python",
+    "aliases": [
+      "Python",
+      "Malayopython reticulatus"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "rainforest",
+      "asia",
+      "apex_predator",
+      "nocturnal"
+    ],
+    "scientificName": "Malayopython reticulatus"
+  },
+  {
+    "id": "common_garter_snake",
+    "name": "Common Garter Snake",
+    "aliases": [
+      "Garter Snake",
+      "Thamnophis sirtalis"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "north_america",
+      "hibernates"
+    ],
+    "scientificName": "Thamnophis sirtalis"
+  },
+  {
+    "id": "banded_sea_krait",
+    "name": "Yellow-lipped Sea Krait",
+    "aliases": [
+      "Banded Sea Krait",
+      "Sea Snake",
+      "Laticauda colubrina"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "asia",
+      "australia",
+      "venomous"
+    ],
+    "scientificName": "Laticauda colubrina"
+  },
+  {
+    "id": "leatherback_sea_turtle",
+    "name": "Leatherback Sea Turtle",
+    "aliases": [
+      "Leatherback Turtle",
+      "Dermochelys coriacea"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "migrates"
+    ],
+    "scientificName": "Dermochelys coriacea"
+  },
+  {
+    "id": "green_sea_turtle",
+    "name": "Green Sea Turtle",
+    "aliases": [
+      "Sea Turtle",
+      "Chelonia mydas"
+    ],
+    "traits": [
+      "reptile",
+      "herbivore",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "migrates"
+    ],
+    "scientificName": "Chelonia mydas"
+  },
+  {
+    "id": "aldabra_giant_tortoise",
+    "name": "Aldabra Giant Tortoise",
+    "aliases": [
+      "Giant Tortoise",
+      "Aldabrachelys gigantea"
+    ],
+    "traits": [
+      "reptile",
+      "herbivore",
+      "lays_eggs",
+      "has_shell",
+      "africa"
+    ],
+    "scientificName": "Aldabrachelys gigantea"
+  },
+  {
+    "id": "african_spurred_tortoise",
+    "name": "African Spurred Tortoise",
+    "aliases": [
+      "Sulcata Tortoise",
+      "Geochelone sulcata"
+    ],
+    "traits": [
+      "reptile",
+      "herbivore",
+      "lays_eggs",
+      "has_shell",
+      "desert",
+      "savanna",
+      "africa"
+    ],
+    "scientificName": "Geochelone sulcata"
+  },
+  {
+    "id": "desert_tortoise",
+    "name": "Desert Tortoise",
+    "aliases": [
+      "Gopherus agassizii"
+    ],
+    "traits": [
+      "reptile",
+      "herbivore",
+      "lays_eggs",
+      "has_shell",
+      "desert",
+      "north_america",
+      "hibernates"
+    ],
+    "scientificName": "Gopherus agassizii"
+  },
+  {
+    "id": "eastern_box_turtle",
+    "name": "Eastern Box Turtle",
+    "aliases": [
+      "Box Turtle",
+      "Terrapene carolina"
+    ],
+    "traits": [
+      "reptile",
+      "omnivore",
+      "lays_eggs",
+      "has_shell",
+      "north_america",
+      "hibernates"
+    ],
+    "scientificName": "Terrapene carolina"
+  },
+  {
+    "id": "european_pond_turtle",
+    "name": "European Pond Turtle",
+    "aliases": [
+      "Emys orbicularis"
+    ],
+    "traits": [
+      "reptile",
+      "carnivorous",
+      "lays_eggs",
+      "has_shell",
+      "freshwater",
+      "europe",
+      "hibernates"
+    ],
+    "scientificName": "Emys orbicularis"
+  },
+  {
+    "id": "axolotl",
+    "name": "Axolotl",
+    "aliases": [
+      "Mexican Walking Fish",
+      "Ambystoma mexicanum"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "north_america"
+    ],
+    "scientificName": "Ambystoma mexicanum"
+  },
+  {
+    "id": "tiger_salamander",
+    "name": "Tiger Salamander",
+    "aliases": [
+      "Ambystoma tigrinum"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "north_america",
+      "nocturnal",
+      "hibernates"
+    ],
+    "scientificName": "Ambystoma tigrinum"
+  },
+  {
+    "id": "japanese_giant_salamander",
+    "name": "Japanese Giant Salamander",
+    "aliases": [
+      "Andrias japonicus"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "asia",
+      "nocturnal"
+    ],
+    "scientificName": "Andrias japonicus"
+  },
+  {
+    "id": "fire_salamander",
+    "name": "Fire Salamander",
+    "aliases": [
+      "Salamandra salamandra"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "europe",
+      "nocturnal",
+      "hibernates"
+    ],
+    "scientificName": "Salamandra salamandra"
+  },
+  {
+    "id": "red_eyed_tree_frog",
+    "name": "Red-eyed Tree Frog",
+    "aliases": [
+      "Agalychnis callidryas"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "rainforest",
+      "south_america",
+      "north_america",
+      "nocturnal"
+    ],
+    "scientificName": "Agalychnis callidryas"
+  },
+  {
+    "id": "green_tree_frog",
+    "name": "American Green Tree Frog",
+    "aliases": [
+      "Green Tree Frog",
+      "Hyla cinerea"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "north_america",
+      "nocturnal"
+    ],
+    "scientificName": "Hyla cinerea"
+  },
+  {
+    "id": "dyeing_poison_dart_frog",
+    "name": "Dyeing Poison Dart Frog",
+    "aliases": [
+      "Poison Dart Frog",
+      "Blue Poison Dart Frog",
+      "Dendrobates tinctorius"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "rainforest",
+      "south_america"
+    ],
+    "scientificName": "Dendrobates tinctorius"
+  },
+  {
+    "id": "golden_poison_frog",
+    "name": "Golden Poison Frog",
+    "aliases": [
+      "Phyllobates terribilis"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "rainforest",
+      "south_america"
+    ],
+    "scientificName": "Phyllobates terribilis"
+  },
+  {
+    "id": "american_bullfrog",
+    "name": "American Bullfrog",
+    "aliases": [
+      "Bullfrog",
+      "Lithobates catesbeianus"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "north_america",
+      "nocturnal",
+      "hibernates"
+    ],
+    "scientificName": "Lithobates catesbeianus"
+  },
+  {
+    "id": "common_frog",
+    "name": "European Common Frog",
+    "aliases": [
+      "Common Frog",
+      "Grass Frog",
+      "Rana temporaria"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "europe",
+      "hibernates"
+    ],
+    "scientificName": "Rana temporaria"
+  },
+  {
+    "id": "cane_toad",
+    "name": "Cane Toad",
+    "aliases": [
+      "Marine Toad",
+      "Giant Neotropical Toad",
+      "Rhinella marina"
+    ],
+    "traits": [
+      "amphibian",
+      "omnivore",
+      "lays_eggs",
+      "rainforest",
+      "south_america",
+      "north_america",
+      "nocturnal"
+    ],
+    "scientificName": "Rhinella marina"
+  },
+  {
+    "id": "common_toad",
+    "name": "European Toad",
+    "aliases": [
+      "Common Toad",
+      "Bufo bufo"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "europe",
+      "nocturnal",
+      "hibernates",
+      "migrates"
+    ],
+    "scientificName": "Bufo bufo"
+  },
+  {
+    "id": "african_clawed_frog",
+    "name": "African Clawed Frog",
+    "aliases": [
+      "Xenopus laevis"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "africa",
+      "nocturnal"
+    ],
+    "scientificName": "Xenopus laevis"
+  },
+  {
+    "id": "surinam_toad",
+    "name": "Common Surinam Toad",
+    "aliases": [
+      "Star-fingered Toad",
+      "Pipa pipa"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "rainforest",
+      "south_america",
+      "nocturnal"
+    ],
+    "scientificName": "Pipa pipa"
+  },
+  {
+    "id": "olm",
+    "name": "Olm",
+    "aliases": [
+      "Cave Salamander",
+      "Proteus anguinus"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "europe"
+    ],
+    "scientificName": "Proteus anguinus"
+  },
+  {
+    "id": "oriental_fire_bellied_toad",
+    "name": "Oriental Fire-bellied Toad",
+    "aliases": [
+      "Fire-bellied Toad",
+      "Bombina orientalis"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "asia",
+      "hibernates"
+    ],
+    "scientificName": "Bombina orientalis"
+  },
+  {
+    "id": "wood_frog",
+    "name": "Wood Frog",
+    "aliases": [
+      "Lithobates sylvaticus"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_tundra",
+      "freshwater",
+      "north_america",
+      "hibernates"
+    ]
+  },
+  {
+    "id": "desert_rain_frog",
+    "name": "Desert Rain Frog",
+    "aliases": [
+      "Breviceps macrops"
+    ],
+    "traits": [
+      "amphibian",
+      "carnivorous",
+      "lays_eggs",
+      "desert",
+      "africa",
+      "nocturnal"
+    ]
+  },
+  {
+    "id": "great_white_shark",
+    "name": "Great White Shark",
+    "aliases": [
+      "White Shark",
+      "White Pointer",
+      "Carcharodon carcharias"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lives_in_ocean",
+      "apex_predator",
+      "migrates"
+    ],
+    "scientificName": "Carcharodon carcharias"
+  },
+  {
+    "id": "tiger_shark",
+    "name": "Tiger Shark",
+    "aliases": [
+      "Galeocerdo cuvier"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lives_in_ocean",
+      "apex_predator",
+      "nocturnal",
+      "migrates"
+    ],
+    "scientificName": "Galeocerdo cuvier"
+  },
+  {
+    "id": "scalloped_hammerhead",
+    "name": "Hammerhead Shark",
+    "aliases": [
+      "Scalloped Hammerhead",
+      "Sphyrna lewini"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lives_in_ocean",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Sphyrna lewini"
+  },
+  {
+    "id": "shortfin_mako_shark",
+    "name": "Shortfin Mako Shark",
+    "aliases": [
+      "Mako Shark",
+      "Isurus oxyrinchus"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lives_in_ocean",
+      "apex_predator",
+      "migrates"
+    ],
+    "scientificName": "Isurus oxyrinchus"
+  },
+  {
+    "id": "whale_shark",
+    "name": "Whale Shark",
+    "aliases": [
+      "Rhincodon typus"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lives_in_ocean",
+      "migrates"
+    ],
+    "scientificName": "Rhincodon typus"
+  },
+  {
+    "id": "giant_oceanic_manta_ray",
+    "name": "Giant Manta Ray",
+    "aliases": [
+      "Manta Ray",
+      "Mobula birostris"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lives_in_ocean",
+      "migrates"
+    ],
+    "scientificName": "Mobula birostris"
+  },
+  {
+    "id": "spotted_eagle_ray",
+    "name": "Spotted Eagle Ray",
+    "aliases": [
+      "Eagle Ray",
+      "Aetobatus narinari"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lives_in_ocean",
+      "venomous"
+    ],
+    "scientificName": "Aetobatus narinari"
+  },
+  {
+    "id": "marbled_electric_ray",
+    "name": "Marbled Electric Ray",
+    "aliases": [
+      "Torpedo Ray",
+      "Torpedo marmorata"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lives_in_ocean",
+      "nocturnal"
+    ],
+    "scientificName": "Torpedo marmorata"
+  },
+  {
+    "id": "clownfish",
+    "name": "Ocellaris Clownfish",
+    "aliases": [
+      "Clownfish",
+      "Anemonefish",
+      "Amphiprion ocellaris"
+    ],
+    "traits": [
+      "fish",
+      "omnivore",
+      "lays_eggs",
+      "lives_in_ocean",
+      "asia",
+      "australia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Amphiprion ocellaris"
+  },
+  {
+    "id": "lined_seahorse",
+    "name": "Lined Seahorse",
+    "aliases": [
+      "Seahorse",
+      "Hippocampus erectus"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "north_america",
+      "south_america"
+    ],
+    "scientificName": "Hippocampus erectus"
+  },
+  {
+    "id": "yellowfin_tuna",
+    "name": "Yellowfin Tuna",
+    "aliases": [
+      "Ahi Tuna",
+      "Tuna",
+      "Thunnus albacares"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Thunnus albacares"
+  },
+  {
+    "id": "swordfish",
+    "name": "Swordfish",
+    "aliases": [
+      "Broadbill",
+      "Xiphias gladius"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "apex_predator",
+      "migrates"
+    ],
+    "scientificName": "Xiphias gladius"
+  },
+  {
+    "id": "atlantic_cod",
+    "name": "Atlantic Cod",
+    "aliases": [
+      "Cod",
+      "Gadus morhua"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "north_america",
+      "europe",
+      "lives_in_groups",
+      "migrates"
+    ],
+    "scientificName": "Gadus morhua"
+  },
+  {
+    "id": "atlantic_salmon",
+    "name": "Atlantic Salmon",
+    "aliases": [
+      "Salmon",
+      "Salmo salar"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "freshwater",
+      "north_america",
+      "europe",
+      "migrates"
+    ],
+    "scientificName": "Salmo salar"
+  },
+  {
+    "id": "european_eel",
+    "name": "European Eel",
+    "aliases": [
+      "Anguilla anguilla"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "freshwater",
+      "europe",
+      "nocturnal",
+      "migrates"
+    ],
+    "scientificName": "Anguilla anguilla"
+  },
+  {
+    "id": "electric_eel",
+    "name": "Electric Eel",
+    "aliases": [
+      "Electrophorus electricus"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "rainforest",
+      "south_america",
+      "apex_predator",
+      "nocturnal"
+    ],
+    "scientificName": "Electrophorus electricus"
+  },
+  {
+    "id": "red_bellied_piranha",
+    "name": "Red-bellied Piranha",
+    "aliases": [
+      "Piranha",
+      "Pygocentrus nattereri"
+    ],
+    "traits": [
+      "fish",
+      "omnivore",
+      "lays_eggs",
+      "freshwater",
+      "rainforest",
+      "south_america",
+      "lives_in_groups"
+    ],
+    "scientificName": "Pygocentrus nattereri"
+  },
+  {
+    "id": "channel_catfish",
+    "name": "Channel Catfish",
+    "aliases": [
+      "Catfish",
+      "Ictalurus punctatus"
+    ],
+    "traits": [
+      "fish",
+      "omnivore",
+      "lays_eggs",
+      "freshwater",
+      "north_america",
+      "nocturnal"
+    ],
+    "scientificName": "Ictalurus punctatus"
+  },
+  {
+    "id": "common_carp",
+    "name": "Common Carp",
+    "aliases": [
+      "Carp",
+      "Koi",
+      "Cyprinus carpio"
+    ],
+    "traits": [
+      "fish",
+      "omnivore",
+      "lays_eggs",
+      "freshwater",
+      "europe",
+      "asia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Cyprinus carpio"
+  },
+  {
+    "id": "siamese_fighting_fish",
+    "name": "Siamese Fighting Fish",
+    "aliases": [
+      "Betta",
+      "Betta Fish",
+      "Betta splendens"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "asia"
+    ],
+    "scientificName": "Betta splendens"
+  },
+  {
+    "id": "reef_stonefish",
+    "name": "Reef Stonefish",
+    "aliases": [
+      "Stonefish",
+      "Synanceia verrucosa"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "asia",
+      "australia",
+      "venomous"
+    ],
+    "scientificName": "Synanceia verrucosa"
+  },
+  {
+    "id": "red_lionfish",
+    "name": "Red Lionfish",
+    "aliases": [
+      "Lionfish",
+      "Pterois volitans"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "asia",
+      "australia",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Pterois volitans"
+  },
+  {
+    "id": "guineafowl_puffer",
+    "name": "Guineafowl Puffer",
+    "aliases": [
+      "Pufferfish",
+      "Blowfish",
+      "Arothron meleagris"
+    ],
+    "traits": [
+      "fish",
+      "omnivore",
+      "lays_eggs",
+      "lives_in_ocean",
+      "asia"
+    ],
+    "scientificName": "Arothron meleagris"
+  },
+  {
+    "id": "ocean_sunfish",
+    "name": "Ocean Sunfish",
+    "aliases": [
+      "Mola mola"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "migrates"
+    ],
+    "scientificName": "Mola mola"
+  },
+  {
+    "id": "longnose_gar",
+    "name": "Longnose Gar",
+    "aliases": [
+      "Gar",
+      "Lepisosteus osseus"
+    ],
+    "traits": [
+      "fish",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "north_america"
+    ],
+    "scientificName": "Lepisosteus osseus"
+  },
+  {
+    "id": "pacific_blue_tang",
+    "name": "Regal Blue Tang",
+    "aliases": [
+      "Blue Tang",
+      "Palette Surgeonfish",
+      "Paracanthurus hepatus"
+    ],
+    "traits": [
+      "fish",
+      "herbivore",
+      "lays_eggs",
+      "lives_in_ocean",
+      "asia",
+      "australia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Paracanthurus hepatus"
+  },
+  {
+    "id": "western_honey_bee",
+    "name": "Western Honey Bee",
+    "aliases": [
+      "Honey Bee",
+      "Honeybee",
+      "Apis mellifera"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "can_fly",
+      "venomous",
+      "lives_in_groups"
+    ],
+    "scientificName": "Apis mellifera"
+  },
+  {
+    "id": "buff_tailed_bumblebee",
+    "name": "Buff-tailed Bumblebee",
+    "aliases": [
+      "Bumblebee",
+      "Bombus terrestris"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "can_fly",
+      "europe",
+      "africa",
+      "asia",
+      "venomous",
+      "hibernates",
+      "lives_in_groups"
+    ],
+    "scientificName": "Bombus terrestris"
+  },
+  {
+    "id": "eastern_carpenter_bee",
+    "name": "Eastern Carpenter Bee",
+    "aliases": [
+      "Carpenter Bee",
+      "Xylocopa virginica"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "can_fly",
+      "north_america",
+      "venomous",
+      "hibernates"
+    ],
+    "scientificName": "Xylocopa virginica"
+  },
+  {
+    "id": "leafcutter_ant",
+    "name": "Leafcutter Ant",
+    "aliases": [
+      "Atta cephalotes"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "rainforest",
+      "south_america",
+      "north_america",
+      "lives_in_groups"
+    ],
+    "scientificName": "Atta cephalotes"
+  },
+  {
+    "id": "bullet_ant",
+    "name": "Bullet Ant",
+    "aliases": [
+      "Paraponera clavata"
+    ],
+    "traits": [
+      "insect",
+      "omnivore",
+      "lays_eggs",
+      "rainforest",
+      "south_america",
+      "venomous",
+      "lives_in_groups"
+    ]
+  },
+  {
+    "id": "asian_giant_hornet",
+    "name": "Asian Giant Hornet",
+    "aliases": [
+      "Murder Hornet"
+    ],
+    "traits": [
+      "insect",
+      "carnivorous",
+      "lays_eggs",
+      "can_fly",
+      "asia",
+      "venomous",
+      "lives_in_groups"
+    ]
+  },
+  {
+    "id": "monarch_butterfly",
+    "name": "Monarch Butterfly",
+    "aliases": [
+      "Monarch"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "can_fly",
+      "north_america",
+      "migrates",
+      "lives_in_groups"
+    ]
+  },
+  {
+    "id": "painted_lady",
+    "name": "Painted Lady",
+    "aliases": [
+      "Painted Lady Butterfly",
+      "Vanessa cardui"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "can_fly",
+      "north_america",
+      "europe",
+      "africa",
+      "asia",
+      "migrates"
+    ],
+    "scientificName": "Vanessa cardui"
+  },
+  {
+    "id": "peacock_butterfly",
+    "name": "European Peacock Butterfly",
+    "aliases": [
+      "Peacock Butterfly",
+      "Aglais io"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "can_fly",
+      "europe",
+      "asia",
+      "hibernates"
+    ],
+    "scientificName": "Aglais io"
+  },
+  {
+    "id": "domestic_silkmoth",
+    "name": "Domestic Silkmoth",
+    "aliases": [
+      "Silkworm",
+      "Silkmoth",
+      "Bombyx mori"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "asia"
+    ],
+    "scientificName": "Bombyx mori"
+  },
+  {
+    "id": "io_moth",
+    "name": "Io Moth",
+    "aliases": [
+      "Automeris io"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "can_fly",
+      "north_america",
+      "nocturnal"
+    ],
+    "scientificName": "Automeris io"
+  },
+  {
+    "id": "hercules_beetle",
+    "name": "Hercules Beetle",
+    "aliases": [
+      "Dynastes hercules"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "can_fly",
+      "rainforest",
+      "south_america",
+      "nocturnal"
+    ],
+    "scientificName": "Dynastes hercules"
+  },
+  {
+    "id": "goliath_beetle",
+    "name": "Goliath Beetle",
+    "aliases": [
+      "Goliathus goliatus"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "can_fly",
+      "rainforest",
+      "africa"
+    ],
+    "scientificName": "Goliathus goliatus"
+  },
+  {
+    "id": "japanese_rhino_beetle",
+    "name": "Japanese Rhinoceros Beetle",
+    "aliases": [
+      "Kabutomushi",
+      "Trypoxylus dichotomus"
+    ],
+    "traits": [
+      "insect",
+      "herbivore",
+      "lays_eggs",
+      "can_fly",
+      "asia",
+      "nocturnal"
+    ],
+    "scientificName": "Trypoxylus dichotomus"
+  },
+  {
+    "id": "seven_spot_ladybird",
+    "name": "Seven-spot Ladybird",
+    "aliases": [
+      "Ladybug",
+      "Ladybird Beetle",
+      "Coccinella septempunctata"
+    ],
+    "traits": [
+      "insect",
+      "carnivorous",
+      "lays_eggs",
+      "can_fly",
+      "europe",
+      "asia",
+      "hibernates"
+    ],
+    "scientificName": "Coccinella septempunctata"
+  },
+  {
+    "id": "namib_desert_beetle",
+    "name": "Namib Desert Beetle",
+    "aliases": [
+      "Fog-basking Beetle",
+      "Stenocara gracilipes"
+    ],
+    "traits": [
+      "insect",
+      "omnivore",
+      "lays_eggs",
+      "desert",
+      "africa"
+    ],
+    "scientificName": "Stenocara gracilipes"
+  },
+  {
+    "id": "chinese_mantis",
+    "name": "Chinese Mantis",
+    "aliases": [
+      "Praying Mantis",
+      "Tenodera sinensis"
+    ],
+    "traits": [
+      "insect",
+      "carnivorous",
+      "lays_eggs",
+      "can_fly",
+      "asia",
+      "north_america"
+    ],
+    "scientificName": "Tenodera sinensis"
+  },
+  {
+    "id": "madagascar_hissing_cockroach",
+    "name": "Madagascar Hissing Cockroach",
+    "aliases": [
+      "Hissing Cockroach",
+      "Gromphadorhina portentosa"
+    ],
+    "traits": [
+      "insect",
+      "omnivore",
+      "rainforest",
+      "africa",
+      "nocturnal",
+      "lives_in_groups"
+    ],
+    "scientificName": "Gromphadorhina portentosa"
+  },
+  {
+    "id": "yellow_fever_mosquito",
+    "name": "Yellow Fever Mosquito",
+    "aliases": [
+      "Aedes aegypti"
+    ],
+    "traits": [
+      "insect",
+      "omnivore",
+      "lays_eggs",
+      "can_fly",
+      "freshwater",
+      "africa",
+      "south_america",
+      "asia"
+    ],
+    "scientificName": "Aedes aegypti"
+  },
+  {
+    "id": "malaria_mosquito",
+    "name": "African Malaria Mosquito",
+    "aliases": [
+      "Anopheles gambiae"
+    ],
+    "traits": [
+      "insect",
+      "omnivore",
+      "lays_eggs",
+      "can_fly",
+      "freshwater",
+      "africa",
+      "nocturnal"
+    ],
+    "scientificName": "Anopheles gambiae"
+  },
+  {
+    "id": "common_water_strider",
+    "name": "Common Pond Skater",
+    "aliases": [
+      "Water Strider",
+      "Gerris lacustris"
+    ],
+    "traits": [
+      "insect",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "europe",
+      "asia"
+    ],
+    "scientificName": "Gerris lacustris"
+  },
+  {
+    "id": "emperor_dragonfly",
+    "name": "Emperor Dragonfly",
+    "aliases": [
+      "Dragonfly"
+    ],
+    "traits": [
+      "insect",
+      "carnivorous",
+      "lays_eggs",
+      "can_fly",
+      "freshwater",
+      "europe",
+      "africa",
+      "asia"
+    ]
+  },
+  {
+    "id": "southern_black_widow",
+    "name": "Southern Black Widow",
+    "aliases": [
+      "Black Widow",
+      "Black Widow Spider",
+      "Latrodectus mactans"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "lays_eggs",
+      "north_america",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Latrodectus mactans"
+  },
+  {
+    "id": "brown_recluse_spider",
+    "name": "Brown Recluse Spider",
+    "aliases": [
+      "Brown Recluse",
+      "Violin Spider",
+      "Loxosceles reclusa"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "lays_eggs",
+      "north_america",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Loxosceles reclusa"
+  },
+  {
+    "id": "goliath_birdeater",
+    "name": "Goliath Birdeater",
+    "aliases": [
+      "Goliath Tarantula",
+      "Theraphosa blondi"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "lays_eggs",
+      "rainforest",
+      "south_america",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Theraphosa blondi"
+  },
+  {
+    "id": "european_garden_spider",
+    "name": "European Garden Spider",
+    "aliases": [
+      "Cross Orbweaver",
+      "Araneus diadematus"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "lays_eggs",
+      "europe",
+      "north_america",
+      "venomous"
+    ],
+    "scientificName": "Araneus diadematus"
+  },
+  {
+    "id": "giant_huntsman_spider",
+    "name": "Giant Huntsman Spider",
+    "aliases": [
+      "Huntsman Spider",
+      "Heteropoda maxima"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "lays_eggs",
+      "asia",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Heteropoda maxima"
+  },
+  {
+    "id": "carolina_wolf_spider",
+    "name": "Carolina Wolf Spider",
+    "aliases": [
+      "Wolf Spider",
+      "Hogna carolinensis"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "lays_eggs",
+      "desert",
+      "north_america",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Hogna carolinensis"
+  },
+  {
+    "id": "peacock_spider",
+    "name": "Peacock Spider",
+    "aliases": [
+      "Maratus volans"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "lays_eggs",
+      "australia",
+      "venomous"
+    ],
+    "scientificName": "Maratus volans"
+  },
+  {
+    "id": "diving_bell_spider",
+    "name": "Diving Bell Spider",
+    "aliases": [
+      "Water Spider"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "lays_eggs",
+      "freshwater",
+      "europe",
+      "asia",
+      "venomous"
+    ]
+  },
+  {
+    "id": "emperor_scorpion",
+    "name": "Emperor Scorpion",
+    "aliases": [
+      "Pandinus imperator"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "rainforest",
+      "savanna",
+      "africa",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Pandinus imperator"
+  },
+  {
+    "id": "deathstalker_scorpion",
+    "name": "Deathstalker",
+    "aliases": [
+      "Deathstalker Scorpion",
+      "Leiurus quinquestriatus"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "desert",
+      "africa",
+      "asia",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Leiurus quinquestriatus"
+  },
+  {
+    "id": "arizona_hairy_scorpion",
+    "name": "Giant Desert Hairy Scorpion",
+    "aliases": [
+      "Arizona Bark Scorpion",
+      "Hadrurus arizonensis"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "desert",
+      "north_america",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Hadrurus arizonensis"
+  },
+  {
+    "id": "yellow_fattail_scorpion",
+    "name": "Yellow Fat-tailed Scorpion",
+    "aliases": [
+      "Fattail Scorpion",
+      "Androctonus australis"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "desert",
+      "africa",
+      "asia",
+      "venomous",
+      "nocturnal"
+    ],
+    "scientificName": "Androctonus australis"
+  },
+  {
+    "id": "deer_tick",
+    "name": "Blacklegged Tick",
+    "aliases": [
+      "Deer Tick",
+      "Ixodes scapularis"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "lays_eggs",
+      "north_america"
+    ],
+    "scientificName": "Ixodes scapularis"
+  },
+  {
+    "id": "american_dog_tick",
+    "name": "American Dog Tick",
+    "aliases": [
+      "Wood Tick",
+      "Dermacentor variabilis"
+    ],
+    "traits": [
+      "arachnid",
+      "carnivorous",
+      "lays_eggs",
+      "north_america"
+    ],
+    "scientificName": "Dermacentor variabilis"
+  },
+  {
+    "id": "american_lobster",
+    "name": "American Lobster",
+    "aliases": [
+      "Maine Lobster",
+      "Atlantic Lobster",
+      "Homarus americanus"
+    ],
+    "traits": [
+      "crustacean",
+      "carnivorous",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "north_america",
+      "nocturnal"
+    ],
+    "scientificName": "Homarus americanus"
+  },
+  {
+    "id": "japanese_spider_crab",
+    "name": "Japanese Spider Crab",
+    "aliases": [
+      "Macrocheira kaempferi"
+    ],
+    "traits": [
+      "crustacean",
+      "omnivore",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "asia"
+    ],
+    "scientificName": "Macrocheira kaempferi"
+  },
+  {
+    "id": "coconut_crab",
+    "name": "Coconut Crab",
+    "aliases": [
+      "Robber Crab",
+      "Birgus latro"
+    ],
+    "traits": [
+      "crustacean",
+      "omnivore",
+      "lays_eggs",
+      "has_shell",
+      "asia",
+      "australia",
+      "nocturnal"
+    ],
+    "scientificName": "Birgus latro"
+  },
+  {
+    "id": "atlantic_blue_crab",
+    "name": "Atlantic Blue Crab",
+    "aliases": [
+      "Blue Crab",
+      "Callinectes sapidus"
+    ],
+    "traits": [
+      "crustacean",
+      "omnivore",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "north_america"
+    ],
+    "scientificName": "Callinectes sapidus"
+  },
+  {
+    "id": "fiddler_crab",
+    "name": "Atlantic Sand Fiddler Crab",
+    "aliases": [
+      "Fiddler Crab",
+      "Uca pugilator"
+    ],
+    "traits": [
+      "crustacean",
+      "omnivore",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "north_america",
+      "lives_in_groups"
+    ],
+    "scientificName": "Uca pugilator"
+  },
+  {
+    "id": "peacock_mantis_shrimp",
+    "name": "Peacock Mantis Shrimp",
+    "aliases": [
+      "Mantis Shrimp",
+      "Odontodactylus scyllarus"
+    ],
+    "traits": [
+      "crustacean",
+      "carnivorous",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "asia",
+      "australia"
+    ],
+    "scientificName": "Odontodactylus scyllarus"
+  },
+  {
+    "id": "antarctic_krill",
+    "name": "Antarctic Krill",
+    "aliases": [
+      "Krill",
+      "Euphausia superba"
+    ],
+    "traits": [
+      "crustacean",
+      "herbivore",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "lives_in_tundra",
+      "lives_in_groups"
+    ],
+    "scientificName": "Euphausia superba"
+  },
+  {
+    "id": "red_swamp_crayfish",
+    "name": "Red Swamp Crayfish",
+    "aliases": [
+      "Crawfish",
+      "Crayfish",
+      "Procambarus clarkii"
+    ],
+    "traits": [
+      "crustacean",
+      "omnivore",
+      "lays_eggs",
+      "has_shell",
+      "freshwater",
+      "north_america",
+      "nocturnal"
+    ],
+    "scientificName": "Procambarus clarkii"
+  },
+  {
+    "id": "common_pill_woodlouse",
+    "name": "Common Pill Woodlouse",
+    "aliases": [
+      "Roly-poly",
+      "Pill Bug",
+      "Armadillidium vulgare"
+    ],
+    "traits": [
+      "crustacean",
+      "herbivore",
+      "lays_eggs",
+      "has_shell",
+      "europe",
+      "nocturnal"
+    ],
+    "scientificName": "Armadillidium vulgare"
+  },
+  {
+    "id": "acorn_barnacle",
+    "name": "Acorn Barnacle",
+    "aliases": [
+      "Barnacle",
+      "Balanus glandula"
+    ],
+    "traits": [
+      "crustacean",
+      "omnivore",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "north_america",
+      "lives_in_groups"
+    ],
+    "scientificName": "Balanus glandula"
+  },
+  {
+    "id": "brine_shrimp",
+    "name": "Brine Shrimp",
+    "aliases": [
+      "Sea-Monkey",
+      "Artemia salina"
+    ],
+    "traits": [
+      "crustacean",
+      "herbivore",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_groups"
+    ],
+    "scientificName": "Artemia salina"
+  },
+  {
+    "id": "tadpole_shrimp",
+    "name": "Longtail Tadpole Shrimp",
+    "aliases": [
+      "Triops",
+      "Triops longicaudatus"
+    ],
+    "traits": [
+      "crustacean",
+      "omnivore",
+      "lays_eggs",
+      "has_shell",
+      "freshwater",
+      "desert",
+      "north_america"
+    ],
+    "scientificName": "Triops longicaudatus"
+  },
+  {
+    "id": "giant_pacific_octopus",
+    "name": "Giant Pacific Octopus",
+    "aliases": [
+      "Enteroctopus dofleini"
+    ],
+    "traits": [
+      "mollusk",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "north_america",
+      "asia",
+      "nocturnal"
+    ],
+    "scientificName": "Enteroctopus dofleini"
+  },
+  {
+    "id": "common_octopus",
+    "name": "Common Octopus",
+    "aliases": [
+      "Octopus",
+      "Octopus vulgaris"
+    ],
+    "traits": [
+      "mollusk",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "europe",
+      "africa",
+      "nocturnal"
+    ],
+    "scientificName": "Octopus vulgaris"
+  },
+  {
+    "id": "blue_ringed_octopus",
+    "name": "Blue-ringed Octopus",
+    "aliases": [
+      "Hapalochlaena"
+    ],
+    "traits": [
+      "mollusk",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "asia",
+      "australia",
+      "venomous"
+    ],
+    "scientificName": "Hapalochlaena spp."
+  },
+  {
+    "id": "giant_squid",
+    "name": "Giant Squid",
+    "aliases": [
+      "Architeuthis dux"
+    ],
+    "traits": [
+      "mollusk",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean"
+    ],
+    "scientificName": "Architeuthis dux"
+  },
+  {
+    "id": "common_cuttlefish",
+    "name": "Common Cuttlefish",
+    "aliases": [
+      "Cuttlefish",
+      "Sepia officinalis"
+    ],
+    "traits": [
+      "mollusk",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "europe",
+      "africa"
+    ],
+    "scientificName": "Sepia officinalis"
+  },
+  {
+    "id": "chambered_nautilus",
+    "name": "Chambered Nautilus",
+    "aliases": [
+      "Nautilus",
+      "Nautilus pompilius"
+    ],
+    "traits": [
+      "mollusk",
+      "carnivorous",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "asia",
+      "australia",
+      "nocturnal"
+    ],
+    "scientificName": "Nautilus pompilius"
+  },
+  {
+    "id": "giant_clam",
+    "name": "Giant Clam",
+    "aliases": [
+      "Tridacna gigas"
+    ],
+    "traits": [
+      "mollusk",
+      "herbivore",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "asia",
+      "australia"
+    ],
+    "scientificName": "Tridacna gigas"
+  },
+  {
+    "id": "blue_mussel",
+    "name": "Blue Mussel",
+    "aliases": [
+      "Common Mussel",
+      "Mytilus edulis"
+    ],
+    "traits": [
+      "mollusk",
+      "omnivore",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "north_america",
+      "europe",
+      "lives_in_groups"
+    ],
+    "scientificName": "Mytilus edulis"
+  },
+  {
+    "id": "pacific_oyster",
+    "name": "Pacific Oyster",
+    "aliases": [
+      "Oyster",
+      "Crassostrea gigas"
+    ],
+    "traits": [
+      "mollusk",
+      "omnivore",
+      "lays_eggs",
+      "has_shell",
+      "lives_in_ocean",
+      "asia",
+      "lives_in_groups"
+    ],
+    "scientificName": "Crassostrea gigas"
+  },
+  {
+    "id": "roman_snail",
+    "name": "Roman Snail",
+    "aliases": [
+      "Burgundy Snail",
+      "Escargot",
+      "Helix pomatia"
+    ],
+    "traits": [
+      "mollusk",
+      "herbivore",
+      "lays_eggs",
+      "has_shell",
+      "europe",
+      "nocturnal",
+      "hibernates"
+    ],
+    "scientificName": "Helix pomatia"
+  },
+  {
+    "id": "giant_african_land_snail",
+    "name": "Giant African Land Snail",
+    "aliases": [
+      "Achatina fulica"
+    ],
+    "traits": [
+      "mollusk",
+      "herbivore",
+      "lays_eggs",
+      "has_shell",
+      "rainforest",
+      "africa",
+      "nocturnal"
+    ],
+    "scientificName": "Achatina fulica"
+  },
+  {
+    "id": "blue_glaucus",
+    "name": "Blue Dragon",
+    "aliases": [
+      "Blue Glaucus",
+      "Sea Swallow",
+      "Glaucus atlanticus"
+    ],
+    "traits": [
+      "mollusk",
+      "carnivorous",
+      "lays_eggs",
+      "lives_in_ocean",
+      "venomous"
+    ],
+    "scientificName": "Glaucus atlanticus"
+  }
+]

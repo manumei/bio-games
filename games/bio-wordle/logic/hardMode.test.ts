@@ -32,3 +32,4 @@ describe("games/bio-wordle/logic/hardMode", () => {
     expect(checkHardMode("allele", prevGuesses, prevResults)).toBeNull();
   });
 });
+

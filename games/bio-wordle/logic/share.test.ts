@@ -59,3 +59,4 @@ describe("games/bio-wordle/logic/share", () => {
     expect(text.split("\n")[0]).toBe("Bio Wordle #7 X/6 · 4 letters");
   });
 });
+

@@ -200,3 +200,4 @@ describe("games/taxo-bingo/logic/daily", () => {
     expect(restoreDailyState(corruptedTaxon, day1, startMs).state).toBeNull();
   });
 });
+

@@ -44,3 +44,4 @@ describe("games/bio-wordle/logic/messages", () => {
     expect(loss).toContain("XYLEM");
   });
 });
+

@@ -33,3 +33,4 @@ export function diseaseFor(dayKey: string): Disease {
 export function pickPracticeDisease(rng: Rng): Disease {
   return pick(DISEASES, rng);
 }
+

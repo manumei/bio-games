@@ -33,3 +33,4 @@ export default function WordCard({ answer }: WordCardProps) {
     </div>
   );
 }
+

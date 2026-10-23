@@ -47,3 +47,4 @@ describe("games/symptoms-link/logic/messages", () => {
     expect(pickLinkWinMessage(1, 42)).toBe(pickLinkWinMessage(1, 42));
   });
 });
+

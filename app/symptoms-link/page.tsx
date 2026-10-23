@@ -6,3 +6,4 @@ export const metadata = gameMetadata("symptoms-link");
 export default function SymptomsLinkPage() {
   return <SymptomsLinkGame />;
 }
+

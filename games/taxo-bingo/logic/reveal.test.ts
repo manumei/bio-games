@@ -24,3 +24,4 @@ describe("games/taxo-bingo/logic/reveal", () => {
     }
   });
 });
+

@@ -30,3 +30,4 @@ interface Disease {
 3. **No giveaways in symptoms:** No symptom may contain the disease `name` or any of its `aliases` (normalized substring check enforced in `diseases.test.ts`).
 4. **Concise phrasing:** Each symptom must be `≤ 45` characters, in plain language with medical terms in parentheses when helpful.
 5. **Taxo Bingo organism links:** Whenever a pathogen or vector exists in `data/organisms.json`, set `organismId` so the post-game Diagnosis Card displays its photo and binomial name.
+

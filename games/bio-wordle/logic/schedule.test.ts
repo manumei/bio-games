@@ -35,3 +35,4 @@ describe("games/bio-wordle/logic/schedule", () => {
     expect(a1.word).not.toBe(a3.word);
   });
 });
+

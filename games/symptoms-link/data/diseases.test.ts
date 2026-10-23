@@ -64,3 +64,4 @@ describe("games/symptoms-link/data/diseases", () => {
     }
   });
 });
+
