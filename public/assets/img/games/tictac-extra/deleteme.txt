@@ -1,1 +1,0 @@
-add images that arent contained within the animalia/ folder of taxo

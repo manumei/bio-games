@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" role="img" aria-label="Coming Soon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#081c3a" />
+      <stop offset="100%" stop-color="#08162b" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b1ff06" />
+      <stop offset="100%" stop-color="#228101" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="24" fill="url(#bg)" />
+  <rect x="16" y="16" width="468" height="468" rx="18" fill="none" stroke="#f7cf4f" stroke-opacity="0.35" stroke-width="4" stroke-dasharray="12 10" />
+  <circle cx="250" cy="195" r="56" fill="#0A2144" stroke="url(#accent)" stroke-width="5" />
+  <path d="M230 175 C230 155, 270 155, 270 180 C270 198, 250 198, 250 215" fill="none" stroke="#b1ff06" stroke-width="8" stroke-linecap="round" />
+  <circle cx="250" cy="233" r="5" fill="#f7cf4f" />
+  <text x="250" y="315" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="38" font-weight="700" letter-spacing="1">COMING</text>
+  <text x="250" y="362" text-anchor="middle" fill="url(#accent)" font-family="sans-serif" font-size="38" font-weight="800" letter-spacing="2">SOON</text>
+</svg>
