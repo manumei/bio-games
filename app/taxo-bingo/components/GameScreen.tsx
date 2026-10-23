@@ -94,7 +94,7 @@ const remainingCategories = [
 ];
 
 export default function GameScreen({ timer, hardMode }: GameScreenProps) {
-  const [organisms, setOrganisms] = useState<Organism[]>([]);
+  const [, setOrganisms] = useState<Organism[]>([]);
   const [available, setAvailable] = useState<Organism[]>([]);
   const [current, setCurrent] = useState<Organism | null>(null);
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
@@ -129,6 +129,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
 
     const filtered = available.filter((o) => o !== current);
     setAvailable(filtered);
+    // eslint-disable-next-line react-hooks/immutability -- legacy hook order replaced in Phase 5 (D1)
     showNextOrganism();
   }, [available, current, isImageLoaded]);
 
@@ -179,6 +180,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
       const initialQueue = Array.from({ length: 4 }, preloadOrganism).filter(
         Boolean
       ) as Organism[];
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- legacy queue effect replaced in Phase 5 (D1)
       setQueue(initialQueue);
       setCurrent(initialQueue[0]);
       setIsImageLoaded(false);
@@ -276,7 +278,8 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
                 setGameOver(true);
                 setShowGameOverPopup(true);
               } else {
-                showNextOrganism();
+                // eslint-disable-next-line react-hooks/immutability -- legacy hook order replaced in Phase 5 (D1)
+    showNextOrganism();
               }
             } else {
               setShakingCell(category);
@@ -315,7 +318,7 @@ export default function GameScreen({ timer, hardMode }: GameScreenProps) {
                   rel="noopener noreferrer"
                   className="underline text-blue-700 hover:text-blue-900"
                 >
-                  you're awesome
+                  you&apos;re awesome
                 </a>
               </>
             ) : (

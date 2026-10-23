@@ -57,16 +57,16 @@ export default function GameOver({
           hard ? (
             <p className="text-base sm:text-lg font-medium">
               And you even beat it on Hard Mode! You, are the greatest
-              biological mind I've ever known.
+              biological mind I&apos;ve ever known.
             </p>
           ) : (
             <p className="text-base sm:text-lg font-medium">
-              Try Hard Mode if you're up for a bigger challenge
+              Try Hard Mode if you&apos;re up for a bigger challenge
             </p>
           )
         ) : hard ? (
           <p className="text-base sm:text-lg font-medium">
-            Don't give up! Hard mode is tough, but you can do it!
+            Don&apos;t give up! Hard mode is tough, but you can do it!
           </p>
         ) : (
           <p className="text-base sm:text-lg font-medium">
