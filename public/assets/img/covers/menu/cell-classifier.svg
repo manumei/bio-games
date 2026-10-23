@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <rect width="500" height="500" rx="28" fill="#0B132B"/>
+  <circle cx="250" cy="240" r="170" fill="#1C2541" stroke="#38BDF8" stroke-width="7"/>
+  <ellipse cx="250" cy="240" rx="152" ry="140" fill="#0F172A" opacity="0.65"/>
+  <!-- Nucleus & Nucleolus -->
+  <circle cx="220" cy="220" r="58" fill="#6366F1" fill-opacity="0.35" stroke="#818CF8" stroke-width="4.5"/>
+  <circle cx="214" cy="214" r="22" fill="#A855F7"/>
+  <!-- Mitochondria -->
+  <g transform="translate(330 165) rotate(28)">
+    <rect x="-32" y="-16" width="64" height="32" rx="16" fill="#F97316" stroke="#FDBA74" stroke-width="3"/>
+    <path d="M-20 0 L-11 -9 L-2 9 L7 -9 L16 9 L22 0" stroke="#FFF7ED" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(155 315) rotate(-22)">
+    <rect x="-28" y="-14" width="56" height="28" rx="14" fill="#F97316" stroke="#FDBA74" stroke-width="3"/>
+    <path d="M-18 0 L-9 -8 L0 8 L9 -8 L18 0" stroke="#FFF7ED" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Golgi -->
+  <path d="M295 270 Q330 258 355 275 M290 286 Q328 274 358 292 M294 302 Q326 290 350 306" stroke="#10B981" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="330" cy="165" r="42" stroke="#FACC15" stroke-width="3.5" stroke-dasharray="7 7"/>
+  <text x="250" y="458" text-anchor="middle" fill="#38BDF8" font-family="system-ui, sans-serif" font-weight="800" font-size="24" letter-spacing="3">CELL CLASSIFIER</text>
+</svg>
+
