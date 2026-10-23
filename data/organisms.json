@@ -1,0 +1,6012 @@
+[
+  {
+    "id": "abies_alba",
+    "name": "Abies alba",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "gymnospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/gymnospermae/abies_alba.webp"
+  },
+  {
+    "id": "acer_rubrum",
+    "name": "Acer rubrum",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/acer_rubrum.webp"
+  },
+  {
+    "id": "achatina_fulica",
+    "name": "Achatina fulica",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/achatina_fulica.webp"
+  },
+  {
+    "id": "acomys_cahirinus",
+    "name": "Acomys cahirinus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/acomys_cahirinus.webp"
+  },
+  {
+    "id": "acropora_spp",
+    "name": "Acropora spp.",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/acropora_spp.webp"
+  },
+  {
+    "id": "adansonia_spp",
+    "name": "Adansonia spp.",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/adansonia_spp.webp"
+  },
+  {
+    "id": "adiantum_capillus_veneris",
+    "name": "Adiantum capillus veneris",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "pteridophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/pteridophyta/adiantum_capillus_veneris.webp"
+  },
+  {
+    "id": "aedes_aegypti",
+    "name": "Aedes aegypti",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "diptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/diptera/aedes_aegypti.webp"
+  },
+  {
+    "id": "aetobatus_narinari",
+    "name": "Aetobatus narinari",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/aetobatus_narinari.webp"
+  },
+  {
+    "id": "agalychnis_callidryas",
+    "name": "Agalychnis callidryas",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/agalychnis_callidryas.webp"
+  },
+  {
+    "id": "agaricus_bisporus",
+    "name": "Agaricus bisporus",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/agaricus_bisporus.webp"
+  },
+  {
+    "id": "agkistrodon_piscivorus",
+    "name": "Agkistrodon piscivorus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/agkistrodon_piscivorus.webp"
+  },
+  {
+    "id": "aglais_io",
+    "name": "Aglais io",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/aglais_io.webp"
+  },
+  {
+    "id": "ailuropoda_melanoleuca",
+    "name": "Ailuropoda melanoleuca",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/ailuropoda_melanoleuca.webp"
+  },
+  {
+    "id": "ailurus_fulgens",
+    "name": "Ailurus fulgens",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/ailurus_fulgens.webp"
+  },
+  {
+    "id": "alces_alces",
+    "name": "Alces alces",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/alces_alces.webp"
+  },
+  {
+    "id": "aldabrachelys_gigantea",
+    "name": "Aldabrachelys gigantea",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/aldabrachelys_gigantea.webp"
+  },
+  {
+    "id": "alligator_mississippiensis",
+    "name": "Alligator mississippiensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "crocodilia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/alligator_mississippiensis.webp"
+  },
+  {
+    "id": "alligator_sinensis",
+    "name": "Alligator sinensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "crocodilia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/alligator_sinensis.webp"
+  },
+  {
+    "id": "allium_cepa",
+    "name": "Allium cepa",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/allium_cepa.webp"
+  },
+  {
+    "id": "allolobophora_chlorotica",
+    "name": "Allolobophora chlorotica",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "annelida"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/annelida/allolobophora_chlorotica.webp"
+  },
+  {
+    "id": "alouatta_caraya",
+    "name": "Alouatta caraya",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/alouatta_caraya.webp"
+  },
+  {
+    "id": "amanita_muscaria",
+    "name": "Amanita muscaria",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/amanita_muscaria.webp"
+  },
+  {
+    "id": "amanita_phalloides",
+    "name": "Amanita phalloides",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/amanita_phalloides.webp"
+  },
+  {
+    "id": "amblyomma_americanum",
+    "name": "Amblyomma americanum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "acari"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/acari/amblyomma_americanum.webp"
+  },
+  {
+    "id": "ambystoma_mexicanum",
+    "name": "Ambystoma mexicanum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/ambystoma_mexicanum.webp"
+  },
+  {
+    "id": "ambystoma_tigrinum",
+    "name": "Ambystoma tigrinum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/ambystoma_tigrinum.webp"
+  },
+  {
+    "id": "amoeba_proteus",
+    "name": "Amoeba proteus",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/amoeba_proteus.webp"
+  },
+  {
+    "id": "amphiprion_ocellaris",
+    "name": "Amphiprion ocellaris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/amphiprion_ocellaris.webp"
+  },
+  {
+    "id": "amphisbaena_alba",
+    "name": "Amphisbaena alba",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/amphisbaena_alba.webp"
+  },
+  {
+    "id": "anas_platyrhynchos",
+    "name": "Anas platyrhynchos",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/anas_platyrhynchos.webp"
+  },
+  {
+    "id": "ancylostoma_duodenale",
+    "name": "Ancylostoma duodenale",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "nematoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/nematoda/ancylostoma_duodenale.webp"
+  },
+  {
+    "id": "andrias_japonicus",
+    "name": "Andrias japonicus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/andrias_japonicus.webp"
+  },
+  {
+    "id": "andtroctonus_australis",
+    "name": "Andtroctonus australis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "scorpiones"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/andtroctonus_australis.webp"
+  },
+  {
+    "id": "anguilla_anguilla",
+    "name": "Anguilla anguilla",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/anguilla_anguilla.webp"
+  },
+  {
+    "id": "anolis_carolinensis",
+    "name": "Anolis carolinensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/anolis_carolinensis.webp"
+  },
+  {
+    "id": "anopheles_gambiae",
+    "name": "Anopheles gambiae",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "diptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/diptera/anopheles_gambiae.webp"
+  },
+  {
+    "id": "antedon_mediterranea",
+    "name": "Antedon mediterranea",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/antedon_mediterranea.webp"
+  },
+  {
+    "id": "anthoceros_agrestis",
+    "name": "Anthoceros agrestis",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "bryophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/bryophyta/anthoceros_agrestis.webp"
+  },
+  {
+    "id": "apalone_spinifera",
+    "name": "Apalone spinifera",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/apalone_spinifera.webp"
+  },
+  {
+    "id": "aphis_gossypii",
+    "name": "Aphis gossypii",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/aphis_gossypii.webp"
+  },
+  {
+    "id": "aphrodia_aculeata",
+    "name": "Aphrodita aculeata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "annelida"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/annelida/aphrodia_aculeata.webp"
+  },
+  {
+    "id": "apis_mellifera",
+    "name": "Apis mellifera",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hymenoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/apis_mellifera.webp"
+  },
+  {
+    "id": "aptenodytes_forsteri",
+    "name": "Aptenodytes forsteri",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/aptenodytes_forsteri.webp"
+  },
+  {
+    "id": "ara_macao",
+    "name": "Ara macao",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/ara_macao.webp"
+  },
+  {
+    "id": "araneus_diadematus",
+    "name": "Araneus diadematus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "araneae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/araneus_diadematus.webp"
+  },
+  {
+    "id": "archispirostreptus_gigas",
+    "name": "Archispirostreptus gigas",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/archispirostreptus_gigas.webp"
+  },
+  {
+    "id": "architeuthis_dux",
+    "name": "Architeuthis dux",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/architeuthis_dux.webp"
+  },
+  {
+    "id": "armillaria_mellea",
+    "name": "Armillaria mellea",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/armillaria_mellea.webp"
+  },
+  {
+    "id": "arothron_meleagris",
+    "name": "Arothron meleagris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/arothron_meleagris.webp"
+  },
+  {
+    "id": "artemia_salina",
+    "name": "Artemia salina",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/artemia_salina.webp"
+  },
+  {
+    "id": "artibeus_jamaicensis",
+    "name": "Artibeus jamaicensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/artibeus_jamaicensis.webp"
+  },
+  {
+    "id": "ascaris_lumbricoides",
+    "name": "Ascaris lumbricoides",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "nematoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/nematoda/ascaris_lumbricoides.webp"
+  },
+  {
+    "id": "aspergillus_niger",
+    "name": "Aspergillus niger",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/aspergillus_niger.webp"
+  },
+  {
+    "id": "asplenium_nidus",
+    "name": "Asplenium nidus",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "pteridophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/pteridophyta/asplenium_nidus.webp"
+  },
+  {
+    "id": "asterias_rubens",
+    "name": "Asterias rubens",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/asterias_rubens.webp"
+  },
+  {
+    "id": "ateles_geoffroyi",
+    "name": "Ateles geoffroyi",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/ateles_geoffroyi.webp"
+  },
+  {
+    "id": "athyrium_filix-femina",
+    "name": "Athyrium filix-femina",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "pteridophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/pteridophyta/athyrium_filix-femina.webp"
+  },
+  {
+    "id": "atta_cephalotes",
+    "name": "Atta cephalotes",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hymenoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/atta_cephalotes.webp"
+  },
+  {
+    "id": "aurelia_aurita",
+    "name": "Aurelia aurita",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/aurelia_aurita.webp"
+  },
+  {
+    "id": "automeris_io",
+    "name": "Automeris io",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/automeris_io.webp"
+  },
+  {
+    "id": "bacillus_anthracis",
+    "name": "Bacillus anthracis",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/bacillus_anthracis.webp"
+  },
+  {
+    "id": "bacillus_subtilis",
+    "name": "Bacillus subtilis",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/bacillus_subtilis.webp"
+  },
+  {
+    "id": "balaenoptera_acutorostrata",
+    "name": "Balaenoptera acutorostrata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/balaenoptera_acutorostrata.webp"
+  },
+  {
+    "id": "balaenoptera_musculus",
+    "name": "Balaenoptera musculus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/balaenoptera_musculus.webp"
+  },
+  {
+    "id": "balaneoptera_physalus",
+    "name": "Balaneoptera physalus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/balaneoptera_physalus.webp"
+  },
+  {
+    "id": "balanus_glandula",
+    "name": "Balanus glandula",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/balanus_glandula.webp"
+  },
+  {
+    "id": "bambusa_spp",
+    "name": "Bambusa spp.",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/bambusa_spp.webp"
+  },
+  {
+    "id": "bemisia_tabaci",
+    "name": "Bemisia tabaci",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/bemisia_tabaci.webp"
+  },
+  {
+    "id": "bettongia_penicillata",
+    "name": "Bettongia penicillata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/bettongia_penicillata.webp"
+  },
+  {
+    "id": "blatella_germanica",
+    "name": "Blatella germanica",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "dictyoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/blatella_germanica.webp"
+  },
+  {
+    "id": "blatta_orientalis",
+    "name": "Blatta orientalis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "dictyoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/blatta_orientalis.webp"
+  },
+  {
+    "id": "bombus_terrestris",
+    "name": "Bombus terrestris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hymenoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/bombus_terrestris.webp"
+  },
+  {
+    "id": "bombyx_mori",
+    "name": "Bombyx mori",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/bombyx_mori.webp"
+  },
+  {
+    "id": "borrelia_burgdorferi",
+    "name": "Borrelia burgdorferi",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/borrelia_burgdorferi.webp"
+  },
+  {
+    "id": "bos_taurus",
+    "name": "Bos taurus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/bos_taurus.webp"
+  },
+  {
+    "id": "bothrops_asper",
+    "name": "Bothrops asper",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/bothrops_asper.webp"
+  },
+  {
+    "id": "bradypus_crinitus",
+    "name": "Bradypus crinitus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/bradypus_crinitus.webp"
+  },
+  {
+    "id": "bradypus_pygmaeus",
+    "name": "Bradypus pygmaeus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/bradypus_pygmaeus.webp"
+  },
+  {
+    "id": "bradypus_torquatus",
+    "name": "Bradypus torquatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/bradypus_torquatus.webp"
+  },
+  {
+    "id": "bradypus_tridactylus",
+    "name": "Bradypus tridactylus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/bradypus_tridactylus.webp"
+  },
+  {
+    "id": "bradypus_variegatus",
+    "name": "Bradypus variegatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/bradypus_variegatus.webp"
+  },
+  {
+    "id": "bubo_bubo",
+    "name": "Bubo bubo",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/bubo_bubo.webp"
+  },
+  {
+    "id": "bufo_bufo",
+    "name": "Bufo bufo",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/bufo_bufo.webp"
+  },
+  {
+    "id": "caenorhabditis_elegans",
+    "name": "Caenorhabditis elegans",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "nematoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/nematoda/caenorhabditis_elegans.webp"
+  },
+  {
+    "id": "caiman_crocodilus",
+    "name": "Caiman crocodilus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "crocodilia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/caiman_crocodilus.webp"
+  },
+  {
+    "id": "callinectes_sapidus",
+    "name": "Callinectes sapidus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/callinectes_sapidus.webp"
+  },
+  {
+    "id": "calosoma_sycophanta",
+    "name": "Calosoma sycophanta",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/calosoma_sycophanta.webp"
+  },
+  {
+    "id": "calvatia_gigantea",
+    "name": "Calvatia gigantea",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/calvatia_gigantea.webp"
+  },
+  {
+    "id": "camelus_bactrianus",
+    "name": "Camelus bactrianus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/camelus_bactrianus.webp"
+  },
+  {
+    "id": "camelus_dromedarius",
+    "name": "Camelus dromedarius",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/camelus_dromedarius.webp"
+  },
+  {
+    "id": "camponotus_pennsylvanicus",
+    "name": "Camponotus pennsylvanicus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hymenoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/camponotus_pennsylvanicus.webp"
+  },
+  {
+    "id": "campylobacter_jejuni",
+    "name": "Campylobacter jejuni",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/campylobacter_jejuni.webp"
+  },
+  {
+    "id": "capra_hircus",
+    "name": "Capra hircus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/capra_hircus.webp"
+  },
+  {
+    "id": "carassius_auratus",
+    "name": "Carassius auratus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/carassius_auratus.webp"
+  },
+  {
+    "id": "carcharinus_leucas",
+    "name": "Carcharinus leucas",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/carcharinus_leucas.webp"
+  },
+  {
+    "id": "carcharodon_carcharias",
+    "name": "Carcharodon carcharias",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/carcharodon_carcharias.webp"
+  },
+  {
+    "id": "carcinus_maenas",
+    "name": "Carcinus maenas",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/carcinus_maenas.webp"
+  },
+  {
+    "id": "cargegiea_gigantea",
+    "name": "Cargegiea gigantea",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/cargegiea_gigantea.webp"
+  },
+  {
+    "id": "carollia_perspicillata",
+    "name": "Carollia perspicillata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/carollia_perspicillata.webp"
+  },
+  {
+    "id": "carukia_barnesi",
+    "name": "Carukia barnesi",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/carukia_barnesi.webp"
+  },
+  {
+    "id": "castor_canadensis",
+    "name": "Castor canadensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/castor_canadensis.webp"
+  },
+  {
+    "id": "cattleya_spp",
+    "name": "Cattleya spp.",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/cattleya_spp.webp"
+  },
+  {
+    "id": "caulerpa_taxifolia",
+    "name": "Caulerpa taxifolia",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/caulerpa_taxifolia.webp"
+  },
+  {
+    "id": "cavia_porcellus",
+    "name": "Cavia porcellus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/cavia_porcellus.webp"
+  },
+  {
+    "id": "cebus_capucinus",
+    "name": "Cebus capucinus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/cebus_capucinus.webp"
+  },
+  {
+    "id": "cedrus_atlantica",
+    "name": "Cedrus atlantica",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "gymnospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/gymnospermae/cedrus_atlantica.webp"
+  },
+  {
+    "id": "centruroides_sculpturatus",
+    "name": "Centruroides sculpturatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "scorpiones"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/centruroides_sculpturatus.webp"
+  },
+  {
+    "id": "ceratotherium_simum",
+    "name": "Ceratotherium simum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/ceratotherium_simum.webp"
+  },
+  {
+    "id": "cervus_elaphus",
+    "name": "Cervus elaphus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/cervus_elaphus.webp"
+  },
+  {
+    "id": "chamaeleo_calyptratus",
+    "name": "Chamaeleo calyptratus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/chamaeleo_calyptratus.webp"
+  },
+  {
+    "id": "chaos_carolinense",
+    "name": "Chaos carolinense",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/chaos_carolinense.webp"
+  },
+  {
+    "id": "chelonia_mydas",
+    "name": "Chelonia mydas",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/chelonia_mydas.webp"
+  },
+  {
+    "id": "chelonoidis_nigra",
+    "name": "Chelonoidis nigra",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/chelonoidis_nigra.webp"
+  },
+  {
+    "id": "chimaera_monstrosa",
+    "name": "Chimaera monstrosa",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/chimaera_monstrosa.webp"
+  },
+  {
+    "id": "chinchilla_lanigera",
+    "name": "Chinchilla lanigera",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/chinchilla_lanigera.webp"
+  },
+  {
+    "id": "chironex_fleckeri",
+    "name": "Chironex fleckeri",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/chironex_fleckeri.webp"
+  },
+  {
+    "id": "chlorocebus_pygerythrus",
+    "name": "Chlorocebus pygerythrus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/chlorocebus_pygerythrus.webp"
+  },
+  {
+    "id": "choloepus_didactylus",
+    "name": "Choloepus didactylus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/choloepus_didactylus.webp"
+  },
+  {
+    "id": "choloepus_hoffmanni",
+    "name": "Choloepus hoffmanni",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/choloepus_hoffmanni.webp"
+  },
+  {
+    "id": "chrysaora_quinquecirrha",
+    "name": "Chrysaora quinquecirrha",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/chrysaora_quinquecirrha.webp"
+  },
+  {
+    "id": "chrysemys_picta",
+    "name": "Chrysemys picta",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/chrysemys_picta.webp"
+  },
+  {
+    "id": "chrysina_gloriosa",
+    "name": "Chrysina gloriosa",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/chrysina_gloriosa.webp"
+  },
+  {
+    "id": "chrysomya_megacephala",
+    "name": "Chrysomya megacephala",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "diptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/diptera/chrysomya_megacephala.webp"
+  },
+  {
+    "id": "cilona_celata",
+    "name": "Cilona celata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "porifera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/porifera/cilona_celata.webp"
+  },
+  {
+    "id": "cimex_lectularius",
+    "name": "Cimex lectularius",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/cimex_lectularius.webp"
+  },
+  {
+    "id": "citrus_sinensis",
+    "name": "Citrus sinensis",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/citrus_sinensis.webp"
+  },
+  {
+    "id": "cladonia_rangiferina",
+    "name": "Cladonia rangiferina",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/cladonia_rangiferina.webp"
+  },
+  {
+    "id": "clathrina_clathrus",
+    "name": "Clathrina clathrus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "porifera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/porifera/clathrina_clathrus.webp"
+  },
+  {
+    "id": "clonorchis_sinensis",
+    "name": "Clonorchis sinensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "platyhelminthes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/platyhelminthes/clonorchis_sinensis.webp"
+  },
+  {
+    "id": "clostridium_botulinum",
+    "name": "Clostridium botulinum",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/clostridium_botulinum.webp"
+  },
+  {
+    "id": "clostridium_difficile",
+    "name": "Clostridium difficile",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/clostridium_difficile.webp"
+  },
+  {
+    "id": "clostridium_tetani",
+    "name": "Clostridium tetani",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/clostridium_tetani.webp"
+  },
+  {
+    "id": "coccinela_septempunctata",
+    "name": "Coccinela septempunctata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/coccinela_septempunctata.webp"
+  },
+  {
+    "id": "coidum_fragile",
+    "name": "Codium fragile",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/coidum_fragile.webp"
+  },
+  {
+    "id": "colobus_guereza",
+    "name": "Colobus guereza",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/colobus_guereza.webp"
+  },
+  {
+    "id": "columba_livia",
+    "name": "Columba livia",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/columba_livia.webp"
+  },
+  {
+    "id": "conus_magnus",
+    "name": "Conus magnus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/conus_magnus.webp"
+  },
+  {
+    "id": "cordyceps_militaris",
+    "name": "Cordyceps militaris",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/cordyceps_militaris.webp"
+  },
+  {
+    "id": "corvus_corax",
+    "name": "Corvus corax",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/corvus_corax.webp"
+  },
+  {
+    "id": "crocodylus_acutus",
+    "name": "Crocodylus acutus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "crocodilia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/crocodylus_acutus.webp"
+  },
+  {
+    "id": "crocodylus_mindorensis",
+    "name": "Crocodylus mindorensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "crocodilia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/crocodylus_mindorensis.webp"
+  },
+  {
+    "id": "crocodylus_moreletii",
+    "name": "Crocodylus moreletii",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "crocodilia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/crocodylus_moreletii.webp"
+  },
+  {
+    "id": "crocodylus_niloticus",
+    "name": "Crocodylus niloticus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "crocodilia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/crocodylus_niloticus.webp"
+  },
+  {
+    "id": "crocodylus_porosus",
+    "name": "Crocodylus porosus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "crocodilia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/crocodylus_porosus.webp"
+  },
+  {
+    "id": "crocuta_crocuta",
+    "name": "Crocuta crocuta",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/crocuta_crocuta.webp"
+  },
+  {
+    "id": "crotalus_atrox",
+    "name": "Crotalus atrox",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/crotalus_atrox.webp"
+  },
+  {
+    "id": "cryptobranchus_alleganiensis",
+    "name": "Cryptobranchus alleganiensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/cryptobranchus_alleganiensis.webp"
+  },
+  {
+    "id": "culex_pipiens",
+    "name": "Culex pipiens",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "diptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/diptera/culex_pipiens.webp"
+  },
+  {
+    "id": "cycas_revoluta",
+    "name": "Cycas revoluta",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "gymnospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/gymnospermae/cycas_revoluta.webp"
+  },
+  {
+    "id": "cyclopes_didactylus",
+    "name": "Cyclopes didactylus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/cyclopes_didactylus.webp"
+  },
+  {
+    "id": "cyclopes_dorsalis",
+    "name": "Cyclopes dorsalis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/cyclopes_dorsalis.webp"
+  },
+  {
+    "id": "cygnus_olor",
+    "name": "Cygnus olor",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/cygnus_olor.webp"
+  },
+  {
+    "id": "cynodon_dactilon",
+    "name": "Cynodon dactilon",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/cynodon_dactilon.webp"
+  },
+  {
+    "id": "cyphochilus_insulanus",
+    "name": "Cyphochilus insulanus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/cyphochilus_insulanus.webp"
+  },
+  {
+    "id": "cyrtomium_falcatum",
+    "name": "Cyrtomium falcatum",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "pteridophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/pteridophyta/cyrtomium_falcatum.webp"
+  },
+  {
+    "id": "danaus_plexippus",
+    "name": "Danaus plexippus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/danaus_plexippus.webp"
+  },
+  {
+    "id": "daphnia_pulex",
+    "name": "Daphnia pulex",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/daphnia_pulex.webp"
+  },
+  {
+    "id": "daucus_carota",
+    "name": "Daucus carota",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/daucus_carota.webp"
+  },
+  {
+    "id": "delphinapterus_leucas",
+    "name": "Delphinapterus leucas",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/delphinapterus_leucas.webp"
+  },
+  {
+    "id": "demodex_folliculorum",
+    "name": "Demodex folliculorum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "acari"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/acari/demodex_folliculorum.webp"
+  },
+  {
+    "id": "dendraster_excentricus",
+    "name": "Dendraster excentricus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/dendraster_excentricus.webp"
+  },
+  {
+    "id": "dendroaspis_polyepis",
+    "name": "Dendroaspis polyepis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/dendroaspis_polyepis.webp"
+  },
+  {
+    "id": "dendrobates_tinctorius",
+    "name": "Dendrobates tinctorius",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/dendrobates_tinctorius.webp"
+  },
+  {
+    "id": "dendrolagus_goodfellow",
+    "name": "Dendrolagus goodfellow",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/dendrolagus_goodfellow.webp"
+  },
+  {
+    "id": "dermacentor_variabilis",
+    "name": "Dermacentor variabilis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "acari"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/acari/dermacentor_variabilis.webp"
+  },
+  {
+    "id": "dermochelys_coriacea",
+    "name": "Dermochelys coriacea",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/dermochelys_coriacea.webp"
+  },
+  {
+    "id": "desmodus_rotundus",
+    "name": "Desmodus rotundus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/desmodus_rotundus.webp"
+  },
+  {
+    "id": "diadema_setosum",
+    "name": "Diadema setosum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/diadema_setosum.webp"
+  },
+  {
+    "id": "dicerorhinus_sumatrensis",
+    "name": "Dicerorhinus sumatrensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/dicerorhinus_sumatrensis.webp"
+  },
+  {
+    "id": "diceros_bicornis",
+    "name": "Diceros bicornis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/diceros_bicornis.webp"
+  },
+  {
+    "id": "dicranium_scoparium",
+    "name": "Dicranium scoparium",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "bryophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/bryophyta/dicranium_scoparium.webp"
+  },
+  {
+    "id": "didelphis_albiventris",
+    "name": "Didelphis albiventris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/didelphis_albiventris.webp"
+  },
+  {
+    "id": "diphasiastrum_complanatum",
+    "name": "Diphasiastrum complanatum",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "pteridophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/pteridophyta/diphasiastrum_complanatum.webp"
+  },
+  {
+    "id": "diphyllobothrium_latum",
+    "name": "Diphyllobothrium latum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "platyhelminthes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/platyhelminthes/diphyllobothrium_latum.webp"
+  },
+  {
+    "id": "diploria_labyrinthiformis",
+    "name": "Diploria labyrinthiformis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/diploria_labyrinthiformis.webp"
+  },
+  {
+    "id": "dipodomys_deserti",
+    "name": "Dipodomys deserti",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/dipodomys_deserti.webp"
+  },
+  {
+    "id": "dromaius_novaehollandiae",
+    "name": "Dromaius novaehollandiae",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/dromaius_novaehollandiae.webp"
+  },
+  {
+    "id": "drosophila_melanogaster",
+    "name": "Drosophila melanogaster",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "diptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/diptera/drosophila_melanogaster.webp"
+  },
+  {
+    "id": "dryocopus_pileatus",
+    "name": "Dryocopus pileatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/dryocopus_pileatus.webp"
+  },
+  {
+    "id": "dugesia_tigrina",
+    "name": "Dugesia tigrina",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "platyhelminthes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/platyhelminthes/dugesia_tigrina.webp"
+  },
+  {
+    "id": "dynastes_hercules",
+    "name": "Dynastes hercules",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/dynastes_hercules.webp"
+  },
+  {
+    "id": "echinococcus_granulosus",
+    "name": "Echinococcus granulosus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "platyhelminthes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/platyhelminthes/echinococcus_granulosus.webp"
+  },
+  {
+    "id": "echnocactus_grusonii",
+    "name": "Echnocactus grusonii",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/echnocactus_grusonii.webp"
+  },
+  {
+    "id": "eidolon_helvum",
+    "name": "Eidolon helvum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/eidolon_helvum.webp"
+  },
+  {
+    "id": "eisenia_fetida",
+    "name": "Eisenia fetida",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "annelida"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/annelida/eisenia_fetida.webp"
+  },
+  {
+    "id": "electrophorus_electricus",
+    "name": "Electrophorus electricus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/electrophorus_electricus.webp"
+  },
+  {
+    "id": "emys_orbicularis",
+    "name": "Emys orbicularis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/emys_orbicularis.webp"
+  },
+  {
+    "id": "enhydra_lutris",
+    "name": "Enhydra lutris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/enhydra_lutris.webp"
+  },
+  {
+    "id": "entamoeba_moshkovskii",
+    "name": "Entamoeba moshkovskii",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/entamoeba_moshkovskii.webp"
+  },
+  {
+    "id": "enterobius_vermicularis",
+    "name": "Enterobius vermicularis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "nematoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/nematoda/enterobius_vermicularis.webp"
+  },
+  {
+    "id": "enterococcus_faecalis",
+    "name": "Enterococcus faecalis",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/enterococcus_faecalis.webp"
+  },
+  {
+    "id": "enteroctopus_dofleini",
+    "name": "Enteroctopus dofleini",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/enteroctopus_dofleini.webp"
+  },
+  {
+    "id": "eonycteris_spelaea",
+    "name": "Eonycteris spelaea",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/eonycteris_spelaea.webp"
+  },
+  {
+    "id": "eosentomon_transitorium",
+    "name": "Eosentomon transitorium",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/eosentomon_transitorium.webp"
+  },
+  {
+    "id": "equisetum_arvense",
+    "name": "Equisetum arvense",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "pteridophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/pteridophyta/equisetum_arvense.webp"
+  },
+  {
+    "id": "equus_asinus",
+    "name": "Equus asinus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_asinus.webp"
+  },
+  {
+    "id": "equus_caballus",
+    "name": "Equus caballus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_caballus.webp"
+  },
+  {
+    "id": "equus_hemionus",
+    "name": "Equus hemionus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_hemionus.webp"
+  },
+  {
+    "id": "equus_kiang",
+    "name": "Equus kiang",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_kiang.webp"
+  },
+  {
+    "id": "equus_quagga",
+    "name": "Equus quagga",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_quagga.webp"
+  },
+  {
+    "id": "equus_zebra",
+    "name": "Equus zebra",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/equus_zebra.webp"
+  },
+  {
+    "id": "erethizon_dorsatum",
+    "name": "Erethizon dorsatum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/erethizon_dorsatum.webp"
+  },
+  {
+    "id": "escherichia_coli",
+    "name": "Escherichia coli",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/escherichia_coli.webp"
+  },
+  {
+    "id": "ethmostigmus_rubripes",
+    "name": "Ethmostigmus rubripes",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/ethmostigmus_rubripes.webp"
+  },
+  {
+    "id": "eucalyptus_regnan",
+    "name": "Eucalyptus regnan",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/eucalyptus_regnan.webp"
+  },
+  {
+    "id": "eunectes_murinus",
+    "name": "Eunectes murinus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/eunectes_murinus.webp"
+  },
+  {
+    "id": "euphausia_superba",
+    "name": "Euphausia superba",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/euphausia_superba.webp"
+  },
+  {
+    "id": "euplectella_aspergillum",
+    "name": "Euplectella aspergillum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "porifera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/porifera/euplectella_aspergillum.webp"
+  },
+  {
+    "id": "euscorpius_italicus",
+    "name": "Euscorpius italicus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "scorpiones"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/euscorpius_italicus.webp"
+  },
+  {
+    "id": "euspongia_officinalis",
+    "name": "Euspongia officinalis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "porifera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/porifera/euspongia_officinalis.webp"
+  },
+  {
+    "id": "falco_peregrinus",
+    "name": "Falco peregrinus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/falco_peregrinus.webp"
+  },
+  {
+    "id": "fasciola_hepatica",
+    "name": "Fasciola hepatica",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "platyhelminthes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/platyhelminthes/fasciola_hepatica.webp"
+  },
+  {
+    "id": "felis_catus",
+    "name": "Felis catus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/felis_catus.webp"
+  },
+  {
+    "id": "florometra_serratissima",
+    "name": "Florometra serratissima",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/florometra_serratissima.webp"
+  },
+  {
+    "id": "gadus_morhua",
+    "name": "Gadus morhua",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/gadus_morhua.webp"
+  },
+  {
+    "id": "galeocerdo_cuvier",
+    "name": "Galeocerdo cuvier",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/galeocerdo_cuvier.webp"
+  },
+  {
+    "id": "gallus_gallus",
+    "name": "Gallus gallus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/gallus_gallus.webp"
+  },
+  {
+    "id": "gammarus_pulex",
+    "name": "Gammarus pulex",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/gammarus_pulex.webp"
+  },
+  {
+    "id": "gavialis_gangeticus",
+    "name": "Gavialis gangeticus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "crocodilia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/gavialis_gangeticus.webp"
+  },
+  {
+    "id": "geastrum_spp",
+    "name": "Geastrum spp.",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/geastrum_spp.webp"
+  },
+  {
+    "id": "gelidium_spp",
+    "name": "Gelidium spp.",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/gelidium_spp.webp"
+  },
+  {
+    "id": "geochelone_sulcata",
+    "name": "Geochelone sulcata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/geochelone_sulcata.webp"
+  },
+  {
+    "id": "gerris_lacustris",
+    "name": "Gerris lacustris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/gerris_lacustris.webp"
+  },
+  {
+    "id": "ginkgo_biloba",
+    "name": "Ginkgo biloba",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "gymnospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/gymnospermae/ginkgo_biloba.webp"
+  },
+  {
+    "id": "giraffa_camelopardalis",
+    "name": "Giraffa camelopardalis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/giraffa_camelopardalis.webp"
+  },
+  {
+    "id": "glaucus_atlanticus",
+    "name": "Glaucus atlanticus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/glaucus_atlanticus.webp"
+  },
+  {
+    "id": "glis_glis",
+    "name": "Glis glis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/glis_glis.webp"
+  },
+  {
+    "id": "glomeris_marginata",
+    "name": "Glomeris marginata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/glomeris_marginata.webp"
+  },
+  {
+    "id": "glossin_morsitans",
+    "name": "Glossina morsitans",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "diptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/diptera/glossin_morsitans.webp"
+  },
+  {
+    "id": "goliathus_goliatus",
+    "name": "Goliathus goliatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/goliathus_goliatus.webp"
+  },
+  {
+    "id": "gopherus_agassizii",
+    "name": "Gopherus agassizii",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/gopherus_agassizii.webp"
+  },
+  {
+    "id": "gorilla_gorilla",
+    "name": "Gorilla gorilla",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/gorilla gorilla.webp"
+  },
+  {
+    "id": "grimmia_pulvinata",
+    "name": "Grimmia pulvinata",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "bryophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/bryophyta/grimmia_pulvinata.webp"
+  },
+  {
+    "id": "gromphadorhina_portentosa",
+    "name": "Gromphadorhina portentosa",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "dictyoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/gromphadorhina_portentosa.webp"
+  },
+  {
+    "id": "hadrurus_arizonensis",
+    "name": "Hadrurus arizonensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "scorpiones"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/hadrurus_arizonensis.webp"
+  },
+  {
+    "id": "haemophilus_influenzae",
+    "name": "Haemophilus influenzae",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/haemophilus_influenzae.webp"
+  },
+  {
+    "id": "haemopis_sanguisuga",
+    "name": "Haemopis sanguisuga",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "annelida"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/annelida/haemopis_sanguisuga.webp"
+  },
+  {
+    "id": "haliaeetus_leucocephalus",
+    "name": "Haliaeetus leucocephalus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/haliaeetus_leucocephalus.webp"
+  },
+  {
+    "id": "haliclona_spp",
+    "name": "Haliclona spp.",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "porifera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/porifera/haliclona_spp.webp"
+  },
+  {
+    "id": "halimeda_spp",
+    "name": "Halimeda spp.",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/halimeda_spp.webp"
+  },
+  {
+    "id": "hapalochlaena_spp",
+    "name": "Hapalochlaena spp.",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/hapalochlaena_spp.webp"
+  },
+  {
+    "id": "helicoverpa_zea",
+    "name": "Helicoverpa zea",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/helicoverpa_zea.webp"
+  },
+  {
+    "id": "helix_pomatia",
+    "name": "Helix pomatia",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/helix_pomatia.webp"
+  },
+  {
+    "id": "heloderma_suspectum",
+    "name": "Heloderma suspectum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/heloderma_suspectum.webp"
+  },
+  {
+    "id": "heteropoda_maxima",
+    "name": "Heteropoda maxima",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "araneae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/heteropoda_maxima.webp"
+  },
+  {
+    "id": "hippocampus_erectus",
+    "name": "Hippocampus erectus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/hippocampus_erectus.webp"
+  },
+  {
+    "id": "hippopotamus_amphibius",
+    "name": "Hippopotamus amphibius",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/hippopotamus_amphibius.webp"
+  },
+  {
+    "id": "hipposideros_armiger",
+    "name": "Hipposideros armiger",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/hipposideros_armiger.webp"
+  },
+  {
+    "id": "hippospongia_communis",
+    "name": "Hippospongia communis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "porifera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/porifera/hippospongia_communis.webp"
+  },
+  {
+    "id": "hirudo_medicinalis",
+    "name": "Hirudo medicinalis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "annelida"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/annelida/hirudo_medicinalis.webp"
+  },
+  {
+    "id": "hogna_carolinensis",
+    "name": "Hogna carolinensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "araneae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/hogna_carolinensis.webp"
+  },
+  {
+    "id": "holothuria_edulis",
+    "name": "Holothuria edulis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/holothuria_edulis.webp"
+  },
+  {
+    "id": "homarus_americanus",
+    "name": "Homarus americanus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/homarus_americanus.webp"
+  },
+  {
+    "id": "homo_sapiens",
+    "name": "Homo sapiens",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/homo_sapiens.webp"
+  },
+  {
+    "id": "hydrochoerus_hydrocaeris",
+    "name": "Hydrochoerus hydrocaeris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/hydrochoerus_hydrocaeris.webp"
+  },
+  {
+    "id": "hyla_cinerea",
+    "name": "Hyla cinerea",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/hyla_cinerea.webp"
+  },
+  {
+    "id": "ichneumon_eumerus",
+    "name": "Ichneumon eumerus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hymenoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/ichneumon_eumerus.webp"
+  },
+  {
+    "id": "ictalurus_punctatus",
+    "name": "Ictalurus punctatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/ictalurus_punctatus.webp"
+  },
+  {
+    "id": "idolomantis_diabolica",
+    "name": "Idolomantis diabolica",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "dictyoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/idolomantis_diabolica.webp"
+  },
+  {
+    "id": "iguana_iguana",
+    "name": "Iguana iguana",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/iguana_iguana.webp"
+  },
+  {
+    "id": "isurus_oxyrinchus",
+    "name": "Isurus oxyrinchus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/isurus_oxyrinchus.webp"
+  },
+  {
+    "id": "ixodes_holocyclus",
+    "name": "Ixodes holocyclus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "acari"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/acari/ixodes_holocyclus.webp"
+  },
+  {
+    "id": "ixodes_scapularis",
+    "name": "Ixodes scapularis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "acari"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/acari/ixodes_scapularis.webp"
+  },
+  {
+    "id": "jacaranda_mimosifolia",
+    "name": "Jacaranda mimosifolia",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/jacaranda_mimosifolia.webp"
+  },
+  {
+    "id": "julus_terrestris",
+    "name": "Julus terrestris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/julus_terrestris.webp"
+  },
+  {
+    "id": "lacerta_agilis",
+    "name": "Lacerta agilis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/lacerta_agilis.webp"
+  },
+  {
+    "id": "lagenorhynchus_obscurus",
+    "name": "Lagenorhynchus obscurus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/lagenorhynchus_obscurus.webp"
+  },
+  {
+    "id": "laminaria_digitata",
+    "name": "Laminaria digitata",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/laminaria_digitata.webp"
+  },
+  {
+    "id": "lamprima_aurata",
+    "name": "Lamprima aurata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/lamprima_aurata.webp"
+  },
+  {
+    "id": "lasiorhinus_latifrons",
+    "name": "Lasiorhinus latifrons",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/lasiorhinus_latifrons.webp"
+  },
+  {
+    "id": "laticauda_colubrina",
+    "name": "Laticauda colubrina",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/laticauda_colubrina.webp"
+  },
+  {
+    "id": "latrodectus_mactans",
+    "name": "Latrodectus mactans",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "araneae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/latrodectus_mactans.webp"
+  },
+  {
+    "id": "legionella_pneumophila",
+    "name": "Legionella pneumophila",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/legionella_pneumophila.webp"
+  },
+  {
+    "id": "leiurus_quinquestriatus",
+    "name": "Leiurus quinquestriatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "scorpiones"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/leiurus_quinquestriatus.webp"
+  },
+  {
+    "id": "lemur_catta",
+    "name": "Lemur catta",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/lemur_catta.webp"
+  },
+  {
+    "id": "lepisosteus_osseus",
+    "name": "Lepisosteus osseus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/lepisosteus_osseus.webp"
+  },
+  {
+    "id": "leptinotarsa_decemlineata",
+    "name": "Leptinotarsa decemlineata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/leptinotarsa_decemlineata.webp"
+  },
+  {
+    "id": "leptoglossus_occidentalis",
+    "name": "Leptoglossus occidentalis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/leptoglossus_occidentalis.webp"
+  },
+  {
+    "id": "leucobryum_glaucum",
+    "name": "Leucobryum glaucum",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "bryophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/bryophyta/leucobryum_glaucum.webp"
+  },
+  {
+    "id": "leucosolenia_botryoides",
+    "name": "Leucosolenia botryoides",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "porifera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/porifera/leucosolenia_botryoides.webp"
+  },
+  {
+    "id": "linckia_laevigata",
+    "name": "Linckia laevigata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/linckia_laevigata.webp"
+  },
+  {
+    "id": "listeria_monocytogenes",
+    "name": "Listeria monocytogenes",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/listeria_monocytogenes.webp"
+  },
+  {
+    "id": "lithobius_forficatus",
+    "name": "Lithobius forficatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/lithobius_forficatus.webp"
+  },
+  {
+    "id": "loxosceles_reclusa",
+    "name": "Loxosceles reclusa",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "araneae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/loxosceles_reclusa.webp"
+  },
+  {
+    "id": "lucilia_sericata",
+    "name": "Lucilia sericata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "diptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/diptera/lucilia_sericata.webp"
+  },
+  {
+    "id": "lumbricus_terrestris",
+    "name": "Lumbricus terrestris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "annelida"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/annelida/lumbricus_terrestris.webp"
+  },
+  {
+    "id": "lycoperdon_perlatum",
+    "name": "Lycoperdon perlatum",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/lycoperdon_perlatum.webp"
+  },
+  {
+    "id": "lycopodium_clavatum",
+    "name": "Lycopodium clavatum",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "pteridophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/pteridophyta/lycopodium_clavatum.webp"
+  },
+  {
+    "id": "lygus_lineolaris",
+    "name": "Lygus lineolaris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/lygus_lineolaris.webp"
+  },
+  {
+    "id": "lynx_lynx",
+    "name": "Lynx lynx",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/lynx_lynx.webp"
+  },
+  {
+    "id": "macaca_mulatta",
+    "name": "Macaca mulatta",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/macaca_mulatta.webp"
+  },
+  {
+    "id": "macrobdella_decora",
+    "name": "Macrobdella decora",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "annelida"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/annelida/macrobdella_decora.webp"
+  },
+  {
+    "id": "macrocheira_kaempferi",
+    "name": "Macrocheira kaempferi",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/macrocheira_kaempferi.webp"
+  },
+  {
+    "id": "macrocystis_pyrifera",
+    "name": "Macrocystis pyrifera",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/macrocystis_pyrifera.webp"
+  },
+  {
+    "id": "macropus_fuliginosus",
+    "name": "Macropus fuliginosus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/macropus_fuliginosus.webp"
+  },
+  {
+    "id": "macropus_giganteus",
+    "name": "Macropus giganteus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/macropus_giganteus.webp"
+  },
+  {
+    "id": "macropus_rufus",
+    "name": "Macropus rufus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/macropus_rufus.webp"
+  },
+  {
+    "id": "macrotermes_bellicosus",
+    "name": "Macrotermes bellicosus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "dictyoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/macrotermes_bellicosus.webp"
+  },
+  {
+    "id": "magnapinna_pacifica",
+    "name": "Magnapinna pacifica",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/magnapinna_pacifica.webp"
+  },
+  {
+    "id": "magnolia_grandiflora",
+    "name": "Magnolia grandiflora",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/magnolia_grandiflora.webp"
+  },
+  {
+    "id": "malaclemys_terrapin",
+    "name": "Malaclemys terrapin",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/malaclemys_terrapin.webp"
+  },
+  {
+    "id": "mandrillus_sphinx",
+    "name": "Mandrillus sphinx",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/mandrillus_sphinx.webp"
+  },
+  {
+    "id": "manduca_sexta",
+    "name": "Manduca sexta",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/manduca_sexta.webp"
+  },
+  {
+    "id": "mantis_religiosa",
+    "name": "Mantis religiosa",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "dictyoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/mantis_religiosa.webp"
+  },
+  {
+    "id": "maratus_volans",
+    "name": "Maratus volans",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "araneae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/maratus_volans.webp"
+  },
+  {
+    "id": "marchantia_polymorpha",
+    "name": "Marchantia polymorpha",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "bryophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/bryophyta/marchantia_polymorpha.webp"
+  },
+  {
+    "id": "megachile_rotundata",
+    "name": "Megachile rotundata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hymenoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/megachile_rotundata.webp"
+  },
+  {
+    "id": "megaptera_novaeangliae",
+    "name": "Megaptera novaeangliae",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/megaptera_novaeangliae.webp"
+  },
+  {
+    "id": "melanosuchus_niger",
+    "name": "Melanosuchus niger",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "crocodilia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/crocodilia/melanosuchus_niger.webp"
+  },
+  {
+    "id": "meles_meles",
+    "name": "Meles meles",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/meles_meles.webp"
+  },
+  {
+    "id": "meloe_proscarabeus",
+    "name": "Meloe proscarabeus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/meloe_proscarabeus.webp"
+  },
+  {
+    "id": "meloidgyne_spp",
+    "name": "Meloidogyne spp.",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "nematoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/nematoda/meloidgyne_spp.webp"
+  },
+  {
+    "id": "micropterus_salmoides",
+    "name": "Micropterus salmoides",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/micropterus_salmoides.webp"
+  },
+  {
+    "id": "miniopterus_schreibersii",
+    "name": "Miniopterus schreibersii",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/miniopterus_schreibersii.webp"
+  },
+  {
+    "id": "mobula_birostris",
+    "name": "Mobula birostris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/mobula_birostris.webp"
+  },
+  {
+    "id": "monodon_monceros",
+    "name": "Monodon monceros",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/monodon_monceros.webp"
+  },
+  {
+    "id": "morpho_menelaus",
+    "name": "Morpho menelaus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/morpho_menelaus.webp"
+  },
+  {
+    "id": "mus_musculus",
+    "name": "Mus musculus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/mus_musculus.webp"
+  },
+  {
+    "id": "musca_domestica",
+    "name": "Musca domestica",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "diptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/diptera/musca_domestica.webp"
+  },
+  {
+    "id": "mustela_furo",
+    "name": "Mustela furo",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/mustela_furo.webp"
+  },
+  {
+    "id": "mycobacterium_leprae",
+    "name": "Mycobacterium leprae",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/mycobacterium_leprae.webp"
+  },
+  {
+    "id": "mycobacterium_tuberculosis",
+    "name": "Mycobacterium tuberculosis",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/mycobacterium_tuberculosis.webp"
+  },
+  {
+    "id": "myocastor_coypus",
+    "name": "Myocastor coypus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/myocastor_coypus.webp"
+  },
+  {
+    "id": "myotis_lucifugus",
+    "name": "Myotis lucifugus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/myotis_lucifugus.webp"
+  },
+  {
+    "id": "myrmecophaga_tridactyla",
+    "name": "Myrmecophaga tridactyla",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/myrmecophaga_tridactyla.webp"
+  },
+  {
+    "id": "mytilus_edulis",
+    "name": "Mytilus edulis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/mytilus_edulis.webp"
+  },
+  {
+    "id": "myzus_persicae",
+    "name": "Myzus persicae",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/myzus_persicae.webp"
+  },
+  {
+    "id": "naegleria_fowleri",
+    "name": "Naegleria fowleri",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/naegleria_fowleri.webp"
+  },
+  {
+    "id": "naja_naja",
+    "name": "Naja naja",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/naja_naja.webp"
+  },
+  {
+    "id": "narceus_americanus",
+    "name": "Narceus americanus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/narceus_americanus.webp"
+  },
+  {
+    "id": "nasutitermes_corniger",
+    "name": "Nasutitermes corniger",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "dictyoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/nasutitermes_corniger.webp"
+  },
+  {
+    "id": "nautilus_prompilius",
+    "name": "Nautilus prompilius",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/nautilus_prompilius.webp"
+  },
+  {
+    "id": "neisseria_gonorrhea",
+    "name": "Neisseria gonorrhoeae",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/neisseria_gonorrhea.webp"
+  },
+  {
+    "id": "nephila_clavipes",
+    "name": "Nephila clavipes",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "araneae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/nephila_clavipes.webp"
+  },
+  {
+    "id": "nephrolepis_exaltata",
+    "name": "Nephrolepis exaltata",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "pteridophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/pteridophyta/nephrolepis_exaltata.webp"
+  },
+  {
+    "id": "nephrops_norvegicus",
+    "name": "Nephrops norvegicus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/nephrops_norvegicus.webp"
+  },
+  {
+    "id": "nereis_virens",
+    "name": "Nereis virens",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "annelida"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/annelida/nereis_virens.webp"
+  },
+  {
+    "id": "nereocystis_luetkeana",
+    "name": "Nereocystis luetkeana",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/nereocystis_luetkeana.webp"
+  },
+  {
+    "id": "nezara_viridula",
+    "name": "Nezara viridula",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/nezara_viridula.webp"
+  },
+  {
+    "id": "nitrosomonas_europaea",
+    "name": "Nitrosomonas europaea",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/nitrosomonas_europaea.webp"
+  },
+  {
+    "id": "noctiluca_scintillans",
+    "name": "Noctiluca scintillans",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/noctiluca_scintillans.webp"
+  },
+  {
+    "id": "notophthalmus_viridescens",
+    "name": "Notophthalmus viridescens",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/notophthalmus_viridescens.webp"
+  },
+  {
+    "id": "nyctalus_noctula",
+    "name": "Nyctalus noctula",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/nyctalus_noctula.webp"
+  },
+  {
+    "id": "nymphargus_ocellatus",
+    "name": "Nymphargus ocellatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/nymphargus_ocellatus.webp"
+  },
+  {
+    "id": "octolasion_cyaneum",
+    "name": "Octolasion cyaneum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "annelida"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/annelida/octolasion_cyaneum.webp"
+  },
+  {
+    "id": "octopus_vulgaris",
+    "name": "Octopus vulgaris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/octopus_vulgaris.webp"
+  },
+  {
+    "id": "odocoileus_virginianus",
+    "name": "Odocoileus virginianus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/odocoileus_virginianus.webp"
+  },
+  {
+    "id": "oncopeltus_fasciatus",
+    "name": "Oncopeltus fasciatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/oncopeltus_fasciatus.webp"
+  },
+  {
+    "id": "oncorhynchus_mykiss",
+    "name": "Oncorhynchus mykiss",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/oncorhynchus_mykiss.webp"
+  },
+  {
+    "id": "ophiophagus_hannah",
+    "name": "Ophiophagus hannah",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/ophiophagus_hannah.webp"
+  },
+  {
+    "id": "opisthacanthus_asper",
+    "name": "Opisthacanthus asper",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "scorpiones"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/opisthacanthus_asper.webp"
+  },
+  {
+    "id": "opuntia_ficus-indica",
+    "name": "Opuntia ficus-indica",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/opuntia_ficus-Indica.webp"
+  },
+  {
+    "id": "orcinus_orca",
+    "name": "Orcinus orca",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/orcinus_orca.webp"
+  },
+  {
+    "id": "oreaster_reticulatus",
+    "name": "Oreaster reticulatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/oreaster_reticulatus.webp"
+  },
+  {
+    "id": "oreochromis_niloticus",
+    "name": "Oreochromis niloticus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/oreochromis_niloticus.webp"
+  },
+  {
+    "id": "ovis_aries",
+    "name": "Ovis aries",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/ovis_aries.webp"
+  },
+  {
+    "id": "ovis_canadensis",
+    "name": "Ovis canadensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/ovis_canadensis.webp"
+  },
+  {
+    "id": "oxyuranus_microlepidotus",
+    "name": "Oxyuranus microlepidotus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/oxyuranus_microlepidotus.webp"
+  },
+  {
+    "id": "pagurus_bernhardus",
+    "name": "Pagurus bernhardus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/pagurus_bernhardus.webp"
+  },
+  {
+    "id": "pan_paniscus",
+    "name": "Pan paniscus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/pan_paniscus.webp"
+  },
+  {
+    "id": "pan_troglodytes",
+    "name": "Pan troglodytes",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/pan_troglodytes.webp"
+  },
+  {
+    "id": "pandinus_imperator",
+    "name": "Pandinus imperator",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "scorpiones"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/pandinus_imperator.webp"
+  },
+  {
+    "id": "panthera_leo",
+    "name": "Panthera leo",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/panthera_leo.webp"
+  },
+  {
+    "id": "panthera_onca",
+    "name": "Panthera onca",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/panthera_onca.webp"
+  },
+  {
+    "id": "panthera_pardus",
+    "name": "Panthera pardus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/panthera_pardus.webp"
+  },
+  {
+    "id": "panthera_tigris",
+    "name": "Panthera tigris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/panthera_tigris.webp"
+  },
+  {
+    "id": "panthera_uncia",
+    "name": "Panthera uncia",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/panthera_uncia.webp"
+  },
+  {
+    "id": "papilio_machaon",
+    "name": "Papilio machaon",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/papilio_machaon.webp"
+  },
+  {
+    "id": "papio_anubis",
+    "name": "Papio anubis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/papio_anubis.webp"
+  },
+  {
+    "id": "papio_hamadryas",
+    "name": "Papio hamadryas",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/papio_hamadryas.webp"
+  },
+  {
+    "id": "parabuthus_transvaalicus",
+    "name": "Parabuthus transvaalicus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "scorpiones"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/parabuthus_transvaalicus.webp"
+  },
+  {
+    "id": "paramecium_caudatum",
+    "name": "Paramecium caudatum",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/paramecium_caudatum.webp"
+  },
+  {
+    "id": "paraponera_clavata",
+    "name": "Paraponera clavata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hymenoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/paraponera_clavata.webp"
+  },
+  {
+    "id": "parastichopus_californicus",
+    "name": "Parastichopus californicus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/parastichopus_californicus.webp"
+  },
+  {
+    "id": "pauropus_huxleyi",
+    "name": "Pauropus huxleyi",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/pauropus_huxleyi.webp"
+  },
+  {
+    "id": "pavo_cristatus",
+    "name": "Pavo cristatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/pavo_cristatus.webp"
+  },
+  {
+    "id": "pelagia_noctiluca",
+    "name": "Pelagia noctiluca",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/pelagia_noctiluca.webp"
+  },
+  {
+    "id": "pellia_epiphylla",
+    "name": "Pellia epiphylla",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "bryophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/bryophyta/pellia_epiphylla.webp"
+  },
+  {
+    "id": "penaeus_monodon",
+    "name": "Penaeus monodon",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/penaeus_monodon.webp"
+  },
+  {
+    "id": "penicillium_chrysogenum",
+    "name": "Penicillium chrysogenum",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/penicillium_chrysogenum.webp"
+  },
+  {
+    "id": "pepsis_grossa",
+    "name": "Pepsis grossa",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hymenoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/pepsis_grossa.webp"
+  },
+  {
+    "id": "perca_fluviatilis",
+    "name": "Perca fluviatilis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/perca_fluviatilis.webp"
+  },
+  {
+    "id": "periplaneta_americana",
+    "name": "Periplaneta americana",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "dictyoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/periplaneta_americana.webp"
+  },
+  {
+    "id": "peromyscus_maniculatus",
+    "name": "Peromyscus maniculatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/peromyscus_maniculatus.webp"
+  },
+  {
+    "id": "petaurus_breviceps",
+    "name": "Petaurus breviceps",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/petaurus_breviceps.webp"
+  },
+  {
+    "id": "petrogale_xanthopus",
+    "name": "Petrogale xanthopus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/petrogale_xanthopus.webp"
+  },
+  {
+    "id": "phaeoceros_laevis",
+    "name": "Phaeoceros laevis",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "bryophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/bryophyta/phaeoceros_laevis.webp"
+  },
+  {
+    "id": "phaocochoerus_africanus",
+    "name": "Phaocochoerus africanus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/phaocochoerus_africanus.webp"
+  },
+  {
+    "id": "phascolarctos_cinereus",
+    "name": "Phascolarctos cinereus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/phascolarctos_cinereus.webp"
+  },
+  {
+    "id": "phidippus_audax",
+    "name": "Phidippus audax",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "araneae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/phidippus_audax.webp"
+  },
+  {
+    "id": "phocoena_phocoena",
+    "name": "Phocoena phocoena",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/phocoena_phocoena.webp"
+  },
+  {
+    "id": "phocoena_sinus",
+    "name": "Phocoena sinus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/phocoena_sinus.webp"
+  },
+  {
+    "id": "phoenicopterus_roseus",
+    "name": "Phoenicopterus roseus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/phoenicopterus_roseus.webp"
+  },
+  {
+    "id": "phoneutria_nigriventer",
+    "name": "Phoneutria nigriventer",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "araneae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/phoneutria_nigriventer.webp"
+  },
+  {
+    "id": "photinus_pyralis",
+    "name": "Photinus pyralis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/photinus_pyralis.webp"
+  },
+  {
+    "id": "phrynosoma_cornutum",
+    "name": "Phrynosoma cornutum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/phrynosoma_cornutum.webp"
+  },
+  {
+    "id": "phyllocrania_paradoxa",
+    "name": "Phyllocrania paradoxa",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "dictyoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/phyllocrania_paradoxa.webp"
+  },
+  {
+    "id": "physalia_physalis",
+    "name": "Physalia physalis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/physalia_physalis.webp"
+  },
+  {
+    "id": "physeter_macrocephalus",
+    "name": "Physeter macrocephalus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/physeter_macrocephalus.webp"
+  },
+  {
+    "id": "picea_abies",
+    "name": "Picea abies",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "gymnospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/gymnospermae/picea_abies.webp"
+  },
+  {
+    "id": "pieris_rapae",
+    "name": "Pieris rapae",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/pieris_rapae.webp"
+  },
+  {
+    "id": "pinus_ponderosa",
+    "name": "Pinus ponderosa",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "gymnospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/gymnospermae/pinus_ponderosa.webp"
+  },
+  {
+    "id": "pipa_pipa",
+    "name": "Pipa pipa",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/pipa_pipa.webp"
+  },
+  {
+    "id": "pisaster_ochraceus",
+    "name": "Pisaster ochraceus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/pisaster_ochraceus.webp"
+  },
+  {
+    "id": "plasmodium_falciparum",
+    "name": "Plasmodium falciparum",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/plasmodium_falciparum.webp"
+  },
+  {
+    "id": "polistes_dominula",
+    "name": "Polistes dominula",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hymenoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/polistes_dominula.webp"
+  },
+  {
+    "id": "pongo_abelii",
+    "name": "Pongo abelii",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/pongo_abelii.webp"
+  },
+  {
+    "id": "pongo_pygmaeus",
+    "name": "Pongo pygmaeus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/pongo_pygmaeus.webp"
+  },
+  {
+    "id": "porphyra_spp",
+    "name": "Porphyra spp.",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/porphyra_spp.webp"
+  },
+  {
+    "id": "praya_dubia",
+    "name": "Praya dubia",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/praya_dubia.webp"
+  },
+  {
+    "id": "pristis_pectinata",
+    "name": "Pristis pectinata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/pristis_pectinata.webp"
+  },
+  {
+    "id": "procambarus_clarkii",
+    "name": "Procambarus clarkii",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/procambarus_clarkii.webp"
+  },
+  {
+    "id": "procyon_lotor",
+    "name": "Procyon lotor",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/procyon_lotor.webp"
+  },
+  {
+    "id": "protoreaster_nodosus",
+    "name": "Protoreaster nodosus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/protoreaster_nodosus.webp"
+  },
+  {
+    "id": "prunus_serrulata",
+    "name": "Prunus serrulata",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/prunus_serrulata.webp"
+  },
+  {
+    "id": "psittacus_erithacus",
+    "name": "Psittacus erithacus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/psittacus_erithacus.webp"
+  },
+  {
+    "id": "psylla_pyricola",
+    "name": "Psylla pyricola",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/psylla_pyricola.webp"
+  },
+  {
+    "id": "pteridium_aquilinum",
+    "name": "Pteridium aquilinum",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "pteridophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/pteridophyta/pteridium_aquilinum.webp"
+  },
+  {
+    "id": "pterois_volitans",
+    "name": "Pterois volitans",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/pterois_volitans.webp"
+  },
+  {
+    "id": "pteropus_vampyrus",
+    "name": "Pteropus vampyrus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/pteropus_vampyrus.webp"
+  },
+  {
+    "id": "pyrophorus_noctilucus",
+    "name": "Pyrophorus noctilucus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/pyrophorus_noctilucus.webp"
+  },
+  {
+    "id": "python_regius",
+    "name": "Python regius",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/python_regius.webp"
+  },
+  {
+    "id": "pyxicephalus_adspersus",
+    "name": "Pyxicephalus adspersus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/pyxicephalus_adspersus.webp"
+  },
+  {
+    "id": "quercus_robur",
+    "name": "Quercus robur",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/quercus_robur.webp"
+  },
+  {
+    "id": "racomitrium_lanuginosum",
+    "name": "Racomitrium lanuginosum",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "bryophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/bryophyta/racomitrium_lanuginosum.webp"
+  },
+  {
+    "id": "rafflesia_arnoldii",
+    "name": "Rafflesia arnoldii",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/rafflesia_arnoldii.webp"
+  },
+  {
+    "id": "rana_temporaria",
+    "name": "Rana temporaria",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/rana_temporaria.webp"
+  },
+  {
+    "id": "rangifer_tarandus",
+    "name": "Rangifer tarandus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/rangifer_tarandus.webp"
+  },
+  {
+    "id": "rattus_norvegicus",
+    "name": "Rattus norvegicus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/rattus_norvegicus.webp"
+  },
+  {
+    "id": "reticulitermes_flavipes",
+    "name": "Reticulitermes flavipes",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "dictyoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/reticulitermes_flavipes.webp"
+  },
+  {
+    "id": "rhincodon_typus",
+    "name": "Rhincodon typus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/rhincodon_typus.webp"
+  },
+  {
+    "id": "rhinella_marina",
+    "name": "Rhinella marina",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/rhinella_marina.webp"
+  },
+  {
+    "id": "rhinoceros_unicornis",
+    "name": "Rhinoceros unicornis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/rhinoceros_unicornis.webp"
+  },
+  {
+    "id": "rhipicephalus_sanguineus",
+    "name": "Rhipicephalus sanguineus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "acari"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/acari/rhipicephalus_sanguineus.webp"
+  },
+  {
+    "id": "rhizopus_stolonifer",
+    "name": "Rhizopus stolonifer",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/rhizopus_stolonifer.webp"
+  },
+  {
+    "id": "rhizostoma_pulmo",
+    "name": "Rhizostoma pulmo",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/rhizostoma_pulmo.webp"
+  },
+  {
+    "id": "rhodnius_prolixus",
+    "name": "Rhodnius prolixus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/rhodnius_prolixus.webp"
+  },
+  {
+    "id": "riccia_fluitans",
+    "name": "Riccia fluitans",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "bryophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/bryophyta/riccia_fluitans.webp"
+  },
+  {
+    "id": "rickettsia_rickettsii",
+    "name": "Rickettsia rickettsii",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/rickettsia_rickettsii.webp"
+  },
+  {
+    "id": "rionace_glauca",
+    "name": "Rionace glauca",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/rionace_glauca.webp"
+  },
+  {
+    "id": "rosa_chinensis",
+    "name": "Rosa chinensis",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/rosa_chinensis.webp"
+  },
+  {
+    "id": "rousettus_aegyptiacus",
+    "name": "Rousettus aegyptiacus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/rousettus_aegyptiacus.webp"
+  },
+  {
+    "id": "saimiri_sciureus",
+    "name": "Saimiri sciureus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/saimiri_sciureus.webp"
+  },
+  {
+    "id": "salamandra_salamandra",
+    "name": "Salamandra salamandra",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/salamandra_salamandra.webp"
+  },
+  {
+    "id": "salix_babylonica",
+    "name": "Salix babylonica",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/salix_babylonica.webp"
+  },
+  {
+    "id": "salmo_salar",
+    "name": "Salmo salar",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/salmo_salar.webp"
+  },
+  {
+    "id": "salmonella_enterica",
+    "name": "Salmonella enterica",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/salmonella_enterica.webp"
+  },
+  {
+    "id": "sarcophilus_harrisii",
+    "name": "Sarcophilus harrisii",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/sarcophilus_harrisii.webp"
+  },
+  {
+    "id": "sarcoptes_scabiei",
+    "name": "Sarcoptes scabiei",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "acari"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/acari/sarcoptes_scabiei.webp"
+  },
+  {
+    "id": "saturnia_pyri",
+    "name": "Saturnia pyri",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/saturnia_pyri.webp"
+  },
+  {
+    "id": "scaphiopus_holbrookii",
+    "name": "Scaphiopus holbrookii",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "amphibia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/amphibia/scaphiopus_holbrookii.webp"
+  },
+  {
+    "id": "scarabeus_sacer",
+    "name": "Scarabeus sacer",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/scarabeus_sacer.webp"
+  },
+  {
+    "id": "schistosoma_mansoni",
+    "name": "Schistosoma mansoni",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "platyhelminthes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/platyhelminthes/schistosoma_mansoni.webp"
+  },
+  {
+    "id": "scirius_carolinensis",
+    "name": "Scirius carolinensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/scirius_carolinensis.webp"
+  },
+  {
+    "id": "scolopendra_gigantea",
+    "name": "Scolopendra gigantea",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/scolopendra_gigantea.webp"
+  },
+  {
+    "id": "scolopendra_subspinipes",
+    "name": "Scolopendra subspinipes",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/scolopendra_subspinipes.webp"
+  },
+  {
+    "id": "scomber_scombrus",
+    "name": "Scomber scombrus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/scomber_scombrus.webp"
+  },
+  {
+    "id": "scropio_maurus",
+    "name": "Scropio maurus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "scorpiones"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/scropio_maurus.webp"
+  },
+  {
+    "id": "scutigera_coleoptrata",
+    "name": "Scutigera coleoptrata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/scutigera_coleoptrata.webp"
+  },
+  {
+    "id": "selaginella_uncinata",
+    "name": "Selaginella uncinata",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "pteridophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/pteridophyta/selaginella_uncinata.webp"
+  },
+  {
+    "id": "sepia_officinalis",
+    "name": "Sepia officinalis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/sepia_officinalis.webp"
+  },
+  {
+    "id": "sequoia_sempervirens",
+    "name": "Sequoia sempervirens",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "gymnospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/gymnospermae/sequoia sempervirens.webp"
+  },
+  {
+    "id": "sequoiadendrom_giganteum",
+    "name": "Sequoiadendrom giganteum",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "gymnospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/gymnospermae/sequoiadendrom_giganteum.webp"
+  },
+  {
+    "id": "shigella_dysenteriae",
+    "name": "Shigella dysenteriae",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/shigella_dysenteriae.webp"
+  },
+  {
+    "id": "simulium_damnosum",
+    "name": "Simulium damnosum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "diptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/diptera/simulium_damnosum.webp"
+  },
+  {
+    "id": "solenopsis_invicta",
+    "name": "Solenopsis invicta",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hymenoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/solenopsis_invicta.webp"
+  },
+  {
+    "id": "sphagnum_spp",
+    "name": "Sphagnum spp.",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "bryophyta"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/bryophyta/sphagnum_spp.webp"
+  },
+  {
+    "id": "sphyraena_barracuda",
+    "name": "Sphyraena barracuda",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/sphyraena_barracuda.webp"
+  },
+  {
+    "id": "sphyrna_lewini",
+    "name": "Sphyrna lewini",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/sphyrna_lewini.webp"
+  },
+  {
+    "id": "spirogyra_spp",
+    "name": "Spirogyra spp.",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/spirogyra_spp.webp"
+  },
+  {
+    "id": "spongilla_lacustris",
+    "name": "Spongilla lacustris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "porifera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/porifera/spongilla_lacustris.webp"
+  },
+  {
+    "id": "staphylococcus_aureus",
+    "name": "Staphylococcus aureus",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/staphylococcus_aureus.webp"
+  },
+  {
+    "id": "stenocara_gracilipes",
+    "name": "Stenocara gracilipes",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/stenocara_gracilipes.webp"
+  },
+  {
+    "id": "stichodactyla_gigantea",
+    "name": "Stichodactyla gigantea",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/stichodactyla_gigantea.webp"
+  },
+  {
+    "id": "streptococcus_pneumonae",
+    "name": "Streptococcus pneumoniae",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/streptococcus_pneumonae.webp"
+  },
+  {
+    "id": "streptococcus_pyogenes",
+    "name": "Streptococcus pyogenes",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/streptococcus_pyogenes.webp"
+  },
+  {
+    "id": "strongylocentrotus_purpuratus",
+    "name": "Strongylocentrotus purpuratus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/strongylocentrotus_purpuratus.webp"
+  },
+  {
+    "id": "struthio_camelus",
+    "name": "Struthio camelus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/struthio_camelus.webp"
+  },
+  {
+    "id": "sus_scrofa",
+    "name": "Sus scrofa",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/sus_scrofa.webp"
+  },
+  {
+    "id": "sus_scrofa-domesticus",
+    "name": "Sus scrofa-domesticus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/sus_scrofa-domesticus.webp"
+  },
+  {
+    "id": "sycon_ciliatum",
+    "name": "Sycon ciliatum",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "porifera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/porifera/sycon_ciliatum.webp"
+  },
+  {
+    "id": "synanceia_verrucosa",
+    "name": "Synanceia verrucosa",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/synanceia_verrucosa.webp"
+  },
+  {
+    "id": "tabanus_bovinus",
+    "name": "Tabanus bovinus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "diptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/diptera/tabanus_bovinus.webp"
+  },
+  {
+    "id": "tadarida_brasiliensis",
+    "name": "Tadarida brasiliensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "chiroptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/chiroptera/tadarida_brasiliensis.webp"
+  },
+  {
+    "id": "taenia_saginata",
+    "name": "Taenia saginata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "platyhelminthes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/platyhelminthes/taenia_saginata.webp"
+  },
+  {
+    "id": "taenia_solium",
+    "name": "Taenia solium",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "platyhelminthes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/platyhelminthes/taenia_solium.webp"
+  },
+  {
+    "id": "taeniopygia_guttata",
+    "name": "Taeniopygia guttata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/taeniopygia_guttata.webp"
+  },
+  {
+    "id": "tamandua_tetradactyla",
+    "name": "Tamandua tetradactyla",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/tamandua_tetradactyla.webp"
+  },
+  {
+    "id": "tamanua_mexicana",
+    "name": "Tamanua mexicana",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "pilosa"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/pilosa/tamanua_mexicana.webp"
+  },
+  {
+    "id": "tamias_striatus",
+    "name": "Tamias striatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/tamias_striatus.webp"
+  },
+  {
+    "id": "tapirus_bairdii",
+    "name": "Tapirus bairdii",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/tapirus_bairdii.webp"
+  },
+  {
+    "id": "tapirus_pinchaque",
+    "name": "Tapirus pinchaque",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/tapirus_pinchaque.webp"
+  },
+  {
+    "id": "tapirus_terrestris",
+    "name": "Tapirus terrestris",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "perissodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/perissodactyla/tapirus_terrestris.webp"
+  },
+  {
+    "id": "taraxacum_officinale",
+    "name": "Taraxacum officinale",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/taraxacum_officinale.webp"
+  },
+  {
+    "id": "tarsipes_rostratus",
+    "name": "Tarsipes rostratus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/tarsipes_rostratus.webp"
+  },
+  {
+    "id": "tarsius_tarsier",
+    "name": "Tarsius tarsier",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "primates"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/primates/tarsius_tarsier.webp"
+  },
+  {
+    "id": "taxus_baccata",
+    "name": "Taxus baccata",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "gymnospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/gymnospermae/taxus_baccata.webp"
+  },
+  {
+    "id": "tenebrio_molitor",
+    "name": "Tenebrio molitor",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/tenebrio_molitor.webp"
+  },
+  {
+    "id": "tenodera_sinensis",
+    "name": "Tenodera sinensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "dictyoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/dictyoptera/tenodera_sinensis.webp"
+  },
+  {
+    "id": "terrapene_carolina",
+    "name": "Terrapene carolina",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/terrapene_carolina.webp"
+  },
+  {
+    "id": "testudo_graeca",
+    "name": "Testudo graeca",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "testudines"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/testudines/testudo_graeca.webp"
+  },
+  {
+    "id": "tetranychus_urticae",
+    "name": "Tetranychus urticae",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "acari"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/acari/tetranychus_urticae.webp"
+  },
+  {
+    "id": "thamnophis_sirtalis",
+    "name": "Thamnophis sirtalis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/thamnophis_sirtalis.webp"
+  },
+  {
+    "id": "thelenota_ananas",
+    "name": "Thelenota ananas",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "echinodermata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/echinodermata/thelenota_ananas.webp"
+  },
+  {
+    "id": "theraphosa_blondi",
+    "name": "Theraphosa blondi",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "araneae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/araneae/theraphosa_blondi.webp"
+  },
+  {
+    "id": "thomomys_bottae",
+    "name": "Thomomys bottae",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "rodentia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/rodentia/thomomys_bottae.webp"
+  },
+  {
+    "id": "thunnus_albacares",
+    "name": "Thunnus albacares",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/thunnus_albacares.webp"
+  },
+  {
+    "id": "thylogale_thets",
+    "name": "Thylogale thets",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/thylogale_thets.webp"
+  },
+  {
+    "id": "tituys_serrulatus",
+    "name": "Tituys serrulatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "scorpiones"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/tituys_serrulatus.webp"
+  },
+  {
+    "id": "torpedo_marmorata",
+    "name": "Torpedo marmorata",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "chondrichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/chondrichthyes/torpedo_marmorata.webp"
+  },
+  {
+    "id": "toxocara_canis",
+    "name": "Toxocara canis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "nematoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/nematoda/toxocara_canis.webp"
+  },
+  {
+    "id": "toxoplasma_gondii",
+    "name": "Toxoplasma gondii",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/toxoplasma_gondii.webp"
+  },
+  {
+    "id": "treponema_palidium",
+    "name": "Treponema pallidum",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/treponema_palidium.webp"
+  },
+  {
+    "id": "triatoma_infestans",
+    "name": "Triatoma infestans",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hemiptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hemiptera/triatoma_infestans.webp"
+  },
+  {
+    "id": "trichinella_spiralis",
+    "name": "Trichinella spiralis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "nematoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/nematoda/trichinella_spiralis.webp"
+  },
+  {
+    "id": "tridacna_gigas",
+    "name": "Tridacna gigas",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "mollusca"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/mollusca/tridacna_gigas.webp"
+  },
+  {
+    "id": "trigoniulus_corallinus",
+    "name": "Trigoniulus corallinus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "myriapoda"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/myriapoda/trigoniulus_corallinus.webp"
+  },
+  {
+    "id": "triops_longicaudatus",
+    "name": "Triops longicaudatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/triops_longicaudatus.webp"
+  },
+  {
+    "id": "triticum_aestivum",
+    "name": "Triticum aestivum",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/triticum_aestivum.webp"
+  },
+  {
+    "id": "trypanosoma_brucei",
+    "name": "Trypanosoma brucei",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/trypanosoma_brucei.webp"
+  },
+  {
+    "id": "trypoxylus_dichotomus",
+    "name": "Trypoxylus dichotomus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "coleoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/coleoptera/trypoxylus_dichotomus.webp"
+  },
+  {
+    "id": "tubastraea_spp",
+    "name": "Tubastraea spp.",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "cnidaria"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/cnidaria/tubastraea_spp.webp"
+  },
+  {
+    "id": "tuber_melanosporum",
+    "name": "Tuber melanosporum",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/tuber_melanosporum.webp"
+  },
+  {
+    "id": "tuja_occidentalis",
+    "name": "Tuja occidentalis",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "gymnospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/gymnospermae/tuja_occidentalis.webp"
+  },
+  {
+    "id": "turdus_migratorious",
+    "name": "Turdus migratorious",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/turdus_migratorious.webp"
+  },
+  {
+    "id": "tursiops_truncatus",
+    "name": "Tursiops truncatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "cetacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/cetacea/tursiops_truncatus.webp"
+  },
+  {
+    "id": "uca_pugilator",
+    "name": "Uca pugilator",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "crustacea"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/crustacea/uca_pugilator.webp"
+  },
+  {
+    "id": "ulva_lactuca",
+    "name": "Ulva lactuca",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/ulva_lactuca.webp"
+  },
+  {
+    "id": "uroplectes_lineatus",
+    "name": "Uroplectes lineatus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "arachnida",
+      "scorpiones"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/arachnida/scorpiones/uroplectes_lineatus.webp"
+  },
+  {
+    "id": "ursus_arctos",
+    "name": "Ursus arctos",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/ursus_arctos.webp"
+  },
+  {
+    "id": "ursus_maritimus",
+    "name": "Ursus maritimus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "carnivora"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/carnivora/ursus_maritimus.webp"
+  },
+  {
+    "id": "utetheisa_ornatrix",
+    "name": "Utetheisa ornatrix",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/utetheisa_ornatrix.webp"
+  },
+  {
+    "id": "vanessa_cardui",
+    "name": "Vanessa cardui",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "lepidoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/lepidoptera/vanessa_cardui.webp"
+  },
+  {
+    "id": "varanus_komodoensis",
+    "name": "Varanus komodoensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/varanus_komodoensis.webp"
+  },
+  {
+    "id": "vibrio_cholerae",
+    "name": "Vibrio cholerae",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/vibrio_cholerae.webp"
+  },
+  {
+    "id": "vicugna_pacos",
+    "name": "Vicugna pacos",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "artiodactyla"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/artiodactyla/vicugna_pacos.webp"
+  },
+  {
+    "id": "volvox_aureus",
+    "name": "Volvox aureus",
+    "path": [
+      "eukaryota",
+      "protista"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/protista/volvox_aureus.webp"
+  },
+  {
+    "id": "vombatus_ursinus",
+    "name": "Vombatus ursinus",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "mammalia",
+      "marsupialia"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/mammalia/marsupialia/vombatus_ursinus.webp"
+  },
+  {
+    "id": "xanthoria_polycarpa",
+    "name": "Xanthoria polycarpa",
+    "path": [
+      "eukaryota",
+      "fungi"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/fungi/xanthoria_polycarpa.webp"
+  },
+  {
+    "id": "xiphias_gladius",
+    "name": "Xiphias gladius",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "osteichthyes"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/osteichthyes/xiphias_gladius.webp"
+  },
+  {
+    "id": "xylocopa_virginica",
+    "name": "Xylocopa virginica",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "arthropoda",
+      "insecta",
+      "hymenoptera"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/arthropoda/insecta/hymenoptera/xylocopa_virginica.webp"
+  },
+  {
+    "id": "yersinia_pestis",
+    "name": "Yersinia pestis",
+    "path": [
+      "bacteria"
+    ],
+    "image": "/assets/webp/games/taxo/bacteria/yersinia_pestis.webp"
+  },
+  {
+    "id": "zea_mays",
+    "name": "Zea mays",
+    "path": [
+      "eukaryota",
+      "plantae",
+      "angiospermae"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/plantae/angiospermae/zea_mays.webp"
+  },
+  {
+    "id": "zenaida_macroura",
+    "name": "Zenaida macroura",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "aves"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/aves/zenaida_macroura.webp"
+  },
+  {
+    "id": "zonosaurus_madagascariensis",
+    "name": "Zonosaurus madagascariensis",
+    "path": [
+      "eukaryota",
+      "animalia",
+      "chordata",
+      "reptilia",
+      "squamata"
+    ],
+    "image": "/assets/webp/games/taxo/eukaryota/animalia/chordata/reptilia/squamata/zonosaurus_madagascariensis.webp"
+  }
+]

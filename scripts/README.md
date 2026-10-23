@@ -35,3 +35,4 @@ python scripts/square_cover.py public/assets/img/covers/home/taxo.png --mode pad
 ### `scripts/notebooks/wordvec.ipynb`
 
 Historical notebook used to prototype `public/assets/data/bio_words.txt`. Not runnable without external files (`bioword.vec.bin`, `desc2025.xml`).
+
