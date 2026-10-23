@@ -13,6 +13,7 @@ app/                  # Next.js App Router routes ONLY (thin server files + glob
   not-found.tsx       # Custom 404 page
   manifest.ts         # Web app manifest (/manifest.webmanifest)
   globals.css         # Tailwind v4 @theme semantic color tokens + shared keyframes
+  api/                # Serverless Route Handlers (e.g. /api/bio-guesser/next, /api/bio-guesser/feedback)
   taxo-bingo/page.tsx # Server route: exports gameMetadata("taxo-bingo") + <TaxoBingoGame />
 components/           # Shared React components (never contain game-specific copy)
   layout/             # Site chrome: Header.tsx, Footer.tsx
@@ -50,8 +51,9 @@ tasks/                # Game specifications for upcoming games
 
 ## 2. Core Conventions
 
-1. **Server/Client Boundary:** Keep files under `app/**` as thin server components that export `metadata` and render a single view or game root. Mark `"use client"` at the lowest sensible level (e.g., `games/<slug>/<Game>Game.tsx` and interactive UI primitives), never on layouts or route pages.
-2. **Pure Logic Rule:** Files in `games/<slug>/logic/**` and `lib/**` (outside `lib/hooks/**`) must be pure TypeScript:
+1. **Server/Client Boundary:** Keep files under `app/**` (outside `app/api/**`) as thin server components that export `metadata` and render a single view or game root. Mark `"use client"` at the lowest sensible level (e.g., `games/<slug>/<Game>Game.tsx` and interactive UI primitives), never on layouts or route pages.
+2. **API Routes & Server Boundaries:** The application is predominantly static client-side games, but also includes stateless Next.js Route Handlers under `app/api/bio-guesser/` to support the Bio Guesser engine and external Python engine proxies (`server-only`). Engine modules must use `import "server-only"` to prevent leakage into client bundles.
+3. **Pure Logic Rule:** Files in `games/<slug>/logic/**` and `lib/**` (outside `lib/hooks/**`) must be pure TypeScript:
    - No React or DOM imports.
    - No `Math.random()` anywhere outside `lib/rng.ts` — accept an `Rng` parameter.
    - No `Date.now()` inside game logic/reducers — pass `now: number` via action payloads.

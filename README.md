@@ -13,8 +13,22 @@
 ## 🎮 Released Games
 
 ### **Taxo Bingo** (`/taxo-bingo`)
+*Match organisms to the 12 taxonomic categories on the bingo grid. Fill all 12 cells to win! Includes daily challenges and Hard Mode.*
 
-*Match organisms to the 12 taxonomic categories on the bingo grid. Fill all 12 cells to win!*
+### **Bio Wordle** (`/bio-wordle`)
+*Guess the secret biology word in six tries with word lengths from 4 to 7 letters, daily puzzles, and post-game definitions.*
+
+### **Symptoms Link** (`/symptoms-link`)
+*Identify the pathogen or disease from progressively revealed clinical symptoms (from vague to hallmark telltale signs).*
+
+### **Animal Tic-Tac-Toe** (`/animal-tictactoe`)
+*Claim cells on a trait-crossed 3×3 grid using animal names. Features 240+ animals, daily puzzles, Hard Mode, and a 2-player local Versus mode.*
+
+### **Cell Classifier** (`/cell-classifier`)
+*Interactive SVG cell diagram quiz (animal, plant, bacterial) testing organelle identification and function facts across 10-question rounds.*
+
+### **Bio Guesser** (`/bio-guesser`)
+*Akinator for biology: Linnaeus asks questions and tries to guess the secret organism you are thinking of.*
 
 ---
 
@@ -22,11 +36,7 @@
 
 Defined in [`games/registry.ts`](games/registry.ts) and specified in `tasks/`:
 
-- **Bio Wordle** (`bio-wordle`)
-- **Symptoms Link** (`symptoms-link`)
-- **Animal Tic-Tac-Toe** (`animal-tictactoe`)
 - **Bio Top 8** (`bio-top8`)
-- **Cell Classifier** (`cell-classifier`)
 
 ---
 

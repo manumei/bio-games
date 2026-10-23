@@ -17,6 +17,9 @@ const DEFAULT_ORGANISM_IDS: readonly string[] = ORGANISMS.map((o) => o.id);
 
 export function createInitialTaxoState(): TaxoGameState {
   return {
+    mode: "daily",
+    dayKey: null,
+    seed: 1,
     phase: "menu",
     options: {
       timer: DEFAULT_TIMER,
@@ -24,12 +27,17 @@ export function createInitialTaxoState(): TaxoGameState {
     },
     grid: [],
     filled: {},
+    mistakes: 0,
+    skips: 0,
     deck: { ids: [], cursor: 0 },
     isImageReady: false,
+    startedAt: null,
     deadline: null,
+    endedAt: null,
     endReason: null,
     modalOpen: false,
     misplacedCell: null,
+    dailyFinishedForToday: false,
   };
 }
 
@@ -54,19 +62,90 @@ export function taxoReducer(
 
     case "START": {
       const poolIds = action.organismIds ?? DEFAULT_ORGANISM_IDS;
-      const grid = generateGrid(action.rng);
+      const grid = action.gridIds ?? generateGrid(action.rng);
       const deck = createDeck(poolIds, action.rng);
+      const mode = action.mode ?? "daily";
+      const now = action.now ?? null;
       return {
         ...state,
+        mode,
+        dayKey: mode === "daily" ? (action.dayKey ?? state.dayKey) : null,
+        seed: action.seed ?? state.seed,
         phase: "playing",
         grid,
         filled: {},
+        mistakes: 0,
+        skips: 0,
         deck,
         isImageReady: false,
+        startedAt: now,
         deadline: null,
+        endedAt: null,
         endReason: null,
         modalOpen: false,
         misplacedCell: null,
+      };
+    }
+
+    case "HYDRATE_DAILY": {
+      const { dailyState, rng, seed } = action;
+      const placedOrgIds = new Set(Object.values(dailyState.placements));
+      const remainingIds = DEFAULT_ORGANISM_IDS.filter(
+        (id) => !placedOrgIds.has(id)
+      );
+      const deck = createDeck(remainingIds, rng);
+
+      if (dailyState.status === "playing") {
+        return {
+          ...state,
+          mode: "daily",
+          dayKey: dailyState.dayKey,
+          seed,
+          phase: "playing",
+          options: dailyState.options,
+          grid: dailyState.gridIds,
+          filled: dailyState.placements,
+          mistakes: dailyState.mistakes,
+          skips: dailyState.skips,
+          deck,
+          isImageReady: false,
+          startedAt: dailyState.startedAt,
+          deadline: dailyState.deadline,
+          endedAt: null,
+          endReason: null,
+          modalOpen: false,
+          misplacedCell: null,
+          dailyFinishedForToday: false,
+        };
+      }
+
+      const endReason =
+        dailyState.status === "won"
+          ? "won"
+          : dailyState.endReason === "gave-up"
+          ? "gave-up"
+          : "timeout";
+
+      return {
+        ...state,
+        mode: "daily",
+        dayKey: dailyState.dayKey,
+        seed,
+        phase: "over",
+        options: dailyState.options,
+        grid: dailyState.gridIds,
+        filled: dailyState.placements,
+        mistakes: dailyState.mistakes,
+        skips: dailyState.skips,
+        deck,
+        isImageReady: false,
+        startedAt: dailyState.startedAt,
+        deadline: dailyState.deadline,
+        endedAt: dailyState.endedAt,
+        endReason,
+        modalOpen: true,
+        misplacedCell: null,
+        dailyFinishedForToday: true,
       };
     }
 
@@ -79,6 +158,7 @@ export function taxoReducer(
       return {
         ...state,
         isImageReady: true,
+        startedAt: state.startedAt ?? action.now,
         deadline: nextDeadline,
       };
     }
@@ -87,6 +167,7 @@ export function taxoReducer(
       if (state.phase !== "playing") return state;
       return {
         ...state,
+        mistakes: state.mistakes + 1,
         misplacedCell: {
           taxonId: action.taxonId,
           nonce: (state.misplacedCell?.nonce ?? 0) + 1,
@@ -115,6 +196,7 @@ export function taxoReducer(
       if (!matches) {
         return {
           ...state,
+          mistakes: state.mistakes + 1,
           misplacedCell: {
             taxonId: action.taxonId,
             nonce: (state.misplacedCell?.nonce ?? 0) + 1,
@@ -133,9 +215,11 @@ export function taxoReducer(
           filled: nextFilled,
           phase: "over",
           endReason: "won",
+          endedAt: action.now ?? Date.now(),
           modalOpen: true,
-          deadline: null,
           misplacedCell: null,
+          dailyFinishedForToday:
+            state.mode === "daily" ? true : state.dailyFinishedForToday,
         };
       }
 
@@ -153,6 +237,7 @@ export function taxoReducer(
       if (!state.isImageReady && !action.force) return state;
       return {
         ...state,
+        skips: action.force ? state.skips : state.skips + 1,
         deck: skipCurrent(state.deck, action.rng),
         isImageReady: false,
       };
@@ -164,8 +249,10 @@ export function taxoReducer(
         ...state,
         phase: "over",
         endReason: "timeout",
+        endedAt: state.deadline ?? action.now ?? Date.now(),
         modalOpen: true,
-        deadline: null,
+        dailyFinishedForToday:
+          state.mode === "daily" ? true : state.dailyFinishedForToday,
       };
     }
 
@@ -175,8 +262,10 @@ export function taxoReducer(
         ...state,
         phase: "over",
         endReason: "gave-up",
+        endedAt: action.now ?? Date.now(),
         modalOpen: true,
-        deadline: null,
+        dailyFinishedForToday:
+          state.mode === "daily" ? true : state.dailyFinishedForToday,
       };
     }
 
@@ -184,6 +273,13 @@ export function taxoReducer(
       return {
         ...state,
         modalOpen: false,
+      };
+    }
+
+    case "OPEN_MODAL": {
+      return {
+        ...state,
+        modalOpen: true,
       };
     }
   }

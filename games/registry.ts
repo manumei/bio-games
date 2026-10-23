@@ -21,7 +21,7 @@ export const GAMES: readonly GameMeta[] = [
     description:
       "Match organisms to the 12 taxonomic categories on the bingo grid.",
     status: "live",
-    isNew: true,
+    daily: true,
     cover: {
       card: "/assets/img/covers/home/taxo.png",
       menu: "/assets/img/covers/menu/taxo.png",
@@ -32,7 +32,12 @@ export const GAMES: readonly GameMeta[] = [
     title: "Bio Wordle",
     brand: ["BIO", "WORDLE"],
     description: "Guess the secret biology word in six tries.",
-    status: "coming-soon",
+    status: "live",
+    daily: true,
+    cover: {
+      card: "/assets/img/covers/card/bio-wordle.svg",
+      menu: "/assets/img/covers/menu/bio-wordle.svg",
+    },
   },
   {
     slug: "symptoms-link",
@@ -40,7 +45,12 @@ export const GAMES: readonly GameMeta[] = [
     brand: ["SYMPTOMS", "LINK"],
     description:
       "Identify the pathogen or disease from progressively revealed symptoms.",
-    status: "coming-soon",
+    status: "live",
+    daily: true,
+    cover: {
+      card: "/assets/img/covers/card/symptoms-link.svg",
+      menu: "/assets/img/covers/menu/symptoms-link.svg",
+    },
   },
   {
     slug: "animal-tictactoe",
@@ -48,7 +58,12 @@ export const GAMES: readonly GameMeta[] = [
     brand: ["ANIMAL", "TIC-TAC-TOE"],
     description:
       "Claim cells on a trait-crossed grid in a biology twist on tic-tac-toe.",
-    status: "coming-soon",
+    status: "live",
+    daily: true,
+    cover: {
+      card: "/assets/img/covers/card/animal-tictactoe.svg",
+      menu: "/assets/img/covers/menu/animal-tictactoe.svg",
+    },
   },
   {
     slug: "bio-top8",
@@ -62,7 +77,26 @@ export const GAMES: readonly GameMeta[] = [
     title: "Cell Classifier",
     brand: ["CELL", "CLASSIFIER"],
     description: "Identify organelles and cell structures across cell types.",
-    status: "coming-soon",
+    status: "live",
+    daily: true,
+    cover: {
+      card: "/assets/img/covers/card/cell-classifier.svg",
+      menu: "/assets/img/covers/menu/cell-classifier.svg",
+    },
+  },
+  {
+    slug: "bio-guesser",
+    title: "Bio Guesser",
+    brand: ["BIO", "GUESSER"],
+    description:
+      "Think of any living organism; Linnaeus will ask questions and guess it.",
+    status: "live",
+    isNew: true,
+    daily: false,
+    cover: {
+      card: "/assets/img/covers/card/bio-guesser.svg",
+      menu: "/assets/img/covers/menu/bio-guesser.svg",
+    },
   },
 ];
 
