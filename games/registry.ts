@@ -21,7 +21,6 @@ export const GAMES: readonly GameMeta[] = [
     description:
       "Match organisms to the 12 taxonomic categories on the bingo grid.",
     status: "live",
-    isNew: true,
     daily: true,
     cover: {
       card: "/assets/img/covers/home/taxo.png",
@@ -33,7 +32,13 @@ export const GAMES: readonly GameMeta[] = [
     title: "Bio Wordle",
     brand: ["BIO", "WORDLE"],
     description: "Guess the secret biology word in six tries.",
-    status: "coming-soon",
+    status: "live",
+    isNew: true,
+    daily: true,
+    cover: {
+      card: "/assets/img/covers/card/bio-wordle.svg",
+      menu: "/assets/img/covers/menu/bio-wordle.svg",
+    },
   },
   {
     slug: "symptoms-link",

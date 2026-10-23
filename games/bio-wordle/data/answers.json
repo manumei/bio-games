@@ -1,0 +1,2777 @@
+[
+  {
+    "word": "cell",
+    "topic": "cell",
+    "definition": "The basic membrane-bound unit of all living organisms."
+  },
+  {
+    "word": "pore",
+    "topic": "cell",
+    "definition": "A tiny opening in a membrane or leaf surface that lets molecules pass."
+  },
+  {
+    "word": "soma",
+    "topic": "cell",
+    "definition": "The cell body of a neuron containing its nucleus and organelles."
+  },
+  {
+    "word": "axon",
+    "topic": "cell",
+    "definition": "Long nerve fiber that conducts electrical impulses away from the cell body."
+  },
+  {
+    "word": "glia",
+    "topic": "cell",
+    "definition": "Non-neuronal cells in nervous tissue that support and insulate neurons."
+  },
+  {
+    "word": "cyst",
+    "topic": "cell",
+    "definition": "Dormant protective capsule formed by some parasites and microbes."
+  },
+  {
+    "word": "ovum",
+    "topic": "cell",
+    "definition": "A mature female reproductive egg cell."
+  },
+  {
+    "word": "germ",
+    "topic": "cell",
+    "definition": "A microorganism or reproductive cell capable of developing into a new individual."
+  },
+  {
+    "word": "gene",
+    "topic": "genetics",
+    "definition": "A segment of DNA that encodes a functional protein or RNA product."
+  },
+  {
+    "word": "loci",
+    "topic": "genetics",
+    "definition": "Specific fixed chromosomal positions where particular genes are located."
+  },
+  {
+    "word": "twin",
+    "topic": "genetics",
+    "definition": "One of two offspring produced in the same pregnancy."
+  },
+  {
+    "word": "bred",
+    "topic": "genetics",
+    "definition": "Mated selectively to propagate specific heritable traits."
+  },
+  {
+    "word": "sire",
+    "topic": "genetics",
+    "definition": "The male parent of an animal."
+  },
+  {
+    "word": "agar",
+    "topic": "molecule",
+    "definition": "Gelatinous polysaccharide extracted from red algae used for culture media."
+  },
+  {
+    "word": "heme",
+    "topic": "molecule",
+    "definition": "Iron-containing porphyrin cofactor that binds oxygen in hemoglobin."
+  },
+  {
+    "word": "urea",
+    "topic": "molecule",
+    "definition": "Nitrogenous waste compound produced by protein metabolism in mammals."
+  },
+  {
+    "word": "acid",
+    "topic": "molecule",
+    "definition": "Compound that donates protons, such as amino, fatty, or nucleic acids."
+  },
+  {
+    "word": "base",
+    "topic": "molecule",
+    "definition": "Nitrogenous ring compound in DNA and RNA, or a proton acceptor."
+  },
+  {
+    "word": "ions",
+    "topic": "molecule",
+    "definition": "Charged atoms or molecules essential for nerve impulses and osmosis."
+  },
+  {
+    "word": "fats",
+    "topic": "molecule",
+    "definition": "Triglyceride lipids used by organisms for long-term energy storage."
+  },
+  {
+    "word": "oils",
+    "topic": "molecule",
+    "definition": "Liquid unsaturated lipids produced by plants and animals."
+  },
+  {
+    "word": "iron",
+    "topic": "molecule",
+    "definition": "Essential trace mineral required for oxygen transport in hemoglobin."
+  },
+  {
+    "word": "zinc",
+    "topic": "molecule",
+    "definition": "Essential trace metal acting as a catalytic cofactor in hundreds of enzymes."
+  },
+  {
+    "word": "salt",
+    "topic": "molecule",
+    "definition": "Ionic mineral compound vital for fluid balance and nerve signaling."
+  },
+  {
+    "word": "silk",
+    "topic": "molecule",
+    "definition": "Strong protein fiber spun by spiders and silkworm caterpillars."
+  },
+  {
+    "word": "milk",
+    "topic": "molecule",
+    "definition": "Nutrient-rich liquid secreted by the mammary glands of mammals."
+  },
+  {
+    "word": "bile",
+    "topic": "anatomy",
+    "definition": "Digestive fluid produced by the liver and stored in the gallbladder."
+  },
+  {
+    "word": "lung",
+    "topic": "anatomy",
+    "definition": "Spongy respiratory organ where gas exchange occurs in air-breathing vertebrates."
+  },
+  {
+    "word": "skin",
+    "topic": "anatomy",
+    "definition": "Outer integumentary organ that protects the body and regulates temperature."
+  },
+  {
+    "word": "bone",
+    "topic": "anatomy",
+    "definition": "Mineralized connective tissue that forms the vertebrate skeleton."
+  },
+  {
+    "word": "vein",
+    "topic": "anatomy",
+    "definition": "Blood vessel that carries blood back toward the heart."
+  },
+  {
+    "word": "iris",
+    "topic": "anatomy",
+    "definition": "Colored muscular ring of the eye that controls pupil size."
+  },
+  {
+    "word": "lens",
+    "topic": "anatomy",
+    "definition": "Transparent structure in the eye that focuses light onto the retina."
+  },
+  {
+    "word": "lobe",
+    "topic": "anatomy",
+    "definition": "Rounded anatomical division of an organ such as the brain, lung, or liver."
+  },
+  {
+    "word": "chin",
+    "topic": "anatomy",
+    "definition": "Lowermost front projection of the mandible in humans."
+  },
+  {
+    "word": "neck",
+    "topic": "anatomy",
+    "definition": "Part of the body connecting the head to the torso and housing the cervical spine."
+  },
+  {
+    "word": "hand",
+    "topic": "anatomy",
+    "definition": "Prehensile multi-fingered appendage at the end of the primate forearm."
+  },
+  {
+    "word": "head",
+    "topic": "anatomy",
+    "definition": "Anterior body region housing the brain and primary sense organs."
+  },
+  {
+    "word": "nose",
+    "topic": "anatomy",
+    "definition": "Olfactory and respiratory organ projecting from the vertebrate face."
+  },
+  {
+    "word": "face",
+    "topic": "anatomy",
+    "definition": "Front part of the head bearing the eyes, nose, and mouth."
+  },
+  {
+    "word": "hair",
+    "topic": "anatomy",
+    "definition": "Keratinous filament growing from follicles in mammalian skin."
+  },
+  {
+    "word": "nail",
+    "topic": "anatomy",
+    "definition": "Hard keratin plate protecting the tips of primate fingers and toes."
+  },
+  {
+    "word": "claw",
+    "topic": "anatomy",
+    "definition": "Curved pointed keratin appendage at the end of a digit in amniotes."
+  },
+  {
+    "word": "beak",
+    "topic": "anatomy",
+    "definition": "External keratinous bill of a bird, turtle, or cephalopod."
+  },
+  {
+    "word": "gill",
+    "topic": "anatomy",
+    "definition": "Feathery respiratory organ that extracts dissolved oxygen from water."
+  },
+  {
+    "word": "wing",
+    "topic": "anatomy",
+    "definition": "Forelimb or appendage adapted for flight in birds, bats, and insects."
+  },
+  {
+    "word": "tail",
+    "topic": "anatomy",
+    "definition": "Posterior flexible extension of the vertebral column."
+  },
+  {
+    "word": "hoof",
+    "topic": "anatomy",
+    "definition": "Hard keratinized covering on the toes of ungulate mammals."
+  },
+  {
+    "word": "horn",
+    "topic": "anatomy",
+    "definition": "Permanent pointed projection on the head of bovids, consisting of keratin over bone."
+  },
+  {
+    "word": "womb",
+    "topic": "anatomy",
+    "definition": "The uterus, where mammalian offspring gestate before birth."
+  },
+  {
+    "word": "duct",
+    "topic": "anatomy",
+    "definition": "Tubular bodily channel that conveys secretions from a gland."
+  },
+  {
+    "word": "node",
+    "topic": "anatomy",
+    "definition": "Small mass of tissue such as a lymph node, or the point on a stem where leaves attach."
+  },
+  {
+    "word": "yolk",
+    "topic": "anatomy",
+    "definition": "Nutrient-rich portion of an egg that feeds the developing embryo."
+  },
+  {
+    "word": "leaf",
+    "topic": "plant",
+    "definition": "Flattened photosynthetic organ of a vascular plant."
+  },
+  {
+    "word": "root",
+    "topic": "plant",
+    "definition": "Underground plant organ that anchors the plant and absorbs water and minerals."
+  },
+  {
+    "word": "stem",
+    "topic": "plant",
+    "definition": "Main structural axis of a vascular plant that supports leaves and flowers."
+  },
+  {
+    "word": "seed",
+    "topic": "plant",
+    "definition": "Embryonic plant enclosed in a protective coat with stored nutrients."
+  },
+  {
+    "word": "bark",
+    "topic": "plant",
+    "definition": "Protective outer layer of woody stems and roots in trees and shrubs."
+  },
+  {
+    "word": "pith",
+    "topic": "plant",
+    "definition": "Spongy ground tissue at the center of vascular plant stems."
+  },
+  {
+    "word": "bulb",
+    "topic": "plant",
+    "definition": "Underground storage organ composed of a short stem and fleshy scale leaves."
+  },
+  {
+    "word": "corm",
+    "topic": "plant",
+    "definition": "Swollen underground plant stem that stores food across winter or drought."
+  },
+  {
+    "word": "axil",
+    "topic": "plant",
+    "definition": "Upper angle between a leaf stalk and the stem from which it grows."
+  },
+  {
+    "word": "moss",
+    "topic": "plant",
+    "definition": "Small non-vascular bryophyte plant that reproduces via spores."
+  },
+  {
+    "word": "fern",
+    "topic": "plant",
+    "definition": "Seedless vascular plant with feathery fronds that reproduces via spores."
+  },
+  {
+    "word": "kelp",
+    "topic": "plant",
+    "definition": "Large brown marine algae that forms underwater forests in shallow oceans."
+  },
+  {
+    "word": "tree",
+    "topic": "plant",
+    "definition": "Perennial woody plant with an elongated main trunk and supporting branches."
+  },
+  {
+    "word": "vine",
+    "topic": "plant",
+    "definition": "Plant with a climbing or trailing stem that relies on other structures for support."
+  },
+  {
+    "word": "weed",
+    "topic": "plant",
+    "definition": "Fast-growing opportunistic plant that colonizes disturbed habitats."
+  },
+  {
+    "word": "herb",
+    "topic": "plant",
+    "definition": "Non-woody vascular plant whose aerial parts die back after flowering."
+  },
+  {
+    "word": "crop",
+    "topic": "plant",
+    "definition": "Cultivated plant grown at scale for food, fiber, or fuel, or a bird's food pouch."
+  },
+  {
+    "word": "cone",
+    "topic": "plant",
+    "definition": "Seed-bearing or pollen-bearing woody organ of gymnosperms, or a retinal photoreceptor."
+  },
+  {
+    "word": "flax",
+    "topic": "plant",
+    "definition": "Flowering plant cultivated for its bast fibers (linen) and oil-rich seeds."
+  },
+  {
+    "word": "hemp",
+    "topic": "plant",
+    "definition": "Fast-growing fibrous cannabis plant cultivated for bast fiber and seed oil."
+  },
+  {
+    "word": "corn",
+    "topic": "plant",
+    "definition": "Domesticated cereal grass (Zea mays) bearing kernels on a cob."
+  },
+  {
+    "word": "rice",
+    "topic": "plant",
+    "definition": "Semiquatic cereal grass that serves as a staple food crop worldwide."
+  },
+  {
+    "word": "oats",
+    "topic": "plant",
+    "definition": "Cereal grain grass grown for its nutritious seed heads."
+  },
+  {
+    "word": "rose",
+    "topic": "plant",
+    "definition": "Woody perennial flowering shrub of the family Rosaceae."
+  },
+  {
+    "word": "lily",
+    "topic": "plant",
+    "definition": "Herbaceous flowering monocot growing from an underground scaly bulb."
+  },
+  {
+    "word": "palm",
+    "topic": "plant",
+    "definition": "Monocot tree or shrub of the family Arecaceae with evergreen fronds."
+  },
+  {
+    "word": "pine",
+    "topic": "plant",
+    "definition": "Evergreen coniferous gymnosperm tree with needle-shaped leaves in bundles."
+  },
+  {
+    "word": "reed",
+    "topic": "plant",
+    "definition": "Tall grass-like wetland plant growing in marshes and along riverbanks."
+  },
+  {
+    "word": "turf",
+    "topic": "plant",
+    "definition": "Surface layer of soil bound together by dense grass roots."
+  },
+  {
+    "word": "bird",
+    "topic": "organism",
+    "definition": "Warm-blooded feathered vertebrate of the class Aves."
+  },
+  {
+    "word": "fish",
+    "topic": "organism",
+    "definition": "Gill-bearing aquatic craniate animal lacking limbs with digits."
+  },
+  {
+    "word": "frog",
+    "topic": "organism",
+    "definition": "Tailless amphibious vertebrate of the order Anura with jumping hind legs."
+  },
+  {
+    "word": "toad",
+    "topic": "organism",
+    "definition": "Stout-bodied anuran amphibian with dry, warty skin."
+  },
+  {
+    "word": "newt",
+    "topic": "organism",
+    "definition": "Semiquatic salamander in the subfamily Pleurodelinae."
+  },
+  {
+    "word": "worm",
+    "topic": "organism",
+    "definition": "Elongated soft-bodied invertebrate lacking limbs, such as an annelid or nematode."
+  },
+  {
+    "word": "slug",
+    "topic": "organism",
+    "definition": "Terrestrial gastropod mollusk that lacks an external shell."
+  },
+  {
+    "word": "crab",
+    "topic": "organism",
+    "definition": "Decapod crustacean with a broad carapace and a pair of pincers."
+  },
+  {
+    "word": "tick",
+    "topic": "organism",
+    "definition": "Blood-feeding parasitic arachnid of the order Ixodida."
+  },
+  {
+    "word": "mite",
+    "topic": "organism",
+    "definition": "Tiny arachnid of the subclass Acari found in soil, plants, and hosts."
+  },
+  {
+    "word": "wasp",
+    "topic": "organism",
+    "definition": "Flying hymenopteran insect with a narrow waist and venomous sting."
+  },
+  {
+    "word": "moth",
+    "topic": "organism",
+    "definition": "Mostly nocturnal lepidopteran insect with feathery or threadlike antennae."
+  },
+  {
+    "word": "flea",
+    "topic": "organism",
+    "definition": "Wingless blood-sucking parasitic insect famous for its jumping ability."
+  },
+  {
+    "word": "gnat",
+    "topic": "organism",
+    "definition": "Small two-winged dipteran insect related to midges and mosquitoes."
+  },
+  {
+    "word": "pupa",
+    "topic": "organism",
+    "definition": "Non-feeding developmental stage between larva and adult in complete metamorphosis."
+  },
+  {
+    "word": "grub",
+    "topic": "organism",
+    "definition": "Soft, thick-bodied larva of a beetle or other holometabolous insect."
+  },
+  {
+    "word": "deer",
+    "topic": "organism",
+    "definition": "Hoofed ruminant mammal of the family Cervidae that grows deciduous antlers."
+  },
+  {
+    "word": "goat",
+    "topic": "organism",
+    "definition": "Domesticated horned ruminant mammal in the genus Capra."
+  },
+  {
+    "word": "lion",
+    "topic": "organism",
+    "definition": "Large social predatory cat (Panthera leo) native to Africa and India."
+  },
+  {
+    "word": "wolf",
+    "topic": "organism",
+    "definition": "Social predatory canid (Canis lupus) and ancestor of the domestic dog."
+  },
+  {
+    "word": "bear",
+    "topic": "organism",
+    "definition": "Large omnivorous or carnivorous mammal of the family Ursidae."
+  },
+  {
+    "word": "seal",
+    "topic": "organism",
+    "definition": "Flipper-footed marine carnivoran mammal (pinniped)."
+  },
+  {
+    "word": "mink",
+    "topic": "organism",
+    "definition": "Semiquatic carnivorous mammal of the weasel family Mustelidae."
+  },
+  {
+    "word": "mole",
+    "topic": "organism",
+    "definition": "Burrowing insectivorous mammal with velvety fur and digging forepaws."
+  },
+  {
+    "word": "vole",
+    "topic": "organism",
+    "definition": "Small stout-bodied rodent related to lemmings and muskrats."
+  },
+  {
+    "word": "mice",
+    "topic": "organism",
+    "definition": "Small nocturnal rodents of the genus Mus used widely as model organisms."
+  },
+  {
+    "word": "bats",
+    "topic": "organism",
+    "definition": "Mammals of the order Chiroptera whose forelimbs form webbed wings for true flight."
+  },
+  {
+    "word": "swan",
+    "topic": "organism",
+    "definition": "Large aquatic waterfowl bird of the genus Cygnus."
+  },
+  {
+    "word": "duck",
+    "topic": "organism",
+    "definition": "Web-footed aquatic bird of the family Anatidae."
+  },
+  {
+    "word": "hawk",
+    "topic": "organism",
+    "definition": "Diurnal bird of prey with sharp talons, curved beak, and keen eyesight."
+  },
+  {
+    "word": "crow",
+    "topic": "organism",
+    "definition": "Intelligent omnivorous songbird of the genus Corvus."
+  },
+  {
+    "word": "wren",
+    "topic": "organism",
+    "definition": "Small, energetic insectivorous songbird with an upturned tail."
+  },
+  {
+    "word": "gull",
+    "topic": "organism",
+    "definition": "Web-footed coastal seabird of the family Laridae."
+  },
+  {
+    "word": "tuna",
+    "topic": "organism",
+    "definition": "Fast-swimming pelagic predatory bony fish of the family Scombridae."
+  },
+  {
+    "word": "carp",
+    "topic": "organism",
+    "definition": "Freshwater ray-finned bony fish native to Eurasia."
+  },
+  {
+    "word": "bass",
+    "topic": "organism",
+    "definition": "Spiny-rayed predatory freshwater or marine bony fish."
+  },
+  {
+    "word": "prey",
+    "topic": "ecology",
+    "definition": "An animal hunted and killed by a predator for food."
+  },
+  {
+    "word": "host",
+    "topic": "ecology",
+    "definition": "Organism that harbors a parasite, mutualist, or commensal guest."
+  },
+  {
+    "word": "soil",
+    "topic": "ecology",
+    "definition": "Upper layer of earth composed of minerals, organic matter, and living microbes."
+  },
+  {
+    "word": "pond",
+    "topic": "ecology",
+    "definition": "Small body of still freshwater that supports aquatic plants and animals."
+  },
+  {
+    "word": "reef",
+    "topic": "ecology",
+    "definition": "Underwater ridge formed by calcium carbonate skeletons of colonial corals."
+  },
+  {
+    "word": "tide",
+    "topic": "ecology",
+    "definition": "Periodic rise and fall of sea levels that shapes intertidal ecosystems."
+  },
+  {
+    "word": "peat",
+    "topic": "ecology",
+    "definition": "Partially decayed plant matter accumulating in waterlogged acidic bogs."
+  },
+  {
+    "word": "wild",
+    "topic": "ecology",
+    "definition": "Living or growing in a natural state without human domestication."
+  },
+  {
+    "word": "gout",
+    "topic": "disease",
+    "definition": "Inflammatory arthritis caused by uric acid crystal deposits in joints."
+  },
+  {
+    "word": "rash",
+    "topic": "disease",
+    "definition": "Visible outbreak of red, inflamed, or bumpy spots on the skin."
+  },
+  {
+    "word": "sore",
+    "topic": "disease",
+    "definition": "Painful raw or ulcerated lesion on the skin or mucous membrane."
+  },
+  {
+    "word": "pain",
+    "topic": "disease",
+    "definition": "Distressing sensory and emotional signal triggered by tissue damage."
+  },
+  {
+    "word": "coma",
+    "topic": "disease",
+    "definition": "Prolonged state of deep unconsciousness from which a patient cannot be awakened."
+  },
+  {
+    "word": "burn",
+    "topic": "disease",
+    "definition": "Tissue injury caused by heat, chemicals, electricity, or radiation."
+  },
+  {
+    "word": "scab",
+    "topic": "disease",
+    "definition": "Protective crust of dried blood and serum formed over a healing wound."
+  },
+  {
+    "word": "scar",
+    "topic": "disease",
+    "definition": "Fibrous connective tissue that replaces normal skin after an injury."
+  },
+  {
+    "word": "wart",
+    "topic": "disease",
+    "definition": "Small benign rough growth on the skin caused by papillomavirus infection."
+  },
+  {
+    "word": "boil",
+    "topic": "disease",
+    "definition": "Painful pus-filled bacterial infection of a hair follicle."
+  },
+  {
+    "word": "zika",
+    "topic": "disease",
+    "definition": "Mosquito-borne flavivirus infection that can cause birth defects."
+  },
+  {
+    "word": "yaws",
+    "topic": "disease",
+    "definition": "Chronic tropical bacterial infection of the skin, bones, and joints."
+  },
+  {
+    "word": "cilia",
+    "topic": "cell",
+    "definition": "Short hair-like organelles on eukaryotic cells that beat for movement or flow."
+  },
+  {
+    "word": "golgi",
+    "topic": "cell",
+    "definition": "Eukaryotic organelle that modifies, sorts, and packages proteins for secretion."
+  },
+  {
+    "word": "lysis",
+    "topic": "cell",
+    "definition": "Rupture or disintegration of a cell caused by damage to its outer membrane."
+  },
+  {
+    "word": "lytic",
+    "topic": "cell",
+    "definition": "Relating to a viral cycle that destroys the host cell upon releasing new virions."
+  },
+  {
+    "word": "spore",
+    "topic": "cell",
+    "definition": "Reproductive or dormant cell capable of growing into a new individual without fusion."
+  },
+  {
+    "word": "pilus",
+    "topic": "cell",
+    "definition": "Hair-like appendage on bacterial surfaces used for attachment or DNA conjugation."
+  },
+  {
+    "word": "lumen",
+    "topic": "cell",
+    "definition": "The interior space of a tubular structure or membrane-bound organelle."
+  },
+  {
+    "word": "yeast",
+    "topic": "cell",
+    "definition": "Single-celled eukaryotic fungus that reproduces by budding or fission."
+  },
+  {
+    "word": "codon",
+    "topic": "genetics",
+    "definition": "Sequence of three DNA or RNA nucleotides that specifies a single amino acid."
+  },
+  {
+    "word": "genes",
+    "topic": "genetics",
+    "definition": "Hereditary units of DNA passed from parents to offspring."
+  },
+  {
+    "word": "locus",
+    "topic": "genetics",
+    "definition": "Specific fixed position on a chromosome where a particular gene is located."
+  },
+  {
+    "word": "exome",
+    "topic": "genetics",
+    "definition": "The protein-coding exon regions of an organism's genome."
+  },
+  {
+    "word": "clone",
+    "topic": "genetics",
+    "definition": "Genetically identical copy of a cell, DNA fragment, or organism."
+  },
+  {
+    "word": "clade",
+    "topic": "genetics",
+    "definition": "Monophyletic group consisting of a common ancestor and all its descendants."
+  },
+  {
+    "word": "cross",
+    "topic": "genetics",
+    "definition": "Deliberate mating of two individuals to study or combine genetic traits."
+  },
+  {
+    "word": "trait",
+    "topic": "genetics",
+    "definition": "Genetically determined phenotypic characteristic of an organism."
+  },
+  {
+    "word": "amino",
+    "topic": "molecule",
+    "definition": "Organic compound containing both an amine and carboxyl group; building block of proteins."
+  },
+  {
+    "word": "actin",
+    "topic": "molecule",
+    "definition": "Globular protein that forms microfilaments in the cytoskeleton and muscle fibers."
+  },
+  {
+    "word": "lipid",
+    "topic": "molecule",
+    "definition": "Hydrophobic biomolecule including fats, oils, waxes, phospholipids, and steroids."
+  },
+  {
+    "word": "sugar",
+    "topic": "molecule",
+    "definition": "Sweet soluble carbohydrate such as glucose, fructose, or sucrose."
+  },
+  {
+    "word": "hemin",
+    "topic": "molecule",
+    "definition": "Crystalline chloride derivative of heme formed from hemoglobin."
+  },
+  {
+    "word": "renin",
+    "topic": "molecule",
+    "definition": "Enzyme secreted by the kidneys that regulates blood pressure and fluid balance."
+  },
+  {
+    "word": "latex",
+    "topic": "molecule",
+    "definition": "Milky emulsion of polymers exuded by certain flowering plants to deter herbivores."
+  },
+  {
+    "word": "resin",
+    "topic": "molecule",
+    "definition": "Viscous hydrocarbon secretion of conifers that seals wounds and traps insects."
+  },
+  {
+    "word": "mucus",
+    "topic": "molecule",
+    "definition": "Slippery aqueous secretion of mucous membranes that traps pathogens and particles."
+  },
+  {
+    "word": "venom",
+    "topic": "molecule",
+    "definition": "Toxic secretion injected by animals via fangs, stingers, or spines."
+  },
+  {
+    "word": "toxin",
+    "topic": "molecule",
+    "definition": "Poisonous substance produced within living cells or organisms."
+  },
+  {
+    "word": "prion",
+    "topic": "molecule",
+    "definition": "Misfolded infectious protein that triggers normal proteins in the brain to misfold."
+  },
+  {
+    "word": "auxin",
+    "topic": "molecule",
+    "definition": "Plant hormone that regulates cell elongation and phototropism."
+  },
+  {
+    "word": "chyle",
+    "topic": "molecule",
+    "definition": "Milky bodily fluid consisting of lymph and emulsified fats from the small intestine."
+  },
+  {
+    "word": "sebum",
+    "topic": "molecule",
+    "definition": "Oily waxy substance secreted by mammalian sebaceous glands to waterproof skin."
+  },
+  {
+    "word": "serum",
+    "topic": "molecule",
+    "definition": "Clear fluid portion of blood remaining after clotting proteins are removed."
+  },
+  {
+    "word": "sweat",
+    "topic": "molecule",
+    "definition": "Watery fluid secreted by sudoriferous glands in mammalian skin for thermoregulation."
+  },
+  {
+    "word": "urine",
+    "topic": "molecule",
+    "definition": "Liquid byproduct of metabolism filtered from the blood by the kidneys."
+  },
+  {
+    "word": "water",
+    "topic": "molecule",
+    "definition": "Polar solvent molecule (H2O) essential for all known forms of life."
+  },
+  {
+    "word": "ozone",
+    "topic": "molecule",
+    "definition": "Triatomic oxygen gas (O3) that shields Earth's biosphere from ultraviolet radiation."
+  },
+  {
+    "word": "redox",
+    "topic": "molecule",
+    "definition": "Coupled chemical reaction involving the transfer of electrons between species."
+  },
+  {
+    "word": "femur",
+    "topic": "anatomy",
+    "definition": "The thigh bone; the longest and strongest bone in the mammalian skeleton."
+  },
+  {
+    "word": "tibia",
+    "topic": "anatomy",
+    "definition": "The larger, weight-bearing inner bone of the vertebrate lower leg (shinbone)."
+  },
+  {
+    "word": "ilium",
+    "topic": "anatomy",
+    "definition": "The uppermost and largest region of the vertebrate hip bone (pelvis)."
+  },
+  {
+    "word": "talus",
+    "topic": "anatomy",
+    "definition": "Ankle bone that articulates with the tibia and fibula to form the ankle joint."
+  },
+  {
+    "word": "incus",
+    "topic": "anatomy",
+    "definition": "Anvil-shaped middle ear ossicle that transmits vibrations from malleus to stapes."
+  },
+  {
+    "word": "vomer",
+    "topic": "anatomy",
+    "definition": "Thin unpaired facial bone forming the inferior part of the nasal septum."
+  },
+  {
+    "word": "skull",
+    "topic": "anatomy",
+    "definition": "Bony framework of the vertebrate head that encloses and protects the brain."
+  },
+  {
+    "word": "spine",
+    "topic": "anatomy",
+    "definition": "Vertebral column supporting the trunk and protecting the spinal cord, or a sharp plant quill."
+  },
+  {
+    "word": "joint",
+    "topic": "anatomy",
+    "definition": "Articulation where two or more bones meet in the skeleton."
+  },
+  {
+    "word": "molar",
+    "topic": "anatomy",
+    "definition": "Broad flat posterior tooth adapted for grinding food."
+  },
+  {
+    "word": "heart",
+    "topic": "anatomy",
+    "definition": "Muscular organ that pumps blood through the circulatory system."
+  },
+  {
+    "word": "aorta",
+    "topic": "anatomy",
+    "definition": "Main and largest artery in the body, carrying oxygenated blood from the left ventricle."
+  },
+  {
+    "word": "atria",
+    "topic": "anatomy",
+    "definition": "Upper blood-receiving chambers of the vertebrate heart."
+  },
+  {
+    "word": "valve",
+    "topic": "anatomy",
+    "definition": "Flap in a heart chamber or blood vessel that enforces one-way fluid flow."
+  },
+  {
+    "word": "pulse",
+    "topic": "anatomy",
+    "definition": "Rhythmic throbbing of arteries as blood is propelled by heart contractions."
+  },
+  {
+    "word": "blood",
+    "topic": "anatomy",
+    "definition": "Circulating body fluid that delivers oxygen and nutrients and removes waste."
+  },
+  {
+    "word": "lymph",
+    "topic": "anatomy",
+    "definition": "Clear fluid carried through the lymphatic system containing white blood cells."
+  },
+  {
+    "word": "liver",
+    "topic": "anatomy",
+    "definition": "Large metabolic organ that detoxifies blood, synthesizes proteins, and produces bile."
+  },
+  {
+    "word": "colon",
+    "topic": "anatomy",
+    "definition": "Main portion of the large intestine that absorbs water and electrolytes."
+  },
+  {
+    "word": "cecum",
+    "topic": "anatomy",
+    "definition": "Pouch at the beginning of the large intestine that receives chyme from the ileum."
+  },
+  {
+    "word": "ileum",
+    "topic": "anatomy",
+    "definition": "Final and longest segment of the small intestine where vitamin B12 and bile salts absorb."
+  },
+  {
+    "word": "rumen",
+    "topic": "anatomy",
+    "definition": "Largest fermentation stomach chamber in cud-chewing ruminant mammals."
+  },
+  {
+    "word": "gland",
+    "topic": "anatomy",
+    "definition": "Organ or group of cells specialized for synthesizing and secreting substances."
+  },
+  {
+    "word": "gonad",
+    "topic": "anatomy",
+    "definition": "Primary reproductive organ (testis or ovary) that produces gametes and sex hormones."
+  },
+  {
+    "word": "ovary",
+    "topic": "anatomy",
+    "definition": "Female reproductive organ that produces ova, or the swollen base of a flower carpel."
+  },
+  {
+    "word": "ovule",
+    "topic": "plant",
+    "definition": "Structure inside seed plants that contains the female gametophyte and develops into a seed."
+  },
+  {
+    "word": "xylem",
+    "topic": "plant",
+    "definition": "Vascular tissue in plants that conducts water and dissolved minerals upward from the roots."
+  },
+  {
+    "word": "frond",
+    "topic": "plant",
+    "definition": "Large divided leaf of a fern, palm, or cycad."
+  },
+  {
+    "word": "calyx",
+    "topic": "plant",
+    "definition": "Outermost whorl of flower parts formed collectively by the sepals."
+  },
+  {
+    "word": "petal",
+    "topic": "plant",
+    "definition": "Modified, often brightly colored leaf in a flower corolla that attracts pollinators."
+  },
+  {
+    "word": "sepal",
+    "topic": "plant",
+    "definition": "Individual outer floral leaf that encloses and protects a developing flower bud."
+  },
+  {
+    "word": "style",
+    "topic": "plant",
+    "definition": "Slender stalk of a flower carpel connecting the stigma to the ovary."
+  },
+  {
+    "word": "bract",
+    "topic": "plant",
+    "definition": "Modified specialized leaf associated with a flower or inflorescence."
+  },
+  {
+    "word": "stipe",
+    "topic": "plant",
+    "definition": "Stalk that supports amushroom cap, fern frond, or kelp thallus."
+  },
+  {
+    "word": "tuber",
+    "topic": "plant",
+    "definition": "Enlarged underground stem or root organ used by plants like potatoes to store starch."
+  },
+  {
+    "word": "fruit",
+    "topic": "plant",
+    "definition": "Mature ripened ovary of a flowering plant containing one or more seeds."
+  },
+  {
+    "word": "plant",
+    "topic": "plant",
+    "definition": "Multicellular photosynthetic eukaryote of the kingdom Plantae."
+  },
+  {
+    "word": "flora",
+    "topic": "plant",
+    "definition": "The collective plant life occurring in a particular region, habitat, or geological period."
+  },
+  {
+    "word": "algae",
+    "topic": "plant",
+    "definition": "Diverse group of aquatic photosynthetic eukaryotes ranging from unicells to giant kelp."
+  },
+  {
+    "word": "fungi",
+    "topic": "organism",
+    "definition": "Eukaryotic kingdom of spore-producing decomposers with chitin cell walls."
+  },
+  {
+    "word": "virus",
+    "topic": "organism",
+    "definition": "Submicroscopic infectious agent that replicates only inside living host cells."
+  },
+  {
+    "word": "phage",
+    "topic": "organism",
+    "definition": "Virus that infects and replicates within bacteria or archaea."
+  },
+  {
+    "word": "larva",
+    "topic": "organism",
+    "definition": "Active immature form of an insect, amphibian, or marine invertebrate before metamorphosis."
+  },
+  {
+    "word": "polyp",
+    "topic": "organism",
+    "definition": "Sessile cylindrical body form of cnidarians such as corals and sea anemones."
+  },
+  {
+    "word": "hydra",
+    "topic": "organism",
+    "definition": "Small freshwater cnidarian polyp known for its regenerative ability."
+  },
+  {
+    "word": "squid",
+    "topic": "organism",
+    "definition": "Fast-swimming marine cephalopod mollusk with eight arms and two tentacles."
+  },
+  {
+    "word": "snail",
+    "topic": "organism",
+    "definition": "Shelled gastropod mollusk that moves on a muscular ventral foot."
+  },
+  {
+    "word": "leech",
+    "topic": "organism",
+    "definition": "Segmented parasitic or predatory annelid worm with suckers at both ends."
+  },
+  {
+    "word": "shrew",
+    "topic": "organism",
+    "definition": "Small mole-like insectivorous mammal with a high metabolic rate."
+  },
+  {
+    "word": "lemur",
+    "topic": "organism",
+    "definition": "Strepsirrhine primate endemic to the island of Madagascar."
+  },
+  {
+    "word": "sloth",
+    "topic": "organism",
+    "definition": "Slow-moving arboreal xenarthran mammal native to tropical rainforests of the Americas."
+  },
+  {
+    "word": "whale",
+    "topic": "organism",
+    "definition": "Fully aquatic placental marine mammal of the infraorder Cetacea."
+  },
+  {
+    "word": "bison",
+    "topic": "organism",
+    "definition": "Large hump-backed grazing bovid mammal native to North America and Europe."
+  },
+  {
+    "word": "camel",
+    "topic": "organism",
+    "definition": "Even-toed ungulate adapted to arid habitats with fat-storing dorsal humps."
+  },
+  {
+    "word": "horse",
+    "topic": "organism",
+    "definition": "Odd-toed hoofed mammal (Equus caballus) adapted for swift running."
+  },
+  {
+    "word": "zebra",
+    "topic": "organism",
+    "definition": "African equid mammal recognized by its distinctive black-and-white striped coat."
+  },
+  {
+    "word": "sheep",
+    "topic": "organism",
+    "definition": "Domesticated ruminant mammal raised for its crimped wool fleece, meat, and milk."
+  },
+  {
+    "word": "swine",
+    "topic": "organism",
+    "definition": "Omnivorous even-toed ungulate mammals of the pig family Suidae."
+  },
+  {
+    "word": "mouse",
+    "topic": "organism",
+    "definition": "Small rodent with a pointed snout and long tail; the classic mammalian lab organism."
+  },
+  {
+    "word": "otter",
+    "topic": "organism",
+    "definition": "Semiquatic carnivorous mammal in the weasel family with webbed feet and dense fur."
+  },
+  {
+    "word": "panda",
+    "topic": "organism",
+    "definition": "Bamboo-eating bear (Ailuropoda melanoleuca) native to south-central China."
+  },
+  {
+    "word": "koala",
+    "topic": "organism",
+    "definition": "Arboreal herbivorous marsupial native to Australia that feeds on eucalyptus leaves."
+  },
+  {
+    "word": "hippo",
+    "topic": "organism",
+    "definition": "Large semiaquatic African artiodactyl mammal closely related to cetaceans."
+  },
+  {
+    "word": "rhino",
+    "topic": "organism",
+    "definition": "Large herbivorous odd-toed ungulate bearing one or two keratin horns on its snout."
+  },
+  {
+    "word": "tiger",
+    "topic": "organism",
+    "definition": "Largest living cat species (Panthera tigris), an apex predator with dark vertical stripes."
+  },
+  {
+    "word": "anole",
+    "topic": "organism",
+    "definition": "Small arboreal lizard of the Americas capable of changing skin color and extending a dewlap."
+  },
+  {
+    "word": "viper",
+    "topic": "organism",
+    "definition": "Venomous snake of the family Viperidae possessing long hinged hollow fangs."
+  },
+  {
+    "word": "cobra",
+    "topic": "organism",
+    "definition": "Venomous elapid snake capable of expanding its neck ribs into a threat hood."
+  },
+  {
+    "word": "gecko",
+    "topic": "organism",
+    "definition": "Small nocturnal lizard with adhesive toe pads that climb vertical surfaces."
+  },
+  {
+    "word": "snake",
+    "topic": "organism",
+    "definition": "Elongated legless carnivorous reptile of the suborder Serpentes."
+  },
+  {
+    "word": "shark",
+    "topic": "organism",
+    "definition": "Cartilaginous marine fish (Chondrichthyes) with multiple gill slits and replaceable teeth."
+  },
+  {
+    "word": "trout",
+    "topic": "organism",
+    "definition": "Freshwater and anadromous ray-finned fish of the salmon family Salmonidae."
+  },
+  {
+    "word": "perch",
+    "topic": "organism",
+    "definition": "Freshwater spiny-finned bony fish of the genus Perca."
+  },
+  {
+    "word": "guppy",
+    "topic": "organism",
+    "definition": "Small live-bearing freshwater fish widely used in genetics and ecology research."
+  },
+  {
+    "word": "heron",
+    "topic": "organism",
+    "definition": "Long-legged, long-necked freshwater and coastal wading bird."
+  },
+  {
+    "word": "egret",
+    "topic": "organism",
+    "definition": "White-plumaged wading bird of the heron family Ardeidae."
+  },
+  {
+    "word": "quail",
+    "topic": "organism",
+    "definition": "Small ground-nesting game bird of the pheasant family Phasianidae."
+  },
+  {
+    "word": "eagle",
+    "topic": "organism",
+    "definition": "Large diurnal bird of prey with broad wings and a hooked beak."
+  },
+  {
+    "word": "macaw",
+    "topic": "organism",
+    "definition": "Large brightly colored long-tailed Neotropical parrot."
+  },
+  {
+    "word": "aphid",
+    "topic": "organism",
+    "definition": "Small sap-sucking hemipteran insect that feeds on plant phloem."
+  },
+  {
+    "word": "midge",
+    "topic": "organism",
+    "definition": "Tiny two-winged dipteran fly found near aquatic habitats."
+  },
+  {
+    "word": "louse",
+    "topic": "organism",
+    "definition": "Wingless parasitic insect that lives on the skin, hair, or feathers of warm-blooded hosts."
+  },
+  {
+    "word": "taxon",
+    "topic": "ecology",
+    "definition": "A group of one or more populations of organisms treated as a unit by taxonomists."
+  },
+  {
+    "word": "genus",
+    "topic": "ecology",
+    "definition": "Taxonomic rank above species and below family, used as the first part of a binomial name."
+  },
+  {
+    "word": "biota",
+    "topic": "ecology",
+    "definition": "The total collection of organisms living in a geographic region or time period."
+  },
+  {
+    "word": "biome",
+    "topic": "ecology",
+    "definition": "Large ecological region defined by its climate, soil, vegetation, and wildlife."
+  },
+  {
+    "word": "niche",
+    "topic": "ecology",
+    "definition": "The ecological role, habitat use, and resource requirements of a species."
+  },
+  {
+    "word": "taiga",
+    "topic": "ecology",
+    "definition": "Subarctic boreal forest biome dominated by cone-bearing evergreen trees."
+  },
+  {
+    "word": "swamp",
+    "topic": "ecology",
+    "definition": "Forested wetland ecosystem saturated with standing or slow-moving water."
+  },
+  {
+    "word": "coral",
+    "topic": "ecology",
+    "definition": "Colonial marine cnidarian that secretes calcium carbonate to build ocean reefs."
+  },
+  {
+    "word": "feral",
+    "topic": "ecology",
+    "definition": "Living in a wild state after escaping from domestication or cultivation."
+  },
+  {
+    "word": "decay",
+    "topic": "ecology",
+    "definition": "Decomposition of dead organic matter by bacteria, fungi, and detritivores."
+  },
+  {
+    "word": "fever",
+    "topic": "disease",
+    "definition": "Elevated body temperature mounted as part of the immune response to infection."
+  },
+  {
+    "word": "ulcer",
+    "topic": "disease",
+    "definition": "Open sore on an external or internal body surface caused by a break in the membrane."
+  },
+  {
+    "word": "tumor",
+    "topic": "disease",
+    "definition": "Abnormal mass of tissue resulting from uncontrolled cell division."
+  },
+  {
+    "word": "edema",
+    "topic": "disease",
+    "definition": "Swelling caused by excess fluid trapped in the body's tissues."
+  },
+  {
+    "word": "colic",
+    "topic": "disease",
+    "definition": "Severe paroxysmal abdominal pain caused by spasm or obstruction in hollow organs."
+  },
+  {
+    "word": "lupus",
+    "topic": "disease",
+    "definition": "Chronic autoimmune disease in which the immune system attacks healthy tissues."
+  },
+  {
+    "word": "ebola",
+    "topic": "disease",
+    "definition": "Severe and often fatal viral hemorrhagic fever caused by Ebolavirus."
+  },
+  {
+    "word": "mange",
+    "topic": "disease",
+    "definition": "Skin disease of mammals caused by parasitic burrowing mites."
+  },
+  {
+    "word": "cough",
+    "topic": "disease",
+    "definition": "Sudden expulsion of air from the lungs to clear the airways of mucus or irritants."
+  },
+  {
+    "word": "palsy",
+    "topic": "disease",
+    "definition": "Paralysis or weakness of voluntary muscle movement, often accompanied by tremors."
+  },
+  {
+    "word": "villi",
+    "topic": "anatomy",
+    "definition": "Tiny finger-like projections lining the small intestine that maximize nutrient absorption."
+  },
+  {
+    "word": "brain",
+    "topic": "anatomy",
+    "definition": "Central organ of the nervous system that coordinates sensation, thought, and movement."
+  },
+  {
+    "word": "mouth",
+    "topic": "anatomy",
+    "definition": "Opening of the digestive tract where food is ingested and mechanically broken down."
+  },
+  {
+    "word": "nuclei",
+    "topic": "cell",
+    "definition": "Membrane-bound organelles that house the chromosomes in eukaryotic cells."
+  },
+  {
+    "word": "oocyte",
+    "topic": "cell",
+    "definition": "Immature female germ cell that develops into an ovum via meiosis."
+  },
+  {
+    "word": "zygote",
+    "topic": "cell",
+    "definition": "Diploid cell formed by the fusion of a sperm and an egg cell during fertilization."
+  },
+  {
+    "word": "gamete",
+    "topic": "cell",
+    "definition": "Haploid reproductive cell (sperm or egg) that unites during sexual reproduction."
+  },
+  {
+    "word": "morula",
+    "topic": "cell",
+    "definition": "Solid ball of 16 to 32 blastomeres formed by early cleavage of a fertilized ovum."
+  },
+  {
+    "word": "embryo",
+    "topic": "cell",
+    "definition": "Early multicellular stage of development in plants and animals before birth or hatching."
+  },
+  {
+    "word": "stroma",
+    "topic": "cell",
+    "definition": "Fluid-filled space surrounding the grana inside a chloroplast, or supportive tissue."
+  },
+  {
+    "word": "granum",
+    "topic": "cell",
+    "definition": "Stack of thylakoid discs inside a chloroplast where light reactions occur."
+  },
+  {
+    "word": "matrix",
+    "topic": "cell",
+    "definition": "Innermost compartment of a mitochondrion, or the extracellular material between cells."
+  },
+  {
+    "word": "sheath",
+    "topic": "cell",
+    "definition": "Insulating protective covering, such as the myelin sheath around nerve axons."
+  },
+  {
+    "word": "myelin",
+    "topic": "cell",
+    "definition": "Lipid-rich insulating layer around vertebrate nerve axons that speeds impulse conduction."
+  },
+  {
+    "word": "genome",
+    "topic": "genetics",
+    "definition": "The complete set of genetic material (DNA or RNA) present in an organism."
+  },
+  {
+    "word": "allele",
+    "topic": "genetics",
+    "definition": "One of two or more alternative forms of a gene at the same locus on a chromosome."
+  },
+  {
+    "word": "mutant",
+    "topic": "genetics",
+    "definition": "Organism or gene carrying a new heritable change in its DNA sequence."
+  },
+  {
+    "word": "hybrid",
+    "topic": "genetics",
+    "definition": "Offspring resulting from the crossbreeding of two genetically distinct parents or species."
+  },
+  {
+    "word": "intron",
+    "topic": "genetics",
+    "definition": "Non-coding RNA transcript segment spliced out before translation into protein."
+  },
+  {
+    "word": "operon",
+    "topic": "genetics",
+    "definition": "Cluster of bacterial genes under the control of a single promoter and operator."
+  },
+  {
+    "word": "vector",
+    "topic": "genetics",
+    "definition": "DNA plasmid or virus used to carry foreign genetic material, or a disease-transmitting organism."
+  },
+  {
+    "word": "uracil",
+    "topic": "molecule",
+    "definition": "Pyrimidine nitrogenous base found in RNA that base-pairs with adenine."
+  },
+  {
+    "word": "ribose",
+    "topic": "molecule",
+    "definition": "Five-carbon pentose sugar that forms the structural backbone of RNA."
+  },
+  {
+    "word": "enzyme",
+    "topic": "molecule",
+    "definition": "Biological protein catalyst that speeds up chemical reactions inside cells."
+  },
+  {
+    "word": "kinase",
+    "topic": "molecule",
+    "definition": "Enzyme that catalyzes the transfer of phosphate groups from ATP to target substrates."
+  },
+  {
+    "word": "ligase",
+    "topic": "molecule",
+    "definition": "Enzyme that joins two DNA or other molecular strands together by forming covalent bonds."
+  },
+  {
+    "word": "urease",
+    "topic": "molecule",
+    "definition": "Enzyme that catalyzes the hydrolysis of urea into carbon dioxide and ammonia."
+  },
+  {
+    "word": "pepsin",
+    "topic": "molecule",
+    "definition": "Digestive protease enzyme in gastric juice that breaks down proteins in the stomach."
+  },
+  {
+    "word": "myosin",
+    "topic": "molecule",
+    "definition": "ATP-dependent motor protein that interacts with actin to generate muscle contraction."
+  },
+  {
+    "word": "dynein",
+    "topic": "molecule",
+    "definition": "Cytoskeletal motor protein that moves cargo along microtubules and drives ciliary beating."
+  },
+  {
+    "word": "fibrin",
+    "topic": "molecule",
+    "definition": "Insoluble fibrous protein formed during blood clotting that creates a mesh over wounds."
+  },
+  {
+    "word": "leptin",
+    "topic": "molecule",
+    "definition": "Hormone secreted by adipose cells that regulates energy balance by inhibiting hunger."
+  },
+  {
+    "word": "chitin",
+    "topic": "molecule",
+    "definition": "Tough structural polysaccharide forming fungal cell walls and arthropod exoskeletons."
+  },
+  {
+    "word": "lignin",
+    "topic": "molecule",
+    "definition": "Complex rigid polymer in plant cell walls that gives wood its strength."
+  },
+  {
+    "word": "starch",
+    "topic": "molecule",
+    "definition": "Polysaccharide carbohydrate produced by green plants as their main energy store."
+  },
+  {
+    "word": "nectar",
+    "topic": "molecule",
+    "definition": "Sugar-rich liquid secreted by plant glands to attract pollinating animals."
+  },
+  {
+    "word": "glycol",
+    "topic": "molecule",
+    "definition": "Organic diol compound containing two hydroxyl groups."
+  },
+  {
+    "word": "phenol",
+    "topic": "molecule",
+    "definition": "Aromatic organic compound present in plant secondary metabolites and disinfectants."
+  },
+  {
+    "word": "lysine",
+    "topic": "molecule",
+    "definition": "Essential positively charged amino acid required for protein synthesis."
+  },
+  {
+    "word": "valine",
+    "topic": "molecule",
+    "definition": "Branched-chain essential nonpolar amino acid used in biosynthesis of proteins."
+  },
+  {
+    "word": "serine",
+    "topic": "molecule",
+    "definition": "Polar amino acid that plays a key catalytic role in many enzymes."
+  },
+  {
+    "word": "biotin",
+    "topic": "molecule",
+    "definition": "Water-soluble B vitamin (B7) acting as a coenzyme in fatty acid and glucose metabolism."
+  },
+  {
+    "word": "folate",
+    "topic": "molecule",
+    "definition": "Water-soluble B vitamin (B9) essential for DNA synthesis, repair, and cell division."
+  },
+  {
+    "word": "oxygen",
+    "topic": "molecule",
+    "definition": "Diatomic gas produced by photosynthesis and required for aerobic cellular respiration."
+  },
+  {
+    "word": "carbon",
+    "topic": "molecule",
+    "definition": "Tetravalent chemical element that forms the covalent backbone of all organic molecules."
+  },
+  {
+    "word": "sulfur",
+    "topic": "molecule",
+    "definition": "Essential nonmetallic element found in the amino acids cysteine and methionine."
+  },
+  {
+    "word": "photon",
+    "topic": "molecule",
+    "definition": "Quantum packet of light energy absorbed by chlorophyll during photosynthesis."
+  },
+  {
+    "word": "ligand",
+    "topic": "molecule",
+    "definition": "Ion or molecule that binds specifically to a receptor or central protein to trigger a signal."
+  },
+  {
+    "word": "hapten",
+    "topic": "molecule",
+    "definition": "Small molecule that elicits an immune response only when attached to a carrier protein."
+  },
+  {
+    "word": "capsid",
+    "topic": "molecule",
+    "definition": "Protein shell that encloses and protects the genetic material of a virus."
+  },
+  {
+    "word": "virion",
+    "topic": "molecule",
+    "definition": "Complete, infectious virus particle outside a host cell."
+  },
+  {
+    "word": "spleen",
+    "topic": "anatomy",
+    "definition": "Lymphoid organ that filters blood, recycles old red blood cells, and fights infection."
+  },
+  {
+    "word": "kidney",
+    "topic": "anatomy",
+    "definition": "Bean-shaped organ that filters nitrogenous waste from blood and regulates fluid balance."
+  },
+  {
+    "word": "ureter",
+    "topic": "anatomy",
+    "definition": "Muscular duct that propels urine from the kidney to the urinary bladder."
+  },
+  {
+    "word": "uterus",
+    "topic": "anatomy",
+    "definition": "Hollow muscular female reproductive organ in mammals where the fetus develops."
+  },
+  {
+    "word": "vagina",
+    "topic": "anatomy",
+    "definition": "Muscular canal of the female mammalian reproductive tract."
+  },
+  {
+    "word": "testis",
+    "topic": "anatomy",
+    "definition": "Male reproductive gonad that produces sperm cells and androgens such as testosterone."
+  },
+  {
+    "word": "thymus",
+    "topic": "anatomy",
+    "definition": "Primary lymphoid organ in the chest where T lymphocytes mature."
+  },
+  {
+    "word": "tonsil",
+    "topic": "anatomy",
+    "definition": "Mass of lymphoid tissue at the back of the throat that helps defend against inhaled pathogens."
+  },
+  {
+    "word": "larynx",
+    "topic": "anatomy",
+    "definition": "Hollow muscular organ in the neck that holds the vocal cords (the voice box)."
+  },
+  {
+    "word": "throat",
+    "topic": "anatomy",
+    "definition": "Anterior part of the neck comprising the pharynx and larynx."
+  },
+  {
+    "word": "palate",
+    "topic": "anatomy",
+    "definition": "Roof of the mouth separating the oral cavity from the nasal cavity in vertebrates."
+  },
+  {
+    "word": "tongue",
+    "topic": "anatomy",
+    "definition": "Muscular organ in the mouth used for tasting, swallowing, and vocalization."
+  },
+  {
+    "word": "retina",
+    "topic": "anatomy",
+    "definition": "Light-sensitive neural tissue lining the back of the vertebrate eye."
+  },
+  {
+    "word": "cornea",
+    "topic": "anatomy",
+    "definition": "Transparent front part of the eye that covers the iris and pupil and refracts light."
+  },
+  {
+    "word": "cortex",
+    "topic": "anatomy",
+    "definition": "Outer layer of an organ such as the cerebral cortex, kidney, or plant stem."
+  },
+  {
+    "word": "neuron",
+    "topic": "anatomy",
+    "definition": "Electrically excitable nerve cell that transmits information via chemical and electrical signals."
+  },
+  {
+    "word": "muscle",
+    "topic": "anatomy",
+    "definition": "Contractile soft tissue that produces force, motion, and posture in animals."
+  },
+  {
+    "word": "tendon",
+    "topic": "anatomy",
+    "definition": "Tough band of fibrous connective tissue that connects muscle to bone."
+  },
+  {
+    "word": "fascia",
+    "topic": "anatomy",
+    "definition": "Sheet of collagenous connective tissue beneath the skin that surrounds muscles and organs."
+  },
+  {
+    "word": "dermis",
+    "topic": "anatomy",
+    "definition": "Thick middle layer of vertebrate skin containing blood vessels, nerves, and follicles."
+  },
+  {
+    "word": "tissue",
+    "topic": "anatomy",
+    "definition": "Ensemble of similar cells and their extracellular matrix that perform a shared function."
+  },
+  {
+    "word": "artery",
+    "topic": "anatomy",
+    "definition": "Muscular blood vessel that carries blood away from the heart under high pressure."
+  },
+  {
+    "word": "vessel",
+    "topic": "anatomy",
+    "definition": "Tubular channel that circulates blood or lymph in animals, or water in plant xylem."
+  },
+  {
+    "word": "atrium",
+    "topic": "anatomy",
+    "definition": "Upper chamber of the heart that receives blood returning from the veins."
+  },
+  {
+    "word": "pelvis",
+    "topic": "anatomy",
+    "definition": "Basin-shaped ring of bones connecting the vertebral column to the hind limbs."
+  },
+  {
+    "word": "sacrum",
+    "topic": "anatomy",
+    "definition": "Triangular bone at the base of the spine formed by fused sacral vertebrae."
+  },
+  {
+    "word": "radius",
+    "topic": "anatomy",
+    "definition": "One of the two large bones of the vertebrate forearm, on the thumb side."
+  },
+  {
+    "word": "fibula",
+    "topic": "anatomy",
+    "definition": "Slender outer bone of the vertebrate lower leg running alongside the tibia."
+  },
+  {
+    "word": "stapes",
+    "topic": "anatomy",
+    "definition": "Stirrup-shaped ossicle in the middle ear; the smallest bone in the human body."
+  },
+  {
+    "word": "thorax",
+    "topic": "anatomy",
+    "definition": "Chest region of vertebrates or the middle leg- and wing-bearing segment of insects."
+  },
+  {
+    "word": "coelom",
+    "topic": "anatomy",
+    "definition": "Fluid-filled main body cavity in most bilateral animals, lined by mesoderm."
+  },
+  {
+    "word": "cloaca",
+    "topic": "anatomy",
+    "definition": "Shared posterior opening for the digestive, urinary, and reproductive tracts in non-mammals."
+  },
+  {
+    "word": "amnion",
+    "topic": "anatomy",
+    "definition": "Innermost membrane enclosing the embryo of a reptile, bird, or mammal in amniotic fluid."
+  },
+  {
+    "word": "dorsal",
+    "topic": "anatomy",
+    "definition": "Relating to the upper side or back of an animal or structure."
+  },
+  {
+    "word": "apical",
+    "topic": "plant",
+    "definition": "Located at the growing tip (apex) of a plant shoot, root, or epithelial cell."
+  },
+  {
+    "word": "phloem",
+    "topic": "plant",
+    "definition": "Living vascular tissue in plants that transports sugars produced by photosynthesis."
+  },
+  {
+    "word": "stamen",
+    "topic": "plant",
+    "definition": "Pollen-producing male reproductive organ of a flower, consisting of anther and filament."
+  },
+  {
+    "word": "anther",
+    "topic": "plant",
+    "definition": "Pollen-bearing sac at the tip of a flower's stamen."
+  },
+  {
+    "word": "stigma",
+    "topic": "plant",
+    "definition": "Sticky receptive tip of a flower carpel where pollen grains land and germinate."
+  },
+  {
+    "word": "pollen",
+    "topic": "plant",
+    "definition": "Fine powder of microgametophytes produced by seed plants that carries male gametes."
+  },
+  {
+    "word": "flower",
+    "topic": "plant",
+    "definition": "Reproductive shoot of an angiosperm bearing petals, sepals, stamens, and carpels."
+  },
+  {
+    "word": "lamina",
+    "topic": "plant",
+    "definition": "Expanded flat blade of a leaf or seaweed, or a thin layer of tissue."
+  },
+  {
+    "word": "botany",
+    "topic": "plant",
+    "definition": "Branch of biology dedicated to the scientific study of plants."
+  },
+  {
+    "word": "lichen",
+    "topic": "plant",
+    "definition": "Composite organism arising from a mutualistic symbiosis between a fungus and an alga."
+  },
+  {
+    "word": "orchid",
+    "topic": "plant",
+    "definition": "Diverse family of monocot flowering plants with bilaterally symmetrical blooms."
+  },
+  {
+    "word": "cactus",
+    "topic": "plant",
+    "definition": "Succulent spiny plant of the family Cactaceae adapted to arid environments."
+  },
+  {
+    "word": "bamboo",
+    "topic": "plant",
+    "definition": "Fast-growing woody perennial evergreen grass in the subfamily Bambusoideae."
+  },
+  {
+    "word": "baleen",
+    "topic": "anatomy",
+    "definition": "Keratinous filter-feeding plates hanging from the upper jaw of toothless whales."
+  },
+  {
+    "word": "mantis",
+    "topic": "organism",
+    "definition": "Predatory insect of the order Mantodea with raptorial front legs."
+  },
+  {
+    "word": "cicada",
+    "topic": "organism",
+    "definition": "Large homopteran insect known for the loud acoustic calls of males."
+  },
+  {
+    "word": "beetle",
+    "topic": "organism",
+    "definition": "Insect of the order Coleoptera whose forewings are hardened into protective elytra."
+  },
+  {
+    "word": "isopod",
+    "topic": "organism",
+    "definition": "Crustacean order including woodlice, pillbugs, and deep-sea giant isopods."
+  },
+  {
+    "word": "shrimp",
+    "topic": "organism",
+    "definition": "Swimming decapod crustacean with a laterally compressed body and long antennae."
+  },
+  {
+    "word": "mussel",
+    "topic": "organism",
+    "definition": "Filter-feeding bivalve mollusk that attaches to substrates via byssal threads."
+  },
+  {
+    "word": "limpet",
+    "topic": "organism",
+    "definition": "Aquatic gastropod mollusk with a conical shell and strong muscular foot."
+  },
+  {
+    "word": "sponge",
+    "topic": "organism",
+    "definition": "Simple porous aquatic animal of the phylum Porifera that filter-feeds on water currents."
+  },
+  {
+    "word": "medusa",
+    "topic": "organism",
+    "definition": "Free-swimming umbrella-shaped jellyfish stage in the cnidarian life cycle."
+  },
+  {
+    "word": "amoeba",
+    "topic": "organism",
+    "definition": "Unicellular eukaryote that moves and engulfs prey using temporary pseudopods."
+  },
+  {
+    "word": "fungus",
+    "topic": "organism",
+    "definition": "Heterotrophic eukaryote with chitinous cell walls that absorbs nutrients from its surroundings."
+  },
+  {
+    "word": "mammal",
+    "topic": "organism",
+    "definition": "Warm-blooded vertebrate with hair, three middle-ear bones, and milk-producing glands."
+  },
+  {
+    "word": "rodent",
+    "topic": "organism",
+    "definition": "Mammal of the order Rodentia characterized by continuously growing incisors."
+  },
+  {
+    "word": "monkey",
+    "topic": "organism",
+    "definition": "Tailed simian primate of either the New World or Old World lineages."
+  },
+  {
+    "word": "gibbon",
+    "topic": "organism",
+    "definition": "Small tailless arboreal ape native to tropical rainforests of Southeast Asia."
+  },
+  {
+    "word": "jaguar",
+    "topic": "organism",
+    "definition": "Large spotted felid apex predator (Panthera onca) native to the Americas."
+  },
+  {
+    "word": "cougar",
+    "topic": "organism",
+    "definition": "Large solitary American cat (Puma concolor), also known as the mountain lion or puma."
+  },
+  {
+    "word": "ferret",
+    "topic": "organism",
+    "definition": "Domesticated slender carnivorous mustelid mammal related to the polecat."
+  },
+  {
+    "word": "rabbit",
+    "topic": "organism",
+    "definition": "Small herbivorous lagomorph mammal with long ears and powerful hind legs."
+  },
+  {
+    "word": "dugong",
+    "topic": "organism",
+    "definition": "Herbivorous marine mammal of the order Sirenia that grazes on seagrass beds."
+  },
+  {
+    "word": "muskox",
+    "topic": "organism",
+    "definition": "Thick-coated Arctic bovid mammal known for its curved horns and defensive circles."
+  },
+  {
+    "word": "salmon",
+    "topic": "organism",
+    "definition": "Anadromous ray-finned fish that hatches in freshwater, migrates to sea, and returns to spawn."
+  },
+  {
+    "word": "pigeon",
+    "topic": "organism",
+    "definition": "Stout-bodied seed- and fruit-eating bird of the family Columbidae."
+  },
+  {
+    "word": "parrot",
+    "topic": "organism",
+    "definition": "Hook-billed, often vividly colored bird of the order Psittaciformes."
+  },
+  {
+    "word": "raptor",
+    "topic": "organism",
+    "definition": "Bird of prey that hunts vertebrates using keen vision, hooked beak, and sharp talons."
+  },
+  {
+    "word": "plover",
+    "topic": "organism",
+    "definition": "Short-billed wading shorebird that hunts invertebrates by sight."
+  },
+  {
+    "word": "canine",
+    "topic": "organism",
+    "definition": "Member of the dog family Canidae, or a pointed conical mammalian tooth."
+  },
+  {
+    "word": "equine",
+    "topic": "organism",
+    "definition": "Relating to horses or other members of the equid family Equidae."
+  },
+  {
+    "word": "phylum",
+    "topic": "ecology",
+    "definition": "Major taxonomic rank below kingdom and above class, grouping animals by body plan."
+  },
+  {
+    "word": "domain",
+    "topic": "ecology",
+    "definition": "Highest taxonomic rank grouping all cellular life into Bacteria, Archaea, and Eukaryota."
+  },
+  {
+    "word": "tundra",
+    "topic": "ecology",
+    "definition": "Treeless polar or alpine biome characterized by permafrost and low-growing vegetation."
+  },
+  {
+    "word": "forest",
+    "topic": "ecology",
+    "definition": "Terrestrial ecosystem dominated by a dense canopy of trees."
+  },
+  {
+    "word": "desert",
+    "topic": "ecology",
+    "definition": "Arid biome receiving very little precipitation, inhabited by xerophytic plants and animals."
+  },
+  {
+    "word": "island",
+    "topic": "ecology",
+    "definition": "Isolated landmass surrounded by water, classic natural laboratory for speciation."
+  },
+  {
+    "word": "torpor",
+    "topic": "ecology",
+    "definition": "State of decreased physiological activity and lowered body temperature in animals."
+  },
+  {
+    "word": "quorum",
+    "topic": "ecology",
+    "definition": "Density-dependent cell-to-cell signaling mechanism used by bacteria to coordinate gene expression."
+  },
+  {
+    "word": "sepsis",
+    "topic": "disease",
+    "definition": "Life-threatening organ dysfunction caused by a dysregulated host response to infection."
+  },
+  {
+    "word": "anemia",
+    "topic": "disease",
+    "definition": "Condition in which blood lacks enough healthy red blood cells or hemoglobin to carry oxygen."
+  },
+  {
+    "word": "asthma",
+    "topic": "disease",
+    "definition": "Chronic inflammatory condition of the lung airways causing reversible bronchospasm."
+  },
+  {
+    "word": "scurvy",
+    "topic": "disease",
+    "definition": "Connective-tissue disease caused by severe dietary deficiency of vitamin C."
+  },
+  {
+    "word": "rabies",
+    "topic": "disease",
+    "definition": "Deadly neurotropic viral disease transmitted through the saliva of infected mammals."
+  },
+  {
+    "word": "typhus",
+    "topic": "disease",
+    "definition": "Group of infectious diseases caused by Rickettsia bacteria and spread by lice or fleas."
+  },
+  {
+    "word": "dengue",
+    "topic": "disease",
+    "definition": "Mosquito-borne tropical viral infection causing high fever, rash, and severe joint pain."
+  },
+  {
+    "word": "herpes",
+    "topic": "disease",
+    "definition": "Viral infection caused by herpesviruses that establishes lifelong latent infection in nerves."
+  },
+  {
+    "word": "cancer",
+    "topic": "disease",
+    "definition": "Disease characterized by uncontrolled division of abnormal cells that can invade tissues."
+  },
+  {
+    "word": "glioma",
+    "topic": "disease",
+    "definition": "Tumor that arises from glial cells in the brain or spinal cord."
+  },
+  {
+    "word": "lipoma",
+    "topic": "disease",
+    "definition": "Slow-growing, harmless fatty lump that forms most often between skin and muscle."
+  },
+  {
+    "word": "biopsy",
+    "topic": "disease",
+    "definition": "Medical removal of a sample of cells or tissue for diagnostic examination."
+  },
+  {
+    "word": "mitosis",
+    "topic": "cell",
+    "definition": "Eukaryotic cell division that produces two genetically identical daughter nuclei."
+  },
+  {
+    "word": "meiosis",
+    "topic": "cell",
+    "definition": "Reduction division that halves chromosome number to produce four haploid gametes."
+  },
+  {
+    "word": "osmosis",
+    "topic": "cell",
+    "definition": "Net diffusion of water molecules across a selectively permeable membrane."
+  },
+  {
+    "word": "fission",
+    "topic": "cell",
+    "definition": "Asexual reproduction in which a cell or organism splits into two separate individuals."
+  },
+  {
+    "word": "vacuole",
+    "topic": "cell",
+    "definition": "Membrane-bound organelle that stores water, nutrients, or waste and maintains turgor."
+  },
+  {
+    "word": "vesicle",
+    "topic": "cell",
+    "definition": "Small membrane-enclosed sac that transports or stores substances within a cell."
+  },
+  {
+    "word": "cytosol",
+    "topic": "cell",
+    "definition": "Aqueous fluid component of the cytoplasm surrounding the cell's organelles."
+  },
+  {
+    "word": "nucleus",
+    "topic": "cell",
+    "definition": "Membrane-enclosed eukaryotic organelle that contains the cell's chromosomes."
+  },
+  {
+    "word": "plastid",
+    "topic": "cell",
+    "definition": "Double-membrane organelle in plant and algal cells, such as a chloroplast or amyloplast."
+  },
+  {
+    "word": "biofilm",
+    "topic": "cell",
+    "definition": "Structured community of microorganisms attached to a surface and embedded in matrix."
+  },
+  {
+    "word": "haploid",
+    "topic": "genetics",
+    "definition": "Having a single set of unpaired chromosomes, as in gametes (n)."
+  },
+  {
+    "word": "diploid",
+    "topic": "genetics",
+    "definition": "Containing two complete homologous sets of chromosomes, one from each parent (2n)."
+  },
+  {
+    "word": "lineage",
+    "topic": "genetics",
+    "definition": "Evolutionary descent of a species, cell population, or gene from a common ancestor."
+  },
+  {
+    "word": "linkage",
+    "topic": "genetics",
+    "definition": "Tendency of genes located close together on the same chromosome to be inherited together."
+  },
+  {
+    "word": "mitogen",
+    "topic": "genetics",
+    "definition": "Chemical substance, typically a protein, that triggers a cell to begin mitosis."
+  },
+  {
+    "word": "plasmid",
+    "topic": "genetics",
+    "definition": "Small circular double-stranded DNA molecule in bacteria that replicates independently."
+  },
+  {
+    "word": "histone",
+    "topic": "genetics",
+    "definition": "Alkaline nuclear protein around which DNA winds to form chromatin nucleosomes."
+  },
+  {
+    "word": "thymine",
+    "topic": "genetics",
+    "definition": "Pyrimidine nitrogenous base in DNA that pairs specifically with adenine."
+  },
+  {
+    "word": "adenine",
+    "topic": "genetics",
+    "definition": "Purine nitrogenous base in DNA, RNA, and ATP that pairs with thymine or uracil."
+  },
+  {
+    "word": "guanine",
+    "topic": "genetics",
+    "definition": "Purine nitrogenous base in DNA and RNA that forms three hydrogen bonds with cytosine."
+  },
+  {
+    "word": "operons",
+    "topic": "genetics",
+    "definition": "Functionally related gene clusters regulated together under a single promoter."
+  },
+  {
+    "word": "mutagen",
+    "topic": "genetics",
+    "definition": "Physical or chemical agent that permanently alters genetic material and increases mutations."
+  },
+  {
+    "word": "protein",
+    "topic": "molecule",
+    "definition": "Macromolecule composed of one or more folded chains of amino acid residues."
+  },
+  {
+    "word": "peptide",
+    "topic": "molecule",
+    "definition": "Short chain of amino acids linked together by covalent amide (peptide) bonds."
+  },
+  {
+    "word": "glucose",
+    "topic": "molecule",
+    "definition": "Six-carbon monosaccharide sugar that serves as the primary energy source for cells."
+  },
+  {
+    "word": "sucrose",
+    "topic": "molecule",
+    "definition": "Disaccharide sugar composed of glucose and fructose; transported in plant phloem."
+  },
+  {
+    "word": "lactose",
+    "topic": "molecule",
+    "definition": "Disaccharide sugar composed of galactose and glucose present in mammalian milk."
+  },
+  {
+    "word": "maltose",
+    "topic": "molecule",
+    "definition": "Disaccharide formed from two units of glucose during the digestion of starch."
+  },
+  {
+    "word": "amylase",
+    "topic": "molecule",
+    "definition": "Digestive enzyme in saliva and pancreatic juice that hydrolyzes starch into sugars."
+  },
+  {
+    "word": "lactase",
+    "topic": "molecule",
+    "definition": "Brush-border enzyme in the small intestine that breaks down lactose sugar."
+  },
+  {
+    "word": "lipases",
+    "topic": "molecule",
+    "definition": "Enzymes that catalyze the breakdown of dietary fats into fatty acids and glycerol."
+  },
+  {
+    "word": "insulin",
+    "topic": "molecule",
+    "definition": "Peptide hormone secreted by pancreatic beta cells that lowers blood glucose levels."
+  },
+  {
+    "word": "hormone",
+    "topic": "molecule",
+    "definition": "Signaling molecule transported through blood or sap to regulate distant tissues."
+  },
+  {
+    "word": "gastrin",
+    "topic": "molecule",
+    "definition": "Peptide hormone that stimulates secretion of gastric acid by the stomach lining."
+  },
+  {
+    "word": "melanin",
+    "topic": "molecule",
+    "definition": "Natural dark pigment that gives color to skin, hair, feathers, and eyes."
+  },
+  {
+    "word": "keratin",
+    "topic": "molecule",
+    "definition": "Tough fibrous structural protein forming hair, nails, feathers, horns, and outer skin."
+  },
+  {
+    "word": "elastin",
+    "topic": "molecule",
+    "definition": "Highly elastic connective tissue protein that allows skin and arteries to snap back."
+  },
+  {
+    "word": "kinesin",
+    "topic": "molecule",
+    "definition": "Motor protein that walks along microtubule tracks to transport cellular cargo."
+  },
+  {
+    "word": "antigen",
+    "topic": "molecule",
+    "definition": "Molecule or molecular structure on a pathogen that triggers an immune response."
+  },
+  {
+    "word": "agonist",
+    "topic": "molecule",
+    "definition": "Substance that binds to a physiological receptor and activates a biological response."
+  },
+  {
+    "word": "alanine",
+    "topic": "molecule",
+    "definition": "Nonpolar alpha-amino acid used in the biosynthesis of proteins."
+  },
+  {
+    "word": "leucine",
+    "topic": "molecule",
+    "definition": "Essential branched-chain amino acid that stimulates muscle protein synthesis."
+  },
+  {
+    "word": "proline",
+    "topic": "molecule",
+    "definition": "Cyclic amino acid that introduces sharp kinks into polypeptide chains."
+  },
+  {
+    "word": "glycine",
+    "topic": "molecule",
+    "definition": "Smallest and simplest amino acid, carrying a single hydrogen atom as its side chain."
+  },
+  {
+    "word": "stearic",
+    "topic": "molecule",
+    "definition": "Common saturated 18-carbon fatty acid found in animal and plant lipids."
+  },
+  {
+    "word": "abdomen",
+    "topic": "anatomy",
+    "definition": "Posterior body region of vertebrates (belly) or the third tagma of arthropods."
+  },
+  {
+    "word": "stomach",
+    "topic": "anatomy",
+    "definition": "Muscular J-shaped digestive organ that secretes acid and enzymes to break down food."
+  },
+  {
+    "word": "foregut",
+    "topic": "anatomy",
+    "definition": "Anterior section of the alimentary canal, from the mouth to the beginning of the midgut."
+  },
+  {
+    "word": "hindgut",
+    "topic": "anatomy",
+    "definition": "Posterior part of the digestive tract, including the distal colon and rectum."
+  },
+  {
+    "word": "viscera",
+    "topic": "anatomy",
+    "definition": "The internal organs of the main cavities of the body, especially in the abdomen."
+  },
+  {
+    "word": "urethra",
+    "topic": "anatomy",
+    "definition": "Duct that conveys urine from the urinary bladder to the exterior of the body."
+  },
+  {
+    "word": "oviduct",
+    "topic": "anatomy",
+    "definition": "Tube through which an ovum passes from an ovary (the Fallopian tube in mammals)."
+  },
+  {
+    "word": "chorion",
+    "topic": "anatomy",
+    "definition": "Outermost fetal membrane around the embryo in reptiles, birds, and mammals."
+  },
+  {
+    "word": "alveoli",
+    "topic": "anatomy",
+    "definition": "Tiny air sacs in mammalian lungs where oxygen and carbon dioxide exchange with blood."
+  },
+  {
+    "word": "bronchi",
+    "topic": "anatomy",
+    "definition": "Main airway passages that branch off the trachea into the left and right lungs."
+  },
+  {
+    "word": "trachea",
+    "topic": "anatomy",
+    "definition": "Cartilage-ringed windpipe connecting the larynx to the bronchi of the lungs."
+  },
+  {
+    "word": "cardiac",
+    "topic": "anatomy",
+    "definition": "Relating to the heart or the upper opening of the stomach."
+  },
+  {
+    "word": "systole",
+    "topic": "anatomy",
+    "definition": "Phase of the heartbeat when heart muscle contracts and pumps blood into the arteries."
+  },
+  {
+    "word": "hepatic",
+    "topic": "anatomy",
+    "definition": "Relating to or situated in the liver."
+  },
+  {
+    "word": "adrenal",
+    "topic": "anatomy",
+    "definition": "Endocrine gland atop each kidney that secretes adrenaline, cortisol, and aldosterone."
+  },
+  {
+    "word": "thyroid",
+    "topic": "anatomy",
+    "definition": "Butterfly-shaped endocrine gland in the neck that regulates metabolic rate."
+  },
+  {
+    "word": "synapse",
+    "topic": "anatomy",
+    "definition": "Junction between two nerve cells across which impulses pass by neurotransmitter diffusion."
+  },
+  {
+    "word": "ganglia",
+    "topic": "anatomy",
+    "definition": "Clusters of neuron cell bodies located in the peripheral nervous system."
+  },
+  {
+    "word": "cranial",
+    "topic": "anatomy",
+    "definition": "Relating to the skull or cranium."
+  },
+  {
+    "word": "cranium",
+    "topic": "anatomy",
+    "definition": "Portion of the vertebrate skull that encloses and protects the brain."
+  },
+  {
+    "word": "maxilla",
+    "topic": "anatomy",
+    "definition": "Upper jawbone formed by the fusion of two maxillary bones in vertebrates."
+  },
+  {
+    "word": "sternum",
+    "topic": "anatomy",
+    "definition": "Flat breastbone at the center of the chest that connects to the ribs via cartilage."
+  },
+  {
+    "word": "scapula",
+    "topic": "anatomy",
+    "definition": "Shoulder blade bone connecting the humerus with the clavicle."
+  },
+  {
+    "word": "humerus",
+    "topic": "anatomy",
+    "definition": "Long bone of the upper arm or forelimb running from the shoulder to the elbow."
+  },
+  {
+    "word": "patella",
+    "topic": "anatomy",
+    "definition": "Thick circular-triangular kneecap bone that protects the anterior knee joint."
+  },
+  {
+    "word": "ventral",
+    "topic": "anatomy",
+    "definition": "Relating to the underside or abdominal surface of an animal."
+  },
+  {
+    "word": "cuticle",
+    "topic": "anatomy",
+    "definition": "Waxy protective outer layer covering plant leaves or the exoskeleton of invertebrates."
+  },
+  {
+    "word": "cambium",
+    "topic": "plant",
+    "definition": "Meristematic tissue layer in vascular plants that produces secondary xylem and phloem."
+  },
+  {
+    "word": "stomata",
+    "topic": "plant",
+    "definition": "Microscopic adjustable pores in plant leaves that control gas exchange and transpiration."
+  },
+  {
+    "word": "thallus",
+    "topic": "plant",
+    "definition": "Undifferentiated vegetative body of an alga, fungus, lichen, or liverwort."
+  },
+  {
+    "word": "sapling",
+    "topic": "plant",
+    "definition": "Young slender tree that has grown past the seedling stage."
+  },
+  {
+    "word": "conifer",
+    "topic": "plant",
+    "definition": "Cone-bearing gymnosperm tree or shrub such as a pine, fir, spruce, or cedar."
+  },
+  {
+    "word": "rhizome",
+    "topic": "plant",
+    "definition": "Horizontal underground plant stem that sends out roots and shoots from its nodes."
+  },
+  {
+    "word": "seedbed",
+    "topic": "plant",
+    "definition": "Local soil environment in which seeds germinate and seedlings establish."
+  },
+  {
+    "word": "microbe",
+    "topic": "organism",
+    "definition": "Microscopic living organism, such as a bacterium, archaeon, protist, or unicellular fungus."
+  },
+  {
+    "word": "archaea",
+    "topic": "organism",
+    "definition": "Domain of single-celled prokaryotic microorganisms distinct from bacteria and eukaryotes."
+  },
+  {
+    "word": "bacilli",
+    "topic": "organism",
+    "definition": "Rod-shaped bacteria, or members of the bacterial class Bacilli."
+  },
+  {
+    "word": "protist",
+    "topic": "organism",
+    "definition": "Eukaryotic organism that is not an animal, land plant, or fungus."
+  },
+  {
+    "word": "euglena",
+    "topic": "organism",
+    "definition": "Single-celled flagellated eukaryote that both photosynthesizes and ingests food."
+  },
+  {
+    "word": "giardia",
+    "topic": "organism",
+    "definition": "Flagellated parasitic protozoan that colonizes the small intestine and causes giardiasis."
+  },
+  {
+    "word": "mollusk",
+    "topic": "organism",
+    "definition": "Soft-bodied invertebrate of the phylum Mollusca, such as a snail, clam, or octopus."
+  },
+  {
+    "word": "octopus",
+    "topic": "organism",
+    "definition": "Eight-armed soft-bodied marine cephalopod mollusk renowned for its intelligence."
+  },
+  {
+    "word": "annelid",
+    "topic": "organism",
+    "definition": "Segmented worm of the phylum Annelida, including earthworms, leeches, and polychaetes."
+  },
+  {
+    "word": "lobster",
+    "topic": "organism",
+    "definition": "Large marine decapod crustacean with muscular tail and heavy pincers."
+  },
+  {
+    "word": "catfish",
+    "topic": "organism",
+    "definition": "Ray-finned bony fish notable for its prominent whisker-like sensory barbels."
+  },
+  {
+    "word": "tadpole",
+    "topic": "organism",
+    "definition": "Aquatic gill-breathing larval stage of a frog or toad."
+  },
+  {
+    "word": "reptile",
+    "topic": "organism",
+    "definition": "Cold-blooded air-breathing amniote vertebrate covered in epidermal scales or scutes."
+  },
+  {
+    "word": "amniote",
+    "topic": "organism",
+    "definition": "Tetrapod vertebrate (reptile, bird, or mammal) whose embryo develops inside an amnion."
+  },
+  {
+    "word": "seabird",
+    "topic": "organism",
+    "definition": "Bird adapted to life within the marine environment."
+  },
+  {
+    "word": "primate",
+    "topic": "organism",
+    "definition": "Mammal of the order Primates, with forward-facing eyes, large brain, and grasping hands."
+  },
+  {
+    "word": "hominid",
+    "topic": "organism",
+    "definition": "Member of the great ape family Hominidae, including humans, chimpanzees, gorillas, and orangutans."
+  },
+  {
+    "word": "gorilla",
+    "topic": "organism",
+    "definition": "Largest living primate, an herbivorous ground-dwelling great ape native to central Africa."
+  },
+  {
+    "word": "raccoon",
+    "topic": "organism",
+    "definition": "Medium-sized nocturnal omnivorous mammal native to North America with a facial mask."
+  },
+  {
+    "word": "mammals",
+    "topic": "organism",
+    "definition": "Vertebrate animals of class Mammalia that nourish their young with milk from mammary glands."
+  },
+  {
+    "word": "insects",
+    "topic": "organism",
+    "definition": "Hexapod arthropods with three-part bodies (head, thorax, abdomen) and compound eyes."
+  },
+  {
+    "word": "biology",
+    "topic": "ecology",
+    "definition": "The natural science that studies life, living organisms, and their evolution."
+  },
+  {
+    "word": "zoology",
+    "topic": "ecology",
+    "definition": "Branch of biology devoted to the study of animal structure, behavior, and classification."
+  },
+  {
+    "word": "ecology",
+    "topic": "ecology",
+    "definition": "Scientific study of interactions among organisms and their biophysical environment."
+  },
+  {
+    "word": "species",
+    "topic": "ecology",
+    "definition": "Fundamental taxonomic unit of organisms capable of interbreeding to produce fertile offspring."
+  },
+  {
+    "word": "kingdom",
+    "topic": "ecology",
+    "definition": "High-level taxonomic rank below domain, such as Animalia, Plantae, or Fungi."
+  },
+  {
+    "word": "ecotone",
+    "topic": "ecology",
+    "definition": "Transition zone of high biodiversity where two distinct ecological communities meet."
+  },
+  {
+    "word": "prairie",
+    "topic": "ecology",
+    "definition": "Temperate grassland ecosystem dominated by herbaceous grasses and forbs."
+  },
+  {
+    "word": "benthos",
+    "topic": "ecology",
+    "definition": "Community of organisms living on, in, or near the bottom sediment of a sea or lake."
+  },
+  {
+    "word": "benthic",
+    "topic": "ecology",
+    "definition": "Relating to the ecological region at the lowest level of a body of water."
+  },
+  {
+    "word": "abyssal",
+    "topic": "ecology",
+    "definition": "Relating to the deep ocean floor zone between 3,000 and 6,000 meters depth."
+  },
+  {
+    "word": "diurnal",
+    "topic": "ecology",
+    "definition": "Active during daylight hours, or recurring on a twenty-four-hour daily cycle."
+  },
+  {
+    "word": "endemic",
+    "topic": "ecology",
+    "definition": "Native and restricted to a single defined geographic region or island."
+  },
+  {
+    "word": "extinct",
+    "topic": "ecology",
+    "definition": "Having no living members remaining anywhere on Earth."
+  },
+  {
+    "word": "habitat",
+    "topic": "ecology",
+    "definition": "Natural environment in which a particular species lives, feeds, and reproduces."
+  },
+  {
+    "word": "foodweb",
+    "topic": "ecology",
+    "definition": "Interconnected network of food chains showing who eats whom in an ecological community."
+  },
+  {
+    "word": "carrion",
+    "topic": "ecology",
+    "definition": "Decaying flesh of dead animals that serves as food for scavengers and decomposers."
+  },
+  {
+    "word": "asexual",
+    "topic": "ecology",
+    "definition": "Reproduction originating from a single parent without the fusion of gametes."
+  },
+  {
+    "word": "aerobic",
+    "topic": "ecology",
+    "definition": "Requiring free oxygen for cellular respiration or occurring in oxygenated environments."
+  },
+  {
+    "word": "disease",
+    "topic": "disease",
+    "definition": "Abnormal condition that impairs the normal structure or function of an organism."
+  },
+  {
+    "word": "malaria",
+    "topic": "disease",
+    "definition": "Mosquito-borne infectious disease caused by Plasmodium protozoan parasites."
+  },
+  {
+    "word": "cholera",
+    "topic": "disease",
+    "definition": "Acute diarrheal bacterial infection of the intestine caused by Vibrio cholerae."
+  },
+  {
+    "word": "tetanus",
+    "topic": "disease",
+    "definition": "Bacterial infection by Clostridium tetani causing painful muscle spasms and lockjaw."
+  },
+  {
+    "word": "leprosy",
+    "topic": "disease",
+    "definition": "Chronic bacterial infection by Mycobacterium leprae affecting skin and peripheral nerves."
+  },
+  {
+    "word": "measles",
+    "topic": "disease",
+    "definition": "Highly contagious viral respiratory infection causing fever and a red skin rash."
+  },
+  {
+    "word": "rubella",
+    "topic": "disease",
+    "definition": "Contagious viral infection (German measles) known for its distinctive red rash."
+  },
+  {
+    "word": "allergy",
+    "topic": "disease",
+    "definition": "Hypersensitive immune response to a normally harmless environmental substance."
+  },
+  {
+    "word": "abscess",
+    "topic": "disease",
+    "definition": "Localized collection of pus within inflamed tissue caused by bacterial infection."
+  },
+  {
+    "word": "colitis",
+    "topic": "disease",
+    "definition": "Inflammation of the inner lining of the colon."
+  },
+  {
+    "word": "atrophy",
+    "topic": "disease",
+    "definition": "Partial or complete wasting away of a body part or tissue due to cell shrinkage."
+  },
+  {
+    "word": "chronic",
+    "topic": "disease",
+    "definition": "Persisting for a long time or constantly recurring."
+  },
+  {
+    "word": "icterus",
+    "topic": "disease",
+    "definition": "Jaundice; yellowish pigmentation of skin and sclera caused by high bilirubin levels."
+  }
+]

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A2144"/>
+      <stop offset="100%" stop-color="#051329"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b1ff06"/>
+      <stop offset="100%" stop-color="#228101"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="32" fill="url(#bg)"/>
+  <rect x="16" y="16" width="468" height="468" rx="24" fill="none" stroke="url(#greenGrad)" stroke-width="6"/>
+  <!-- 3x4 Wordle tile motif -->
+  <g transform="translate(82, 75)">
+    <rect x="0" y="0" width="74" height="74" rx="10" fill="#228101"/>
+    <text x="37" y="51" font-family="sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">G</text>
+    <rect x="87" y="0" width="74" height="74" rx="10" fill="#c9a227"/>
+    <text x="124" y="51" font-family="sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">E</text>
+    <rect x="174" y="0" width="74" height="74" rx="10" fill="#1e293b"/>
+    <text x="211" y="51" font-family="sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">N</text>
+    <rect x="261" y="0" width="74" height="74" rx="10" fill="#228101"/>
+    <text x="298" y="51" font-family="sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">E</text>
+
+    <rect x="0" y="88" width="74" height="74" rx="10" fill="#228101"/>
+    <text x="37" y="139" font-family="sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">C</text>
+    <rect x="87" y="88" width="74" height="74" rx="10" fill="#228101"/>
+    <text x="124" y="139" font-family="sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">E</text>
+    <rect x="174" y="88" width="74" height="74" rx="10" fill="#228101"/>
+    <text x="211" y="139" font-family="sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">L</text>
+    <rect x="261" y="88" width="74" height="74" rx="10" fill="#228101"/>
+    <text x="298" y="139" font-family="sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">L</text>
+  </g>
+  <text x="250" y="340" font-family="sans-serif" font-size="84" text-anchor="middle">🧬</text>
+  <text x="250" y="425" font-family="sans-serif" font-size="42" font-weight="bold" fill="#f7cf4f" text-anchor="middle">BIO WORDLE</text>
+</svg>
